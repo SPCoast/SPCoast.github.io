@@ -8,14 +8,14 @@ entries:
   - title: Projects
     output: web
     folderitems:
-    - title: My Layout
-      url: /spcoast_layout.html
+    - title: Arduino Software
+      url: /arduino.html
       output: web
     - title: Electronics
       url: /electronics.html
       output: web
-    - title: Arduino Software
-      url: /arduino.html
+    - title: SPCoast Layout
+      url: /spcoast_layout.html
       output: web
     - title: cTc Machine construction
       url: /ctc.html
@@ -30,7 +30,7 @@ entries:
       url: /project_design.html
       output: web
     - title: Download SPCoast Eagle Library
-      url: /assets/SPCoast.lbr
+      external_url: https://github.com/plocher/EagleTools/raw/master/parts/SPCoast.lbr
       output: web
     - title: EagleTools
       external_url: https://github.com/plocher/EagleTools/

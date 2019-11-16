@@ -1,0 +1,150 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+encoding: utf-8
+timezone: UTC
+
+repository: plocher/documentation-theme-jekyll
+
+output: web
+# this property is useful for conditional filtering of content that is separate from the PDF.
+
+topnav_title: SPCoast Model Railroad
+# this appears on the top navigation bar next to the home button
+
+site_title: John Plocher\'s SPCoast - electronics, trains and software
+# this appears in the html browser tab for the site title (seen mostly by search engines, not users)
+
+company_name: John Plocher @ SPCoast
+# this appears in the footer
+
+github_editme_path: plocher/documentation-theme-jekyll/blob/gh-pages/
+# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
+
+
+host: 127.0.0.1
+# the preview server used. Leave as is.
+
+port: 4000
+# the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
+
+exclude:
+  - .idea/
+  - .gitignore
+  - vendor
+# these are the files and directories that jekyll will exclude from the build
+feedback_subject_line: SPCoast Electronics
+feedback_email: john.plocher@gmail.com
+
+highlighter: rouge
+# library used for syntax highlighting
+
+description: >- # this means to ignore newlines until "baseurl:"
+    Various things
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "/" # the base hostname & protocol for your site, e.g. http://example.com
+
+github_username:  plocher
+twitter_username:  
+
+
+# Build settings
+verbose: true
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+
+# remote_theme: benbalter/retlab
+remote_theme: plocher/documentation-theme-jekyll@gh-pages
+# theme: minima
+# theme: jekyll-theme-slate
+# theme: jekyll-theme-tactile
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme 
+  
+
+collections:
+  versions:
+    output: true
+    eagle: true
+  tooltips:
+    output: false
+
+# Third-party services - just leave some empty to disable it
+google_analytics: 
+disqus_shortname: 
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+feedback_disable: true
+github_editme_path: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+      search: false
+      sidebar: home_sidebar
+      topnav: topnav
+  -
+    scope:
+      path: ""
+      type: "tooltips"
+    values:
+      layout: "page"
+      comments: true
+      search: false
+      tooltip: true
+
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      search: false
+      sidebar: home_sidebar
+      topnav: topnav
+
+# these are defaults used for the frontmatter for these file types
+
+sidebars:
+- home_sidebar
+- mydoc_sidebar
+- product1_sidebar
+- product2_sidebar
+- other
+
+github: [metadata]

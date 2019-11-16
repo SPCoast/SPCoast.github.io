@@ -1,0 +1,75 @@
+---
+project: project_design
+title: Starting a new project
+---
+Although it is boarderline sacreligious to say so, the CadSOFT manuals
+and tutorials are a good starting point. Go ahead and take the time to
+[read their
+intro](http://www.cadsoftusa.com/fileadmin/journalist/Documents/TUTORIAL-part2Create-a-project-and-start-drawing-schematics_v6.pdf).
+(pdf).
+
+If you are really new to Eagle,
+[SparkFun](https://learn.sparkfun.com/tutorials/how-to-install-and-setup-eagle)
+has a great getting started tutorial.
+
+Here is a process that I\'ve found to work well for my needs:
+
+1.  In EagleCAD\'s console window,
+    1.  create a new project folder with the name of your project
+    2.  create a new folder under this new project called \"1.0\" for
+        your first design
+    3.  in the 1.0 folder, create a new Schematic with the same name as
+        your project
+
+    :   
+
+        :   NewProject/
+
+            :   
+
+                :   1.0/
+
+                    :   NewProject.sch
+
+2.  open the schematic in theEagleCAD schematic editor, and add a FRAME
+    \<br \\\>If you checked out the
+    [Libraries](PCB-Design-howto#Libraries "wikilink") section in this
+    guide, you will recall that it is a good idea to maintain a personal
+    library of the components you use frequently. As you find yourself
+    reusing a particular component (like a schematic FRAME), consider
+    copying it to your library:
+    -   First, open your library (from the Eagle console window or the
+        editor\'s library menu)
+    -   Then, in the Eagle console window, navigate to the library and
+        component you want to copy
+    -   Right click on the component, and click on \"Copy to Library\"
+    -   That\'s it: the component is now copied into your personal
+        library, where you can edit it, add alternate packages or, as I
+        frequently do, delete unwanted or untested variations and
+        footprints.
+3.  Back in the schematic editor, work on your schematic
+4.  When you have the bulk of your schematic captured in the editor,
+    switch to the board editor. \<br \\\>It will ask if you want to
+    populate the new board with the components from your schematic\<br
+    \\\>say YES.
+5.  Continue to the Work on Project tab\...
+
+New Revision {#new_revision}
+============
+
+Whenever I
+
+-   Send a board out to get Fab\'d,
+-   want to experiment with some new parts, designs or layouts, or
+-   significantly change the schematic,
+
+I create a new VERSION of an existing project by
+
+1.  Opening up the \"old\" project files in Eagle and then
+2.  Using \"Save As\"
+    1.  Create a new version-numbered sub directory under the project\'s
+        top level umbrella directory,
+    2.  Copy the older version\'s schematic and board files in it as a
+        starting point.
+3.  Immediately update the version info found in both the schematic and
+    on the PCB silkscreen to reflect the new values.

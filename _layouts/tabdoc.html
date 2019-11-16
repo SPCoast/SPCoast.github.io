@@ -1,0 +1,104 @@
+---
+layout: simple
+---
+
+<div class="post-header">
+   <h1 class="post-title-main">{{ page.title }}</h1>
+</div>
+
+
+{% if page.simple_map == true %}
+
+<script>
+    $(document).ready ( function(){
+        $('.box{{page.box_number}}').addClass('active');
+    });
+</script>
+
+{% include custom/{{page.map_name}}.html %}
+
+{% elsif page.complex_map == true %}
+
+<script>
+    $(document).ready ( function(){
+        $('.modalButton{{page.box_number}}').addClass('active');
+    });
+</script>
+
+{% include custom/{{page.map_name}}.html %}
+
+{% endif %}
+
+<p>
+<p> {{ page.overview }}</p>
+
+
+{% for image in page.images %}
+<figure>
+   <a href="{{ image.image_path }}">
+   <img src="{{ image.image_path }}" style="max-width: 200;"
+      alt="{{ image.title }}"/>
+   </a>
+   <figcaption>{{ image.title }}</figcaption>
+</figure>
+{% endfor %}
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+{% assign sorted = site.versions | where: "project", page.project %}
+
+<ul id="profileTabs" class="nav nav-tabs">
+{% assign active=true %}
+{% for version in sorted %}
+    {% capture anchor %}{{ version.title | remove: "." }}{% endcapture %}
+	{% if active== true %}
+		{% capture list %}<li class="active"> {% endcapture %}
+		{% assign active=false %}
+	{% else %}
+		{% assign list="<li>" %}
+	{% endif %}
+	{% capture title %}<a href="#{{ anchor }}" data-toggle="tab"> {{ version.title }} </a> {% endcapture %}
+	{{ list }}{{ title }} </li>
+{% endfor %}
+</ul>
+
+<div class="tab-content">
+	{% assign active=true %}
+	{% for version in sorted %}
+	    {% capture anchor %}{{ version.title | remove: "." }}{% endcapture %}
+		{% if active== true %}
+			{% capture div %}<div role="tabpanel" class="tab-pane active" id="{{ anchor }}"> {% endcapture %}
+			{% assign active=false %}
+		{% else %}
+			{% capture div %}<div role="tabpanel" class="tab-pane" id="{{ anchor }}"> {% endcapture %}
+		{% endif %}
+	    {{ div }}
+
+	    <H2>{{ version.title }}</H2>
+	    <p> {{ version.info }}</p>
+	    <p> {{ version.content | markdownify }}</p>
+
+	</div>
+	{% endfor %}
+</div>
+
+   {{content}}
+
+    <div class="tags">
+        {% if page.tags != null %}
+        <b>Tags: </b>
+        {% assign projectTags = site.data.tags.allowed-tags %}
+        {% for tag in page.tags %}
+        {% if projectTags contains tag %}
+        <a href="{{ "tag_" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+    </div>
+
+{% include disqus.html %}
+
+</div>
+
+{{site.data.alerts.hr_shaded}}
+

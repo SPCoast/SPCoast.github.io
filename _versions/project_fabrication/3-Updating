@@ -1,0 +1,20 @@
+---
+project: project_design
+title: New Version
+---
+Whenever I
+
+-   Send a board out to get Fab\'d,
+-   want to experiment with some new parts, designs or layouts, or
+-   significantly change the schematic,
+
+I create a new VERSION of an existing project by
+
+1.  Opening up the \"old\" project files in Eagle and then
+2.  Using \"Save As\"
+    1.  Create a new version-numbered sub directory under the project\'s
+        top level umbrella directory,
+    2.  Copy the older version\'s schematic and board files in it as a
+        starting point.
+3.  Immediately update the version info found in both the schematic and
+    on the PCB silkscreen to reflect the new values.

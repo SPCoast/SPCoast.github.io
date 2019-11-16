@@ -1,0 +1,46 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  level: one
+  folders:
+
+  - title: Projects
+    output: web
+    folderitems:
+    - title: My Layout
+      url: /spcoast_layout.html
+      output: web
+    - title: Electronics
+      url: /electronics.html
+      output: web
+    - title: Arduino Software
+      url: /arduino.html
+      output: web
+    - title: cTc Machine construction
+      url: /ctc.html
+      output: web
+    - title: PCB Assembly Notes
+      url: /project_assembly.html
+      output: web
+    - title: PCB Fabrication Notes
+      url: /project_fabrication.html
+      output: web
+    - title: PCB Design Notes
+      url: /project_design.html
+      output: web
+    - title: Download SPCoast Eagle Library
+      url: /assets/SPCoast.lbr
+      output: web
+    - title: EagleTools
+      external_url: https://github.com/plocher/EagleTools/
+      output: web
+    - title: Jekyll Theme for GitHub
+      external_url: https://github.com/plocher/documentation-theme-jekyll
+      output: web
+    - title: ExpressPCB
+      external_url: https://www.expresspcb.com/
+      output: web
+    - title: EagleCAD
+      external_url: https://www.autodesk.com/products/eagle/overview
+      output: web

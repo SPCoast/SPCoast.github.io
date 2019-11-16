@@ -1,0 +1,46 @@
+---
+isproject: false
+project: project_design
+title: Project Design
+sidebar: spcoast_sidebar
+layout: tabdoc
+state: mature
+permalink: project_design.html
+---
+
+<hr>
+Downloadable files mentioned below
+* [http://{{SERVERNAME}}/pub/download/docs/Documents-PCB-Design-howto-SPCoast.lbr SPCoast.lbr] EagleCAD Library
+* [http://{{SERVERNAME}}/pub/download/docs/Documents-PCB-Design-howto-SPCoast.scr SPCoast.scr] EagleCAD SCRipt
+* [http://{{SERVERNAME}}/pub/download/docs/Documents-PCB-Design-howto-SPCoastcolors.scr SPCoastcolors.scr] EagleCAD SCRipt
+* [http://{{SERVERNAME}}/pub/download/docs/Documents-PCB-Design-howto-SPCoastlayers.scr SPCoastlayers.scr] EagleCAD SCRipt
+
+<hr>
+
+
+If you google("EagleCad"), you will find many articles about making
+PC boards.  Most focus on one or two details - how to place parts,
+draw traces, and, for the adventuresome, how to make simple parts
+libraries.  What they don't tell you is why you should do things a
+certain way, what you should do first, and how to make your PCB
+design experience easier in the long run.  For that, you need to
+dig deeper into CAD support forums, email threads and out-of-the-way
+blog posts.  You might even (shudder) read the very useful documentation
+from CadSoft!  I've tried to collect some of that wisdom here for
+my own sanity; maybe it will help your's as well :smile:.
+
+A little bit of structure is a good thing.  When working with PCBs,
+repeatability and correctness are keys to success.  This workflow
+(and the tools I've written to support it) help take the time
+consuming "make work" out of the process, and lets me focus board
+design.
+
+:[[Image:Documents-PCB-Design-howto-EagleCAD-plocher-workflow.png|900px]]<br>My Workflow
+
+The problems I'm trying to solve with this workflow are
+* I've got dozens of different board designs, most with several revisions each.  Other than the sheer volume of coffee table coasters that implies, keeping track of them shouldn't be a nightmare. 
+* In order to fix bugs in board designs - or to fab more copies of the good ones - I need to be able to reference the source files (sch, brd...) for EVERY fab run
+* I don't design boards full time, so I need simple actions, scripts and tools help me "do it the right way" every time
+* I want to be able to come back to a project after several years and figure out what I was doing, and
+* I want to easily share things with others - and yet not spend all my time updating web pages.
+

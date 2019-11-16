@@ -1,0 +1,53 @@
+---
+title: SPCoast
+sidebar: spcoast_sidebar
+layout: simple
+state: mature
+overview: > 
+    SPCoast Stuff
+---
+
+{% include callout.html type="warning" content="TODO: ALL local links on this page are broken, waiting for their content to be migrated...." %}
+
+
+<H1>SPCoast</H1>
+<p>&nbsp;</p>
+
+<h2 id="introduction">Introduction</h2>
+<p>Some of the schematics and PCB layouts featured here were done using the free tools provided by <a href="http://www.expresspcb.com/">ExpressPCB</a>, which also provides high quality board fabrication and internet based ordering directly from their tools. Most of the more recent projects have been done with another, more powerful package called <a href="https://www.autodesk.com/products/eagle/overview">Eagle</a>, which also has a free version for hobbiests. The only drawback I’ve found with <a href="http://www.expresspcb.com/">ExpressPCB</a> is the closed nature of their file formats - there is no way to move the schematic or PCB data into other tools such as Eagle. 
+</p>
+
+<p>Since many of the designs presented here are based - at least in part - on the designs posted by others on the ‘net, these designs, schematics and PCB layouts are also being made available to the model railroad community as Open Source Hardware. Feel free to duplicate, derive or improve on anything you find here; if you end up doing amazing things, I'd love to hear about what you've done!</p>
+
+<p>I am not selling these boards. Rather, I'm simply making the schematics and board layouts available to you for your own use, so you can easily take the files referenced on these pages and have your own boards manufactured. It takes between 2 and 4 weeks (faster if you pay more) and in the end you get professional quality boards.</p>
+
+<p>The collection of hardware and software projects on this site represents projects that show up on my layout or are "learning experiences" and projects I've done for others. Enjoy!</p>
+
+<hr>
+
+<p>My goal is to build an 'duino-based 
+	<a href="/I2C-CTC-harness.html">Dispatcher cTc panel </a> with field units to prevent switch/points and signals from being operated in ways that would allow conflicting train movements. To that end, I've designed a few WiFi enabled Arduino compatible processor boards ( 
+	<a href="/Core-Wemos.html">ESP8266</a> and 
+	<a href="/Core-ESP32.html">ESP32</a>) and a set of I2C-based IO devices ( 
+	<a href="/I2C-8574-IO.html">dual 8-bit</a>, 
+	<a href="/I2C-7313.html">16-bit, 64 addresses</a>, 
+	<a href="/I2C-9555-IO.html">16-bit, 8 addresses</a>, 
+	<a href="/I2C-AD4DA.html">A/D and D/A</a>) that can interface to various layout devices, such as 
+	<a href="/IO4-IR-Detector-Active.html">IR detectors</a>, 
+	<a href="/IO4-QuadOD.html">Occupancy detectors</a>, Signals: 
+	<a href="/SignalMast-DualHead.html">Dual</a>, 
+	<a href="/SignalMast-SingleHead.html">Single</a> and 
+	<a href="/SignalMast-Dwarf.html">Dwarf</a>, 
+	<a href="/IO4-RelayDriver.html">relay drivers</a>, and
+	<a href="/IO4-Turtle.html">turnout controllers</a>.  These all can be combined to produce a control point:</p>
+<figure>
+<img src="/images/SPCoastExampleCPElectronics.png" title="SPCoastExampleCPElectronics.png" width="1200" alt="PCB Design flowchart" />
+<figcaption>Selected SPCoast projects used to illustrate a complex ControlPoint</figcaption>
+</figure>
+<ul>
+<li>Download 
+	<a href="/assets/SPCoastElectronics.gstencil.zip" title="fig:SPCoastElectronics.gstencil.zip" /> MacOS OmniGraffle Stencil</a> for the above images.</li>
+</ul>
+
+   <p>This project’s technical documentation is licensed under the
+<a href="http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt">CERN Open Hardware Licence v1.2</a></p>

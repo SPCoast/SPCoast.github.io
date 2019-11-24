@@ -1,22 +1,38 @@
 ---
 iseagle: true
-title: I2C-AD4DA
-layout: eagle
-project: I2C-AD4DA
 sidebar: spcoast_sidebar
-status: mature
+title: I2C-AD4DA
+project: I2C-AD4DA
+designer: John Plocher
+fabricated: no
+status: experimental
+release: yes
+layout: eagle
+tags: [SPCoast, eagle]
 tagline: I2C 4x A/D 1x  D/A I/O expander based on a PCF8591T
 overview: >
-    Expansion card that provides four Analog to Digital inputs and one digital to analog output.
-    I use it to control LED Layout lighting color balances and levels with slide potentiometers.
+    
+      * Merged with LightUI sliders to make a self contained track mountable lighting controller
+    
+    
 images:
+  - image_path: /versions/I2C-AD4DA/I2C-AD4DA-LightUI.png
+    title: I2C-AD4DA-LightUI
   - image_path: /versions/I2C-AD4DA/I2C-AD4DA-Graphic.png
     title: I2C-AD4DA-Graphic
 artifacts:
+  - path: /versions/I2C-AD4DA/I2C-AD4DA.gerbers.zip
+    tag: I2C-AD4DA.gerbers
+    type: download
+    post: 
+  - path: /versions/I2C-AD4DA/I2C-AD4DA.parts.csv
+    tag: I2C-AD4DA.parts
+    type: download
+    post: 
   - path: /versions/I2C-AD4DA/PCF8591.pdf
     tag: PCF8591
     type: download
-    post: PDF Document
+    post: 
 ---
 
 This project's technical documentation is licensed under the

@@ -20,18 +20,20 @@ overview: >
 
 <p> ({{ projectcount }} projects)</p>
 
-<ul>
+<table class="projectlist">
 {% for p in projects %}
-    {% capture thisletter %}{{ p.title | truncate: 1, "" | capitalize: }}{% endcapture %}
-	{% if thisletter != firstletter %}
-		</ul>
+    {% capture thisletter %}{{ p.title | truncate: 1, "" | capitalize }}{% endcapture %}
+	{% if thisletter != firstletter  %}
 		{% capture firstletter %}{{ thisletter }}{% endcapture %}
-		<H2> {{ thisletter }} </H2>
-		<ul>
+	<tr>
+		<td colspan=2>
+		<b> {{ thisletter }} </b>
+		</td>
+	</tr>
 	{% endif %}
-	<li> <a href="/pages/{{ p.title }}.html">{{ p.title }}</a> - {{ p.tagline }} </li>
+	<tr><td> <a href="/pages/{{ p.title }}.html">{{ p.title }}</a> </td> <td>{{ p.tagline }} </td></tr>
 {% endfor %}
-</ul>
+</table>
 
 <hr>
 

@@ -29,7 +29,7 @@ entries:
     - title: PCB Design Notes
       url: /project_design.html
       output: web
-    - title: Download SPCoast Eagle Library
+    - title: SPCoast Eagle Library
       external_url: https://github.com/plocher/EagleTools/tree/master/parts
       output: web
     - title: EagleTools

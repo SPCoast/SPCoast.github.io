@@ -1,0 +1,16 @@
+# name, smd?, value, package, component, x, y, angle
+C1, PTH, 0.1uF, CAP-PTH-SMALL, 0.1uf-cap-pth-small, 0.00, 0.00, 180.00
+C2, PTH, .01uF, CAP-PTH-SMALL, .01uf-cap-pth-small, 0.00, 0.00, 270.00
+C4, PTH, .1uF, CAP-PTH-SMALL, .1uf-cap-pth-small, 0.00, 0.00, 270.00
+C5, PTH, .1uF, CAP-PTH-SMALL, .1uf-cap-pth-small, 0.00, 0.00, 90.00
+D1, PTH, 1N914, DIODE-1N4001, 1n914-diode-1n4001, 0.00, 0.00, 90.00
+J8-CMRI, PTH, , RJ11-NO_SHIELD, -rj11-no_shield, 0.00, 0.00, 0.00
+JP2, PTH, , SCREWTERMINAL-3.5MM-4_LOCK, -screwterminal-3.5mm-4_lock, 0.00, 0.00, 90.00
+R1, PTH, , 1/6W-RES, -1/6w-res, 0.00, 0.00, 180.00
+R14, PTH, 1k0, 1/6W-RES, 1k0-1/6w-res, 0.00, 0.00, 180.00
+RS485IN, PTH, , 1X05, -1x05, 0.00, 0.00, 180.00
+RS4895OUT, PTH, , 1X05_LOCK, -1x05_lock, 0.00, 0.00, 180.00
+TX, PTH, LEDLED3MM, LED3MM, ledled3mm-led3mm, 0.00, 0.00, 180.00
+U$1, PTH, OSHW-LOGOL, OSHW-LOGO-L, oshw-logol-oshw-logo-l, 0.00, 0.00, 0.00
+U3, PTH, NE555P, DIL-08, ne555p-dil-08, 0.00, 0.00, 180.00
+U4, PTH, MAX3465CPD, DIL14, max3465cpd-dil14, 0.00, 0.00, 180.00

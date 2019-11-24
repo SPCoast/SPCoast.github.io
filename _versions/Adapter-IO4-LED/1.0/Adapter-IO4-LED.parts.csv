@@ -1,0 +1,8 @@
+# name, smd?, value, package, component, x, y, angle
+J1, PTH, , RJ25-PANEL, -rj25-panel, 0.00, 0.00, 180.00
+JP1, PTH, , 1X02_LOCK, -1x02_lock, 0.00, 0.00, 90.00
+JP2, PTH, , 1X02_LOCK, -1x02_lock, 0.00, 0.00, 90.00
+JP3, PTH, , 1X02_LOCK, -1x02_lock, 0.00, 0.00, 90.00
+JP4, PTH, , 1X02_LOCK, -1x02_lock, 0.00, 0.00, 90.00
+RN1, PTH, , SIL5, -sil5, 0.00, 0.00, 270.00
+U$1, PTH, DOC-OSHW-LOGO-M, OSHW-LOGO-M, doc-oshw-logo-m-oshw-logo-m, 0.00, 0.00, 0.00

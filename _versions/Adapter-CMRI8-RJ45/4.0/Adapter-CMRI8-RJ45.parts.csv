@@ -1,0 +1,17 @@
+# name, smd?, value, package, component, x, y, angle
+J1, PTH, RJ45, RJ45-NO-SHIELD, rj45-rj45-no-shield, 0.00, 0.00, 180.00
+J2, PTH, , SCREWTERMINAL-3.5MM-8, -screwterminal-3.5mm-8, 0.00, 0.00, 180.00
+J3, PTH, , KK-156-8-F, -kk-156-8-f, 0.00, 0.00, 180.00
+J4, PTH, , SCREWTERMINAL-3.5MM-4_LOCK, -screwterminal-3.5mm-4_lock, 0.00, 0.00, 270.00
+J5, PTH, , 1X08_LOCK, -1x08_lock, 0.00, 0.00, 180.00
+M1, PTH, MOUNTINGHOLE, MOUNTINGHOLE, mountinghole-mountinghole, 0.00, 0.00, 0.00
+M2, PTH, MOUNTINGHOLE, MOUNTINGHOLE, mountinghole-mountinghole, 0.00, 0.00, 0.00
+R1, PTH, , AXIAL-0.4-RES, -axial-0.4-res, 0.00, 0.00, 270.00
+R2, PTH, , AXIAL-0.4-RES, -axial-0.4-res, 0.00, 0.00, 270.00
+R3, PTH, , AXIAL-0.4-RES, -axial-0.4-res, 0.00, 0.00, 270.00
+R4, PTH, , AXIAL-0.4-RES, -axial-0.4-res, 0.00, 0.00, 270.00
+R5, PTH, , AXIAL-0.4-RES, -axial-0.4-res, 0.00, 0.00, 270.00
+R6, PTH, , AXIAL-0.4-RES, -axial-0.4-res, 0.00, 0.00, 270.00
+R7, PTH, , AXIAL-0.4-RES, -axial-0.4-res, 0.00, 0.00, 270.00
+R8, PTH, , AXIAL-0.4-RES, -axial-0.4-res, 0.00, 0.00, 270.00
+U$1, PTH, DOC-OSHW-LOGO-M, OSHW-LOGO-M, doc-oshw-logo-m-oshw-logo-m, 0.00, 0.00, 0.00

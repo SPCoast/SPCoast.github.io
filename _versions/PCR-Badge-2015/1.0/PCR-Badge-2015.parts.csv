@@ -1,0 +1,35 @@
+# name, smd?, value, package, component, x, y, angle
+C1, PTH, 220uF, E5-10.5, 220uf-e5-10.5, 0.00, 0.00, 90.00
+C2, PTH, .1uF, C050-024X044, .1uf-c050-024x044, 0.00, 0.00, 270.00
+C3, PTH, .1uF, C050-024X044, .1uf-c050-024x044, 0.00, 0.00, 270.00
+C4, PTH, 47uF, E5-10.5, 47uf-e5-10.5, 0.00, 0.00, 180.00
+C5, PTH, .1uF, C050-024X044, .1uf-c050-024x044, 0.00, 0.00, 0.00
+I2C, PTH, Mount on bottom, I2C, mount on bottom-i2c, 0.00, 0.00, 270.00
+IRDET, PTH, PHOTODETECTOR, RPR220, photodetector-rpr220, 0.00, 0.00, 270.00
+J4, PTH, CONNECTOR-DC-POWER-RA, DCJ0202, connector-dc-power-ra-dcj0202, 0.00, 0.00, 0.00
+POWER, PTH, 9-12vDC, POWER_USAGE, 9-12vdc-power_usage, 0.00, 0.00, 270.00
+PROMINI, PTH, ARDUINO-PRO-MINIDAVESROBOT, ARDUINO_PRO_MINI_DAVEK, arduino-pro-minidavesrobot-arduino_pro_mini_davek, 0.00, 0.00, 0.00
+Q4, PTH, 2N2222, TO-92, 2n2222-to-92, 0.00, 0.00, 270.00
+R1, PTH, 330R, 1/6W-RES, 330r-1/6w-res, 0.00, 0.00, 135.00
+R2, PTH, 330R, 1/6W-RES, 330r-1/6w-res, 0.00, 0.00, 225.00
+R3, PTH, 330R, 1/6W-RES, 330r-1/6w-res, 0.00, 0.00, 0.00
+R4, PTH, 330R, 1/6W-RES, 330r-1/6w-res, 0.00, 0.00, 0.00
+R5, PTH, 330R, 1/6W-RES, 330r-1/6w-res, 0.00, 0.00, 0.00
+R6, PTH, 1k0, 1/6W-RES, 1k0-1/6w-res, 0.00, 0.00, 90.00
+R7, PTH, , B25U, -b25u, 0.00, 0.00, 180.00
+R8, PTH, 1M0, 1/6W-RES, 1m0-1/6w-res, 0.00, 0.00, 90.00
+R10, PTH, 620R, 1/6W-RES, 620r-1/6w-res, 0.00, 0.00, 0.00
+R11, PTH, 330R, 1/6W-RES, 330r-1/6w-res, 0.00, 0.00, 0.00
+R12, PTH, 2k0, 1/6W-RES, 2k0-1/6w-res, 0.00, 0.00, 0.00
+S1, PTH, , 4P-PTH-6.0X6.0X5.0H, -4p-pth-6.0x6.0x5.0h, 0.00, 0.00, 0.00
+S2, PTH, , 4P-PTH-6.0X6.0X5.0H, -4p-pth-6.0x6.0x5.0h, 0.00, 0.00, 0.00
+S2-G, PTH, G, LED5MM, g-led5mm, 0.00, 0.00, 180.00
+S2-R, PTH, R, LED5MM, r-led5mm, 0.00, 0.00, 180.00
+S2-Y, PTH, Y, LED5MM, y-led5mm, 0.00, 0.00, 180.00
+S3, PTH, , 4P-PTH-6.0X6.0X5.0H, -4p-pth-6.0x6.0x5.0h, 0.00, 0.00, 0.00
+SERVO, PTH, SERVO, SERVO, servo-servo, 0.00, 0.00, 180.00
+SERVO1, PTH, SERVO, SERVO-9G, servo-servo-9g, 0.00, 0.00, 90.00
+U1, PTH, LCD-16X2NOHOLES, LCD-16X2_NOHOLES, lcd-16x2noholes-lcd-16x2_noholes, 0.00, 0.00, 0.00
+VR, PTH, , TO-220-ALT, -to-220-alt, 0.00, 0.00, 0.00
+XING1, PTH, RED, LED5MM, red-led5mm, 0.00, 0.00, 180.00
+XING2, PTH, RED, LED5MM, red-led5mm, 0.00, 0.00, 180.00

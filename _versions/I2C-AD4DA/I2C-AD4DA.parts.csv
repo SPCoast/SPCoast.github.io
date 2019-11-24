@@ -1,0 +1,25 @@
+# name, smd?, value, package, component, x, y, angle
+A0, SMD, , SJ_3_PASTE1&2, -sj_3_paste1&2, 27.94, 31.75, 90.00
+A1, SMD, , SJ_3_PASTE1&2, -sj_3_paste1&2, 25.40, 31.75, 90.00
+A2, SMD, , SJ_3_PASTE1&2, -sj_3_paste1&2, 22.86, 31.75, 90.00
+BOARD1, SMD, , BOARD-DINRAIL-3.17INX10CM, -board-dinrail-3.17inx10cm, 49.85, 50.48, 0.00
+C1, SMD, 150uF, UD-10X10_NICHICON, 150uf-ud-10x10_nichicon, 7.62, 58.43, 270.00
+C2, SMD, 0.1uF, 0805-CAP, 0.1uf-0805-cap, 10.79, 66.04, 180.00
+C3, SMD, 0.1uF, 0805-CAP, 0.1uf-0805-cap, 33.66, 50.80, 90.00
+C4, SMD, 0.1uF, 0805-CAP, 0.1uf-0805-cap, 33.02, 31.75, 270.00
+CA, SMD, 0.1uF, 0805-CAP, 0.1uf-0805-cap, 33.02, 63.50, 0.00
+CB, SMD, 0.1uF, 0805-CAP, 0.1uf-0805-cap, 33.02, 60.96, 0.00
+CC, SMD, 0.1uF, 0805-CAP, 0.1uf-0805-cap, 33.02, 58.42, 0.00
+CD, SMD, 0.1uF, 0805-CAP, 0.1uf-0805-cap, 33.02, 55.88, 0.00
+CON1, PTH, CONNECTOR-GROVE-4P-2.0-3470130P1, 4P-2.0, connector-grove-4p-2.0-3470130p1-4p-2.0, 0.00, 0.00, 90.00
+CON2, PTH, CONNECTOR-GROVE-4P-2.0-3470130P1, 4P-2.0, connector-grove-4p-2.0-3470130p1-4p-2.0, 0.00, 0.00, 90.00
+I2C0, PTH, CONNECTOR-I2CLEFT, I2C-L, connector-i2cleft-i2c-l, 0.00, 0.00, 0.00
+I2C1, PTH, CONNECTOR-I2CLEFT, I2C-L, connector-i2cleft-i2c-l, 0.00, 0.00, 0.00
+IC1, SMD, PCF8591T, SO16W, pcf8591t-so16w, 20.96, 58.42, 180.00
+L1, SMD, 47 uH, L2012C, 47 uh-l2012c, 24.13, 48.26, 180.00
+LOGO1, PTH, DOC-OSHW-LOGO-L, OSHW-LOGO-L, doc-oshw-logo-l-oshw-logo-l, 0.00, 0.00, 0.00
+U$1, PTH, AGND+DGND, AGND+DGND, agnd+dgnd-agnd+dgnd, 0.00, 0.00, 180.00
+U$2, PTH, R-SLIDE-POT-45MM, SLIDER-45MM, r-slide-pot-45mm-slider-45mm, 0.00, 0.00, 90.00
+U$3, PTH, R-SLIDE-POT-45MM, SLIDER-45MM, r-slide-pot-45mm-slider-45mm, 0.00, 0.00, 90.00
+U$4, PTH, R-SLIDE-POT-45MM, SLIDER-45MM, r-slide-pot-45mm-slider-45mm, 0.00, 0.00, 90.00
+U$7, PTH, R-SLIDE-POT-45MM, SLIDER-45MM, r-slide-pot-45mm-slider-45mm, 0.00, 0.00, 90.00

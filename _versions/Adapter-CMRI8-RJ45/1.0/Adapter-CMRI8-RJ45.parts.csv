@@ -1,0 +1,7 @@
+# name, smd?, value, package, component, x, y, angle
+J1, PTH, , 215877-7, -215877-7, 0.00, 0.00, 180.00
+J2, PTH, , SCREWTERMINAL-3.5MM-8, -screwterminal-3.5mm-8, 0.00, 0.00, 180.00
+J3, PTH, , KK-156-8, -kk-156-8, 0.00, 0.00, 180.00
+JP1, PTH, , SCREWTERMINAL-3.5MM-2_LOCK, -screwterminal-3.5mm-2_lock, 0.00, 0.00, 90.00
+JP2, PTH, , SCREWTERMINAL-3.5MM-2_LOCK, -screwterminal-3.5mm-2_lock, 0.00, 0.00, 270.00
+U$1, PTH, OSHW-LOGOM, OSHW-LOGO-M, oshw-logom-oshw-logo-m, 0.00, 0.00, 0.00

@@ -1,0 +1,18 @@
+# name, smd?, value, package, component, x, y, angle
+A0, PTH, , J3-254, -j3-254, 0.00, 0.00, 90.00
+A1, PTH, , J3-254, -j3-254, 0.00, 0.00, 90.00
+A2, PTH, , J3-254, -j3-254, 0.00, 0.00, 90.00
+C1, SMD, 150uF, UD-10X10_NICHICON, 150uf-ud-10x10_nichicon, 8.26, 25.41, 270.00
+C2, SMD, 0.1uF, 0805-CAP, 0.1uf-0805-cap, 14.61, 27.94, 90.00
+CA, SMD, 0.1uF, 0805-CAP, 0.1uf-0805-cap, 27.94, 30.48, 0.00
+CB, SMD, 0.1uF, 0805-CAP, 0.1uf-0805-cap, 27.94, 27.94, 0.00
+CC, SMD, 0.1uF, 0805-CAP, 0.1uf-0805-cap, 27.94, 25.40, 0.00
+CD, SMD, 0.1uF, 0805-CAP, 0.1uf-0805-cap, 27.94, 22.86, 0.00
+I2C0, PTH, CONNECTOR-I2CLEFT, I2C-L, connector-i2cleft-i2c-l, 0.00, 0.00, 0.00
+I2C1, PTH, CONNECTOR-I2CLEFT, I2C-L, connector-i2cleft-i2c-l, 0.00, 0.00, 0.00
+IC1, SMD, PCF8591T, SO16W, pcf8591t-so16w, 20.96, 25.40, 180.00
+L1, SMD, 47 uH, L2012C, 47 uh-l2012c, 24.13, 17.78, 180.00
+LOGO1, PTH, OSHW-LOGOL, OSHW-LOGO-L, oshw-logol-oshw-logo-l, 0.00, 0.00, 0.00
+U$1, PTH, AGND+DGND, AGND+DGND, agnd+dgnd-agnd+dgnd, 0.00, 0.00, 180.00
+U$9, PTH, BOARD50X50, BOARD-SEEED5X5, board50x50-board-seeed5x5, 0.00, 0.00, 0.00
+X1, PTH, RJ45-FRONT, RJ45-NO-SHIELD, rj45-front-rj45-no-shield, 0.00, 0.00, 180.00

@@ -1,0 +1,14 @@
+# name, smd?, value, package, component, x, y, angle
+C1, PTH, 150uF, E5-10.5, 150uf-e5-10.5, 0.00, 0.00, 90.00
+C2, PTH, 150uF, E5-10.5, 150uf-e5-10.5, 0.00, 0.00, 90.00
+C4, PTH, 0.1uF, C050-024X044, 0.1uf-c050-024x044, 0.00, 0.00, 90.00
+C5, PTH, 0.1uF, C050-024X044, 0.1uf-c050-024x044, 0.00, 0.00, 90.00
+LED1, PTH, WHITE, LED5MM, white-led5mm, 0.00, 0.00, 270.00
+LOGO1, PTH, DOC-OSHW-LOGO-L, OSHW-LOGO-L, doc-oshw-logo-l-oshw-logo-l, 0.00, 0.00, 0.00
+R1, PTH, 1k0, AXIAL-0.3-RES, 1k0-axial-0.3-res, 0.00, 0.00, 270.00
+U$1, PTH, SLIDE-POT-45MM, SLIDER-45MM-LARGE, slide-pot-45mm-slider-45mm-large, 0.00, 0.00, 270.00
+U$2, PTH, , SLIDER-45MM-LARGE, -slider-45mm-large, 0.00, 0.00, 270.00
+U$3, PTH, , SLIDER-45MM-LARGE, -slider-45mm-large, 0.00, 0.00, 270.00
+U$7, PTH, , SLIDER-45MM-LARGE, -slider-45mm-large, 0.00, 0.00, 270.00
+U$9, PTH, BOARD80X100, BOARD-DINRAIL-3.17INX10CM, board80x100-board-dinrail-3.17inx10cm, 0.00, 0.00, 0.00
+X1, PTH, , RJ45-NO-SHIELD, -rj45-no-shield, 0.00, 0.00, 180.00

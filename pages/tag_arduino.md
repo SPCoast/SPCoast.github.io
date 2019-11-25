@@ -1,13 +1,12 @@
 ---
 layout: simple
 sidebar: spcoast_sidebar
-title: "EAGLE electronic CAD projects"
-tagName: eagle
+title: "Arduino projects"
+tagName: arduino
 search: exclude
-permalink: tag_eagle.html
+permalink: tag_arduino.html
 ---
 {% include taglogic.html %}
-
 <script>
 	$("#mysidebar").navgoco('toggle', true);
 </script>

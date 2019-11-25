@@ -1,13 +1,12 @@
 ---
 layout: simple
 sidebar: spcoast_sidebar
-title: "EAGLE electronic CAD projects"
-tagName: eagle
+title: "ExpressPCB electronic CAD projects"
+tagName: expresspcb
 search: exclude
-permalink: tag_eagle.html
+permalink: tag_expresspcb.html
 ---
 {% include taglogic.html %}
-
 <script>
 	$("#mysidebar").navgoco('toggle', true);
 </script>

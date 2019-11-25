@@ -66,6 +66,15 @@ layout: simple
 </tr></table>
 <p>&nbsp;</p>
 
+{% for item in page.artifacts %}
+    {% if item.type == "download" %}
+        {{ item.type | capitalize }} <a href="{{ item.path }}">{{ item.tag }} </a> {% if item.post != blank %} - {{ item.post }}{% endif %}<br />
+    {% else %}
+        UNKNOWN ARTIFACT: Type '{{ item.type }}' tag '{{ item.tag }}' path '{{item.path }}'<br />
+    {% endif %}
+{% endfor %}
+
+
 <p>&nbsp;</p>
 {% assign sorted = site.versions | where: "project", page.project | reverse %}
 

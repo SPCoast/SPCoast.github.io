@@ -1,0 +1,36 @@
+# name, smd?, value, package, component, x, y, angle
+A1, PTH, jumper, 1X03, jumper-1x03, 0.00, 0.00, 270.00
+A2, PTH, jumper, 1X03, jumper-1x03, 0.00, 0.00, 270.00
+A3, PTH, jumper, 1X03, jumper-1x03, 0.00, 0.00, 270.00
+BOARD1, PTH, , BOARD-DINRAIL-3.17IN-NOHOLES, -board-dinrail-3.17in-noholes, 0.00, 0.00, 0.00
+C1, SMD, 0.1uf, 0805-CAP, 0.1uf-0805-cap, 73.03, 39.37, 0.00
+C2, SMD, 0.1uf, 0805-CAP, 0.1uf-0805-cap, 29.85, 39.37, 0.00
+C3, SMD, 0.1uF, 0805-CAP, 0.1uf-0805-cap, 19.05, 47.62, 90.00
+C4, SMD, 0.1uF, 0805-CAP, 0.1uf-0805-cap, 8.89, 47.62, 90.00
+FID-U1, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 77.47, 26.04, 0.00
+FID-U2, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 34.29, 26.04, 0.00
+FID1, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 2.54, 78.11, 0.00
+FID2, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 2.54, 2.54, 0.00
+FID3, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 96.52, 40.64, 0.00
+J1, PTH, CONNECTOR-I2CLEFT, I2C-L, connector-i2cleft-i2c-l, 0.00, 0.00, 0.00
+J2, PTH, CONNECTOR-I2CLEFT, I2C-L, connector-i2cleft-i2c-l, 0.00, 0.00, 0.00
+J5, PTH, CONNECTOR-GROVE-4P-2.0-3470130P1, 4P-2.0, connector-grove-4p-2.0-3470130p1-4p-2.0, 0.00, 0.00, 90.00
+J8, PTH, CONNECTOR-GROVE-4P-2.0-3470130P1, 4P-2.0, connector-grove-4p-2.0-3470130p1-4p-2.0, 0.00, 0.00, 90.00
+LED16, SMD, G - 0330010P1, 0603-LED, g - 0330010p1-0603-led, 70.48, 12.07, 270.00
+LED17, SMD, G - 0330010P1, 0603-LED, g - 0330010p1-0603-led, 27.30, 12.07, 270.00
+LED18, SMD, G - 0330010P1, 0603-LED, g - 0330010p1-0603-led, 5.71, 69.22, 270.00
+R16, SMD, 1K-0010060P1, 0805-RES, 1k-0010060p1-0805-res, 70.48, 15.88, 90.00
+R17, SMD, 1K-0010060P1, 0805-RES, 1k-0010060p1-0805-res, 27.30, 15.88, 90.00
+R18, SMD, 2K2, 0805-RES, 2k2-0805-res, 5.71, 65.41, 270.00
+R19, SMD, 4k7, 0805-RES, 4k7-0805-res, 43.82, 11.43, 270.00
+R20, SMD, 4k7, 0805-RES, 4k7-0805-res, 41.27, 11.43, 270.00
+SCL, PTH, SDA, 1X02_LOCK, sda-1x02_lock, 0.00, 0.00, 90.00
+SDA, PTH, SCL, 1X02_LOCK, scl-1x02_lock, 0.00, 0.00, 90.00
+U$1, PTH, OSHW-LOGOL, OSHW-LOGO-L, oshw-logol-oshw-logo-l, 0.00, 0.00, 0.00
+U$2, PTH, IO4-IOBBARE, IO4-IOB, io4-iobbare-io4-iob, 0.00, 0.00, 270.00
+U$3, PTH, IO4-IOBBARE, IO4-IOB, io4-iobbare-io4-iob, 0.00, 0.00, 270.00
+U$4, PTH, IO4-IOBBARE, IO4-IOB, io4-iobbare-io4-iob, 0.00, 0.00, 270.00
+U$5, PTH, IO4-IOBBARE, IO4-IOB, io4-iobbare-io4-iob, 0.00, 0.00, 270.00
+U1, SMD, PCF8574DW, SO-16DW, pcf8574dw-so-16dw, 73.03, 32.38, 90.00
+U2, SMD, PCF8574ADW, SO-16DW, pcf8574adw-so-16dw, 29.85, 32.38, 90.00
+VR1, SMD, , TO-252, -to-252, 13.97, 51.54, 0.00

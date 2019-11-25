@@ -1,0 +1,44 @@
+separated
+FILE,MRCS-cpNode-Wemos.dpv
+PCBFILE,SPCoast CHMT Processor
+DATE,2019/11/24
+TIME,12:58:08
+PANELYPE,0
+
+
+Table,No.,ID,DeltX,DeltY,FeedRates,Note,Height,Speed,Status,SizeX,SizeY,HeightTake,DelayTake,nPullStripSpeed
+Station, 0, 6, 0.00, 0.00, 4, 1k0-0603, 0.50, 0, 6, 0.00, 0.00, 0.00, 0.00, 0
+Station, 1, 27, 0.00, 0.00, 8, CJ7805-to252, 0.50, 75, 6, 6.50, 8.00, 0.00, 0.50, 50
+Station, 2, 11, 0.00, 0.00, 4, 10k-0603, 0.50, 0, 6, 0.00, 0.00, 0.00, 0.00, 0
+Station, 3, 42, 0.00, 0.00, 4, N-FET-SOT23, 2.00, 30, 6, 0.00, 0.00, 0.50, 0.50, 50
+
+Table,No.,ID,DeltX,DeltY
+Panel_Coord,0,1,0,0
+Table, No., ID, PHead, STNo., DeltX, DeltY, Angle, Height, Skip, Speed, Explain, Note, Delay
+EComponent, 0, 1, 2, 42, 45.72, 30.48, -180.00, 0.50, 6, 50, Q2, N-FET-SOT23, 0.50
+EComponent, 1, 2, 2, 42, 40.64, 30.48, -180.00, 0.50, 6, 50, Q3, N-FET-SOT23, 0.50
+EComponent, 2, 3, 2, 42, 30.48, 30.48, -180.00, 0.50, 6, 50, Q4, N-FET-SOT23, 0.50
+EComponent, 3, 4, 2, 42, 35.56, 30.48, -180.00, 0.50, 6, 50, Q5, N-FET-SOT23, 0.50
+EComponent, 4, 5, 1, 11, 45.72, 26.04, 90.00, 0.00, 6, 0, R2, 10k-0603, 0.00
+EComponent, 5, 6, 1, 11, 45.72, 35.56, 0.00, 0.00, 6, 0, R3, 10k-0603, 0.00
+EComponent, 6, 7, 1, 11, 40.64, 26.04, 90.00, 0.00, 6, 0, R5, 10k-0603, 0.00
+EComponent, 7, 8, 1, 11, 40.64, 35.56, 0.00, 0.00, 6, 0, R6, 10k-0603, 0.00
+EComponent, 8, 9, 1, 11, 30.48, 26.04, 90.00, 0.00, 6, 0, R7, 10k-0603, 0.00
+EComponent, 9, 10, 1, 11, 30.48, 35.56, 0.00, 0.00, 6, 0, R8, 10k-0603, 0.00
+EComponent, 10, 11, 1, 11, 35.56, 26.04, 90.00, 0.00, 6, 0, R9, 10k-0603, 0.00
+EComponent, 11, 12, 1, 11, 35.56, 35.56, 0.00, 0.00, 6, 0, R10, 10k-0603, 0.00
+EComponent, 12, 13, 1, 6, 66.67, 13.97, 90.00, 0.00, 6, 0, R14, 1k0-0603, 0.00
+EComponent, 13, 14, 2, 27, 17.14, 46.35, -90.00, 0.00, 6, 50, VR5.0, CJ7805-to252, 0.50
+
+
+Table,No.,ID,CenterX,CenterY,IntervalX,IntervalY,NumX,NumY,Start
+
+Table,No.,nType,nAlg,nFinished
+PcbCalib,0,1,0,0
+
+Table,No.,ID,offsetX,offsetY,Note
+CalibPoint,0,1,0.750,0.350,Mark1
+CalibPoint,1,2,1.525,0.725,Mark3
+
+Table,No.,DeltX,DeltY,AlphaX,AlphaY,BetaX,BetaY,DeltaAngle
+CalibFator,0,0,0,0,0,1,1,0

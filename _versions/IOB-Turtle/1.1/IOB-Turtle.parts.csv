@@ -1,0 +1,23 @@
+# name, smd?, value, package, component, x, y, angle
+D1, SMD, 4.7v, SOT23-3, 4.7v-sot23-3, 4.83, 16.59, 180.00
+FID1, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 8.89, 48.90, 270.00
+FID2, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 1.91, 12.07, 270.00
+FID3, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 18.41, 12.07, 270.00
+IOB, PTH, IO4-IOBBARE, IO4-IOB, io4-iobbare-io4-iob, 0.00, 0.00, 270.00
+J1, PTH, RJ12/6, RJ25, rj12/6-rj25, 0.00, 0.00, 180.00
+LED1, SMD, G, 0603-LED, g-0603-led, 3.81, 2.54, 270.00
+LED2, SMD, Y, 0603-LED, y-0603-led, 7.62, 2.54, 270.00
+LED3, SMD, G, 0603-LED, g-0603-led, 11.43, 2.54, 270.00
+LED4, SMD, R, 0603-LED, r-0603-led, 15.24, 2.54, 270.00
+Q1, SMD, P-FET, SOT23-3, p-fet-sot23-3, 3.81, 7.57, 180.00
+Q2, SMD, P-FET, SOT23-3, p-fet-sot23-3, 7.62, 7.57, 180.00
+Q3, SMD, P-FET, SOT23-3, p-fet-sot23-3, 11.43, 7.57, 180.00
+Q4, SMD, P-FET, SOT23-3, p-fet-sot23-3, 15.24, 7.57, 180.00
+R4, SMD, 1k0, 0805-RES, 1k0-0805-res, 4.83, 30.48, 270.00
+R5, SMD, 1k0, 0805-RES, 1k0-0805-res, 7.37, 30.48, 270.00
+R6, SMD, 1k0, 0805-RES, 1k0-0805-res, 9.91, 30.48, 270.00
+R7, SMD, 1k0, 0805-RES, 1k0-0805-res, 12.45, 30.48, 270.00
+R11, SMD, 2k0, 0805-RES, 2k0-0805-res, 1.91, 5.08, 90.00
+R12, SMD, 2k0, 0805-RES, 2k0-0805-res, 5.71, 5.08, 90.00
+R13, SMD, 2k0, 0805-RES, 2k0-0805-res, 9.53, 5.08, 90.00
+R14, SMD, 2k0, 0805-RES, 2k0-0805-res, 13.34, 5.08, 90.00

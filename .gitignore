@@ -1,6 +1,43 @@
+# Jekyll files
+
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+_site/
+
 .DS_Store
+
+# raw Gerber files
+
+*.GBL
+*.GBO
+*.GBP
+*.GBS
+*.GKO
+*.GML
+*.GTL
+*.GTO
+*.GTP
+*.GTS
+*.TXT
+
+# Files that scripts generate
+
+Archive/
+feeders.csv
+.uploaded
+
+# Eagle temp files
+
+*.dri
+*.gpi
+*.l#?
+*.s#?
+*.b#?
+*~snap.scr
+*_[0-9][0-9].job
+*_[0-9][0-9].pro
+eagle.epf
+
 

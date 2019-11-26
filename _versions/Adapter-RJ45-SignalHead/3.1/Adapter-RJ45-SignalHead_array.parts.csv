@@ -1,0 +1,26 @@
+# name, smd?, value, package, component, x, y, angle
+CON1X11, PTH, , 4P-2.0, -4p-2.0, 0.00, 0.00, 270.00
+CON1X12, PTH, , 4P-2.0, -4p-2.0, 0.00, 0.00, 270.00
+CON1X21, PTH, , 4P-2.0, -4p-2.0, 0.00, 0.00, 270.00
+CON1X22, PTH, , 4P-2.0, -4p-2.0, 0.00, 0.00, 270.00
+CON1X31, PTH, , 4P-2.0, -4p-2.0, 0.00, 0.00, 270.00
+CON1X32, PTH, , 4P-2.0, -4p-2.0, 0.00, 0.00, 270.00
+CON2X11, PTH, , 4P-2.0, -4p-2.0, 0.00, 0.00, 270.00
+CON2X12, PTH, , 4P-2.0, -4p-2.0, 0.00, 0.00, 270.00
+CON2X21, PTH, , 4P-2.0, -4p-2.0, 0.00, 0.00, 270.00
+CON2X22, PTH, , 4P-2.0, -4p-2.0, 0.00, 0.00, 270.00
+CON2X31, PTH, , 4P-2.0, -4p-2.0, 0.00, 0.00, 270.00
+CON2X32, PTH, , 4P-2.0, -4p-2.0, 0.00, 0.00, 270.00
+J1X11, PTH, , RJ45-NO-SHIELD, -rj45-no-shield, 0.00, 0.00, 180.00
+J1X12, PTH, , RJ45-NO-SHIELD, -rj45-no-shield, 0.00, 0.00, 180.00
+J1X21, PTH, , RJ45-NO-SHIELD, -rj45-no-shield, 0.00, 0.00, 180.00
+J1X22, PTH, , RJ45-NO-SHIELD, -rj45-no-shield, 0.00, 0.00, 180.00
+J1X31, PTH, , RJ45-NO-SHIELD, -rj45-no-shield, 0.00, 0.00, 180.00
+J1X32, PTH, , RJ45-NO-SHIELD, -rj45-no-shield, 0.00, 0.00, 180.00
+U$1X1, PTH, , BOARD-SEEED10X10-NOHOLES, -board-seeed10x10-noholes, 0.00, 0.00, 0.00
+U$1X11, PTH, , OSHW-LOGO-M, -oshw-logo-m, 0.00, 0.00, 0.00
+U$1X12, PTH, , OSHW-LOGO-M, -oshw-logo-m, 0.00, 0.00, 0.00
+U$1X21, PTH, , OSHW-LOGO-M, -oshw-logo-m, 0.00, 0.00, 0.00
+U$1X22, PTH, , OSHW-LOGO-M, -oshw-logo-m, 0.00, 0.00, 0.00
+U$1X31, PTH, , OSHW-LOGO-M, -oshw-logo-m, 0.00, 0.00, 0.00
+U$1X32, PTH, , OSHW-LOGO-M, -oshw-logo-m, 0.00, 0.00, 0.00

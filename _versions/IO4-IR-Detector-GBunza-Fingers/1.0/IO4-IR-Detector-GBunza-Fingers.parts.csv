@@ -1,0 +1,4 @@
+# name, smd?, value, package, component, x, y, angle
+J1, PTH, , 1X04_LOCK, -1x04_lock, 0.00, 0.00, 0.00
+T.AMBIENT, SMD, PT19-21C/L41, ALS-PT19, pt19-21c/l41-als-pt19, 9.27, 5.97, 0.00
+T.DETECTED, SMD, PT19-21C/L41, ALS-PT19, pt19-21c/l41-als-pt19, 6.10, 23.24, 270.00

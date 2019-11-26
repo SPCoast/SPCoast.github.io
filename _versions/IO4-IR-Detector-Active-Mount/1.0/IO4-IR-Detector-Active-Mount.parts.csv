@@ -1,0 +1,3 @@
+# name, smd?, value, package, component, x, y, angle
+JP1, PTH, , 1X04_LOCK, -1x04_lock, 0.00, 0.00, 0.00
+PD1, PTH, RPR220, RPR220, rpr220-rpr220, 0.00, 0.00, 0.00

@@ -21,9 +21,9 @@ overview: >
      * Use a screw to attach the mount under the layout
 artifacts:
   - path: /versions/IO4-IR-Detector-Active-Mount/IO4-IR-Detector-Active-Mount_array.scr
-    tag: IO4-IR-Detector-Active-Mount_array
+    tag: IO4-IR-Detector-Active-Mount_array.scr
     type: download
-    post: 
+    post: Eagle SCRipt
 ---
 
 

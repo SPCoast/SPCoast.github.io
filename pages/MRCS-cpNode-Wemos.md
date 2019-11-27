@@ -19,15 +19,6 @@ overview: >
     Designed for MRCS as an outgrowth of the [Core-Wemos](/pages/Core-Wemos.html) project, this version includes
     CMRI-Net interface circuitry (V4) or interconnect to an external driver board (V5).
     
-artifacts:
-  - path: /versions/MRCS-cpNode-Wemos/MRCS-cpNode-Wemos.gerbers.zip
-    tag: MRCS-cpNode-Wemos.gerbers
-    type: download
-    post: 
-  - path: /versions/MRCS-cpNode-Wemos/MRCS-cpNode-Wemos.parts.csv
-    tag: MRCS-cpNode-Wemos.parts
-    type: download
-    post: 
 ---
 
 

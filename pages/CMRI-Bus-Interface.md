@@ -18,15 +18,6 @@ overview: >
     
     Daughter board for interfacing with CMRI Bus traffic using MRCS 'duino example code.
     Uses an optional onboard 555 to generate TX/RX enable based on processor I/O direction
-artifacts:
-  - path: /versions/CMRI-Bus-Interface/CMRI-Bus-Interface.gerbers.zip
-    tag: CMRI-Bus-Interface.gerbers
-    type: download
-    post: 
-  - path: /versions/CMRI-Bus-Interface/CMRI-Bus-Interface.parts.csv
-    tag: CMRI-Bus-Interface.parts
-    type: download
-    post: 
 ---
 
 

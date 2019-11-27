@@ -1,0 +1,9 @@
+# name, smd?, value, package, component, x, y, angle
+LED1, SMD, R, 0603-LED, r-0603-led, 6.35, 38.10, 180.00
+LED2, SMD, Y, 0603-LED, y-0603-led, 6.35, 40.64, 180.00
+LED3, SMD, G, 0603-LED, g-0603-led, 6.35, 43.18, 180.00
+LED4, SMD, R, 0603-LED, r-0603-led, 6.22, 21.97, 180.00
+LED5, SMD, Y, 0603-LED, y-0603-led, 6.22, 24.51, 180.00
+LED6, SMD, G, 0603-LED, g-0603-led, 6.22, 27.05, 180.00
+LOWER, PTH, 1x4 0.100, 1X04_LOCK, 1x4 0.100-1x04_lock, 0.00, 0.00, 180.00
+UPPER, PTH, 1x4 0.100, 1X04_LOCK, 1x4 0.100-1x04_lock, 0.00, 0.00, 180.00

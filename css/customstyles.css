@@ -127,7 +127,7 @@ th {
     text-align: left;
 }
 table {
-    max-width: 90%;
+    max-width: 95%;
     margin-bottom: 20px;
     border: 1px solid #dedede;
 }
@@ -137,8 +137,12 @@ table {
 	font-size:70%
 }
 
-.projectlist {
+table .projectlist {
+	table-layout:fixed;
 	font-size:80%
+}
+td.projectlist {
+	width: 30%;
 }
 
 table > thead > tr > th,
@@ -775,10 +779,6 @@ pre {
     margin: 25px 0px;
 }
 
-pre code {
-    max-height: 300px;
-    overflow-y: auto;
-}
 #json-box-container pre {
     margin: 0px;
 }

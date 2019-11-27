@@ -37,51 +37,6 @@ images:
     title: Lit
   - image_path: /versions/Brakeman/Fabricated-backside.jpg
     title: Fabricated-backside
-artifacts:
-  - path: /versions/Brakeman/Assembled.jpg
-    tag: Assembled
-    type: download
-    post: 
-  - path: /versions/Brakeman/Brakeman.gerbers.zip
-    tag: Brakeman.gerbers
-    type: download
-    post: 
-  - path: /versions/Brakeman/Brakeman.parts.csv
-    tag: Brakeman.parts
-    type: download
-    post: 
-  - path: /versions/Brakeman/Brakeman_array.gerbers.zip
-    tag: Brakeman_array.gerbers
-    type: download
-    post: 
-  - path: /versions/Brakeman/Brakeman_array.parts.csv
-    tag: Brakeman_array.parts
-    type: download
-    post: 
-  - path: /versions/Brakeman/Fabricated-backside.jpg
-    tag: Fabricated-backside
-    type: download
-    post: 
-  - path: /versions/Brakeman/Fabricated.jpg
-    tag: Fabricated
-    type: download
-    post: 
-  - path: /versions/Brakeman/Lit.jpg
-    tag: Lit
-    type: download
-    post: 
-  - path: /versions/Brakeman/Mockup.jpg
-    tag: Mockup
-    type: download
-    post: 
-  - path: /versions/Brakeman/Packaged.jpg
-    tag: Packaged
-    type: download
-    post: 
-  - path: /versions/Brakeman/Unlit.jpg
-    tag: Unlit
-    type: download
-    post: 
 ---
 
 ## GCOR
@@ -144,5 +99,7 @@ The end user will snap apart the base and body, solder the feet to the
 base and attach a lead weight to the base, making a figure with a LED
 lantern in its hand that lights up when placed on a HO model railroad
 track.
+
+
 
 This technical documentation is licensed under the [CERN Open Hardware Licence v1.2](http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt)

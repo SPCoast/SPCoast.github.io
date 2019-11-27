@@ -14,15 +14,6 @@ tagline: Standalone "locobuffer-style" Loconet interface with I2C expandability 
 overview: >
     
     Developed in conjunction with [Alex Shepherd](https://mrrwa.org/2018/04/08/locolinx32u4-on-core-locobuffer/)
-artifacts:
-  - path: /versions/Core-Locobuffer/Core-Locobuffer.gerbers.zip
-    tag: Core-Locobuffer.gerbers
-    type: download
-    post: 
-  - path: /versions/Core-Locobuffer/Core-Locobuffer.parts.csv
-    tag: Core-Locobuffer.parts
-    type: download
-    post: 
 ---
 
 

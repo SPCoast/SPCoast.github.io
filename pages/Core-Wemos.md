@@ -17,19 +17,6 @@ overview: >
 images:
   - image_path: /versions/Core-Wemos/ESP32-OLED-pinout.jpg
     title: ESP32-OLED-pinout
-artifacts:
-  - path: /versions/Core-Wemos/Core-Wemos.gerbers.zip
-    tag: Core-Wemos.gerbers
-    type: download
-    post: 
-  - path: /versions/Core-Wemos/Core-Wemos.parts.csv
-    tag: Core-Wemos.parts
-    type: download
-    post: 
-  - path: /versions/Core-Wemos/ESP32-OLED-pinout.jpg
-    tag: ESP32-OLED-pinout
-    type: download
-    post: 
 ---
 
 ## doc

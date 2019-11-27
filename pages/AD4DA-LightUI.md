@@ -23,23 +23,17 @@ images:
   - image_path: /versions/AD4DA-LightUI/AD4DA-LightUI-Graphic.png
     title: AD4DA-LightUI-Graphic
 artifacts:
-  - path: /versions/AD4DA-LightUI/AD4DA-LightUI.gerbers.zip
-    tag: AD4DA-LightUI.gerbers
-    type: download
-    post: 
-  - path: /versions/AD4DA-LightUI/AD4DA-LightUI.parts.csv
-    tag: AD4DA-LightUI.parts
-    type: download
-    post: 
   - path: /versions/AD4DA-LightUI/ALPS-SuperSlide.PDF
-    tag: ALPS-SuperSlide
+    tag: ALPS-SuperSlide.PDF
     type: download
-    post: 
+    post: Documentation
   - path: /versions/AD4DA-LightUI/PCF8591.pdf
-    tag: PCF8591
+    tag: PCF8591.pdf
     type: download
-    post: 
+    post: Documentation
 ---
+
+
 
 This project's technical documentation is licensed under the
 [CERN Open Hardware Licence v1.2](http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt)

@@ -14,13 +14,4 @@ tagline: Simple RJ12/6 breakout board, for 3.5mm screw terminals or direct wire 
 overview: >
     
     IO4 3.5mm Breakout board
-artifacts:
-  - path: /versions/Adapter-IO4-35mm/Adapter-IO4-35mm.gerbers.zip
-    tag: Adapter-IO4-35mm.gerbers
-    type: download
-    post: 
-  - path: /versions/Adapter-IO4-35mm/Adapter-IO4-35mm.parts.csv
-    tag: Adapter-IO4-35mm.parts
-    type: download
-    post: 
 ---

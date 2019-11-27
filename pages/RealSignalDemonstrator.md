@@ -16,12 +16,8 @@ overview: >
     Bespoke case with embedded processor and relay board.
     
 artifacts:
-  - path: /versions/RealSignalDemonstrator/RealSignalDemonstrator.gerbers.zip
-    tag: RealSignalDemonstrator.gerbers
-    type: download
-    post: 
-  - path: /versions/RealSignalDemonstrator/RealSignalDemonstrator.parts.csv
-    tag: RealSignalDemonstrator.parts
+  - path: /versions/RealSignalDemonstrator/RealSignalDemonstrator.s#1
+    tag: RealSignalDemonstrator
     type: download
     post: 
 ---

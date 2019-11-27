@@ -1,0 +1,19 @@
+# name, smd?, value, package, component, x, y, angle
+BOARD1, PTH, , BOARD-DINRAIL-3.17INX10CM, -board-dinrail-3.17inx10cm, 0.00, 0.00, 0.00
+C1, PTH, 220uF, E5-10.5, 220uf-e5-10.5, 0.00, 0.00, 0.00
+C2, SMD, .1uF, 0805-CAP, .1uf-0805-cap, 5.08, 24.13, 180.00
+C3, SMD, .1uF, 0805-CAP, .1uf-0805-cap, 5.08, 17.78, 180.00
+CON1, PTH, LCD, I2C-L, lcd-i2c-l, 0.00, 0.00, 0.00
+J4, PTH, VIN, DCJ0202, vin-dcj0202, 0.00, 0.00, 270.00
+LED1, SMD, , 0603-LED, -0603-led, 21.59, 63.50, 90.00
+LED2, SMD, , 0603-LED, -0603-led, 21.59, 67.31, 90.00
+LED3, PTH, , LED5MM, -led5mm, 0.00, 0.00, 180.00
+LED4, PTH, , LED5MM, -led5mm, 0.00, 0.00, 180.00
+LOGO1, PTH, DOC-OSHW-LOGOL, OSHW-LOGO-L, doc-oshw-logol-oshw-logo-l, 0.00, 0.00, 0.00
+POWER, PTH, 9-12vDC, POWER_USAGE, 9-12vdc-power_usage, 0.00, 0.00, 90.00
+R1, SMD, , 0805-RES, -0805-res, 27.94, 63.50, 0.00
+R2, SMD, , 0805-RES, -0805-res, 27.94, 67.31, 0.00
+U$1, PTH, , WEMOS-D1, -wemos-d1, 0.00, 0.00, 270.00
+U$2, PTH, RFIDBACK, RC522-REVERSE, rfidback-rc522-reverse, 0.00, 0.00, 90.00
+U$3, PTH, , LCD-16X2-SILK, -lcd-16x2-silk, 0.00, 0.00, 0.00
+VR, SMD, , TO252, -to252, 12.81, 20.32, 270.00

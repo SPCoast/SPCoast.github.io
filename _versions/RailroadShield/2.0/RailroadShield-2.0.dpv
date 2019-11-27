@@ -1,0 +1,26 @@
+separated
+FILE,RailroadShield.dpv
+PCBFILE,SPCoast CHMT Processor
+DATE,2019/11/27
+TIME,12:56:38
+PANELYPE,0
+
+
+Table,No.,ID,DeltX,DeltY,FeedRates,Note,Height,Speed,Status,SizeX,SizeY,HeightTake,DelayTake,nPullStripSpeed
+
+Table,No.,ID,DeltX,DeltY
+Panel_Coord,0,1,0,0
+Table, No., ID, PHead, STNo., DeltX, DeltY, Angle, Height, Skip, Speed, Explain, Note, Delay
+
+
+Table,No.,ID,CenterX,CenterY,IntervalX,IntervalY,NumX,NumY,Start
+
+Table,No.,nType,nAlg,nFinished
+PcbCalib,0,1,0,0
+
+Table,No.,ID,offsetX,offsetY,Note
+CalibPoint,0,1,0.750,0.350,Mark1
+CalibPoint,1,2,1.525,0.725,Mark3
+
+Table,No.,DeltX,DeltY,AlphaX,AlphaY,BetaX,BetaY,DeltaAngle
+CalibFator,0,0,0,0,0,1,1,0

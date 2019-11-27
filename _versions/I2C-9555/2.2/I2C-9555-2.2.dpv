@@ -1,0 +1,47 @@
+separated
+FILE,I2C-9555.dpv
+PCBFILE,SPCoast CHMT Processor
+DATE,2019/11/27
+TIME,12:49:26
+PANELYPE,0
+
+
+Table,No.,ID,DeltX,DeltY,FeedRates,Note,Height,Speed,Status,SizeX,SizeY,HeightTake,DelayTake,nPullStripSpeed
+Station, 0, 7, 0.00, 0.00, 4, 2k0-0603, 0.50, 0, 6, 0.00, 0.00, 0.00, 0.00, 0
+
+Table,No.,ID,DeltX,DeltY
+Panel_Coord,0,1,0,0
+Table, No., ID, PHead, STNo., DeltX, DeltY, Angle, Height, Skip, Speed, Explain, Note, Delay
+EComponent, 0, 1, 1, 7, 88.27, 55.88, 0.00, 0.00, 6, 0, R0, 2k0-0603, 0.00
+EComponent, 1, 2, 1, 7, 84.45, 55.88, 0.00, 0.00, 6, 0, R1, 2k0-0603, 0.00
+EComponent, 2, 3, 1, 7, 80.64, 55.88, 0.00, 0.00, 6, 0, R2, 2k0-0603, 0.00
+EComponent, 3, 4, 1, 7, 76.83, 55.88, 0.00, 0.00, 6, 0, R3, 2k0-0603, 0.00
+EComponent, 4, 5, 1, 7, 71.75, 55.88, 0.00, 0.00, 6, 0, R4, 2k0-0603, 0.00
+EComponent, 5, 6, 1, 7, 67.94, 55.88, 0.00, 0.00, 6, 0, R5, 2k0-0603, 0.00
+EComponent, 6, 7, 1, 7, 64.14, 55.88, 0.00, 0.00, 6, 0, R6, 2k0-0603, 0.00
+EComponent, 7, 8, 1, 7, 60.33, 55.88, 0.00, 0.00, 6, 0, R7, 2k0-0603, 0.00
+EComponent, 8, 9, 1, 7, 50.16, 55.88, 0.00, 0.00, 6, 0, R8, 2k0-0603, 0.00
+EComponent, 9, 10, 1, 7, 46.35, 55.88, 0.00, 0.00, 6, 0, R9, 2k0-0603, 0.00
+EComponent, 10, 11, 1, 7, 42.55, 55.88, 0.00, 0.00, 6, 0, R10, 2k0-0603, 0.00
+EComponent, 11, 12, 1, 7, 38.73, 55.88, 0.00, 0.00, 6, 0, R11, 2k0-0603, 0.00
+EComponent, 12, 13, 1, 7, 33.66, 55.88, 0.00, 0.00, 6, 0, R12, 2k0-0603, 0.00
+EComponent, 13, 14, 1, 7, 29.84, 55.88, 0.00, 0.00, 6, 0, R13, 2k0-0603, 0.00
+EComponent, 14, 15, 1, 7, 26.04, 55.88, 0.00, 0.00, 6, 0, R14, 2k0-0603, 0.00
+EComponent, 15, 16, 1, 7, 22.23, 55.88, 0.00, 0.00, 6, 0, R15, 2k0-0603, 0.00
+EComponent, 16, 17, 1, 7, 18.41, 47.94, 180.00, 0.00, 6, 0, R17, 2k0-0603, 0.00
+EComponent, 17, 18, 1, 7, 55.88, 55.88, 0.00, 0.00, 6, 0, R18, 2k0-0603, 0.00
+EComponent, 18, 19, 1, 7, 62.87, 23.50, 0.00, 0.00, 6, 0, R22, 2k0-0603, 0.00
+EComponent, 19, 20, 1, 7, 65.41, 23.50, 0.00, 0.00, 6, 0, R23, 2k0-0603, 0.00
+
+
+Table,No.,ID,CenterX,CenterY,IntervalX,IntervalY,NumX,NumY,Start
+
+Table,No.,nType,nAlg,nFinished
+PcbCalib,0,1,0,0
+
+Table,No.,ID,offsetX,offsetY,Note
+CalibPoint,0,1,0.750,0.350,Mark1
+CalibPoint,1,2,1.525,0.725,Mark3
+
+Table,No.,DeltX,DeltY,AlphaX,AlphaY,BetaX,BetaY,DeltaAngle
+CalibFator,0,0,0,0,0,1,1,0

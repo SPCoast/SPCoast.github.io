@@ -27,25 +27,11 @@ overview: >
       * Added optional resistors inline for direct driving LED outputs with a default (cuttable) link for use as inputs...
     
 artifacts:
-  - path: /versions/Adapter-CMRI8-RJ45/Adapter-CMRI8-RJ45.gerbers.zip
-    tag: Adapter-CMRI8-RJ45.gerbers
-    type: download
-    post: 
-  - path: /versions/Adapter-CMRI8-RJ45/Adapter-CMRI8-RJ45.parts.csv
-    tag: Adapter-CMRI8-RJ45.parts
-    type: download
-    post: 
-  - path: /versions/Adapter-CMRI8-RJ45/Adapter-CMRI8-RJ45_array.gerbers.zip
-    tag: Adapter-CMRI8-RJ45_array.gerbers
-    type: download
-    post: 
-  - path: /versions/Adapter-CMRI8-RJ45/Adapter-CMRI8-RJ45_array.parts.csv
-    tag: Adapter-CMRI8-RJ45_array.parts
-    type: download
-    post: 
   - path: /versions/Adapter-CMRI8-RJ45/Adapter-CMRI8-RJ45_array.scr
-    tag: Adapter-CMRI8-RJ45_array
+    tag: Adapter-CMRI8-RJ45_array.scr
     type: download
-    post: 
+    post: Eagle SCRipt
 ---
+
+
 This technical documentation is licensed under the [CERN Open Hardware Licence v1.2](http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt)

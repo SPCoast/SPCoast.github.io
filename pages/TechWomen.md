@@ -17,15 +17,6 @@ overview: >
     
     PCB handouts / business cards for mentees that are part of the TechWomen program.
     Each has a different set of quotes in the silkscreen, along with other messages "hidden" in the copper layers.
-artifacts:
-  - path: /versions/TechWomen/TechWomen.gerbers.zip
-    tag: TechWomen.gerbers
-    type: download
-    post: 
-  - path: /versions/TechWomen/TechWomen.parts.csv
-    tag: TechWomen.parts
-    type: download
-    post: 
 ---
 
 

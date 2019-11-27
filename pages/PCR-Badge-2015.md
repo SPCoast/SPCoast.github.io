@@ -27,34 +27,10 @@ images:
   - image_path: /versions/PCR-Badge-2015/IMG_0888.jpg
     title: IMG_0888
 artifacts:
-  - path: /versions/PCR-Badge-2015/IMG_0887.jpg
-    tag: IMG_0887
-    type: download
-    post: 
-  - path: /versions/PCR-Badge-2015/IMG_0888.jpg
-    tag: IMG_0888
-    type: download
-    post: 
-  - path: /versions/PCR-Badge-2015/IMG_0892.jpg
-    tag: IMG_0892
-    type: download
-    post: 
-  - path: /versions/PCR-Badge-2015/IMG_0896.jpg
-    tag: IMG_0896
-    type: download
-    post: 
-  - path: /versions/PCR-Badge-2015/PCR-Badge-2015.gerbers.zip
-    tag: PCR-Badge-2015.gerbers
-    type: download
-    post: 
-  - path: /versions/PCR-Badge-2015/PCR-Badge-2015.parts.csv
-    tag: PCR-Badge-2015.parts
-    type: download
-    post: 
   - path: /versions/PCR-Badge-2015/PartsList.pdf
-    tag: PartsList
+    tag: PartsList.pdf
     type: download
-    post: 
+    post: Documentation
 ---
 
 ## 1-ERRATA
@@ -242,6 +218,8 @@ Working through the parts list, install
   * The middle button turns on and off the crossing flashers
   * The bottom button lowers the gate.
 5.  You can attach a horn to the servo if you want ­ lower the gate by pressing the bottom button, then attach the horn so it extends horizontally, using the remaining tiny screw that came with the servo.
+
+
 
 
 This technical documentation is licensed under the [CERN Open Hardware Licence v1.2](http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt)

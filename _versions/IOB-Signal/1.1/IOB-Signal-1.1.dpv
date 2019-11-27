@@ -1,0 +1,43 @@
+separated
+FILE,IOB-Signal.dpv
+PCBFILE,SPCoast CHMT Processor
+DATE,2019/11/27
+TIME,12:52:57
+PANELYPE,0
+
+
+Table,No.,ID,DeltX,DeltY,FeedRates,Note,Height,Speed,Status,SizeX,SizeY,HeightTake,DelayTake,nPullStripSpeed
+Station, 0, 6, 0.00, 0.00, 4, 1k0-0603, 0.50, 0, 6, 0.00, 0.00, 0.00, 0.00, 0
+Station, 1, 85, 0.00, 0.00, 4, 74hs139a-so16, 0.50, 0, 6, 0.00, 0.00, 0.00, 0.00, 0
+Station, 2, 20, 0.00, 0.00, 4, Y-0603, 0.50, 50, 6, 0.00, 0.00, 0.00, 0.50, 50
+Station, 3, 7, 0.00, 0.00, 4, 2k0-0603, 0.50, 0, 6, 0.00, 0.00, 0.00, 0.00, 0
+
+Table,No.,ID,DeltX,DeltY
+Panel_Coord,0,1,0,0
+Table, No., ID, PHead, STNo., DeltX, DeltY, Angle, Height, Skip, Speed, Explain, Note, Delay
+EComponent, 0, 1, 2, 85, 8.51, 19.18, 180.00, 0.00, 6, 0, IC1, 74hs139a-so16, 0.00
+EComponent, 1, 2, 1, 20, 15.11, 2.54, 180.00, 0.00, 6, 50, LED0, Y-0603, 0.50
+EComponent, 2, 3, 1, 20, 11.30, 2.54, 180.00, 0.00, 6, 50, LED1, Y-0603, 0.50
+EComponent, 3, 4, 1, 20, 7.49, 2.54, 180.00, 0.00, 6, 50, LED2, Y-0603, 0.50
+EComponent, 4, 5, 1, 20, 3.68, 2.54, 180.00, 0.00, 6, 50, LED3, Y-0603, 0.50
+EComponent, 5, 6, 1, 7, 13.21, 4.83, 0.00, 0.00, 6, 0, R0, 2k0-0603, 0.00
+EComponent, 6, 7, 1, 7, 9.40, 4.83, 0.00, 0.00, 6, 0, R1, 2k0-0603, 0.00
+EComponent, 7, 8, 1, 7, 5.59, 4.83, 0.00, 0.00, 6, 0, R2, 2k0-0603, 0.00
+EComponent, 8, 9, 1, 7, 1.78, 4.83, 0.00, 0.00, 6, 0, R3, 2k0-0603, 0.00
+EComponent, 9, 10, 1, 6, 5.33, 33.02, 180.00, 0.00, 6, 0, R6, 1k0-0603, 0.00
+EComponent, 10, 11, 1, 6, 7.87, 33.02, 180.00, 0.00, 6, 0, R7, 1k0-0603, 0.00
+EComponent, 11, 12, 1, 6, 10.41, 33.02, 180.00, 0.00, 6, 0, R9, 1k0-0603, 0.00
+EComponent, 12, 13, 1, 6, 12.95, 33.02, 180.00, 0.00, 6, 0, R10, 1k0-0603, 0.00
+
+
+Table,No.,ID,CenterX,CenterY,IntervalX,IntervalY,NumX,NumY,Start
+
+Table,No.,nType,nAlg,nFinished
+PcbCalib,0,1,0,0
+
+Table,No.,ID,offsetX,offsetY,Note
+CalibPoint,0,1,0.750,0.350,Mark1
+CalibPoint,1,2,1.525,0.725,Mark3
+
+Table,No.,DeltX,DeltY,AlphaX,AlphaY,BetaX,BetaY,DeltaAngle
+CalibFator,0,0,0,0,0,1,1,0

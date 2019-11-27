@@ -18,9 +18,9 @@ overview: >
     
 artifacts:
   - path: /versions/IO4-IR-Detector-GBunza-Fingers/PT19-21C-L41-TR8.pdf
-    tag: PT19-21C-L41-TR8
+    tag: PT19-21C-L41-TR8.pdf
     type: download
-    post: PDF Document
+    post: Documentation
 ---
 
 ## doc

@@ -1,0 +1,3 @@
+# name, smd?, value, package, component, x, y, angle
+CON1, SMD, , 2X3-SMD_EDGE, -2x3-smd_edge, 6.35, 1.83, 0.00
+LED1, SMD, LED-APA102, APA102, led-apa102-apa102, 4.45, 42.93, 0.00

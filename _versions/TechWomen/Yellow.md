@@ -17,24 +17,24 @@ overview: >
     PCB handouts / business cards for mentees that are part of the TechWomen program.
     Each has a different set of quotes in the silkscreen, along with other messages "hidden" in the copper layers.
 images:
-  - image_path: /versions/TechWomen/Yellow/TechWomen.brd.png
+  - image_path: /versions/TechWomen/Yellow/TechWomen-Yellow.brd.png
     title: Board
-  - image_path: /versions/TechWomen/Yellow/TechWomen.sch.png
+  - image_path: /versions/TechWomen/Yellow/TechWomen-Yellow.sch.png
     title: Schematic
-  - image_path: /versions/TechWomen/Yellow/TechWomen.bot.brd.png
+  - image_path: /versions/TechWomen/Yellow/TechWomen-Yellow.bot.brd.png
     title: Bot Silk
-  - image_path: /versions/TechWomen/Yellow/TechWomen.top.brd.png
+  - image_path: /versions/TechWomen/Yellow/TechWomen-Yellow.top.brd.png
     title: Top Silk
 artifacts:
-  - path: /versions/TechWomen/Yellow/TechWomen.dpv
+  - path: /versions/TechWomen/Yellow/TechWomen-Yellow.dpv
     tag: TechWomen
     type: download
     post: CHMT Component and feeder definitions
-  - path: /versions/TechWomen/Yellow/TechWomen.gerbers.zip
+  - path: /versions/TechWomen/Yellow/TechWomen-Yellow.gerbers.zip
     tag: TechWomen.gerbers.zip
     type: download
     post: Gerber Fabrication files
-  - path: /versions/TechWomen/Yellow/TechWomen.parts.csv
+  - path: /versions/TechWomen/Yellow/TechWomen-Yellow.parts.csv
     tag: TechWomen.parts
     type: download
     post: Parts List (spreadsheet data)

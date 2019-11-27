@@ -18,15 +18,6 @@ overview: >
 images:
   - image_path: /versions/IO4-QuadOD/QuadOD-Graphic.png
     title: QuadOD-Graphic
-artifacts:
-  - path: /versions/IO4-QuadOD/IO4-QuadOD.gerbers.zip
-    tag: IO4-QuadOD.gerbers
-    type: download
-    post: 
-  - path: /versions/IO4-QuadOD/IO4-QuadOD.parts.csv
-    tag: IO4-QuadOD.parts
-    type: download
-    post: 
 ---
 
 ## doc
@@ -56,6 +47,8 @@ used by approach logic...).  One (master) provides a power source,
 the other (slave) does not; all other signals from the IO4 connector
 are in common.  This implies that both need to be connected to INPUT
 configured ports.
+
+
 
 
 This technical documentation is licensed under the [CERN Open Hardware Licence v1.2](http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt)

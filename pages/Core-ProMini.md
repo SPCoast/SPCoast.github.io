@@ -21,15 +21,6 @@ overview: >
     this was my go-to building block for field units and other layout automation tasks.
     
     
-artifacts:
-  - path: /versions/Core-ProMini/Core-ProMini.gerbers.zip
-    tag: Core-ProMini.gerbers
-    type: download
-    post: 
-  - path: /versions/Core-ProMini/Core-ProMini.parts.csv
-    tag: Core-ProMini.parts
-    type: download
-    post: 
 ---
 
 

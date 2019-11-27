@@ -17,9 +17,9 @@ overview: >
     
 artifacts:
   - path: /versions/IO4-IR-Detector-Active/RPR-220-photoreflector.pdf
-    tag: RPR-220-photoreflector
+    tag: RPR-220-photoreflector.pdf
     type: download
-    post: PDF Document
+    post: Documentation
 ---
 
 

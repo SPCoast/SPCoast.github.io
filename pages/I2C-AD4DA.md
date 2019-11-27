@@ -21,19 +21,13 @@ images:
   - image_path: /versions/I2C-AD4DA/I2C-AD4DA-Graphic.png
     title: I2C-AD4DA-Graphic
 artifacts:
-  - path: /versions/I2C-AD4DA/I2C-AD4DA.gerbers.zip
-    tag: I2C-AD4DA.gerbers
-    type: download
-    post: 
-  - path: /versions/I2C-AD4DA/I2C-AD4DA.parts.csv
-    tag: I2C-AD4DA.parts
-    type: download
-    post: 
   - path: /versions/I2C-AD4DA/PCF8591.pdf
-    tag: PCF8591
+    tag: PCF8591.pdf
     type: download
-    post: 
+    post: Documentation
 ---
+
+
 
 This project's technical documentation is licensed under the
 [CERN Open Hardware Licence v1.2](http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt)

@@ -1,0 +1,1032 @@
+Grid mil;
+Set wire_bend 2;
+Layer 125 '_tNames';
+Layer 1 'Top';
+layer ?? -125;
+layer 125 '_tNames';
+set color_layer 125 14;
+add DIODE-1N4001@SPCoast D1x11 R180.000000 (550.000000 1550.000000);
+add 1X08_LOCK@SPCoast J1x11 R180.000000 (900.000000 100.000000);
+add G5V-2@relay K1x11 R270.000000 (550.000000 900.000000);
+add MRCSLOGOTOP@SPCoast U$1x11 R90.000000 (300.000000 1300.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x11' 16.000000 (900.000000 95.000000) (900.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x11' 16.000000 (900.000000 1050.000000) (700.000000 1250.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x11' 16.000000 (700.000000 1250.000000) (750.000000 1300.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x11' 16.000000 (750.000000 1300.000000) (750.000000 1550.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x11' 16.000000 (800.000000 1050.000000) (750.000000 1100.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x11' 16.000000 (750.000000 1100.000000) (550.000000 1100.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x11' 16.000000 (550.000000 1100.000000) (400.000000 1250.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x11' 16.000000 (400.000000 1250.000000) (400.000000 1500.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x11' 16.000000 (400.000000 1500.000000) (350.000000 1550.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x11' 16.000000 (800.000000 105.000000) (800.000000 450.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x11' 16.000000 (800.000000 450.000000) (850.000000 500.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x11' 16.000000 (850.000000 500.000000) (850.000000 800.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x11' 16.000000 (850.000000 800.000000) (800.000000 850.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x11' 16.000000 (800.000000 850.000000) (800.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x11' 16.000000 (700.000000 95.000000) (700.000000 450.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x11' 16.000000 (700.000000 450.000000) (800.000000 550.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x11' 16.000000 (800.000000 550.000000) (800.000000 650.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x11' 16.000000 (800.000000 650.000000) (700.000000 750.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$4x11' 16.000000 (600.000000 105.000000) (600.000000 850.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$4x11' 16.000000 (600.000000 850.000000) (700.000000 950.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$6x11' 16.000000 (500.000000 95.000000) (500.000000 350.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$6x11' 16.000000 (500.000000 350.000000) (700.000000 550.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x11' 16.000000 (400.000000 105.000000) (400.000000 400.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x11' 16.000000 (400.000000 400.000000) (500.000000 500.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x11' 16.000000 (500.000000 500.000000) (500.000000 650.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x11' 16.000000 (500.000000 650.000000) (400.000000 750.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$8x11' 16.000000 (300.000000 95.000000) (300.000000 850.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$8x11' 16.000000 (300.000000 850.000000) (400.000000 950.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$9x11' 16.000000 (200.000000 105.000000) (200.000000 350.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$9x11' 16.000000 (200.000000 350.000000) (400.000000 550.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (0.000000 0.000000) (1200.000000 0.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (1200.000000 0.000000) (1200.000000 1800.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (1200.000000 1800.000000) (0.000000 1800.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (0.000000 1800.000000) (0.000000 0.000000);
+change layer 51;
+change ratio 8;
+change size 70.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'NO 2\nCOM 2\nNC 2\nNO 1\nCOM 1\nNC 1\nV -\nV+' R90.000000 (950.000000 200.000000);
+change layer 51;
+change ratio 8;
+change size 70.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'DPDT Relay\nBreakout' R90.000000 (1050.000000 1100.000000);
+change layer 125;
+change ratio 8;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'D1' R180.000000 (665.000000 1485.000000);
+change layer 125;
+change ratio 10;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'J1' R180.000000 (1103.000000 103.000000);
+change layer 125;
+change ratio 10;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'K1' R0.000000 (402.000000 1326.000000);
+signal 'N$1x11'	'J1x11'	'1'\
+	'K1x11'	'16'\
+	'D1x11'	'C'\
+;
+signal 'N$2x11'	'J1x11'	'2'\
+	'K1x11'	'1'\
+	'D1x11'	'A'\
+;
+signal 'N$3x11'	'J1x11'	'3'\
+	'K1x11'	'11'\
+;
+signal 'N$4x11'	'J1x11'	'4'\
+	'K1x11'	'13'\
+;
+signal 'N$6x11'	'J1x11'	'5'\
+	'K1x11'	'9'\
+;
+signal 'N$7x11'	'J1x11'	'6'\
+	'K1x11'	'6'\
+;
+signal 'N$8x11'	'J1x11'	'7'\
+	'K1x11'	'4'\
+;
+signal 'N$9x11'	'J1x11'	'8'\
+	'K1x11'	'8'\
+;
+change drill 125.984252;
+hole (150.000000 700.000000);
+change drill 125.984252;
+hole (1050.000000 700.000000);
+change layer 46;
+change style CONTINUOUS;
+wire 'Vscoreauto12' 0.000000 (-100.000000 1800.000000) (3800.000000 1800.000000);
+change size 40;
+text 'V-Score' R90.000000 (-100.000000 1800.000000);
+add DIODE-1N4001@SPCoast D1x12 R180.000000 (550.000000 3350.000000);
+add 1X08_LOCK@SPCoast J1x12 R180.000000 (900.000000 1900.000000);
+add G5V-2@relay K1x12 R270.000000 (550.000000 2700.000000);
+add MRCSLOGOTOP@SPCoast U$1x12 R90.000000 (300.000000 3100.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x12' 16.000000 (900.000000 1895.000000) (900.000000 2850.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x12' 16.000000 (900.000000 2850.000000) (700.000000 3050.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x12' 16.000000 (700.000000 3050.000000) (750.000000 3100.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x12' 16.000000 (750.000000 3100.000000) (750.000000 3350.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x12' 16.000000 (800.000000 2850.000000) (750.000000 2900.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x12' 16.000000 (750.000000 2900.000000) (550.000000 2900.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x12' 16.000000 (550.000000 2900.000000) (400.000000 3050.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x12' 16.000000 (400.000000 3050.000000) (400.000000 3300.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x12' 16.000000 (400.000000 3300.000000) (350.000000 3350.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x12' 16.000000 (800.000000 1905.000000) (800.000000 2250.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x12' 16.000000 (800.000000 2250.000000) (850.000000 2300.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x12' 16.000000 (850.000000 2300.000000) (850.000000 2600.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x12' 16.000000 (850.000000 2600.000000) (800.000000 2650.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x12' 16.000000 (800.000000 2650.000000) (800.000000 2850.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x12' 16.000000 (700.000000 1895.000000) (700.000000 2250.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x12' 16.000000 (700.000000 2250.000000) (800.000000 2350.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x12' 16.000000 (800.000000 2350.000000) (800.000000 2450.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x12' 16.000000 (800.000000 2450.000000) (700.000000 2550.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$4x12' 16.000000 (600.000000 1905.000000) (600.000000 2650.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$4x12' 16.000000 (600.000000 2650.000000) (700.000000 2750.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$6x12' 16.000000 (500.000000 1895.000000) (500.000000 2150.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$6x12' 16.000000 (500.000000 2150.000000) (700.000000 2350.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x12' 16.000000 (400.000000 1905.000000) (400.000000 2200.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x12' 16.000000 (400.000000 2200.000000) (500.000000 2300.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x12' 16.000000 (500.000000 2300.000000) (500.000000 2450.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x12' 16.000000 (500.000000 2450.000000) (400.000000 2550.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$8x12' 16.000000 (300.000000 1895.000000) (300.000000 2650.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$8x12' 16.000000 (300.000000 2650.000000) (400.000000 2750.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$9x12' 16.000000 (200.000000 1905.000000) (200.000000 2150.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$9x12' 16.000000 (200.000000 2150.000000) (400.000000 2350.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (0.000000 1800.000000) (1200.000000 1800.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (1200.000000 1800.000000) (1200.000000 3600.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (1200.000000 3600.000000) (0.000000 3600.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (0.000000 3600.000000) (0.000000 1800.000000);
+change layer 51;
+change ratio 8;
+change size 70.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'NO 2\nCOM 2\nNC 2\nNO 1\nCOM 1\nNC 1\nV -\nV+' R90.000000 (950.000000 2000.000000);
+change layer 51;
+change ratio 8;
+change size 70.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'DPDT Relay\nBreakout' R90.000000 (1050.000000 2900.000000);
+change layer 125;
+change ratio 8;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'D1' R180.000000 (665.000000 3285.000000);
+change layer 125;
+change ratio 10;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'J1' R180.000000 (1103.000000 1903.000000);
+change layer 125;
+change ratio 10;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'K1' R0.000000 (402.000000 3126.000000);
+signal 'N$1x12'	'J1x12'	'1'\
+	'K1x12'	'16'\
+	'D1x12'	'C'\
+;
+signal 'N$2x12'	'J1x12'	'2'\
+	'K1x12'	'1'\
+	'D1x12'	'A'\
+;
+signal 'N$3x12'	'J1x12'	'3'\
+	'K1x12'	'11'\
+;
+signal 'N$4x12'	'J1x12'	'4'\
+	'K1x12'	'13'\
+;
+signal 'N$6x12'	'J1x12'	'5'\
+	'K1x12'	'9'\
+;
+signal 'N$7x12'	'J1x12'	'6'\
+	'K1x12'	'6'\
+;
+signal 'N$8x12'	'J1x12'	'7'\
+	'K1x12'	'4'\
+;
+signal 'N$9x12'	'J1x12'	'8'\
+	'K1x12'	'8'\
+;
+change drill 125.984252;
+hole (150.000000 2500.000000);
+change drill 125.984252;
+hole (1050.000000 2500.000000);
+change layer 46;
+change style CONTINUOUS;
+wire 'Vscoreauto21' 0.000000 (1200.000000 -100.000000) (1200.000000 3800.000000);
+change size 40;
+text 'V-Score' R180.000000 (1200.000000 -100.000000);
+add DIODE-1N4001@SPCoast D1x21 R180.000000 (1750.000000 1550.000000);
+add 1X08_LOCK@SPCoast J1x21 R180.000000 (2100.000000 100.000000);
+add G5V-2@relay K1x21 R270.000000 (1750.000000 900.000000);
+add MRCSLOGOTOP@SPCoast U$1x21 R90.000000 (1500.000000 1300.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x21' 16.000000 (2100.000000 95.000000) (2100.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x21' 16.000000 (2100.000000 1050.000000) (1900.000000 1250.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x21' 16.000000 (1900.000000 1250.000000) (1950.000000 1300.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x21' 16.000000 (1950.000000 1300.000000) (1950.000000 1550.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x21' 16.000000 (2000.000000 1050.000000) (1950.000000 1100.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x21' 16.000000 (1950.000000 1100.000000) (1750.000000 1100.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x21' 16.000000 (1750.000000 1100.000000) (1600.000000 1250.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x21' 16.000000 (1600.000000 1250.000000) (1600.000000 1500.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x21' 16.000000 (1600.000000 1500.000000) (1550.000000 1550.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x21' 16.000000 (2000.000000 105.000000) (2000.000000 450.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x21' 16.000000 (2000.000000 450.000000) (2050.000000 500.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x21' 16.000000 (2050.000000 500.000000) (2050.000000 800.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x21' 16.000000 (2050.000000 800.000000) (2000.000000 850.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x21' 16.000000 (2000.000000 850.000000) (2000.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x21' 16.000000 (1900.000000 95.000000) (1900.000000 450.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x21' 16.000000 (1900.000000 450.000000) (2000.000000 550.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x21' 16.000000 (2000.000000 550.000000) (2000.000000 650.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x21' 16.000000 (2000.000000 650.000000) (1900.000000 750.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$4x21' 16.000000 (1800.000000 105.000000) (1800.000000 850.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$4x21' 16.000000 (1800.000000 850.000000) (1900.000000 950.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$6x21' 16.000000 (1700.000000 95.000000) (1700.000000 350.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$6x21' 16.000000 (1700.000000 350.000000) (1900.000000 550.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x21' 16.000000 (1600.000000 105.000000) (1600.000000 400.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x21' 16.000000 (1600.000000 400.000000) (1700.000000 500.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x21' 16.000000 (1700.000000 500.000000) (1700.000000 650.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x21' 16.000000 (1700.000000 650.000000) (1600.000000 750.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$8x21' 16.000000 (1500.000000 95.000000) (1500.000000 850.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$8x21' 16.000000 (1500.000000 850.000000) (1600.000000 950.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$9x21' 16.000000 (1400.000000 105.000000) (1400.000000 350.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$9x21' 16.000000 (1400.000000 350.000000) (1600.000000 550.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (1200.000000 0.000000) (2400.000000 0.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (2400.000000 0.000000) (2400.000000 1800.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (2400.000000 1800.000000) (1200.000000 1800.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (1200.000000 1800.000000) (1200.000000 0.000000);
+change layer 51;
+change ratio 8;
+change size 70.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'NO 2\nCOM 2\nNC 2\nNO 1\nCOM 1\nNC 1\nV -\nV+' R90.000000 (2150.000000 200.000000);
+change layer 51;
+change ratio 8;
+change size 70.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'DPDT Relay\nBreakout' R90.000000 (2250.000000 1100.000000);
+change layer 125;
+change ratio 8;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'D1' R180.000000 (1865.000000 1485.000000);
+change layer 125;
+change ratio 10;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'J1' R180.000000 (2303.000000 103.000000);
+change layer 125;
+change ratio 10;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'K1' R0.000000 (1602.000000 1326.000000);
+signal 'N$1x21'	'J1x21'	'1'\
+	'K1x21'	'16'\
+	'D1x21'	'C'\
+;
+signal 'N$2x21'	'J1x21'	'2'\
+	'K1x21'	'1'\
+	'D1x21'	'A'\
+;
+signal 'N$3x21'	'J1x21'	'3'\
+	'K1x21'	'11'\
+;
+signal 'N$4x21'	'J1x21'	'4'\
+	'K1x21'	'13'\
+;
+signal 'N$6x21'	'J1x21'	'5'\
+	'K1x21'	'9'\
+;
+signal 'N$7x21'	'J1x21'	'6'\
+	'K1x21'	'6'\
+;
+signal 'N$8x21'	'J1x21'	'7'\
+	'K1x21'	'4'\
+;
+signal 'N$9x21'	'J1x21'	'8'\
+	'K1x21'	'8'\
+;
+change drill 125.984252;
+hole (1350.000000 700.000000);
+change drill 125.984252;
+hole (2250.000000 700.000000);
+add DIODE-1N4001@SPCoast D1x22 R180.000000 (1750.000000 3350.000000);
+add 1X08_LOCK@SPCoast J1x22 R180.000000 (2100.000000 1900.000000);
+add G5V-2@relay K1x22 R270.000000 (1750.000000 2700.000000);
+add MRCSLOGOTOP@SPCoast U$1x22 R90.000000 (1500.000000 3100.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x22' 16.000000 (2100.000000 1895.000000) (2100.000000 2850.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x22' 16.000000 (2100.000000 2850.000000) (1900.000000 3050.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x22' 16.000000 (1900.000000 3050.000000) (1950.000000 3100.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x22' 16.000000 (1950.000000 3100.000000) (1950.000000 3350.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x22' 16.000000 (2000.000000 2850.000000) (1950.000000 2900.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x22' 16.000000 (1950.000000 2900.000000) (1750.000000 2900.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x22' 16.000000 (1750.000000 2900.000000) (1600.000000 3050.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x22' 16.000000 (1600.000000 3050.000000) (1600.000000 3300.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x22' 16.000000 (1600.000000 3300.000000) (1550.000000 3350.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x22' 16.000000 (2000.000000 1905.000000) (2000.000000 2250.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x22' 16.000000 (2000.000000 2250.000000) (2050.000000 2300.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x22' 16.000000 (2050.000000 2300.000000) (2050.000000 2600.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x22' 16.000000 (2050.000000 2600.000000) (2000.000000 2650.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x22' 16.000000 (2000.000000 2650.000000) (2000.000000 2850.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x22' 16.000000 (1900.000000 1895.000000) (1900.000000 2250.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x22' 16.000000 (1900.000000 2250.000000) (2000.000000 2350.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x22' 16.000000 (2000.000000 2350.000000) (2000.000000 2450.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x22' 16.000000 (2000.000000 2450.000000) (1900.000000 2550.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$4x22' 16.000000 (1800.000000 1905.000000) (1800.000000 2650.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$4x22' 16.000000 (1800.000000 2650.000000) (1900.000000 2750.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$6x22' 16.000000 (1700.000000 1895.000000) (1700.000000 2150.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$6x22' 16.000000 (1700.000000 2150.000000) (1900.000000 2350.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x22' 16.000000 (1600.000000 1905.000000) (1600.000000 2200.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x22' 16.000000 (1600.000000 2200.000000) (1700.000000 2300.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x22' 16.000000 (1700.000000 2300.000000) (1700.000000 2450.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x22' 16.000000 (1700.000000 2450.000000) (1600.000000 2550.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$8x22' 16.000000 (1500.000000 1895.000000) (1500.000000 2650.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$8x22' 16.000000 (1500.000000 2650.000000) (1600.000000 2750.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$9x22' 16.000000 (1400.000000 1905.000000) (1400.000000 2150.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$9x22' 16.000000 (1400.000000 2150.000000) (1600.000000 2350.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (1200.000000 1800.000000) (2400.000000 1800.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (2400.000000 1800.000000) (2400.000000 3600.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (2400.000000 3600.000000) (1200.000000 3600.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (1200.000000 3600.000000) (1200.000000 1800.000000);
+change layer 51;
+change ratio 8;
+change size 70.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'NO 2\nCOM 2\nNC 2\nNO 1\nCOM 1\nNC 1\nV -\nV+' R90.000000 (2150.000000 2000.000000);
+change layer 51;
+change ratio 8;
+change size 70.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'DPDT Relay\nBreakout' R90.000000 (2250.000000 2900.000000);
+change layer 125;
+change ratio 8;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'D1' R180.000000 (1865.000000 3285.000000);
+change layer 125;
+change ratio 10;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'J1' R180.000000 (2303.000000 1903.000000);
+change layer 125;
+change ratio 10;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'K1' R0.000000 (1602.000000 3126.000000);
+signal 'N$1x22'	'J1x22'	'1'\
+	'K1x22'	'16'\
+	'D1x22'	'C'\
+;
+signal 'N$2x22'	'J1x22'	'2'\
+	'K1x22'	'1'\
+	'D1x22'	'A'\
+;
+signal 'N$3x22'	'J1x22'	'3'\
+	'K1x22'	'11'\
+;
+signal 'N$4x22'	'J1x22'	'4'\
+	'K1x22'	'13'\
+;
+signal 'N$6x22'	'J1x22'	'5'\
+	'K1x22'	'9'\
+;
+signal 'N$7x22'	'J1x22'	'6'\
+	'K1x22'	'6'\
+;
+signal 'N$8x22'	'J1x22'	'7'\
+	'K1x22'	'4'\
+;
+signal 'N$9x22'	'J1x22'	'8'\
+	'K1x22'	'8'\
+;
+change drill 125.984252;
+hole (1350.000000 2500.000000);
+change drill 125.984252;
+hole (2250.000000 2500.000000);
+change layer 46;
+change style CONTINUOUS;
+wire 'Vscoreauto31' 0.000000 (2400.000000 -100.000000) (2400.000000 3800.000000);
+change size 40;
+text 'V-Score' R180.000000 (2400.000000 -100.000000);
+add DIODE-1N4001@SPCoast D1x31 R180.000000 (2950.000000 1550.000000);
+add 1X08_LOCK@SPCoast J1x31 R180.000000 (3300.000000 100.000000);
+add G5V-2@relay K1x31 R270.000000 (2950.000000 900.000000);
+add MRCSLOGOTOP@SPCoast U$1x31 R90.000000 (2700.000000 1300.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x31' 16.000000 (3300.000000 95.000000) (3300.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x31' 16.000000 (3300.000000 1050.000000) (3100.000000 1250.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x31' 16.000000 (3100.000000 1250.000000) (3150.000000 1300.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x31' 16.000000 (3150.000000 1300.000000) (3150.000000 1550.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x31' 16.000000 (3200.000000 1050.000000) (3150.000000 1100.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x31' 16.000000 (3150.000000 1100.000000) (2950.000000 1100.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x31' 16.000000 (2950.000000 1100.000000) (2800.000000 1250.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x31' 16.000000 (2800.000000 1250.000000) (2800.000000 1500.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x31' 16.000000 (2800.000000 1500.000000) (2750.000000 1550.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x31' 16.000000 (3200.000000 105.000000) (3200.000000 450.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x31' 16.000000 (3200.000000 450.000000) (3250.000000 500.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x31' 16.000000 (3250.000000 500.000000) (3250.000000 800.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x31' 16.000000 (3250.000000 800.000000) (3200.000000 850.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x31' 16.000000 (3200.000000 850.000000) (3200.000000 1050.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x31' 16.000000 (3100.000000 95.000000) (3100.000000 450.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x31' 16.000000 (3100.000000 450.000000) (3200.000000 550.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x31' 16.000000 (3200.000000 550.000000) (3200.000000 650.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x31' 16.000000 (3200.000000 650.000000) (3100.000000 750.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$4x31' 16.000000 (3000.000000 105.000000) (3000.000000 850.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$4x31' 16.000000 (3000.000000 850.000000) (3100.000000 950.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$6x31' 16.000000 (2900.000000 95.000000) (2900.000000 350.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$6x31' 16.000000 (2900.000000 350.000000) (3100.000000 550.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x31' 16.000000 (2800.000000 105.000000) (2800.000000 400.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x31' 16.000000 (2800.000000 400.000000) (2900.000000 500.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x31' 16.000000 (2900.000000 500.000000) (2900.000000 650.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x31' 16.000000 (2900.000000 650.000000) (2800.000000 750.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$8x31' 16.000000 (2700.000000 95.000000) (2700.000000 850.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$8x31' 16.000000 (2700.000000 850.000000) (2800.000000 950.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$9x31' 16.000000 (2600.000000 105.000000) (2600.000000 350.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$9x31' 16.000000 (2600.000000 350.000000) (2800.000000 550.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (2400.000000 0.000000) (3600.000000 0.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (3600.000000 0.000000) (3600.000000 1800.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (3600.000000 1800.000000) (2400.000000 1800.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (2400.000000 1800.000000) (2400.000000 0.000000);
+change layer 51;
+change ratio 8;
+change size 70.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'NO 2\nCOM 2\nNC 2\nNO 1\nCOM 1\nNC 1\nV -\nV+' R90.000000 (3350.000000 200.000000);
+change layer 51;
+change ratio 8;
+change size 70.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'DPDT Relay\nBreakout' R90.000000 (3450.000000 1100.000000);
+change layer 125;
+change ratio 8;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'D1' R180.000000 (3065.000000 1485.000000);
+change layer 125;
+change ratio 10;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'J1' R180.000000 (3503.000000 103.000000);
+change layer 125;
+change ratio 10;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'K1' R0.000000 (2802.000000 1326.000000);
+signal 'N$1x31'	'J1x31'	'1'\
+	'K1x31'	'16'\
+	'D1x31'	'C'\
+;
+signal 'N$2x31'	'J1x31'	'2'\
+	'K1x31'	'1'\
+	'D1x31'	'A'\
+;
+signal 'N$3x31'	'J1x31'	'3'\
+	'K1x31'	'11'\
+;
+signal 'N$4x31'	'J1x31'	'4'\
+	'K1x31'	'13'\
+;
+signal 'N$6x31'	'J1x31'	'5'\
+	'K1x31'	'9'\
+;
+signal 'N$7x31'	'J1x31'	'6'\
+	'K1x31'	'6'\
+;
+signal 'N$8x31'	'J1x31'	'7'\
+	'K1x31'	'4'\
+;
+signal 'N$9x31'	'J1x31'	'8'\
+	'K1x31'	'8'\
+;
+change drill 125.984252;
+hole (2550.000000 700.000000);
+change drill 125.984252;
+hole (3450.000000 700.000000);
+change layer 20;
+change style CONTINUOUS;
+set Wire_Bend 0;
+wire 'BoardOutline' 10.000000 (0.000000 0.000000) (3600.000000 3600.000000) (0.000000 0.000000);
+set Wire_Bend 2;
+add DIODE-1N4001@SPCoast D1x32 R180.000000 (2950.000000 3350.000000);
+add 1X08_LOCK@SPCoast J1x32 R180.000000 (3300.000000 1900.000000);
+add G5V-2@relay K1x32 R270.000000 (2950.000000 2700.000000);
+add MRCSLOGOTOP@SPCoast U$1x32 R90.000000 (2700.000000 3100.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x32' 16.000000 (3300.000000 1895.000000) (3300.000000 2850.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x32' 16.000000 (3300.000000 2850.000000) (3100.000000 3050.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x32' 16.000000 (3100.000000 3050.000000) (3150.000000 3100.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x32' 16.000000 (3150.000000 3100.000000) (3150.000000 3350.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x32' 16.000000 (3200.000000 2850.000000) (3150.000000 2900.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x32' 16.000000 (3150.000000 2900.000000) (2950.000000 2900.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x32' 16.000000 (2950.000000 2900.000000) (2800.000000 3050.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x32' 16.000000 (2800.000000 3050.000000) (2800.000000 3300.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x32' 16.000000 (2800.000000 3300.000000) (2750.000000 3350.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x32' 16.000000 (3200.000000 1905.000000) (3200.000000 2250.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x32' 16.000000 (3200.000000 2250.000000) (3250.000000 2300.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x32' 16.000000 (3250.000000 2300.000000) (3250.000000 2600.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x32' 16.000000 (3250.000000 2600.000000) (3200.000000 2650.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$2x32' 16.000000 (3200.000000 2650.000000) (3200.000000 2850.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x32' 16.000000 (3100.000000 1895.000000) (3100.000000 2250.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x32' 16.000000 (3100.000000 2250.000000) (3200.000000 2350.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x32' 16.000000 (3200.000000 2350.000000) (3200.000000 2450.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$3x32' 16.000000 (3200.000000 2450.000000) (3100.000000 2550.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$4x32' 16.000000 (3000.000000 1905.000000) (3000.000000 2650.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$4x32' 16.000000 (3000.000000 2650.000000) (3100.000000 2750.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$6x32' 16.000000 (2900.000000 1895.000000) (2900.000000 2150.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$6x32' 16.000000 (2900.000000 2150.000000) (3100.000000 2350.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x32' 16.000000 (2800.000000 1905.000000) (2800.000000 2200.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x32' 16.000000 (2800.000000 2200.000000) (2900.000000 2300.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x32' 16.000000 (2900.000000 2300.000000) (2900.000000 2450.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$7x32' 16.000000 (2900.000000 2450.000000) (2800.000000 2550.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$8x32' 16.000000 (2700.000000 1895.000000) (2700.000000 2650.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$8x32' 16.000000 (2700.000000 2650.000000) (2800.000000 2750.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$9x32' 16.000000 (2600.000000 1905.000000) (2600.000000 2150.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$9x32' 16.000000 (2600.000000 2150.000000) (2800.000000 2350.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (2400.000000 1800.000000) (3600.000000 1800.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (3600.000000 1800.000000) (3600.000000 3600.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (3600.000000 3600.000000) (2400.000000 3600.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (2400.000000 3600.000000) (2400.000000 1800.000000);
+change layer 51;
+change ratio 8;
+change size 70.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'NO 2\nCOM 2\nNC 2\nNO 1\nCOM 1\nNC 1\nV -\nV+' R90.000000 (3350.000000 2000.000000);
+change layer 51;
+change ratio 8;
+change size 70.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'DPDT Relay\nBreakout' R90.000000 (3450.000000 2900.000000);
+change layer 125;
+change ratio 8;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'D1' R180.000000 (3065.000000 3285.000000);
+change layer 125;
+change ratio 10;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'J1' R180.000000 (3503.000000 1903.000000);
+change layer 125;
+change ratio 10;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'K1' R0.000000 (2802.000000 3126.000000);
+signal 'N$1x32'	'J1x32'	'1'\
+	'K1x32'	'16'\
+	'D1x32'	'C'\
+;
+signal 'N$2x32'	'J1x32'	'2'\
+	'K1x32'	'1'\
+	'D1x32'	'A'\
+;
+signal 'N$3x32'	'J1x32'	'3'\
+	'K1x32'	'11'\
+;
+signal 'N$4x32'	'J1x32'	'4'\
+	'K1x32'	'13'\
+;
+signal 'N$6x32'	'J1x32'	'5'\
+	'K1x32'	'9'\
+;
+signal 'N$7x32'	'J1x32'	'6'\
+	'K1x32'	'6'\
+;
+signal 'N$8x32'	'J1x32'	'7'\
+	'K1x32'	'4'\
+;
+signal 'N$9x32'	'J1x32'	'8'\
+	'K1x32'	'8'\
+;
+change drill 125.984252;
+hole (2550.000000 2500.000000);
+change drill 125.984252;
+hole (3450.000000 2500.000000);
+window fit;
+ratsnest;
+disp -25;
+display -25;
+display -26;
+display -27;
+display -28;
+display -37;
+display -38;

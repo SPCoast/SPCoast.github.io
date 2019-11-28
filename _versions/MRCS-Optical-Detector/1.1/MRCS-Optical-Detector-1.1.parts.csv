@@ -1,0 +1,18 @@
+# name, smd?, value, package, component, x, y, angle
+C1, PTH, 1 uF Tant, E2.5-5, 1 uf tant-e2.5-5, 0.00, 0.00, 0.00
+D1, PTH, 1N5819-B, DO41-7.6, 1n5819-b-do41-7.6, 0.00, 0.00, 0.00
+IC1, PTH, LM2903N, DIL08, lm2903n-dil08, 0.00, 0.00, 270.00
+JP1, PTH, Detectors, 1X04_LOCK, detectors-1x04_lock, 0.00, 0.00, 90.00
+JP2, PTH, Output, 1X04_LOCK, output-1x04_lock, 0.00, 0.00, 270.00
+R1, PTH, 10K, AXIAL-0.4, 10k-axial-0.4, 0.00, 0.00, 0.00
+R2, PTH, 5.6K, AXIAL-0.4, 5.6k-axial-0.4, 0.00, 0.00, 180.00
+R3, PTH, 100K, AXIAL-0.4, 100k-axial-0.4, 0.00, 0.00, 180.00
+R4, PTH, 2M, AXIAL-0.4, 2m-axial-0.4, 0.00, 0.00, 180.00
+R5, PTH, 10K, AXIAL-0.4, 10k-axial-0.4, 0.00, 0.00, 0.00
+R6, PTH, 10K, AXIAL-0.4, 10k-axial-0.4, 0.00, 0.00, 180.00
+R7, PTH, 10K, AXIAL-0.4, 10k-axial-0.4, 0.00, 0.00, 0.00
+R8, PTH, 1K, AXIAL-0.4, 1k-axial-0.4, 0.00, 0.00, 180.00
+T1, PTH, PT19, BPX81, pt19-bpx81, 0.00, 0.00, 180.00
+T2, PTH, 2N4401, TO92-EBC, 2n4401-to92-ebc, 0.00, 0.00, 0.00
+U$1, PTH, , MRCSLOGOBTM, -mrcslogobtm, 0.00, 0.00, 0.00
+U$3, PTH, , CA-PROP65WARNING, -ca-prop65warning, 0.00, 0.00, 90.00

@@ -1,0 +1,25 @@
+# name, smd?, value, package, component, x, y, angle
+D1X11, PTH, , DIODE-1N4001, -diode-1n4001, 0.00, 0.00, 180.00
+D1X12, PTH, , DIODE-1N4001, -diode-1n4001, 0.00, 0.00, 180.00
+D1X21, PTH, , DIODE-1N4001, -diode-1n4001, 0.00, 0.00, 180.00
+D1X22, PTH, , DIODE-1N4001, -diode-1n4001, 0.00, 0.00, 180.00
+D1X31, PTH, , DIODE-1N4001, -diode-1n4001, 0.00, 0.00, 180.00
+D1X32, PTH, , DIODE-1N4001, -diode-1n4001, 0.00, 0.00, 180.00
+J1X11, PTH, , 1X08_LOCK, -1x08_lock, 0.00, 0.00, 180.00
+J1X12, PTH, , 1X08_LOCK, -1x08_lock, 0.00, 0.00, 180.00
+J1X21, PTH, , 1X08_LOCK, -1x08_lock, 0.00, 0.00, 180.00
+J1X22, PTH, , 1X08_LOCK, -1x08_lock, 0.00, 0.00, 180.00
+J1X31, PTH, , 1X08_LOCK, -1x08_lock, 0.00, 0.00, 180.00
+J1X32, PTH, , 1X08_LOCK, -1x08_lock, 0.00, 0.00, 180.00
+K1X11, PTH, , G5V-2, -g5v-2, 0.00, 0.00, 270.00
+K1X12, PTH, , G5V-2, -g5v-2, 0.00, 0.00, 270.00
+K1X21, PTH, , G5V-2, -g5v-2, 0.00, 0.00, 270.00
+K1X22, PTH, , G5V-2, -g5v-2, 0.00, 0.00, 270.00
+K1X31, PTH, , G5V-2, -g5v-2, 0.00, 0.00, 270.00
+K1X32, PTH, , G5V-2, -g5v-2, 0.00, 0.00, 270.00
+U$1X11, PTH, , MRCSLOGOTOP, -mrcslogotop, 0.00, 0.00, 90.00
+U$1X12, PTH, , MRCSLOGOTOP, -mrcslogotop, 0.00, 0.00, 90.00
+U$1X21, PTH, , MRCSLOGOTOP, -mrcslogotop, 0.00, 0.00, 90.00
+U$1X22, PTH, , MRCSLOGOTOP, -mrcslogotop, 0.00, 0.00, 90.00
+U$1X31, PTH, , MRCSLOGOTOP, -mrcslogotop, 0.00, 0.00, 90.00
+U$1X32, PTH, , MRCSLOGOTOP, -mrcslogotop, 0.00, 0.00, 90.00

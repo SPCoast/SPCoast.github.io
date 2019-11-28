@@ -1,0 +1,19 @@
+# name, smd?, value, package, component, x, y, angle
+C1, PTH, .1 uF @ 50V, C025-030X050, .1 uf @ 50v-c025-030x050, 0.00, 0.00, 0.00
+C2, PTH, 100 uF @ 50V, E3.5-10, 100 uf @ 50v-e3.5-10, 0.00, 0.00, 90.00
+CON1, PTH, Start (called)  Leads, 1X08_LOCK, start (called)  leads-1x08_lock, 0.00, 0.00, 180.00
+CON2, PTH, Stop (Off-Hook) Leads, 1X08_LOCK, stop (off-hook) leads-1x08_lock, 0.00, 0.00, 0.00
+CON3, PTH, Power, DCJ0202, power-dcj0202, 0.00, 0.00, 0.00
+CON4, PTH, Power, MSTB2, power-mstb2, 0.00, 0.00, 0.00
+CON5, PTH, load ground + supply, MSTB2, load ground + supply-mstb2, 0.00, 0.00, 0.00
+IC1, PTH, ULN2803, DIL18, uln2803-dil18, 0.00, 0.00, 270.00
+J1, PTH, 1751264, 1751264, 1751264-1751264, 0.00, 0.00, 0.00
+J2, PTH, 1751264, 1751264, 1751264-1751264, 0.00, 0.00, 0.00
+R1, PTH, 4.7K, AXIAL-0.4-RES, 4.7k-axial-0.4-res, 0.00, 0.00, 270.00
+R2, PTH, 4.7K, AXIAL-0.4-RES, 4.7k-axial-0.4-res, 0.00, 0.00, 90.00
+RX1, PTH, , 1X02, -1x02, 0.00, 0.00, 0.00
+TX0, PTH, , 1X02, -1x02, 0.00, 0.00, 0.00
+U$1, PTH, , BOARD-DINRAIL-2.71IN-MRCS, -board-dinrail-2.71in-mrcs, 0.00, 0.00, 0.00
+U$2, PTH, ARDUINO_PRO_MINI, ARDUINO_PRO_MINI, arduino_pro_mini-arduino_pro_mini, 0.00, 0.00, 270.00
+U$3, PTH, , CA-PROP65-BACK, -ca-prop65-back, 0.00, 0.00, 180.00
+U$4, PTH, 6-12vDC, PWR_LABEL, 6-12vdc-pwr_label, 0.00, 0.00, 180.00

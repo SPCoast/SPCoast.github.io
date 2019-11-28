@@ -45,6 +45,7 @@ layout: simple
 <p> {{ page.tagline }}</p>
 
 {% assign count=0 %}
+{% if page.images != '' %}
 <table><tr>
 {% for image in page.images %}
 <td>
@@ -65,7 +66,9 @@ layout: simple
 {% endfor %}
 </tr></table>
 <p>&nbsp;</p>
+{% endif %}
 
+{% if page.artifacts != '' %}
 {% for item in page.artifacts %}
     {% if item.type == "download" %}
         {{ item.type | capitalize }} <a href="{{ item.path }}">{{ item.tag }} </a> {% if item.post != blank %} - {{ item.post }}{% endif %}<br />
@@ -73,9 +76,8 @@ layout: simple
         UNKNOWN ARTIFACT: Type '{{ item.type }}' tag '{{ item.tag }}' path '{{item.path }}'<br />
     {% endif %}
 {% endfor %}
-
-
 <p>&nbsp;</p>
+{% endif %}
 {% assign sorted = site.versions | where: "project", page.project | reverse %}
 
 <ul id="profileTabs" class="nav nav-tabs">
@@ -141,15 +143,17 @@ layout: simple
 		{% endif %}
 		
 		 {{ heading }}
-                {% if version.info != blank %}
-					<p> {{ version.info | markdownify }}</p>
-				{% endif %}
-                {% if version.overview != blank %}
-	                <p> {{ version.overview | markdownify }}</p>
-				{% endif %}
-				
+			{% if version.info != '' %}
+				<p> {{ version.info | markdownify }}</p>
+			{% endif %}
+			{% if version.overview != '' %}
+			    <p> {{ version.overview | markdownify }}</p>
+			{% endif %}		
+			
+{% if "ON" == 'OFF' %}
+{% endif %}
 
-            {% if version.images != blank %}
+            {% if version.images.size > 0 %}
 				{% assign sortedimages = version.images | sort: "image_path" %}
 				
 	            {% for image in sortedimages %}
@@ -186,15 +190,17 @@ layout: simple
 			
             <p>
                 {% if version.release %}
-                    {% for item in version.artifacts %}
-                                {% if item.type == "download" %}
-                                    {{ item.type | capitalize }} <a href="{{ item.path }}">{{ item.tag }} </a> {% if item.post != blank %} - {{ item.post }}{% endif %}<br />
-                                {% else %}
-                                    UNKNOWN ARTIFACT: Type '{{ item.type }}' tag '{{ item.tag }}' path '{{item.path }}'<br />
-                                {% endif %}
-                    {% endfor %}
-                    <p>&nbsp;</p>
-                    <p>{{ version.content | markdownify }}</p>
+					{% if version.artifacts != '' %}
+	                    {% for item in version.artifacts %}
+	                                {% if item.type == "download" %}
+	                                    {{ item.type | capitalize }} <a href="{{ item.path }}">{{ item.tag }} </a> {% if item.post != blank %} - {{ item.post }}{% endif %}<br />
+	                                {% else %}
+	                                    UNKNOWN ARTIFACT: Type '{{ item.type }}' tag '{{ item.tag }}' path '{{item.path }}'<br />
+	                                {% endif %}
+	                    {% endfor %}
+	                    <p>&nbsp;</p>
+	                    <p>{{ version.content | markdownify }}</p>
+	                {% endif %}
                 {% endif %}
 
     </div>

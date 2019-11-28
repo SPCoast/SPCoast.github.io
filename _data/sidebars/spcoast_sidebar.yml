@@ -5,7 +5,7 @@ entries:
   level: one
   folders:
 
-  - title: Projects
+  - title: SPCoast Projects
     output: web
     folderitems:
     - title: Arduino Software

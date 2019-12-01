@@ -5,7 +5,7 @@ title: Core-ProMini
 project: Core-ProMini
 designer: John Plocher
 fabricated: yes
-fab_date: 2015-01
+fab_date: 2017-05
 status: released
 release: yes
 layout: eagle
@@ -13,14 +13,7 @@ tags: [SPCoast, eagle]
 tagline: IO4-based Arduino ProMini baseboard
 overview: >
     
-    This design evolved from the Core-ArduinoShield sequence as it became obvious that
-    the eBay ProMini clones were much cheaper than full sized Arduinos and their clones.
-    
-    
-    Until the [Core Wemos D1 Mini](/pages/Core-Wemos.html) and [Core-ESP32](/pages/Core-ESP32.html) boards,
-    this was my go-to building block for field units and other layout automation tasks.
-    
-    
+    removed Loconet interface electronics and per-pin status LEDs to make a simpler board
 ---
 
 

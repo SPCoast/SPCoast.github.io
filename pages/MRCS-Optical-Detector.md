@@ -39,7 +39,7 @@ is 1.15" x 1.75 x 0.5" high"
 
 
 Either 2 PT-19 photo transistors or
-[“Da Fingah”](/page/IO4-IR-Detector-GBunza-Fingers) will work with this
+[“Da Fingah”](/pages/IO4-IR-Detector-GBunza-Fingers) will work with this
 board. One is used as an ambient light reference and another is
 placed between the rails. You may solder the reference photodetector
 onto the board if the board will be mounted where is has the same
@@ -49,4 +49,4 @@ illumination as the track or both may be mounted remotely.
 This detector is compatible with the Modular Signaling System (MSS) Optical Detector
 
 
-This technical documentation is licensed under the [CERN Open Hardware Licence v1.2](http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt)
+This technical documentation is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/3.0/)

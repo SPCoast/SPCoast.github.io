@@ -14,6 +14,9 @@ entries:
     - title: Electronics
       url: /electronics.html
       output: web
+    - title: MRCS Projects
+      url: /tag_MRCS.html
+      output: web
     - title: SPCoast Layout
       url: /spcoast_layout.html
       output: web

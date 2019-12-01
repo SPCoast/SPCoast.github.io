@@ -14,7 +14,12 @@ tagline: An electret replacement for a telephone headset carbon mic
 overview: >
     
     Part of the MRCS telephony line
+artifacts:
+  - path: /versions/MRCS-Candlestick-Mic/MRCS-Candlestick-Mic.b#1
+    tag: MRCS-Candlestick-Mic
+    type: download
+    post: 
 ---
 
 
-This technical documentation is licensed under the [CERN Open Hardware Licence v1.2](http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt)
+This technical documentation is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/3.0/)

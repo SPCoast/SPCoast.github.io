@@ -1,9 +1,10 @@
 ---
 layout: simple
 ---
-
+		{% assign MRCS=0 %}
         {% if page.tags != null %}
         {% if page.tags contains "MRCS" %}
+		{% assign MRCS=1 %}
 	<figure class="audienceLabel">
 	   <img src="/images/MRCS-logo.jpg" style="max-width: 100;" width="100" 
 	      alt="Model Railroad Control Systems"/>
@@ -41,9 +42,13 @@ layout: simple
 {% include custom/{{page.map_name}}.html %}
 
 {% endif %}
+{% if MRCS == 0 %}
 <p> <a href="https://github.com/{{ site.github_username }}/{{ page.title }}">Fork project on GitHub</a></p>
-<p> {{ page.tagline }}</p>
+{% else %}
+<p> <a href="https://github.com/SethNeumann/{{ page.title }}">Fork project on GitHub</a></p>
+{% endif %}
 
+<p> {{ page.tagline }}</p>
 {% assign count=0 %}
 {% if page.images != '' %}
 <table><tr>

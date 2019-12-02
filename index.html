@@ -7,14 +7,12 @@ overview: >
     SPCoast Stuff
 ---
 
-{% include callout.html type="warning" content="TODO: ALL local links on this page are broken, waiting for their content to be migrated...." %}
-
 <h1 id="introduction">Introduction</h1>
 <p>Some of the schematics and PCB layouts featured here were done
 using the free tools provided by <a
-href="http://www.expresspcb.com/">ExpressPCB</a>, which also provides
-high quality board fabrication and internet based ordering directly
-from their tools. Most of the more recent projects have been done
+href="http://www.expresspcb.com/">ExpressPCB</a>, which provides
+high quality turnkey board fabrication and internet based ordering directly
+from their tools. Most of my more recent projects have been done
 with another, more powerful package called <a
 href="https://www.autodesk.com/products/eagle/overview">Eagle</a>, which
 also has a free version for hobbiests. The only drawback I’ve found
@@ -51,19 +49,19 @@ experiences" and projects I've done for others. Enjoy!</p>
 
 <p>My goal is to build an 'duino-based 
 	<a href="/I2C-CTC-harness.html">Dispatcher cTc panel </a> with field units to prevent switch/points and signals from being operated in ways that would allow conflicting train movements. To that end, I've designed a few WiFi enabled Arduino compatible processor boards ( 
-	<a href="/Core-Wemos.html">ESP8266</a> and 
-	<a href="/Core-ESP32.html">ESP32</a>) and a set of I2C-based IO devices ( 
-	<a href="/I2C-8574-IO.html">dual 8-bit</a>, 
-	<a href="/I2C-7313.html">16-bit, 64 addresses</a>, 
-	<a href="/I2C-9555-IO.html">16-bit, 8 addresses</a>, 
-	<a href="/I2C-AD4DA.html">A/D and D/A</a>) that can interface to various layout devices, such as 
-	<a href="/IO4-IR-Detector-Active.html">IR detectors</a>, 
-	<a href="/IO4-QuadOD.html">Occupancy detectors</a>, Signals: 
-	<a href="/SignalMast-DualHead.html">Dual</a>, 
-	<a href="/SignalMast-SingleHead.html">Single</a> and 
-	<a href="/SignalMast-Dwarf.html">Dwarf</a>, 
-	<a href="/IO4-RelayDriver.html">relay drivers</a>, and
-	<a href="/IO4-Turtle.html">turnout controllers</a>.  These all can be combined to produce a control point:</p>
+	<a href="/pages/Core-Wemos">ESP8266</a> and 
+	<a href="/pages/Core-ESP32">ESP32</a>) and a set of I2C-based IO devices ( 
+	<a href="/pages/I2C-8574-IO">dual 8-bit</a>, 
+	<a href="/pages/I2C-7313">16-bit, 64 addresses</a>, 
+	<a href="/pages/I2C-9555-IO">16-bit, 8 addresses</a>, 
+	<a href="/pages/I2C-AD4DA">A/D and D/A</a>) that can interface to various layout devices, such as 
+	<a href="/pages/IO4-IR-Detector-Active">IR detectors</a>, 
+	<a href="/pages/IO4-QuadOD">Occupancy detectors</a>, Signals: 
+	<a href="/pages/SignalMast-DualHead">Dual</a>, 
+	<a href="/pages/SignalMast-SingleHead">Single</a> and 
+	<a href="/pages/SignalMast-Dwarf">Dwarf</a>, 
+	<a href="/pages/IO4-RelayDriver">relay drivers</a>, and
+	<a href="/pages/IO4-Turtle">turnout controllers</a>.  These all can be combined to produce a control point:</p>
 <figure>
 <img src="/images/SPCoastExampleCPElectronics.png" title="SPCoastExampleCPElectronics.png" width="1200" alt="PCB Design flowchart" />
 <figcaption>Selected SPCoast projects used to illustrate a complex ControlPoint</figcaption>

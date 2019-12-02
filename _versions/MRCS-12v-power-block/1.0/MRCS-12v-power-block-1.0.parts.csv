@@ -1,0 +1,9 @@
+# name, smd?, value, package, component, x, y, angle
++12V, PTH, CONNECTOR-M12LOCK, 1X12_LOCK, connector-m12lock-1x12_lock, 0.00, 0.00, 270.00
+BOARD1, PTH, BOARD50X50, BOARD-SEEED5X5, board50x50-board-seeed5x5, 0.00, 0.00, 0.00
+CON4, PTH, CONNECTOR-M033.5MM-LOCK, SCREWTERMINAL-3.5MM-3_LOCK.007S, connector-m033.5mm-lock-screwterminal-3.5mm-3_lock.007s, 0.00, 0.00, 0.00
+GND, PTH, CONNECTOR-M12LOCK, 1X12_LOCK, connector-m12lock-1x12_lock, 0.00, 0.00, 180.00
+U$1, PTH, , CA-PROP65-BACK, -ca-prop65-back, 0.00, 0.00, 0.00
+U$2, PTH, , MRCSLOGOTOP, -mrcslogotop, 0.00, 0.00, 0.00
+U$3, PTH, , MRCSLOGOBTM, -mrcslogobtm, 0.00, 0.00, 0.00
+ULK, PTH, CONNECTOR-M12LOCK, 1X12_LOCK, connector-m12lock-1x12_lock, 0.00, 0.00, 90.00

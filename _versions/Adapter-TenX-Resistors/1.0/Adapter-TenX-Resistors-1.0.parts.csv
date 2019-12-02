@@ -1,0 +1,16 @@
+# name, smd?, value, package, component, x, y, angle
+GND, PTH, , MOLEX-1X2_LOCK, -molex-1x2_lock, 0.00, 0.00, 90.00
+IO1, PTH, , 1X08, -1x08, 0.00, 0.00, 270.00
+IO3, PTH, , 1X08, -1x08, 0.00, 0.00, 270.00
+J1, PTH, , 1X08_LOCK_LONGPADS, -1x08_lock_longpads, 0.00, 0.00, 270.00
+LEDCOM, PTH, , MOLEX-1X2_LOCK, -molex-1x2_lock, 0.00, 0.00, 90.00
+P1, SMD, CA   CC, 3P-SMD-2X4.8, ca   cc-3p-smd-2x4.8, 17.78, 4.45, 270.00
+SJ1, SMD, , SJ, -sj, 17.78, 27.30, 0.00
+SJ2, SMD, , SJ, -sj, 17.78, 24.77, 0.00
+SJ3, SMD, , SJ, -sj, 17.78, 22.23, 0.00
+SJ4, SMD, , SJ, -sj, 17.78, 19.69, 0.00
+SJ5, SMD, , SJ, -sj, 17.78, 17.14, 0.00
+SJ6, SMD, , SJ, -sj, 17.78, 14.61, 0.00
+SJ7, SMD, , SJ, -sj, 17.78, 12.07, 0.00
+SJ8, SMD, , SJ, -sj, 17.78, 9.53, 0.00
+SV1, PTH, CONNECTOR-M05X2SHD, 2X5-SHROUDED, connector-m05x2shd-2x5-shrouded, 0.00, 0.00, 0.00

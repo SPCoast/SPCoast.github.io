@@ -1,0 +1,12 @@
+# name, smd?, value, package, component, x, y, angle
+AUDIO_OUT, PTH, Audio Jack, AUDIO-JACK-3.5MM_STEREO, audio jack-audio-jack-3.5mm_stereo, 0.00, 0.00, 90.00
+BOARD1, PTH, BOARD69X50, BOARD-DINRAIL-2.7IN-5CM, board69x50-board-dinrail-2.7in-5cm, 0.00, 0.00, 0.00
+CON1, PTH, Speaker, RJ25-INVERTED, speaker-rj25-inverted, 0.00, 0.00, 180.00
+JP1, PTH, Audio TR, MOLEX-1X2_LOCK, audio tr-molex-1x2_lock, 0.00, 0.00, 180.00
+JP2, PTH, Mic TR, MOLEX-1X2_LOCK, mic tr-molex-1x2_lock, 0.00, 0.00, 180.00
+MIC_IN, PTH, MIC Jack, AUDIO-JACK-3.5MM_STEREO, mic jack-audio-jack-3.5mm_stereo, 0.00, 0.00, 90.00
+U$5, PTH, , MRCSLOGOTOP, -mrcslogotop, 0.00, 0.00, 0.00
+U$6, PTH, , MRCSLOGOBTM, -mrcslogobtm, 0.00, 0.00, 0.00
+U$7, PTH, , CA-PROP65-BACK, -ca-prop65-back, 0.00, 0.00, 0.00
+U$8, PTH, , SPADELUGPAD, -spadelugpad, 0.00, 0.00, 0.00
+U$9, PTH, , SPADELUGPAD, -spadelugpad, 0.00, 0.00, 0.00

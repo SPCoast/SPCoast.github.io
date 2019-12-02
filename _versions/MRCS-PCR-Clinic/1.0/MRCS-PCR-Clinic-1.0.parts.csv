@@ -1,0 +1,25 @@
+# name, smd?, value, package, component, x, y, angle
+D2, PTH, White, LED3MM, white-led3mm, 0.00, 0.00, 0.00
+D3, PTH, White, LED3MM, white-led3mm, 0.00, 0.00, 0.00
+D5, PTH, White, LED3MM, white-led3mm, 0.00, 0.00, 0.00
+D6, PTH, White, LED3MM, white-led3mm, 0.00, 0.00, 0.00
+D9, PTH, Green, LED3MM, green-led3mm, 0.00, 0.00, 0.00
+D10, PTH, Yellow, LED3MM, yellow-led3mm, 0.00, 0.00, 0.00
+D11, PTH, Red, LED3MM, red-led3mm, 0.00, 0.00, 0.00
+J1, PTH, , DCJ0202, -dcj0202, 0.00, 0.00, 0.00
+M2, PTH, SMALL_SERVO, 1X03, small_servo-1x03, 0.00, 0.00, 90.00
+R1, PTH, 330, AXIAL-0.4, 330-axial-0.4, 0.00, 0.00, 90.00
+R2, PTH, 330, AXIAL-0.4, 330-axial-0.4, 0.00, 0.00, 90.00
+R3, PTH, 330, AXIAL-0.4, 330-axial-0.4, 0.00, 0.00, 90.00
+R4, PTH, 5.6k, AXIAL-0.4, 5.6k-axial-0.4, 0.00, 0.00, 90.00
+R5, PTH, 5.6K, AXIAL-0.4, 5.6k-axial-0.4, 0.00, 0.00, 90.00
+R6, PTH, 5.6K, AXIAL-0.4, 5.6k-axial-0.4, 0.00, 0.00, 90.00
+R7, PTH, 5.6K, AXIAL-0.4, 5.6k-axial-0.4, 0.00, 0.00, 90.00
+R8, PTH, 10K, 3386P, 10k-3386p, 0.00, 0.00, 180.00
+R9, PTH, 10K, 3386P, 10k-3386p, 0.00, 0.00, 180.00
+S1, PTH, SWITCH-MOMENTARY-2PTH, TACTILE-PTH, switch-momentary-2pth-tactile-pth, 0.00, 0.00, 90.00
+S2, PTH, SWITCH-MOMENTARY-2PTH, TACTILE-PTH, switch-momentary-2pth-tactile-pth, 0.00, 0.00, 270.00
+U$1, PTH, NANO, NANO, nano-nano, 0.00, 0.00, 90.00
+U$9, PTH, I2CRA, I2C, i2cra-i2c, 0.00, 0.00, 0.00
+U$10, PTH, , BOARD-DINRAIL-2.7IN, -board-dinrail-2.7in, 0.00, 0.00, 0.00
+U$11, PTH, , SERVO-9G, -servo-9g, 0.00, 0.00, 90.00

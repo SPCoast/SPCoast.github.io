@@ -1,0 +1,16 @@
+# name, smd?, value, package, component, x, y, angle
+BOARD1, PTH, SEEED Fusion, BOARD-SEEED5X5-NOHOLES, seeed fusion-board-seeed5x5-noholes, 0.00, 0.00, 0.00
+BR1, PTH, bridge, RB1A, bridge-rb1a, 0.00, 0.00, 180.00
+C1, PTH, 47uf 25V, E2.5-6, 47uf 25v-e2.5-6, 0.00, 0.00, 90.00
+C2, PTH, 0.47uf 63V, E2.5-6, 0.47uf 63v-e2.5-6, 0.00, 0.00, 90.00
+J1, PTH, RJ45, RJ45, rj45-rj45, 0.00, 0.00, 270.00
+J2, PTH, RJ45, RJ45, rj45-rj45, 0.00, 0.00, 270.00
+U$3, PTH, , 3.6, -3.6, 0.00, 0.00, 0.00
+U$4, PTH, , 3.6, -3.6, 0.00, 0.00, 0.00
+U$5, PTH, , 3.6, -3.6, 0.00, 0.00, 0.00
+U$6, PTH, , 3.6, -3.6, 0.00, 0.00, 0.00
+VR1, PTH, LM78L12, 78LXX, lm78l12-78lxx, 0.00, 0.00, 0.00
+X1, PTH, TRACK, AK500/2, track-ak500/2, 0.00, 0.00, 90.00
+X2, PTH, AUXBUS, AK500/2, auxbus-ak500/2, 0.00, 0.00, 270.00
+X3, PTH, BLK OCC, 1751248, blk occ-1751248, 0.00, 0.00, 270.00
+X4, PTH, 0.156/5, KK-156-5, 0.156/5-kk-156-5, 0.00, 0.00, 180.00

@@ -1,0 +1,23 @@
+# name, smd?, value, package, component, x, y, angle
+AUDIO_OUTX11, PTH, , AUDIO-JACK-3.5MM_STEREO, -audio-jack-3.5mm_stereo, 0.00, 0.00, 90.00
+AUDIO_OUTX21, PTH, , AUDIO-JACK-3.5MM_STEREO, -audio-jack-3.5mm_stereo, 0.00, 0.00, 90.00
+BOARD1X11, PTH, , BOARD-DINRAIL-2.7IN-5CM, -board-dinrail-2.7in-5cm, 0.00, 0.00, 0.00
+BOARD1X21, PTH, , BOARD-DINRAIL-2.7IN-5CM, -board-dinrail-2.7in-5cm, 0.00, 0.00, 0.00
+CON1X11, PTH, , RJ25-INVERTED, -rj25-inverted, 0.00, 0.00, 180.00
+CON1X21, PTH, , RJ25-INVERTED, -rj25-inverted, 0.00, 0.00, 180.00
+JP1X11, PTH, , MOLEX-1X2_LOCK, -molex-1x2_lock, 0.00, 0.00, 180.00
+JP1X21, PTH, , MOLEX-1X2_LOCK, -molex-1x2_lock, 0.00, 0.00, 180.00
+JP2X11, PTH, , MOLEX-1X2_LOCK, -molex-1x2_lock, 0.00, 0.00, 180.00
+JP2X21, PTH, , MOLEX-1X2_LOCK, -molex-1x2_lock, 0.00, 0.00, 180.00
+MIC_INX11, PTH, , AUDIO-JACK-3.5MM_STEREO, -audio-jack-3.5mm_stereo, 0.00, 0.00, 90.00
+MIC_INX21, PTH, , AUDIO-JACK-3.5MM_STEREO, -audio-jack-3.5mm_stereo, 0.00, 0.00, 90.00
+U$5X11, PTH, , MRCSLOGOTOP, -mrcslogotop, 0.00, 0.00, 0.00
+U$5X21, PTH, , MRCSLOGOTOP, -mrcslogotop, 0.00, 0.00, 0.00
+U$6X11, PTH, , MRCSLOGOBTM, -mrcslogobtm, 0.00, 0.00, 0.00
+U$6X21, PTH, , MRCSLOGOBTM, -mrcslogobtm, 0.00, 0.00, 0.00
+U$7X11, PTH, , CA-PROP65-BACK, -ca-prop65-back, 0.00, 0.00, 0.00
+U$7X21, PTH, , CA-PROP65-BACK, -ca-prop65-back, 0.00, 0.00, 0.00
+U$8X11, PTH, , SPADELUGPAD, -spadelugpad, 0.00, 0.00, 0.00
+U$8X21, PTH, , SPADELUGPAD, -spadelugpad, 0.00, 0.00, 0.00
+U$9X11, PTH, , SPADELUGPAD, -spadelugpad, 0.00, 0.00, 0.00
+U$9X21, PTH, , SPADELUGPAD, -spadelugpad, 0.00, 0.00, 0.00

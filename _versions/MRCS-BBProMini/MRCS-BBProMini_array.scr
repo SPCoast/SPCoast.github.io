@@ -1,0 +1,1582 @@
+Grid mil;
+Set wire_bend 2;
+Layer 125 '_tNames';
+Layer 1 'Top';
+layer ?? -125;
+layer 125 '_tNames';
+set color_layer 125 14;
+change layer 46;
+change style CONTINUOUS;
+wire 'Vscoreauto11' 0.000000 (-100.000000 0.000000) (3050.000000 0.000000);
+change size 40;
+text 'V-Score' R90.000000 (-100.000000 0.000000);
+change layer 46;
+change style CONTINUOUS;
+wire 'Vscoreauto11' 0.000000 (-100.000000 1310.000000) (3050.000000 1310.000000);
+change size 40;
+text 'V-Score' R90.000000 (-100.000000 1310.000000);
+add ARDUINO_PRO_MINI_DAVEK@SPCoast ARDUINO1x11 R270.000000 (1550.000000 1050.000000);
+add ARDUINO-BBLEO@SPCoast BBLEOx11 R0.000000 (0.000000 0.000000);
+add E5-10,5@SPCoast C1x11 R90.000000 (625.000000 725.000000);
+add C050-024X044@SPCoast C2x11 R90.000000 (125.000000 1075.000000);
+add C050-024X044@SPCoast C3x11 R270.000000 (125.000000 775.000000);
+add DCJ0202@SPCoast J1x11 R270.000000 (350.000000 375.000000);
+add SJ_2S-NO@SPCoast JP1x11 R90.000000 (2400.000000 175.000000);
+add PWR_LABEL@SPCoast LABEL1x11 R90.000000 (800.000000 275.000000);
+add OSHW-LOGO-M@SPCoast OSHW1x11 R0.000000 (1350.000000 450.000000);
+add TO-220-RA-SINK@SPCoast VR5.0x11 R270.000000 (250.000000 925.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!RESETx11' 12.000000 (2500.000000 1000.000000) (2500.000000 400.000000);
+change drill 23.622047;
+via '+9Vx11' 43.622047 round (625.000000 525.000000);
+change drill 23.622047;
+via '+9Vx11' 43.622047 round (2275.000000 175.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx11' 40.000000 (125.000000 975.000000) (175.000000 1025.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx11' 40.000000 (175.000000 1025.000000) (250.000000 1025.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx11' 40.000000 (475.000000 375.000000) (550.000000 300.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx11' 40.000000 (550.000000 300.000000) (550.000000 100.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx11' 40.000000 (550.000000 100.000000) (500.000000 50.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx11' 40.000000 (500.000000 50.000000) (250.000000 50.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx11' 40.000000 (250.000000 50.000000) (40.000000 260.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx11' 40.000000 (40.000000 260.000000) (40.000000 975.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx11' 40.000000 (40.000000 975.000000) (125.000000 975.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '+9Vx11' 40.000000 (475.000000 375.000000) (625.000000 525.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '+9Vx11' 40.000000 (625.000000 525.000000) (625.000000 625.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx11' 24.000000 (625.000000 525.000000) (1125.000000 525.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx11' 24.000000 (1125.000000 525.000000) (1350.000000 300.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx11' 24.000000 (1350.000000 300.000000) (2150.000000 300.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx11' 24.000000 (2150.000000 300.000000) (2275.000000 175.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '+9Vx11' 24.000000 (2275.000000 175.000000) (2650.000000 175.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '+9Vx11' 24.000000 (2650.000000 175.000000) (2700.000000 225.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '+9Vx11' 24.000000 (2700.000000 225.000000) (2700.000000 400.000000);
+change layer 16;
+change isolate 16.000000;
+change rank 2;
+change thermals on;
+change orphans off;
+change pour solid;
+polygon GNDx11 16.000000 (2840.000000 8.000000) (2840.000000 1290.000000) (8.000000 1290.000000) (8.000000 8.000000) (2840.000000 8.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA0x11' 16.000000 (2300.000000 1000.000000) (2300.000000 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA1x11' 16.000000 (2200.000000 1000.000000) (2200.000000 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA2x11' 16.000000 (2100.000000 1000.000000) (2100.000000 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA3x11' 16.000000 (2000.000000 1000.000000) (2000.000000 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA4x11' 16.000000 (1900.000000 1000.000000) (1900.000000 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA5x11' 16.000000 (1800.000000 1000.000000) (1800.000000 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA6x11' 16.000000 (1700.000000 1000.000000) (1700.000000 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA7x11' 16.000000 (1600.000000 1000.000000) (1600.000000 1200.000000);
+change drill 23.622047;
+via 'GPB0x11' 43.622047 round (1650.000000 1150.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB0x11' 12.000000 (1500.000000 1200.000000) (1550.000000 1150.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB0x11' 12.000000 (1550.000000 1150.000000) (1650.000000 1150.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB0x11' 12.000000 (1650.000000 1150.000000) (1650.000000 450.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB0x11' 12.000000 (1650.000000 450.000000) (1600.000000 400.000000);
+change drill 23.622047;
+via 'GPB1x11' 43.622047 round (1750.000000 1075.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB1x11' 12.000000 (1400.000000 1200.000000) (1400.000000 1100.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB1x11' 12.000000 (1400.000000 1100.000000) (1425.000000 1075.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB1x11' 12.000000 (1425.000000 1075.000000) (1750.000000 1075.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB1x11' 12.000000 (1750.000000 1075.000000) (1750.000000 450.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB1x11' 12.000000 (1750.000000 450.000000) (1700.000000 400.000000);
+change drill 23.622047;
+via 'GPB2x11' 43.622047 round (1800.000000 925.000000);
+change drill 23.622047;
+via 'GPB2x11' 43.622047 round (1275.000000 925.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB2x11' 12.000000 (1000.000000 1200.000000) (1275.000000 925.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB2x11' 12.000000 (1275.000000 925.000000) (1800.000000 925.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB2x11' 12.000000 (1800.000000 925.000000) (1800.000000 400.000000);
+change drill 23.622047;
+via 'GPB3x11' 43.622047 round (1900.000000 875.000000);
+change drill 23.622047;
+via 'GPB3x11' 43.622047 round (1225.000000 875.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB3x11' 12.000000 (900.000000 1200.000000) (1225.000000 875.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB3x11' 12.000000 (1225.000000 875.000000) (1900.000000 875.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB3x11' 12.000000 (1900.000000 875.000000) (1900.000000 400.000000);
+change drill 23.622047;
+via 'GPB4x11' 43.622047 round (2000.000000 825.000000);
+change drill 23.622047;
+via 'GPB4x11' 43.622047 round (1175.000000 825.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB4x11' 12.000000 (800.000000 1200.000000) (1175.000000 825.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB4x11' 12.000000 (1175.000000 825.000000) (2000.000000 825.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB4x11' 12.000000 (2000.000000 825.000000) (2000.000000 400.000000);
+change drill 23.622047;
+via 'GPB5x11' 43.622047 round (2100.000000 775.000000);
+change drill 23.622047;
+via 'GPB5x11' 43.622047 round (1125.000000 775.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB5x11' 12.000000 (700.000000 1200.000000) (1125.000000 775.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB5x11' 12.000000 (1125.000000 775.000000) (2100.000000 775.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB5x11' 12.000000 (2100.000000 775.000000) (2100.000000 400.000000);
+change drill 23.622047;
+via 'GPB6x11' 43.622047 round (1350.000000 450.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB6x11' 12.000000 (600.000000 1200.000000) (1350.000000 450.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB6x11' 12.000000 (1350.000000 450.000000) (2125.000000 450.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB6x11' 12.000000 (2125.000000 450.000000) (2200.000000 400.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB7x11' 12.000000 (500.000000 1200.000000) (1350.000000 350.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB7x11' 12.000000 (1350.000000 350.000000) (2250.000000 350.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB7x11' 12.000000 (2250.000000 350.000000) (2300.000000 400.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$1x11' 24.000000 (2400.000000 400.000000) (2400.000000 192.716535);
+change layer 16;
+change style CONTINUOUS;
+wire 'RXx11' 16.000000 (2600.000000 1000.000000) (2600.000000 950.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'RXx11' 16.000000 (2600.000000 950.000000) (2650.000000 900.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'RXx11' 16.000000 (2650.000000 900.000000) (2750.000000 900.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'RXx11' 16.000000 (2750.000000 900.000000) (2800.000000 950.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'RXx11' 16.000000 (2800.000000 950.000000) (2800.000000 1100.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'RXx11' 16.000000 (2800.000000 1100.000000) (2700.000000 1200.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'SCLx11' 12.000000 (2350.000000 500.000000) (2350.000000 1150.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'SCLx11' 12.000000 (2350.000000 1150.000000) (2400.000000 1200.000000);
+change drill 23.622047;
+via 'SDAx11' 43.622047 round (2250.000000 750.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'SDAx11' 12.000000 (2500.000000 1200.000000) (2450.000000 1150.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'SDAx11' 12.000000 (2450.000000 1150.000000) (2450.000000 950.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'SDAx11' 12.000000 (2450.000000 950.000000) (2250.000000 750.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'SDAx11' 12.000000 (2250.000000 750.000000) (2250.000000 500.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'TXx11' 16.000000 (2600.000000 1200.000000) (2600.000000 1150.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'TXx11' 16.000000 (2600.000000 1150.000000) (2700.000000 1050.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'TXx11' 16.000000 (2700.000000 1050.000000) (2700.000000 1000.000000);
+change layer 1;
+change isolate 16.000000;
+change rank 2;
+change thermals on;
+change orphans off;
+change pour solid;
+polygon VCCIOx11 16.000000 (2840.000000 8.000000) (2840.000000 1290.000000) (8.000000 1290.000000) (8.000000 8.000000) (2840.000000 8.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (0.000000 0.000000) (0.000000 1310.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (0.000000 1310.000000) (2850.000000 1310.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (2850.000000 1310.000000) (2850.000000 0.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (2850.000000 0.000000) (0.000000 0.000000);
+change layer 52;
+change style CONTINUOUS;
+wire 100.000000 (25.000000 675.000000) (650.000000 75.000000);
+change layer 52;
+change style CONTINUOUS;
+wire 100.000000 (25.000000 1200.000000) (1175.000000 50.000000);
+change layer 52;
+change style CONTINUOUS;
+wire 150.000000 (50.000000 675.000000) (450.000000 1075.000000);
+change layer 52;
+change style CONTINUOUS;
+wire 150.000000 (225.000000 175.000000) (800.000000 800.000000);
+change layer 52;
+change style CONTINUOUS;
+wire 150.000000 (650.000000 75.000000) (1075.000000 450.000000);
+change layer 52;
+change ratio 8;
+change size 50.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'Made in the PCR,
+Coast Division, NMRA' MR0.000000 (1369.370079 983.000000);
+change layer 52;
+change ratio 15;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'www. SP Coast .com' MR0.000000 (2609.322835 36.228346);
+change layer 52;
+change ratio 15;
+change size 150.000000;
+change font VECTOR;
+change align bottom left;
+text 'bbNode
+Pro Mini' MR180.000000 (1767.629921 895.000000);
+change layer 52;
+change ratio 8;
+change size 56.000000;
+change font VECTOR;
+change align bottom left;
+text 'Model Railroading is fun!' MR270.000000 (2808.578740 1177.216535);
+change layer 52;
+change ratio 15;
+change size 56.000000;
+change font VECTOR;
+change align bottom left;
+text 'Go Bears!' MR243.000000 (1105.000000 765.629921);
+change layer 51;
+change ratio 8;
+change size 40.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'John Plocher' R0.000000 (2274.419045 801.781865);
+change layer 51;
+change ratio 8;
+change size 50.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'VIN' R0.000000 (56.250000 71.250000);
+change layer 51;
+change ratio 10;
+change size 50.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text '1.0A' R0.000000 (684.629921 60.750000);
+change layer 51;
+change ratio 15;
+change size 90.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'bbNode ProMini' R0.000000 (441.943159 948.308194);
+change layer 52;
+change ratio 15;
+change size 56.000000;
+change font VECTOR;
+change align bottom left;
+text 'For use with DFRobot Pro Mini' MR180.000000 (1330.224409 314.496063);
+change layer 51;
+change ratio 8;
+change size 40.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text '2019.08' R0.000000 (2429.419045 731.801550);
+change layer 21;
+change ratio 8;
+change size 50.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'DFRobot ProMini' R0.000000 (2043.750000 641.250000);
+change layer 51;
+change ratio 8;
+change size 56.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'v1.0' R0.000000 (1339.419045 871.781865);
+change layer 51;
+change ratio 8;
+change size 56.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'BBLeo Footprint' R180.000000 (2825.580955 1298.218135);
+change layer 51;
+change ratio 15;
+change size 90.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'MRCS' R0.000000 (441.943159 1073.308194);
+change layer 52;
+change ratio 15;
+change size 100.000000;
+change font VECTOR;
+change align bottom left;
+text 'MRCS' MR180.000000 (2042.629921 220.000000);
+change layer 125;
+change ratio 8;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'C1' R180.000000 (557.874016 663.188976);
+change layer 125;
+change ratio 8;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'C2' R180.000000 (97.150960 1225.888041);
+change layer 125;
+change ratio 8;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'C3' R0.000000 (12.315945 626.960999);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'JP1' R90.000000 (2350.000000 139.251969);
+change layer 125;
+change ratio 11;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'VR5.0' R180.000000 (343.750000 656.250000);
+signal '!RESETx11'	'ARDUINO1x11'	'RES'\
+	'ARDUINO1x11'	'RES@1'\
+;
+signal '+9Vx11'	'J1x11'	'1'\
+	'C2x11'	'1'\
+	'VR5.0x11'	'IN'\
+	'C1x11'	'+'\
+	'ARDUINO1x11'	'VIN'\
+;
+signal 'GNDx11'	'J1x11'	'3'\
+	'J1x11'	'2'\
+	'C3x11'	'2'\
+	'C2x11'	'2'\
+	'VR5.0x11'	'GND'\
+	'C1x11'	'-'\
+	'BBLEOx11'	'GND@4'\
+	'BBLEOx11'	'GND@1'\
+	'BBLEOx11'	'GND@3'\
+	'BBLEOx11'	'GND@2'\
+	'BBLEOx11'	'GND@0'\
+	'ARDUINO1x11'	'GND@1'\
+	'ARDUINO1x11'	'GND@2'\
+	'ARDUINO1x11'	'GND@4'\
+;
+signal 'GPA0x11'	'BBLEOx11'	'D4'\
+	'ARDUINO1x11'	'D2'\
+;
+signal 'GPA1x11'	'BBLEOx11'	'D5'\
+	'ARDUINO1x11'	'D3'\
+;
+signal 'GPA2x11'	'BBLEOx11'	'D6'\
+	'ARDUINO1x11'	'D4'\
+;
+signal 'GPA3x11'	'BBLEOx11'	'D7'\
+	'ARDUINO1x11'	'D5'\
+;
+signal 'GPA4x11'	'BBLEOx11'	'D8'\
+	'ARDUINO1x11'	'D6'\
+;
+signal 'GPA5x11'	'BBLEOx11'	'D9'\
+	'ARDUINO1x11'	'D7'\
+;
+signal 'GPA6x11'	'BBLEOx11'	'D10'\
+	'ARDUINO1x11'	'D8'\
+;
+signal 'GPA7x11'	'BBLEOx11'	'D11'\
+	'ARDUINO1x11'	'D9'\
+;
+signal 'GPB0x11'	'BBLEOx11'	'D12'\
+	'ARDUINO1x11'	'D10'\
+;
+signal 'GPB1x11'	'BBLEOx11'	'D13'\
+	'ARDUINO1x11'	'D11'\
+;
+signal 'GPB2x11'	'BBLEOx11'	'A0'\
+	'ARDUINO1x11'	'D12'\
+;
+signal 'GPB3x11'	'BBLEOx11'	'A1'\
+	'ARDUINO1x11'	'D13'\
+;
+signal 'GPB4x11'	'BBLEOx11'	'A2'\
+	'ARDUINO1x11'	'AD0'\
+;
+signal 'GPB5x11'	'BBLEOx11'	'A3'\
+	'ARDUINO1x11'	'AD1'\
+;
+signal 'GPB6x11'	'BBLEOx11'	'A4'\
+	'ARDUINO1x11'	'AD2'\
+;
+signal 'GPB7x11'	'BBLEOx11'	'A5'\
+	'ARDUINO1x11'	'AD3'\
+;
+signal 'N$1x11'	'ARDUINO1x11'	'5V'\
+	'JP1x11'	'2'\
+;
+signal 'RXx11'	'BBLEOx11'	'RX'\
+	'ARDUINO1x11'	'RX'\
+;
+signal 'SCLx11'	'BBLEOx11'	'SCL'\
+	'ARDUINO1x11'	'AD5'\
+;
+signal 'SDAx11'	'BBLEOx11'	'SDA'\
+	'ARDUINO1x11'	'AD4'\
+;
+signal 'TXx11'	'BBLEOx11'	'TX'\
+	'ARDUINO1x11'	'TX@1'\
+;
+signal 'VCCIOx11'	'C3x11'	'1'\
+	'VR5.0x11'	'OUT'\
+	'BBLEOx11'	'+5V@3'\
+	'BBLEOx11'	'+5V@4'\
+	'BBLEOx11'	'+5V@1'\
+	'BBLEOx11'	'+5V@2'\
+	'JP1x11'	'1'\
+;
+change layer 46;
+change style CONTINUOUS;
+wire 'Vscoreauto12' 0.000000 (-100.000000 1310.000000) (3050.000000 1310.000000);
+change size 40;
+text 'V-Score' R90.000000 (-100.000000 1310.000000);
+change layer 46;
+change style CONTINUOUS;
+wire 'Vscoreauto12' 0.000000 (-100.000000 2620.000000) (3050.000000 2620.000000);
+change size 40;
+text 'V-Score' R90.000000 (-100.000000 2620.000000);
+add ARDUINO_PRO_MINI_DAVEK@SPCoast ARDUINO1x12 R270.000000 (1550.000000 2360.000000);
+add ARDUINO-BBLEO@SPCoast BBLEOx12 R0.000000 (0.000000 1310.000000);
+add E5-10,5@SPCoast C1x12 R90.000000 (625.000000 2035.000000);
+add C050-024X044@SPCoast C2x12 R90.000000 (125.000000 2385.000000);
+add C050-024X044@SPCoast C3x12 R270.000000 (125.000000 2085.000000);
+add DCJ0202@SPCoast J1x12 R270.000000 (350.000000 1685.000000);
+add SJ_2S-NO@SPCoast JP1x12 R90.000000 (2400.000000 1485.000000);
+add PWR_LABEL@SPCoast LABEL1x12 R90.000000 (800.000000 1585.000000);
+add OSHW-LOGO-M@SPCoast OSHW1x12 R0.000000 (1350.000000 1760.000000);
+add TO-220-RA-SINK@SPCoast VR5.0x12 R270.000000 (250.000000 2235.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!RESETx12' 12.000000 (2500.000000 2310.000000) (2500.000000 1710.000000);
+change drill 23.622047;
+via '+9Vx12' 43.622047 round (625.000000 1835.000000);
+change drill 23.622047;
+via '+9Vx12' 43.622047 round (2275.000000 1485.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx12' 40.000000 (125.000000 2285.000000) (175.000000 2335.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx12' 40.000000 (175.000000 2335.000000) (250.000000 2335.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx12' 40.000000 (475.000000 1685.000000) (550.000000 1610.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx12' 40.000000 (550.000000 1610.000000) (550.000000 1410.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx12' 40.000000 (550.000000 1410.000000) (500.000000 1360.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx12' 40.000000 (500.000000 1360.000000) (250.000000 1360.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx12' 40.000000 (250.000000 1360.000000) (40.000000 1570.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx12' 40.000000 (40.000000 1570.000000) (40.000000 2285.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx12' 40.000000 (40.000000 2285.000000) (125.000000 2285.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '+9Vx12' 40.000000 (475.000000 1685.000000) (625.000000 1835.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '+9Vx12' 40.000000 (625.000000 1835.000000) (625.000000 1935.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx12' 24.000000 (625.000000 1835.000000) (1125.000000 1835.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx12' 24.000000 (1125.000000 1835.000000) (1350.000000 1610.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx12' 24.000000 (1350.000000 1610.000000) (2150.000000 1610.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx12' 24.000000 (2150.000000 1610.000000) (2275.000000 1485.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '+9Vx12' 24.000000 (2275.000000 1485.000000) (2650.000000 1485.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '+9Vx12' 24.000000 (2650.000000 1485.000000) (2700.000000 1535.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '+9Vx12' 24.000000 (2700.000000 1535.000000) (2700.000000 1710.000000);
+change layer 16;
+change isolate 16.000000;
+change rank 2;
+change thermals on;
+change orphans off;
+change pour solid;
+polygon GNDx12 16.000000 (2840.000000 1318.000000) (2840.000000 2600.000000) (8.000000 2600.000000) (8.000000 1318.000000) (2840.000000 1318.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA0x12' 16.000000 (2300.000000 2310.000000) (2300.000000 2510.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA1x12' 16.000000 (2200.000000 2310.000000) (2200.000000 2510.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA2x12' 16.000000 (2100.000000 2310.000000) (2100.000000 2510.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA3x12' 16.000000 (2000.000000 2310.000000) (2000.000000 2510.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA4x12' 16.000000 (1900.000000 2310.000000) (1900.000000 2510.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA5x12' 16.000000 (1800.000000 2310.000000) (1800.000000 2510.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA6x12' 16.000000 (1700.000000 2310.000000) (1700.000000 2510.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA7x12' 16.000000 (1600.000000 2310.000000) (1600.000000 2510.000000);
+change drill 23.622047;
+via 'GPB0x12' 43.622047 round (1650.000000 2460.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB0x12' 12.000000 (1500.000000 2510.000000) (1550.000000 2460.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB0x12' 12.000000 (1550.000000 2460.000000) (1650.000000 2460.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB0x12' 12.000000 (1650.000000 2460.000000) (1650.000000 1760.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB0x12' 12.000000 (1650.000000 1760.000000) (1600.000000 1710.000000);
+change drill 23.622047;
+via 'GPB1x12' 43.622047 round (1750.000000 2385.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB1x12' 12.000000 (1400.000000 2510.000000) (1400.000000 2410.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB1x12' 12.000000 (1400.000000 2410.000000) (1425.000000 2385.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB1x12' 12.000000 (1425.000000 2385.000000) (1750.000000 2385.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB1x12' 12.000000 (1750.000000 2385.000000) (1750.000000 1760.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB1x12' 12.000000 (1750.000000 1760.000000) (1700.000000 1710.000000);
+change drill 23.622047;
+via 'GPB2x12' 43.622047 round (1800.000000 2235.000000);
+change drill 23.622047;
+via 'GPB2x12' 43.622047 round (1275.000000 2235.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB2x12' 12.000000 (1000.000000 2510.000000) (1275.000000 2235.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB2x12' 12.000000 (1275.000000 2235.000000) (1800.000000 2235.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB2x12' 12.000000 (1800.000000 2235.000000) (1800.000000 1710.000000);
+change drill 23.622047;
+via 'GPB3x12' 43.622047 round (1900.000000 2185.000000);
+change drill 23.622047;
+via 'GPB3x12' 43.622047 round (1225.000000 2185.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB3x12' 12.000000 (900.000000 2510.000000) (1225.000000 2185.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB3x12' 12.000000 (1225.000000 2185.000000) (1900.000000 2185.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB3x12' 12.000000 (1900.000000 2185.000000) (1900.000000 1710.000000);
+change drill 23.622047;
+via 'GPB4x12' 43.622047 round (2000.000000 2135.000000);
+change drill 23.622047;
+via 'GPB4x12' 43.622047 round (1175.000000 2135.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB4x12' 12.000000 (800.000000 2510.000000) (1175.000000 2135.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB4x12' 12.000000 (1175.000000 2135.000000) (2000.000000 2135.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB4x12' 12.000000 (2000.000000 2135.000000) (2000.000000 1710.000000);
+change drill 23.622047;
+via 'GPB5x12' 43.622047 round (2100.000000 2085.000000);
+change drill 23.622047;
+via 'GPB5x12' 43.622047 round (1125.000000 2085.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB5x12' 12.000000 (700.000000 2510.000000) (1125.000000 2085.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB5x12' 12.000000 (1125.000000 2085.000000) (2100.000000 2085.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB5x12' 12.000000 (2100.000000 2085.000000) (2100.000000 1710.000000);
+change drill 23.622047;
+via 'GPB6x12' 43.622047 round (1350.000000 1760.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB6x12' 12.000000 (600.000000 2510.000000) (1350.000000 1760.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB6x12' 12.000000 (1350.000000 1760.000000) (2125.000000 1760.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB6x12' 12.000000 (2125.000000 1760.000000) (2200.000000 1710.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB7x12' 12.000000 (500.000000 2510.000000) (1350.000000 1660.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB7x12' 12.000000 (1350.000000 1660.000000) (2250.000000 1660.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB7x12' 12.000000 (2250.000000 1660.000000) (2300.000000 1710.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$1x12' 24.000000 (2400.000000 1710.000000) (2400.000000 1502.716535);
+change layer 16;
+change style CONTINUOUS;
+wire 'RXx12' 16.000000 (2600.000000 2310.000000) (2600.000000 2260.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'RXx12' 16.000000 (2600.000000 2260.000000) (2650.000000 2210.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'RXx12' 16.000000 (2650.000000 2210.000000) (2750.000000 2210.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'RXx12' 16.000000 (2750.000000 2210.000000) (2800.000000 2260.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'RXx12' 16.000000 (2800.000000 2260.000000) (2800.000000 2410.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'RXx12' 16.000000 (2800.000000 2410.000000) (2700.000000 2510.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'SCLx12' 12.000000 (2350.000000 1810.000000) (2350.000000 2460.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'SCLx12' 12.000000 (2350.000000 2460.000000) (2400.000000 2510.000000);
+change drill 23.622047;
+via 'SDAx12' 43.622047 round (2250.000000 2060.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'SDAx12' 12.000000 (2500.000000 2510.000000) (2450.000000 2460.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'SDAx12' 12.000000 (2450.000000 2460.000000) (2450.000000 2260.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'SDAx12' 12.000000 (2450.000000 2260.000000) (2250.000000 2060.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'SDAx12' 12.000000 (2250.000000 2060.000000) (2250.000000 1810.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'TXx12' 16.000000 (2600.000000 2510.000000) (2600.000000 2460.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'TXx12' 16.000000 (2600.000000 2460.000000) (2700.000000 2360.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'TXx12' 16.000000 (2700.000000 2360.000000) (2700.000000 2310.000000);
+change layer 1;
+change isolate 16.000000;
+change rank 2;
+change thermals on;
+change orphans off;
+change pour solid;
+polygon VCCIOx12 16.000000 (2840.000000 1318.000000) (2840.000000 2600.000000) (8.000000 2600.000000) (8.000000 1318.000000) (2840.000000 1318.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (0.000000 1310.000000) (0.000000 2620.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (0.000000 2620.000000) (2850.000000 2620.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (2850.000000 2620.000000) (2850.000000 1310.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (2850.000000 1310.000000) (0.000000 1310.000000);
+change layer 52;
+change style CONTINUOUS;
+wire 100.000000 (25.000000 1985.000000) (650.000000 1385.000000);
+change layer 52;
+change style CONTINUOUS;
+wire 100.000000 (25.000000 2510.000000) (1175.000000 1360.000000);
+change layer 52;
+change style CONTINUOUS;
+wire 150.000000 (50.000000 1985.000000) (450.000000 2385.000000);
+change layer 52;
+change style CONTINUOUS;
+wire 150.000000 (225.000000 1485.000000) (800.000000 2110.000000);
+change layer 52;
+change style CONTINUOUS;
+wire 150.000000 (650.000000 1385.000000) (1075.000000 1760.000000);
+change layer 52;
+change ratio 8;
+change size 50.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'Made in the PCR,
+Coast Division, NMRA' MR0.000000 (1369.370079 2293.000000);
+change layer 52;
+change ratio 15;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'www. SP Coast .com' MR0.000000 (2609.322835 1346.228346);
+change layer 52;
+change ratio 15;
+change size 150.000000;
+change font VECTOR;
+change align bottom left;
+text 'bbNode
+Pro Mini' MR180.000000 (1767.629921 2205.000000);
+change layer 52;
+change ratio 8;
+change size 56.000000;
+change font VECTOR;
+change align bottom left;
+text 'Model Railroading is fun!' MR270.000000 (2808.578740 2487.216535);
+change layer 52;
+change ratio 15;
+change size 56.000000;
+change font VECTOR;
+change align bottom left;
+text 'Go Bears!' MR243.000000 (1105.000000 2075.629921);
+change layer 51;
+change ratio 8;
+change size 40.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'John Plocher' R0.000000 (2274.419045 2111.781865);
+change layer 51;
+change ratio 8;
+change size 50.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'VIN' R0.000000 (56.250000 1381.250000);
+change layer 51;
+change ratio 10;
+change size 50.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text '1.0A' R0.000000 (684.629921 1370.750000);
+change layer 51;
+change ratio 15;
+change size 90.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'bbNode ProMini' R0.000000 (441.943159 2258.308194);
+change layer 52;
+change ratio 15;
+change size 56.000000;
+change font VECTOR;
+change align bottom left;
+text 'For use with DFRobot Pro Mini' MR180.000000 (1330.224409 1624.496063);
+change layer 51;
+change ratio 8;
+change size 40.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text '2019.08' R0.000000 (2429.419045 2041.801550);
+change layer 21;
+change ratio 8;
+change size 50.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'DFRobot ProMini' R0.000000 (2043.750000 1951.250000);
+change layer 51;
+change ratio 8;
+change size 56.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'v1.0' R0.000000 (1339.419045 2181.781865);
+change layer 51;
+change ratio 8;
+change size 56.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'BBLeo Footprint' R180.000000 (2825.580955 2608.218135);
+change layer 51;
+change ratio 15;
+change size 90.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'MRCS' R0.000000 (441.943159 2383.308194);
+change layer 52;
+change ratio 15;
+change size 100.000000;
+change font VECTOR;
+change align bottom left;
+text 'MRCS' MR180.000000 (2042.629921 1530.000000);
+change layer 125;
+change ratio 8;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'C1' R180.000000 (557.874016 1973.188976);
+change layer 125;
+change ratio 8;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'C2' R180.000000 (97.150960 2535.888041);
+change layer 125;
+change ratio 8;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'C3' R0.000000 (12.315945 1936.960999);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'JP1' R90.000000 (2350.000000 1449.251969);
+change layer 125;
+change ratio 11;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'VR5.0' R180.000000 (343.750000 1966.250000);
+signal '!RESETx12'	'ARDUINO1x12'	'RES'\
+	'ARDUINO1x12'	'RES@1'\
+;
+signal '+9Vx12'	'J1x12'	'1'\
+	'C2x12'	'1'\
+	'VR5.0x12'	'IN'\
+	'C1x12'	'+'\
+	'ARDUINO1x12'	'VIN'\
+;
+signal 'GNDx12'	'J1x12'	'3'\
+	'J1x12'	'2'\
+	'C3x12'	'2'\
+	'C2x12'	'2'\
+	'VR5.0x12'	'GND'\
+	'C1x12'	'-'\
+	'BBLEOx12'	'GND@4'\
+	'BBLEOx12'	'GND@1'\
+	'BBLEOx12'	'GND@3'\
+	'BBLEOx12'	'GND@2'\
+	'BBLEOx12'	'GND@0'\
+	'ARDUINO1x12'	'GND@1'\
+	'ARDUINO1x12'	'GND@2'\
+	'ARDUINO1x12'	'GND@4'\
+;
+signal 'GPA0x12'	'BBLEOx12'	'D4'\
+	'ARDUINO1x12'	'D2'\
+;
+signal 'GPA1x12'	'BBLEOx12'	'D5'\
+	'ARDUINO1x12'	'D3'\
+;
+signal 'GPA2x12'	'BBLEOx12'	'D6'\
+	'ARDUINO1x12'	'D4'\
+;
+signal 'GPA3x12'	'BBLEOx12'	'D7'\
+	'ARDUINO1x12'	'D5'\
+;
+signal 'GPA4x12'	'BBLEOx12'	'D8'\
+	'ARDUINO1x12'	'D6'\
+;
+signal 'GPA5x12'	'BBLEOx12'	'D9'\
+	'ARDUINO1x12'	'D7'\
+;
+signal 'GPA6x12'	'BBLEOx12'	'D10'\
+	'ARDUINO1x12'	'D8'\
+;
+signal 'GPA7x12'	'BBLEOx12'	'D11'\
+	'ARDUINO1x12'	'D9'\
+;
+signal 'GPB0x12'	'BBLEOx12'	'D12'\
+	'ARDUINO1x12'	'D10'\
+;
+signal 'GPB1x12'	'BBLEOx12'	'D13'\
+	'ARDUINO1x12'	'D11'\
+;
+signal 'GPB2x12'	'BBLEOx12'	'A0'\
+	'ARDUINO1x12'	'D12'\
+;
+signal 'GPB3x12'	'BBLEOx12'	'A1'\
+	'ARDUINO1x12'	'D13'\
+;
+signal 'GPB4x12'	'BBLEOx12'	'A2'\
+	'ARDUINO1x12'	'AD0'\
+;
+signal 'GPB5x12'	'BBLEOx12'	'A3'\
+	'ARDUINO1x12'	'AD1'\
+;
+signal 'GPB6x12'	'BBLEOx12'	'A4'\
+	'ARDUINO1x12'	'AD2'\
+;
+signal 'GPB7x12'	'BBLEOx12'	'A5'\
+	'ARDUINO1x12'	'AD3'\
+;
+signal 'N$1x12'	'ARDUINO1x12'	'5V'\
+	'JP1x12'	'2'\
+;
+signal 'RXx12'	'BBLEOx12'	'RX'\
+	'ARDUINO1x12'	'RX'\
+;
+signal 'SCLx12'	'BBLEOx12'	'SCL'\
+	'ARDUINO1x12'	'AD5'\
+;
+signal 'SDAx12'	'BBLEOx12'	'SDA'\
+	'ARDUINO1x12'	'AD4'\
+;
+signal 'TXx12'	'BBLEOx12'	'TX'\
+	'ARDUINO1x12'	'TX@1'\
+;
+signal 'VCCIOx12'	'C3x12'	'1'\
+	'VR5.0x12'	'OUT'\
+	'BBLEOx12'	'+5V@3'\
+	'BBLEOx12'	'+5V@4'\
+	'BBLEOx12'	'+5V@1'\
+	'BBLEOx12'	'+5V@2'\
+	'JP1x12'	'1'\
+;
+change layer 46;
+change style CONTINUOUS;
+wire 'Vscoreauto13' 0.000000 (-100.000000 2620.000000) (3050.000000 2620.000000);
+change size 40;
+text 'V-Score' R90.000000 (-100.000000 2620.000000);
+change layer 46;
+change style CONTINUOUS;
+wire 'Vscoreauto13' 0.000000 (-100.000000 3930.000000) (3050.000000 3930.000000);
+change size 40;
+text 'V-Score' R90.000000 (-100.000000 3930.000000);
+add ARDUINO_PRO_MINI_DAVEK@SPCoast ARDUINO1x13 R270.000000 (1550.000000 3670.000000);
+add ARDUINO-BBLEO@SPCoast BBLEOx13 R0.000000 (0.000000 2620.000000);
+add E5-10,5@SPCoast C1x13 R90.000000 (625.000000 3345.000000);
+add C050-024X044@SPCoast C2x13 R90.000000 (125.000000 3695.000000);
+add C050-024X044@SPCoast C3x13 R270.000000 (125.000000 3395.000000);
+add DCJ0202@SPCoast J1x13 R270.000000 (350.000000 2995.000000);
+add SJ_2S-NO@SPCoast JP1x13 R90.000000 (2400.000000 2795.000000);
+add PWR_LABEL@SPCoast LABEL1x13 R90.000000 (800.000000 2895.000000);
+add OSHW-LOGO-M@SPCoast OSHW1x13 R0.000000 (1350.000000 3070.000000);
+add TO-220-RA-SINK@SPCoast VR5.0x13 R270.000000 (250.000000 3545.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!RESETx13' 12.000000 (2500.000000 3620.000000) (2500.000000 3020.000000);
+change drill 23.622047;
+via '+9Vx13' 43.622047 round (625.000000 3145.000000);
+change drill 23.622047;
+via '+9Vx13' 43.622047 round (2275.000000 2795.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx13' 40.000000 (125.000000 3595.000000) (175.000000 3645.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx13' 40.000000 (175.000000 3645.000000) (250.000000 3645.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx13' 40.000000 (475.000000 2995.000000) (550.000000 2920.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx13' 40.000000 (550.000000 2920.000000) (550.000000 2720.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx13' 40.000000 (550.000000 2720.000000) (500.000000 2670.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx13' 40.000000 (500.000000 2670.000000) (250.000000 2670.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx13' 40.000000 (250.000000 2670.000000) (40.000000 2880.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx13' 40.000000 (40.000000 2880.000000) (40.000000 3595.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx13' 40.000000 (40.000000 3595.000000) (125.000000 3595.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '+9Vx13' 40.000000 (475.000000 2995.000000) (625.000000 3145.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '+9Vx13' 40.000000 (625.000000 3145.000000) (625.000000 3245.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx13' 24.000000 (625.000000 3145.000000) (1125.000000 3145.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx13' 24.000000 (1125.000000 3145.000000) (1350.000000 2920.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx13' 24.000000 (1350.000000 2920.000000) (2150.000000 2920.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '+9Vx13' 24.000000 (2150.000000 2920.000000) (2275.000000 2795.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '+9Vx13' 24.000000 (2275.000000 2795.000000) (2650.000000 2795.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '+9Vx13' 24.000000 (2650.000000 2795.000000) (2700.000000 2845.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '+9Vx13' 24.000000 (2700.000000 2845.000000) (2700.000000 3020.000000);
+change layer 16;
+change isolate 16.000000;
+change rank 2;
+change thermals on;
+change orphans off;
+change pour solid;
+polygon GNDx13 16.000000 (2840.000000 2628.000000) (2840.000000 3910.000000) (8.000000 3910.000000) (8.000000 2628.000000) (2840.000000 2628.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA0x13' 16.000000 (2300.000000 3620.000000) (2300.000000 3820.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA1x13' 16.000000 (2200.000000 3620.000000) (2200.000000 3820.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA2x13' 16.000000 (2100.000000 3620.000000) (2100.000000 3820.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA3x13' 16.000000 (2000.000000 3620.000000) (2000.000000 3820.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA4x13' 16.000000 (1900.000000 3620.000000) (1900.000000 3820.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA5x13' 16.000000 (1800.000000 3620.000000) (1800.000000 3820.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA6x13' 16.000000 (1700.000000 3620.000000) (1700.000000 3820.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPA7x13' 16.000000 (1600.000000 3620.000000) (1600.000000 3820.000000);
+change drill 23.622047;
+via 'GPB0x13' 43.622047 round (1650.000000 3770.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB0x13' 12.000000 (1500.000000 3820.000000) (1550.000000 3770.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB0x13' 12.000000 (1550.000000 3770.000000) (1650.000000 3770.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB0x13' 12.000000 (1650.000000 3770.000000) (1650.000000 3070.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB0x13' 12.000000 (1650.000000 3070.000000) (1600.000000 3020.000000);
+change drill 23.622047;
+via 'GPB1x13' 43.622047 round (1750.000000 3695.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB1x13' 12.000000 (1400.000000 3820.000000) (1400.000000 3720.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB1x13' 12.000000 (1400.000000 3720.000000) (1425.000000 3695.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB1x13' 12.000000 (1425.000000 3695.000000) (1750.000000 3695.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB1x13' 12.000000 (1750.000000 3695.000000) (1750.000000 3070.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB1x13' 12.000000 (1750.000000 3070.000000) (1700.000000 3020.000000);
+change drill 23.622047;
+via 'GPB2x13' 43.622047 round (1800.000000 3545.000000);
+change drill 23.622047;
+via 'GPB2x13' 43.622047 round (1275.000000 3545.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB2x13' 12.000000 (1000.000000 3820.000000) (1275.000000 3545.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB2x13' 12.000000 (1275.000000 3545.000000) (1800.000000 3545.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB2x13' 12.000000 (1800.000000 3545.000000) (1800.000000 3020.000000);
+change drill 23.622047;
+via 'GPB3x13' 43.622047 round (1900.000000 3495.000000);
+change drill 23.622047;
+via 'GPB3x13' 43.622047 round (1225.000000 3495.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB3x13' 12.000000 (900.000000 3820.000000) (1225.000000 3495.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB3x13' 12.000000 (1225.000000 3495.000000) (1900.000000 3495.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB3x13' 12.000000 (1900.000000 3495.000000) (1900.000000 3020.000000);
+change drill 23.622047;
+via 'GPB4x13' 43.622047 round (2000.000000 3445.000000);
+change drill 23.622047;
+via 'GPB4x13' 43.622047 round (1175.000000 3445.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB4x13' 12.000000 (800.000000 3820.000000) (1175.000000 3445.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB4x13' 12.000000 (1175.000000 3445.000000) (2000.000000 3445.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB4x13' 12.000000 (2000.000000 3445.000000) (2000.000000 3020.000000);
+change drill 23.622047;
+via 'GPB5x13' 43.622047 round (2100.000000 3395.000000);
+change drill 23.622047;
+via 'GPB5x13' 43.622047 round (1125.000000 3395.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB5x13' 12.000000 (700.000000 3820.000000) (1125.000000 3395.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB5x13' 12.000000 (1125.000000 3395.000000) (2100.000000 3395.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB5x13' 12.000000 (2100.000000 3395.000000) (2100.000000 3020.000000);
+change drill 23.622047;
+via 'GPB6x13' 43.622047 round (1350.000000 3070.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB6x13' 12.000000 (600.000000 3820.000000) (1350.000000 3070.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB6x13' 12.000000 (1350.000000 3070.000000) (2125.000000 3070.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GPB6x13' 12.000000 (2125.000000 3070.000000) (2200.000000 3020.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB7x13' 12.000000 (500.000000 3820.000000) (1350.000000 2970.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB7x13' 12.000000 (1350.000000 2970.000000) (2250.000000 2970.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'GPB7x13' 12.000000 (2250.000000 2970.000000) (2300.000000 3020.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'N$1x13' 24.000000 (2400.000000 3020.000000) (2400.000000 2812.716535);
+change layer 16;
+change style CONTINUOUS;
+wire 'RXx13' 16.000000 (2600.000000 3620.000000) (2600.000000 3570.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'RXx13' 16.000000 (2600.000000 3570.000000) (2650.000000 3520.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'RXx13' 16.000000 (2650.000000 3520.000000) (2750.000000 3520.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'RXx13' 16.000000 (2750.000000 3520.000000) (2800.000000 3570.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'RXx13' 16.000000 (2800.000000 3570.000000) (2800.000000 3720.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'RXx13' 16.000000 (2800.000000 3720.000000) (2700.000000 3820.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'SCLx13' 12.000000 (2350.000000 3120.000000) (2350.000000 3770.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'SCLx13' 12.000000 (2350.000000 3770.000000) (2400.000000 3820.000000);
+change drill 23.622047;
+via 'SDAx13' 43.622047 round (2250.000000 3370.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'SDAx13' 12.000000 (2500.000000 3820.000000) (2450.000000 3770.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'SDAx13' 12.000000 (2450.000000 3770.000000) (2450.000000 3570.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'SDAx13' 12.000000 (2450.000000 3570.000000) (2250.000000 3370.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'SDAx13' 12.000000 (2250.000000 3370.000000) (2250.000000 3120.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'TXx13' 16.000000 (2600.000000 3820.000000) (2600.000000 3770.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'TXx13' 16.000000 (2600.000000 3770.000000) (2700.000000 3670.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'TXx13' 16.000000 (2700.000000 3670.000000) (2700.000000 3620.000000);
+change layer 1;
+change isolate 16.000000;
+change rank 2;
+change thermals on;
+change orphans off;
+change pour solid;
+polygon VCCIOx13 16.000000 (2840.000000 2628.000000) (2840.000000 3910.000000) (8.000000 3910.000000) (8.000000 2628.000000) (2840.000000 2628.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (0.000000 2620.000000) (0.000000 3930.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (0.000000 3930.000000) (2850.000000 3930.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (2850.000000 3930.000000) (2850.000000 2620.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 0.000000 (2850.000000 2620.000000) (0.000000 2620.000000);
+change layer 52;
+change style CONTINUOUS;
+wire 100.000000 (25.000000 3295.000000) (650.000000 2695.000000);
+change layer 52;
+change style CONTINUOUS;
+wire 100.000000 (25.000000 3820.000000) (1175.000000 2670.000000);
+change layer 52;
+change style CONTINUOUS;
+wire 150.000000 (50.000000 3295.000000) (450.000000 3695.000000);
+change layer 52;
+change style CONTINUOUS;
+wire 150.000000 (225.000000 2795.000000) (800.000000 3420.000000);
+change layer 52;
+change style CONTINUOUS;
+wire 150.000000 (650.000000 2695.000000) (1075.000000 3070.000000);
+change layer 52;
+change ratio 8;
+change size 50.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'Made in the PCR,
+Coast Division, NMRA' MR0.000000 (1369.370079 3603.000000);
+change layer 52;
+change ratio 15;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'www. SP Coast .com' MR0.000000 (2609.322835 2656.228346);
+change layer 52;
+change ratio 15;
+change size 150.000000;
+change font VECTOR;
+change align bottom left;
+text 'bbNode
+Pro Mini' MR180.000000 (1767.629921 3515.000000);
+change layer 52;
+change ratio 8;
+change size 56.000000;
+change font VECTOR;
+change align bottom left;
+text 'Model Railroading is fun!' MR270.000000 (2808.578740 3797.216535);
+change layer 52;
+change ratio 15;
+change size 56.000000;
+change font VECTOR;
+change align bottom left;
+text 'Go Bears!' MR243.000000 (1105.000000 3385.629921);
+change layer 51;
+change ratio 8;
+change size 40.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'John Plocher' R0.000000 (2274.419045 3421.781865);
+change layer 51;
+change ratio 8;
+change size 50.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'VIN' R0.000000 (56.250000 2691.250000);
+change layer 51;
+change ratio 10;
+change size 50.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text '1.0A' R0.000000 (684.629921 2680.750000);
+change layer 51;
+change ratio 15;
+change size 90.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'bbNode ProMini' R0.000000 (441.943159 3568.308194);
+change layer 52;
+change ratio 15;
+change size 56.000000;
+change font VECTOR;
+change align bottom left;
+text 'For use with DFRobot Pro Mini' MR180.000000 (1330.224409 2934.496063);
+change layer 51;
+change ratio 8;
+change size 40.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text '2019.08' R0.000000 (2429.419045 3351.801550);
+change layer 21;
+change ratio 8;
+change size 50.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'DFRobot ProMini' R0.000000 (2043.750000 3261.250000);
+change layer 51;
+change ratio 8;
+change size 56.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'v1.0' R0.000000 (1339.419045 3491.781865);
+change layer 51;
+change ratio 8;
+change size 56.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'BBLeo Footprint' R180.000000 (2825.580955 3918.218135);
+change layer 51;
+change ratio 15;
+change size 90.000000;
+change font PROPORTIONAL;
+change align bottom left;
+text 'MRCS' R0.000000 (441.943159 3693.308194);
+change layer 52;
+change ratio 15;
+change size 100.000000;
+change font VECTOR;
+change align bottom left;
+text 'MRCS' MR180.000000 (2042.629921 2840.000000);
+change layer 125;
+change ratio 8;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'C1' R180.000000 (557.874016 3283.188976);
+change layer 125;
+change ratio 8;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'C2' R180.000000 (97.150960 3845.888041);
+change layer 125;
+change ratio 8;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'C3' R0.000000 (12.315945 3246.960999);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'JP1' R90.000000 (2350.000000 2759.251969);
+change layer 125;
+change ratio 11;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'VR5.0' R180.000000 (343.750000 3276.250000);
+signal '!RESETx13'	'ARDUINO1x13'	'RES'\
+	'ARDUINO1x13'	'RES@1'\
+;
+signal '+9Vx13'	'J1x13'	'1'\
+	'C2x13'	'1'\
+	'VR5.0x13'	'IN'\
+	'C1x13'	'+'\
+	'ARDUINO1x13'	'VIN'\
+;
+signal 'GNDx13'	'J1x13'	'3'\
+	'J1x13'	'2'\
+	'C3x13'	'2'\
+	'C2x13'	'2'\
+	'VR5.0x13'	'GND'\
+	'C1x13'	'-'\
+	'BBLEOx13'	'GND@4'\
+	'BBLEOx13'	'GND@1'\
+	'BBLEOx13'	'GND@3'\
+	'BBLEOx13'	'GND@2'\
+	'BBLEOx13'	'GND@0'\
+	'ARDUINO1x13'	'GND@1'\
+	'ARDUINO1x13'	'GND@2'\
+	'ARDUINO1x13'	'GND@4'\
+;
+signal 'GPA0x13'	'BBLEOx13'	'D4'\
+	'ARDUINO1x13'	'D2'\
+;
+signal 'GPA1x13'	'BBLEOx13'	'D5'\
+	'ARDUINO1x13'	'D3'\
+;
+signal 'GPA2x13'	'BBLEOx13'	'D6'\
+	'ARDUINO1x13'	'D4'\
+;
+signal 'GPA3x13'	'BBLEOx13'	'D7'\
+	'ARDUINO1x13'	'D5'\
+;
+signal 'GPA4x13'	'BBLEOx13'	'D8'\
+	'ARDUINO1x13'	'D6'\
+;
+signal 'GPA5x13'	'BBLEOx13'	'D9'\
+	'ARDUINO1x13'	'D7'\
+;
+signal 'GPA6x13'	'BBLEOx13'	'D10'\
+	'ARDUINO1x13'	'D8'\
+;
+signal 'GPA7x13'	'BBLEOx13'	'D11'\
+	'ARDUINO1x13'	'D9'\
+;
+signal 'GPB0x13'	'BBLEOx13'	'D12'\
+	'ARDUINO1x13'	'D10'\
+;
+signal 'GPB1x13'	'BBLEOx13'	'D13'\
+	'ARDUINO1x13'	'D11'\
+;
+signal 'GPB2x13'	'BBLEOx13'	'A0'\
+	'ARDUINO1x13'	'D12'\
+;
+signal 'GPB3x13'	'BBLEOx13'	'A1'\
+	'ARDUINO1x13'	'D13'\
+;
+signal 'GPB4x13'	'BBLEOx13'	'A2'\
+	'ARDUINO1x13'	'AD0'\
+;
+signal 'GPB5x13'	'BBLEOx13'	'A3'\
+	'ARDUINO1x13'	'AD1'\
+;
+signal 'GPB6x13'	'BBLEOx13'	'A4'\
+	'ARDUINO1x13'	'AD2'\
+;
+signal 'GPB7x13'	'BBLEOx13'	'A5'\
+	'ARDUINO1x13'	'AD3'\
+;
+signal 'N$1x13'	'ARDUINO1x13'	'5V'\
+	'JP1x13'	'2'\
+;
+signal 'RXx13'	'BBLEOx13'	'RX'\
+	'ARDUINO1x13'	'RX'\
+;
+signal 'SCLx13'	'BBLEOx13'	'SCL'\
+	'ARDUINO1x13'	'AD5'\
+;
+signal 'SDAx13'	'BBLEOx13'	'SDA'\
+	'ARDUINO1x13'	'AD4'\
+;
+signal 'TXx13'	'BBLEOx13'	'TX'\
+	'ARDUINO1x13'	'TX@1'\
+;
+signal 'VCCIOx13'	'C3x13'	'1'\
+	'VR5.0x13'	'OUT'\
+	'BBLEOx13'	'+5V@3'\
+	'BBLEOx13'	'+5V@4'\
+	'BBLEOx13'	'+5V@1'\
+	'BBLEOx13'	'+5V@2'\
+	'JP1x13'	'1'\
+;
+window fit;
+ratsnest;
+disp -25;
+display -25;
+display -26;
+display -27;
+display -28;
+display -37;
+display -38;

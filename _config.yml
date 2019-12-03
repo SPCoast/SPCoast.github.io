@@ -85,6 +85,9 @@ collections:
   versions:
     output: true
     eagle: true
+  sketches:
+    output: true
+    arduino: true
   tooltips:
     output: false
 
@@ -115,7 +118,7 @@ defaults:
       layout: "page"
       comments: true
       search: false
-      sidebar: home_sidebar
+      sidebar: spcoast_sidebar
       topnav: topnav
   -
     scope:
@@ -135,16 +138,13 @@ defaults:
       layout: "post"
       comments: true
       search: false
-      sidebar: home_sidebar
+      sidebar: spcoast_sidebar
       topnav: topnav
 
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
-- home_sidebar
-- mydoc_sidebar
-- product1_sidebar
-- product2_sidebar
-- other
+- spcoast_sidebar
+
 
 github: [metadata]

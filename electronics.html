@@ -26,13 +26,23 @@ overview: >
 	{% if thisletter != firstletter  %}
 		{% capture firstletter %}{{ thisletter }}{% endcapture %}
 	<tr>
-		<td colspan=2>
+		<td colspan=3>
 		<b> {{ thisletter }} </b>
 		</td>
 	</tr>
 	{% endif %}
-	<tr><td class="projectlist"> <a href="/pages/{{ p.title }}.html">{{ p.title }}</a> </td> <td>{{ p.tagline }} </td></tr>
-{% endfor %}
+		<tr>
+			<td class="projectlist"> <a href="/pages/{{ p.title }}.html">{{ p.title }}</a> </td>
+
+	{% if p.image_path %}
+			<td> <img src="/versions/{{ p.title}}/{{p.image_path}}" width="50px" alt="{{p.image_path}}"></td>
+	{% else %}
+			<td> &nbsp; </td>
+	{% endif %}
+			<td>{{ p.tagline }} </td>
+		</tr>
+
+	{% endfor %}
 </table>
 
 <hr>

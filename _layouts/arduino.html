@@ -1,0 +1,235 @@
+---
+layout: simple
+---
+		{% assign MRCS=0 %}
+        {% if page.tags != null %}
+        {% if page.tags contains "MRCS" %}
+		{% assign MRCS=1 %}
+	<figure class="audienceLabel">
+	   <img src="/images/MRCS-logo.jpg" style="max-width: 100;" width="100" 
+	      alt="Model Railroad Control Systems"/>
+	   <figcaption><a href="http://www.modelrailroadcontrolsystems.com/">Model Railroad Control Systems</a></figcaption>
+	</figure>
+        {% endif %}
+        {% endif %}
+<div class="post-header">
+   <h1 class="post-title-main">{{ page.title }}</h1>
+</div>
+
+<script>
+	$("#mysidebar").navgoco('toggle', true);
+</script>
+
+
+{% if page.simple_map == true %}
+
+<script>
+    $(document).ready ( function(){
+        $('.box{{page.box_number}}').addClass('active');
+    });
+</script>
+
+{% include custom/{{page.map_name}}.html %}
+
+{% elsif page.complex_map == true %}
+
+<script>
+    $(document).ready ( function(){
+        $('.modalButton{{page.box_number}}').addClass('active');
+    });
+</script>
+
+{% include custom/{{page.map_name}}.html %}
+
+{% endif %}
+{% if MRCS == 0 %}
+<p> <a href="https://github.com/{{ site.github_username }}/{{ page.title }}">Fork project on GitHub</a></p>
+{% else %}
+<p> <a href="https://github.com/SethNeumann/{{ page.title }}">Fork project on GitHub</a></p>
+{% endif %}
+
+<p> {{ page.tagline }}</p>
+{% assign count=0 %}
+{% if page.images != '' %}
+<table><tr>
+{% for image in page.images %}
+<td>
+	<figure>
+	   <a href="{{ image.image_path }}">
+	   <img src="{{ image.image_path }}" style="max-width: 100;" width="100" 
+	      alt="{{ image.title }}"/>
+	   </a>
+	   <figcaption>{{ image.title }}</figcaption>
+	</figure>
+</td>
+{% assign count = count | plus: 1 %}
+{% if count == 4 %}
+{% assign count=0 %}
+</tr><tr>
+{% endif %}
+
+{% endfor %}
+</tr></table>
+<p>&nbsp;</p>
+{% endif %}
+
+{% if page.artifacts != '' %}
+{% for item in page.artifacts %}
+    {% if item.type == "download" %}
+        {{ item.type | capitalize }} <a href="{{ item.path }}">{{ item.tag }} </a> {% if item.post != blank %} - {{ item.post }}{% endif %}<br />
+    {% else %}
+        UNKNOWN ARTIFACT: Type '{{ item.type }}' tag '{{ item.tag }}' path '{{item.path }}'<br />
+    {% endif %}
+{% endfor %}
+<p>&nbsp;</p>
+{% endif %}
+
+{% assign sorted = site.versions | where: "project", page.project | reverse %}
+
+<ul id="profileTabs" class="nav nav-tabs">
+{% assign active=true %}
+{% for version in sorted %}
+    {% capture anchor %}{{ version.title | remove: "." }}{% endcapture %}
+	{% if active== true %}
+		{% capture list %}<li class="active"> {% endcapture %}
+		{% assign active=false %}
+	{% else %}
+		{% assign list="<li>" %}
+	{% endif %}
+	{% capture title %}<a href="#{{ anchor }}" data-toggle="tab"> {{ version.title }} </a> {% endcapture %}
+	{{ list }}{{ title }} </li>
+{% endfor %}
+</ul>
+<div class="tab-content">
+
+{% assign active=true %}
+{% for version in sorted %}
+    {% capture anchor %}{{ version.title | remove: "." }}{% endcapture %}
+	{% if active== true %}
+		{% capture div %}<div role="tabpanel" class="tab-pane active" id="{{ anchor }}"> {% endcapture %}
+		{% assign active=false %}
+	{% else %}
+		{% capture div %}<div role="tabpanel" class="tab-pane" id="{{ anchor }}"> {% endcapture %}
+	{% endif %}
+    {{ div }}
+        {% if version.status == "mature" %}
+                {% capture heading %}  {% endcapture %}
+        {% elsif version.status == "released" %}
+                {% capture heading %}  {% endcapture %}
+        {% elsif version.status == "replaced" %}
+                {% capture heading %} {% include note.html content="Replaced by a newer version." %} {% endcapture %}
+        {% elsif version.status == "broken" %}
+                {% capture heading %} {% include note.html content="Abandoned" %} {% endcapture %}
+        {% elsif version.status == "experimental" %}
+		    {% if version.release %}
+                {% capture heading %} {% include note.html content="Experimental design, work in progress" %} {% endcapture %}
+			{% else %}
+                {% capture heading %} {% include note.html content="Experimental design, not released" %} {% endcapture %}
+			{% endif %}
+        {% else %}
+			{% if version.release %}
+                {% capture heading %} {% include callout.html type="warning" content="Not tested or validated" %} {% endcapture %}
+		    {% else %}
+                {% capture heading %} {% include callout.html type="warning" content="Not released" %} {% endcapture %}
+			{% endif %}
+				
+        {% endif %}
+
+
+        <H2>{{version.project}} Version {{ version.title }}</H2>
+		
+		{% if version.fabricated  %}
+			{% if version.fab_date and version.fab_date != blank %}
+			<p> First built: {{ version.fab_date }} </p>
+			{% else %}
+			<p> Prototyped </p>
+			{% endif %}
+		{% else %}
+			<p> Not built</p>
+		{% endif %}
+		
+		 {{ heading }}
+			{% if version.info != '' %}
+				<p> {{ version.info | markdownify }}</p>
+			{% endif %}
+			{% if version.overview != '' %}
+			    <p> {{ version.overview | markdownify }}</p>
+			{% endif %}		
+			
+{% if "ON" == 'OFF' %}
+{% endif %}
+
+            {% if version.images.size > 0 %}
+				{% assign sortedimages = version.images | sort: "image_path" %}
+				
+	            {% for image in sortedimages %}
+					{% if image.title == "Schematic" %}
+						<figure>
+						   <a href="{{ image.image_path }}">
+						   <img src="{{ image.image_path }}" style="max-width: 100;" width="200"
+						      alt="{{ image.title }}"/>
+						   </a>
+						   <figcaption>{{ image.title }}</figcaption>
+						</figure>
+					{% endif %}
+				{% endfor %}
+	            <table><tr>
+					{% assign basename = sortedimages[0].image_path | split: "/" | last | split: "." | first %}
+		            {% for image in sortedimages %}
+						{% if image.title != "Schematic" %}
+							{% assign thisbase = image.image_path | split: "/" | last | split: "." | first %}
+							{% if thisbase != basename %}
+								{% assign basename= thisbase %}
+								</tr><tr>
+							{% endif %}
+				            <td align=center>
+				                <table border=1><tr><td align=center>
+				                <a href="{{ image.image_path }}"> <img src="{{ image.image_path }}" alt="{{ image.title}}"  width="150" /> </a>
+				                <br />
+				                {{ image.title }}
+				                </td></tr></table>
+				            </td>
+			            {% endif %}
+		            {% endfor %}
+			     </tr></table>
+			{% endif %}
+			
+            <p>
+                {% if version.release %}
+					{% if version.artifacts != '' %}
+	                    {% for item in version.artifacts %}
+	                                {% if item.type == "download" %}
+	                                    {{ item.type | capitalize }} <a href="{{ item.path }}">{{ item.tag }} </a> {% if item.post != blank %} - {{ item.post }}{% endif %}<br />
+	                                {% else %}
+	                                    UNKNOWN ARTIFACT: Type '{{ item.type }}' tag '{{ item.tag }}' path '{{item.path }}'<br />
+	                                {% endif %}
+	                    {% endfor %}
+	                    <p>&nbsp;</p>
+	                    <p>{{ version.content | markdownify }}</p>
+	                {% endif %}
+                {% endif %}
+
+    </div>
+    {% endfor %}
+</div>
+
+   {{content}}
+
+    <div class="tags">
+        {% if page.tags != null %}
+        <b>Tags: </b>
+        {% assign projectTags = site.data.tags.allowed-tags %}
+        {% for tag in page.tags %}
+        {% if projectTags contains tag %}
+        <a href="/{{ "tag_" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+    </div>
+
+{% include disqus.html %}
+
+</div>
+
+{{site.data.alerts.hr_shaded}}
+

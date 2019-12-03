@@ -3,6 +3,7 @@ iseagle: true
 sidebar: spcoast_sidebar
 title: AD4DA-LightUI
 project: AD4DA-LightUI
+image_path: AD4DA-LightUI-Graphic.png
 designer: John Plocher
 fabricated: 2018-07
 status: mature

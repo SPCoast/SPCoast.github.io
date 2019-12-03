@@ -3,5 +3,7 @@
 topnav:
 - title: Topnav
   items:
-    - title: Postings
-      url: /posts
+    - title: SPCoast Github repos
+      url: https://github.com/plocher?tab=repositories
+    - title: MRCS Github repos
+      url: https://github.com/SethNeumann?tab=repositories

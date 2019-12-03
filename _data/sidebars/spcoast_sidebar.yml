@@ -8,7 +8,7 @@ entries:
   - title: SPCoast Projects
     output: web
     folderitems:
-    - title: Arduino Software
+    - title: Arduino Sketches
       url: /arduino.html
       output: web
     - title: Electronics

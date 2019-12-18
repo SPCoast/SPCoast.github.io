@@ -6,6 +6,7 @@ project: I2C-LEDStripDriver
 designer: John Plocher
 fabricated: yes
 fab_date: 2019-03
+image_path: I2C-LEDStripDriver-Graphic.png
 status: released
 release: yes
 tags: [eagle, SPCoast]
@@ -25,6 +26,9 @@ overview: >
     The I2C interface can be used to connect a [I2C-AD4DA](/pages/I2C-AD4DA) and [AD4DA-LightUI](/pages/AD4DA-LightUI.html) for manual lighting control and presets.
     
     
+images:
+  - image_path: /versions/I2C-LEDStripDriver/I2C-LEDStripDriver-Graphic.png
+    title: I2C-LEDStripDriver-Graphic
 artifacts:
   - path: /versions/I2C-LEDStripDriver/DMN4469LSS-MOSFETdriver-DataSheet.pdf
     tag: DMN4469LSS-MOSFETdriver-DataSheet.pdf

@@ -10,6 +10,7 @@ status: released
 release: yes
 tags: [eagle, MRCS, Telephone]
 layout: eagle
+image_path: 3.0-4-g8f284be/MRCS-Morse-Code-Buzzer-3.0-4-g8f284be.top.brd.png
 tagline: Morse Code Buzzer Board
 overview: >
     

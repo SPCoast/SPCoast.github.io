@@ -6,6 +6,7 @@ project: I2C-Codeline-Matrix
 designer: John Plocher
 fabricated: yes
 fab_date: 2019-02
+image_path: I2C-Codeline-Matrix-Graphic.png
 status: released
 release: yes
 tags: [eagle, SPCoast]
@@ -35,6 +36,8 @@ images:
     title: IMG_1333
   - image_path: /versions/I2C-Codeline-Matrix/IMG_1327.jpg
     title: IMG_1327
+  - image_path: /versions/I2C-Codeline-Matrix/I2C-Codeline-Matrix-Graphic.png
+    title: I2C-Codeline-Matrix-Graphic
   - image_path: /versions/I2C-Codeline-Matrix/IMG_1328.jpg
     title: IMG_1328
 artifacts:

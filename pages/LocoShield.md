@@ -8,6 +8,7 @@ fabricated: yes
 fab_date: 2014-07
 status: released
 release: yes
+image_path: LocoShield-Graphic.png
 layout: eagle
 tags: [SPCoast, eagle]
 tagline: An electrical interface to Digitrax Loconet
@@ -44,6 +45,8 @@ images:
     title: LocoShieldv13B
   - image_path: /versions/LocoShield/Assembled-00-1.jpg
     title: Assembled-00-1
+  - image_path: /versions/LocoShield/LocoShield-Graphic.png
+    title: LocoShield-Graphic
 artifacts:
   - path: /versions/LocoShield/LocoShield.pdf
     tag: LocoShield.pdf

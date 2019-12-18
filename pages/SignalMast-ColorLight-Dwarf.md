@@ -6,6 +6,7 @@ project: SignalMast-ColorLight-Dwarf
 designer: John Plocher
 fabricated: yes
 fab_date: 2018-04, 2018-06, 2018-08, 2019-08, 2019-11
+image_path: SignalMast-ColorLight-Dwarf-Graphic.png
 status: released
 release: yes
 tags: [eagle, SPCoast]
@@ -20,6 +21,8 @@ overview: >
 images:
   - image_path: /versions/SignalMast-ColorLight-Dwarf/Signal-Graphic.png
     title: Signal-Graphic
+  - image_path: /versions/SignalMast-ColorLight-Dwarf/SignalMast-ColorLight-Dwarf-Graphic.png
+    title: SignalMast-ColorLight-Dwarf-Graphic
 ---
 
 

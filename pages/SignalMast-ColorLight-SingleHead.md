@@ -6,6 +6,7 @@ project: SignalMast-ColorLight-SingleHead
 designer: John Plocher
 fabricated: yes
 fab_date:  2017-08, 2018-01, 2018-04, 2018-06, 2018-08, 2019-08, 2019-11
+image_path: SignalMast-ColorLight-SingleHead-Graphic.png
 status: released
 release: yes
 tags: [eagle, SPCoast]
@@ -17,6 +18,8 @@ overview: >
 images:
   - image_path: /versions/SignalMast-ColorLight-SingleHead/Signal-Graphic.png
     title: Signal-Graphic
+  - image_path: /versions/SignalMast-ColorLight-SingleHead/SignalMast-ColorLight-SingleHead-Graphic.png
+    title: SignalMast-ColorLight-SingleHead-Graphic
 ---
 
 

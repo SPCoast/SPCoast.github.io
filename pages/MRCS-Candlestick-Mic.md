@@ -10,6 +10,7 @@ status: experimental
 release: yes
 tags: [eagle, MRCS, Telephone]
 layout: eagle
+image_path: 1.0/MRCS-Candlestick-Mic-1.0.top.brd.png
 tagline: An electret replacement for a telephone headset carbon mic
 overview: >
     

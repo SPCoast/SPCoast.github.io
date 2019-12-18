@@ -6,6 +6,7 @@ project: IO4-IR-Detector-Active
 designer: John Plocher
 fabricated: yes
 fab_date: 2017-11
+image_path: IO4-IR-Detector-Active-Graphic.png
 status: released
 release: yes
 tags: [eagle, SPCoast]
@@ -15,6 +16,9 @@ overview: >
     
       * DFRobot based Quad Active IR Transmitter/PhotoDetector occupancy detector
     
+images:
+  - image_path: /versions/IO4-IR-Detector-Active/IO4-IR-Detector-Active-Graphic.png
+    title: IO4-IR-Detector-Active-Graphic
 artifacts:
   - path: /versions/IO4-IR-Detector-Active/RPR-220-photoreflector.pdf
     tag: RPR-220-photoreflector.pdf

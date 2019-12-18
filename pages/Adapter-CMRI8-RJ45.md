@@ -7,10 +7,11 @@ name: Adapter-CMRI8-RJ45
 designer: John Plocher
 fabricated: yes
 fab_date: 2018-12
+image_path: Adapter-CMRI8-RJ45-Graphic.png
 status: released
 publish: yes
+tags: [eagle, SPCoast]
 layout: eagle
-tags: [SPCoast, eagle]
 tagline: CMRI Breakout8 Adapter RJ45 to 0.100, 3.5mm and 0.156 Molex
 overview: >
     
@@ -26,6 +27,9 @@ overview: >
     
       * Added optional resistors inline for direct driving LED outputs with a default (cuttable) link for use as inputs...
     
+images:
+  - image_path: /versions/Adapter-CMRI8-RJ45/Adapter-CMRI8-RJ45-Graphic.png
+    title: Adapter-CMRI8-RJ45-Graphic
 artifacts:
   - path: /versions/Adapter-CMRI8-RJ45/Adapter-CMRI8-RJ45_array.scr
     tag: Adapter-CMRI8-RJ45_array.scr

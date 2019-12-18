@@ -9,6 +9,7 @@ fab_date: 2015-04
 status: released
 release: yes
 layout: eagle
+image_path: 1.0/PCR-Badge-2015-1.0.top.brd.png
 tags: [SPCoast, eagle]
 tagline: PCR-Badge-2015
 overview: >

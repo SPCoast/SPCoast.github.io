@@ -9,11 +9,15 @@ fab_date: 2015-11
 status: released
 release: yes
 tags: [SPCoast, eagle]
+image_path: Adapter-IO4-Breakout-Graphic.png
 layout: eagle
 tagline: RJ12/6 breakout board, inline IO4-IO4 probe
 overview: >
     
     For circuit debugging and signal integrity verification
+images:
+  - image_path: /versions/Adapter-IO4-Breakout/Adapter-IO4-Breakout-Graphic.png
+    title: Adapter-IO4-Breakout-Graphic
 ---
 
 

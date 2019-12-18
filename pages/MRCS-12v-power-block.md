@@ -10,6 +10,7 @@ status: experimental
 release: yes
 tags: [eagle, MRCS]
 layout: eagle
+image_path: 1.0/MRCS-12v-power-block-1.0.top.brd.png
 tagline: Power distribution block for cTc controlled locked turnouts
 overview: >
     

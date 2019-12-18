@@ -8,6 +8,7 @@ fabricated: no
 fab_date: 
 status: experimental
 release: yes
+image_path: CMRI-Bus-Interface-Graphic.png
 layout: eagle
 tags: [SPCoast, eagle]
 tagline: RS422/485 driver for CMRI-Net
@@ -18,6 +19,9 @@ overview: >
     
     Daughter board for interfacing with CMRI Bus traffic using MRCS 'duino example code.
     Uses an optional onboard 555 to generate TX/RX enable based on processor I/O direction
+images:
+  - image_path: /versions/CMRI-Bus-Interface/CMRI-Bus-Interface-Graphic.png
+    title: CMRI-Bus-Interface-Graphic
 ---
 
 

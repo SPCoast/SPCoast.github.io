@@ -6,6 +6,7 @@ project: Brakeman
 designer: John Plocher
 fabricated: yes
 fab_date: 2016-11
+image_path: Lit.jpg
 status: released
 release: yes
 layout: eagle

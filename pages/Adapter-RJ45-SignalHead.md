@@ -6,6 +6,7 @@ project: Adapter-RJ45-SignalHead
 designer: John Plocher
 fabricated: yes
 fab_date: 2018-01
+image_path: Adapter-RJ45-SignalHead-Graphic.png
 status: released
 release: yes
 tags: [eagle, SPCoast]
@@ -14,6 +15,9 @@ tagline: RJ45/8 breakout board, for driving signal heads from IOB-Signal
 overview: >
     
     
+images:
+  - image_path: /versions/Adapter-RJ45-SignalHead/Adapter-RJ45-SignalHead-Graphic.png
+    title: Adapter-RJ45-SignalHead-Graphic
 artifacts:
   - path: /versions/Adapter-RJ45-SignalHead/Adapter-RJ45-SignalHead_array.scr
     tag: Adapter-RJ45-SignalHead_array.scr

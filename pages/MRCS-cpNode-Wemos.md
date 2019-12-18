@@ -10,6 +10,7 @@ status: released
 release: yes
 tags: [eagle, MRCS]
 layout: eagle
+image_path: 5.0/MRCS-cpNode-Wemos-5.0.top.brd.png
 tagline: cpNode (2.7" Tyco Rail) processor for MRCS CMRI applications
 overview: >
     

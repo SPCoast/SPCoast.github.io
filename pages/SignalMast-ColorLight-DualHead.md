@@ -6,6 +6,7 @@ project: SignalMast-ColorLight-DualHead
 designer: John Plocher
 fabricated: yes
 fab_date: 2018-04
+image_path: SignalMast-ColorLight-DualHead-Graphic.png
 status: released
 release: yes
 tags: [eagle, SPCoast]
@@ -19,6 +20,8 @@ overview: >
 images:
   - image_path: /versions/SignalMast-ColorLight-DualHead/Signal-Graphic.png
     title: Signal-Graphic
+  - image_path: /versions/SignalMast-ColorLight-DualHead/SignalMast-ColorLight-DualHead-Graphic.png
+    title: SignalMast-ColorLight-DualHead-Graphic
 ---
 
 

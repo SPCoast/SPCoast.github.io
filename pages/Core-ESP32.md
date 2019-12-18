@@ -8,6 +8,7 @@ fabricated: yes
 fab_date: 2019-03
 status: released
 release: yes
+image_path: Core-ESP32-Graphic.png
 layout: eagle
 tags: [SPCoast, eagle]
 tagline: Core Field Unit Processor board using an ESP32 Dev Board with Wifi, BLE and a small OLED screen

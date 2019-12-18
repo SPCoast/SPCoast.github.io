@@ -9,6 +9,7 @@ fab_date: 2018-08
 status: released
 release: yes
 tags: [eagle, SPCoast]
+image_path: IO4-Codeline-Matrix-Graphic.png
 layout: eagle
 tagline: IO4 interface for 2x LED Matrix displays (not for I2C expander ports)
 overview: >

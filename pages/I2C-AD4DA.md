@@ -7,8 +7,9 @@ designer: John Plocher
 fabricated: no
 status: experimental
 release: yes
+image_path: I2C-AD4DA-LightUI-V3-Graphic.png
+tags: [eagle, SPCoast]
 layout: eagle
-tags: [SPCoast, eagle]
 tagline: I2C 4x A/D 1x  D/A I/O expander based on a PCF8591T
 overview: >
     
@@ -16,10 +17,12 @@ overview: >
     
     
 images:
-  - image_path: /versions/I2C-AD4DA/I2C-AD4DA-LightUI.png
-    title: I2C-AD4DA-LightUI
-  - image_path: /versions/I2C-AD4DA/I2C-AD4DA-Graphic.png
-    title: I2C-AD4DA-Graphic
+  - image_path: /versions/I2C-AD4DA/I2C-AD4DA-V2-Graphic.png
+    title: I2C-AD4DA-V2-Graphic
+  - image_path: /versions/I2C-AD4DA/I2C-AD4DA-LightUI-V2-Graphic.png
+    title: I2C-AD4DA-LightUI-V2-Graphic
+  - image_path: /versions/I2C-AD4DA/I2C-AD4DA-LightUI-V3-Graphic.png
+    title: I2C-AD4DA-LightUI-V3-Graphic
 artifacts:
   - path: /versions/I2C-AD4DA/PCF8591.pdf
     tag: PCF8591.pdf

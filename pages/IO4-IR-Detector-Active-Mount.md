@@ -6,6 +6,7 @@ project: IO4-IR-Detector-Active-Mount
 designer: John Plocher
 fabricated: yes
 fab_date: 2018-03
+image_path: IO4-IR-Detector-Active-Mount-Graphic.png
 status: released
 release: yes
 tags: [eagle, SPCoast]
@@ -19,6 +20,9 @@ overview: >
      * Measure the roadbed depth and solder the sensor to the mounting plate such that the sensor does not extend up past the ties
      * solder a 4x wire harness - or a 1x4 header - to the mount, with the pins/wires facing down / away from the sensor
      * Use a screw to attach the mount under the layout
+images:
+  - image_path: /versions/IO4-IR-Detector-Active-Mount/IO4-IR-Detector-Active-Mount-Graphic.png
+    title: IO4-IR-Detector-Active-Mount-Graphic
 artifacts:
   - path: /versions/IO4-IR-Detector-Active-Mount/IO4-IR-Detector-Active-Mount_array.scr
     tag: IO4-IR-Detector-Active-Mount_array.scr

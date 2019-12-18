@@ -11,6 +11,7 @@ release: yes
 category: MRCS
 tags: [eagle, MRCS]
 layout: eagle
+image_path: 1.0/MRCS-Adapter-RJ11-1.0.top.brd.png
 tagline: MRCS - RJ modular Headset connector breakout board
 overview: >
     

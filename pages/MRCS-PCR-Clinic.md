@@ -10,6 +10,7 @@ status: released
 release: yes
 tags: [eagle, MRCS]
 layout: eagle
+image_path: 1.0/MRCS-PCR-Clinic-1.0.top.brd.png
 tagline: MRCS-PCR-Clinic
 overview: >
     

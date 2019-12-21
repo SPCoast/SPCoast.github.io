@@ -23,6 +23,9 @@ entries:
     - title: cTc Machine construction
       url: /ctc.html
       output: web
+    - title: Pick and Place Machine
+      url: /chmt48vb.html
+      output: web
     - title: PCB Assembly Notes
       url: /project_assembly.html
       output: web

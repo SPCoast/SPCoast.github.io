@@ -15,6 +15,8 @@ tagline: IOB interface provides 1x IO4 port with 4x Input i/o lines.
 overview: >
     
       * A 1k series resistor protects the processing electronics from shorts to Vcc or GND
+      * Schottkey diodes and a 1kHZ low pass filter protect the inputs from noise/transients/+12v
+    
     
     
     
@@ -27,6 +29,10 @@ artifacts:
     tag: IOB-Inputs_array.scr
     type: download
     post: Eagle SCRipt
+  - path: /versions/IOB-Inputs/IOB-PanelTemplate.brd
+    tag: IOB-PanelTemplate.brd
+    type: download
+    post: Eagle PCB file
 ---
 
 

@@ -1,0 +1,23 @@
+# name, smd?, value, package, component, x, y, angle
+CON1, PTH, CONNECTOR-IO4INV, RJ25-INVERTED, connector-io4inv-rj25-inverted, 0.00, 0.00, 270.00
+CON2, PTH, , 1X06_LOCK, -1x06_lock, 0.00, 0.00, 90.00
+LED1, SMD, , 0805-LED, -0805-led, 9.53, 8.26, 0.00
+LED2, SMD, , 0805-LED, -0805-led, 19.69, 8.26, 0.00
+LED3, SMD, , 0805-LED, -0805-led, 29.85, 8.26, 0.00
+LED4, SMD, , 0805-LED, -0805-led, 40.01, 8.26, 0.00
+LED5, PTH, , LED5MM, -led5mm, 0.00, 0.00, 0.00
+LED6, PTH, , LED5MM, -led5mm, 0.00, 0.00, 0.00
+LED7, PTH, , LED5MM, -led5mm, 0.00, 0.00, 0.00
+LED8, PTH, , LED5MM, -led5mm, 0.00, 0.00, 0.00
+Q1, SMD, , SOT23-3, -sot23-3, 4.45, 4.50, 0.00
+Q2, SMD, , SOT23-3, -sot23-3, 14.61, 4.50, 0.00
+Q3, SMD, , SOT23-3, -sot23-3, 24.77, 4.50, 0.00
+Q4, SMD, , SOT23-3, -sot23-3, 34.93, 4.50, 0.00
+R1, SMD, , 0805-RES, -0805-res, 4.45, 8.26, 180.00
+R2, SMD, , 0805-RES, -0805-res, 14.61, 8.26, 180.00
+R3, SMD, , 0805-RES, -0805-res, 24.77, 8.26, 180.00
+R4, SMD, , 0805-RES, -0805-res, 34.93, 8.26, 180.00
+SW1, PTH, , B3F-10XX, -b3f-10xx, 0.00, 0.00, 90.00
+SW2, PTH, , B3F-10XX, -b3f-10xx, 0.00, 0.00, 90.00
+SW3, PTH, , B3F-10XX, -b3f-10xx, 0.00, 0.00, 90.00
+SW4, PTH, , B3F-10XX, -b3f-10xx, 0.00, 0.00, 90.00

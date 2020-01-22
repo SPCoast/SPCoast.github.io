@@ -25,10 +25,6 @@ overview: >
     changelog, so don't replicate those messages here.
     
 artifacts:
-  - path: /versions/Adapter-IO4-test/Adapter-IO4-test_array.b##
-    tag: Adapter-IO4-test_array
-    type: download
-    post: 
   - path: /versions/Adapter-IO4-test/Adapter-IO4-test_array.scr
     tag: Adapter-IO4-test_array.scr
     type: download

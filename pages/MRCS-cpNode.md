@@ -10,7 +10,7 @@ status: released
 release: yes
 tags: [eagle, MRCS]
 layout: eagle
-image_path: 2.5/MRCS-cpNode-2.5.top.brd.png
+image_path: 2.6/MRCS-cpNode-2.6.top.brd.png
 tagline: Arduino based CMRI node
 overview: >
     

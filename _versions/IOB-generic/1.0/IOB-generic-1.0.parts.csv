@@ -1,0 +1,20 @@
+# name, smd?, value, package, component, x, y, angle
+CON1, PTH, , 1X06_LOCK, -1x06_lock, 0.00, 0.00, 180.00
+IOB, PTH, CONNECTOR-IO4-IOBBARE, IO4-IOB, connector-io4-iobbare-io4-iob, 0.00, 0.00, 270.00
+J1, PTH, RJ12/6, RJ25-PANEL, rj12/6-rj25-panel, 0.00, 0.00, 180.00
+LED1, SMD, Y, 0603-LED, y-0603-led, 15.24, 2.54, 270.00
+LED2, SMD, Y, 0603-LED, y-0603-led, 11.43, 2.54, 270.00
+LED3, SMD, Y, 0603-LED, y-0603-led, 7.62, 2.54, 270.00
+LED4, SMD, Y, 0603-LED, y-0603-led, 3.81, 2.54, 270.00
+Q0, SMD, P-FET, SOT23, p-fet-sot23, 15.24, 6.99, 180.00
+Q1, SMD, P-FET, SOT23, p-fet-sot23, 11.43, 6.99, 180.00
+Q2, SMD, P-FET, SOT23, p-fet-sot23, 7.62, 6.99, 180.00
+Q3, SMD, P-FET, SOT23, p-fet-sot23, 3.81, 6.99, 180.00
+R1, SMD, 2K0, 0805-RES, 2k0-0805-res, 13.34, 4.45, 90.00
+R2, SMD, 2K0, 0805-RES, 2k0-0805-res, 9.53, 4.45, 90.00
+R3, SMD, 2K0, 0805-RES, 2k0-0805-res, 5.71, 4.45, 90.00
+R4, SMD, 2K0, 0805-RES, 2k0-0805-res, 1.91, 4.45, 90.00
+R9, PTH, NOSTUFF, AXIAL-0.4-RES, nostuff-axial-0.4-res, 0.00, 0.00, 90.00
+R10, PTH, NOSTUFF, AXIAL-0.4-RES, nostuff-axial-0.4-res, 0.00, 0.00, 90.00
+R11, PTH, NOSTUFF, AXIAL-0.4-RES, nostuff-axial-0.4-res, 0.00, 0.00, 90.00
+R12, PTH, NOSTUFF, AXIAL-0.4-RES, nostuff-axial-0.4-res, 0.00, 0.00, 90.00

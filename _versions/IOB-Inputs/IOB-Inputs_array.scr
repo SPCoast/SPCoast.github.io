@@ -6,39 +6,15 @@ layer ?? -125;
 layer 125 '_tNames';
 set color_layer 125 14;
 add 0603-CAP@SPCoast C1x11 R90.000000 (475.000000 1000.000000);
-change layer 23;
-change size 24.000000;
-text 'C1' R90.000000 (425.000000 950.000000);
 add 0603-CAP@SPCoast C2x11 R90.000000 (350.000000 1000.000000);
-change layer 23;
-change size 24.000000;
-text 'C2' R90.000000 (300.000000 950.000000);
 add 0603-CAP@SPCoast C3x11 R90.000000 (225.000000 1000.000000);
-change layer 23;
-change size 24.000000;
-text 'C3' R90.000000 (175.000000 950.000000);
 add 0603-CAP@SPCoast C4x11 R90.000000 (100.000000 1000.000000);
-change layer 23;
-change size 24.000000;
-text 'C4' R90.000000 (50.000000 950.000000);
+add 1X06_LOCK@SPCoast CON1x11 R180.000000 (600.000000 1725.000000);
 add SOT323R@SPCoast D1x11 R180.000000 (475.000000 850.000000);
-change layer 23;
-change size 50.000000;
-text 'D1' R180.000000 (514.370079 798.818898);
 add SOT323R@SPCoast D2x11 R180.000000 (350.000000 850.000000);
-change layer 23;
-change size 50.000000;
-text 'D2' R180.000000 (389.370079 798.818898);
 add SOT323R@SPCoast D3x11 R180.000000 (225.000000 850.000000);
-change layer 23;
-change size 50.000000;
-text 'D3' R180.000000 (264.370079 798.818898);
 add SOT323R@SPCoast D4x11 R180.000000 (100.000000 850.000000);
-change layer 23;
-change size 50.000000;
-text 'D4' R180.000000 (139.370079 798.818898);
-add 0805-RES@SPCoast F7x11 R90.000000 (265.000000 680.000000);
-add FIDUCIAL_1MM@SPCoast FID1x11 R270.000000 (55.000000 1750.000000);
+add FIDUCIAL_1MM@SPCoast FID1x11 R270.000000 (305.000000 1925.000000);
 add FIDUCIAL_1MM@SPCoast FID2x11 R270.000000 (725.000000 75.000000);
 add IO4-IOB@SPCoast IOBx11 R270.000000 (0.000000 2000.000000);
 add RJ25-PANEL@SPCoast J1x11 R180.000000 (350.000000 1875.000000);
@@ -56,23 +32,12 @@ add 0805-RES@SPCoast R3x11 R90.000000 (225.000000 175.000000);
 add 0805-RES@SPCoast R4x11 R90.000000 (75.000000 175.000000);
 add 0805-RES@SPCoast R5x11 R90.000000 (515.000000 680.000000);
 add 0805-RES@SPCoast R6x11 R90.000000 (390.000000 680.000000);
+add 0805-RES@SPCoast R7x11 R90.000000 (265.000000 680.000000);
 add 0805-RES@SPCoast R8x11 R90.000000 (140.000000 680.000000);
 add 0805-RES@SPCoast R9x11 R90.000000 (400.000000 1250.000000);
-change layer 23;
-change size 16.000000;
-text 'R9' R90.000000 (367.500000 1220.000000);
 add 0805-RES@SPCoast R10x11 R90.000000 (300.000000 1250.000000);
-change layer 23;
-change size 16.000000;
-text 'R10' R90.000000 (267.500000 1220.000000);
 add 0805-RES@SPCoast R11x11 R90.000000 (200.000000 1250.000000);
-change layer 23;
-change size 16.000000;
-text 'R11' R90.000000 (167.500000 1220.000000);
 add 0805-RES@SPCoast R12x11 R90.000000 (100.000000 1250.000000);
-change layer 23;
-change size 16.000000;
-text 'R12' R90.000000 (67.500000 1220.000000);
 add 1X03@SPCoast VINx11 R0.000000 (500.000000 1250.000000);
 change layer 1;
 change style CONTINUOUS;
@@ -85,6 +50,12 @@ change style CONTINUOUS;
 wire '!IO1x11' 10.000000 (400.000000 1350.000000) (400.000000 1285.433071);
 change layer 1;
 change style CONTINUOUS;
+wire '!IO1x11' 16.000000 (425.000000 1625.000000) (500.000000 1700.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO1x11' 16.000000 (500.000000 1700.000000) (500.000000 1735.000000);
+change layer 1;
+change style CONTINUOUS;
 wire '!IO2x11' 10.000000 (375.000000 1525.000000) (375.000000 1425.000000);
 change layer 1;
 change style CONTINUOUS;
@@ -92,6 +63,12 @@ wire '!IO2x11' 10.000000 (375.000000 1425.000000) (300.000000 1350.000000);
 change layer 1;
 change style CONTINUOUS;
 wire '!IO2x11' 10.000000 (300.000000 1350.000000) (300.000000 1285.433071);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO2x11' 16.000000 (375.000000 1525.000000) (375.000000 1700.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO2x11' 16.000000 (375.000000 1700.000000) (400.000000 1725.000000);
 change layer 1;
 change style CONTINUOUS;
 wire '!IO3x11' 10.000000 (325.000000 1625.000000) (325.000000 1490.000000);
@@ -103,6 +80,12 @@ change style CONTINUOUS;
 wire '!IO3x11' 10.000000 (200.000000 1350.000000) (200.000000 1285.433071);
 change layer 1;
 change style CONTINUOUS;
+wire '!IO3x11' 16.000000 (325.000000 1625.000000) (300.000000 1650.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO3x11' 16.000000 (300.000000 1650.000000) (300.000000 1735.000000);
+change layer 1;
+change style CONTINUOUS;
 wire '!IO4x11' 10.000000 (275.000000 1525.000000) (225.000000 1525.000000);
 change layer 1;
 change style CONTINUOUS;
@@ -110,6 +93,12 @@ wire '!IO4x11' 10.000000 (225.000000 1525.000000) (100.000000 1400.000000);
 change layer 1;
 change style CONTINUOUS;
 wire '!IO4x11' 10.000000 (100.000000 1400.000000) (100.000000 1285.433071);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO4x11' 16.000000 (275.000000 1525.000000) (275.000000 1650.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO4x11' 16.000000 (275.000000 1650.000000) (200.000000 1725.000000);
 change drill 27.559055;
 via 'GNDx11' 43.559055 round (75.000000 70.000000);
 change drill 23.622047;
@@ -241,6 +230,12 @@ wire 'N$1x11' 16.000000 (600.000000 1255.000000) (600.000000 1400.000000);
 change layer 16;
 change style CONTINUOUS;
 wire 'N$1x11' 16.000000 (600.000000 1400.000000) (475.000000 1525.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x11' 16.000000 (475.000000 1525.000000) (600.000000 1650.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x11' 16.000000 (600.000000 1650.000000) (600.000000 1725.000000);
 change layer 1;
 change style CONTINUOUS;
 wire 'N$2x11' 10.000000 (525.000000 139.566929) (535.039370 129.527559);
@@ -679,7 +674,7 @@ change ratio 8;
 change size 50.000000;
 change font PROPORTIONAL;
 change align bottom left;
-text '1.3' R0.000000 (635.000000 1925.000000);
+text '1.4' R0.000000 (635.000000 1925.000000);
 change layer 51;
 change ratio 8;
 change size 50.000000;
@@ -766,40 +761,28 @@ change align bottom left;
 text 'C4' R90.000000 (50.000000 950.000000);
 change layer 125;
 change ratio 8;
-change size 50.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'D1' R180.000000 (514.369956 798.819021);
+text 'D1' R180.000000 (464.369956 823.819021);
 change layer 125;
 change ratio 8;
-change size 50.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'D2' R180.000000 (389.369956 798.819021);
+text 'D2' R180.000000 (339.369956 823.819021);
 change layer 125;
 change ratio 8;
-change size 50.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'D3' R180.000000 (264.369956 798.819021);
+text 'D3' R180.000000 (214.369956 823.819021);
 change layer 125;
 change ratio 8;
-change size 50.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'D4' R180.000000 (139.369956 798.819021);
-change layer 125;
-change ratio 8;
-change size 10.000000;
-change font VECTOR;
-change align bottom left;
-text 'F7' R90.000000 (232.500000 650.000000);
-change layer 125;
-change ratio 8;
-change size 40.000000;
-change font VECTOR;
-change align bottom left;
-text 'J1' R180.000000 (535.000000 2075.000000);
+text 'D4' R180.000000 (89.369956 823.819021);
 change layer 125;
 change ratio 11;
 change size 10.000000;
@@ -850,63 +833,67 @@ change align bottom left;
 text 'R4' R90.000000 (42.500000 145.000000);
 change layer 125;
 change ratio 8;
-change size 10.000000;
+change size 24.000000;
 change font VECTOR;
 change align bottom left;
-text 'R5' R90.000000 (482.500000 650.000000);
+text 'R5' R90.000000 (472.500000 580.000000);
 change layer 125;
 change ratio 8;
-change size 10.000000;
+change size 24.000000;
 change font VECTOR;
 change align bottom left;
-text 'R6' R90.000000 (357.500000 650.000000);
+text 'R6' R90.000000 (347.500000 580.000000);
 change layer 125;
 change ratio 8;
-change size 10.000000;
+change size 24.000000;
 change font VECTOR;
 change align bottom left;
-text 'R8' R90.000000 (107.500000 650.000000);
+text 'R7' R90.000000 (222.500000 580.000000);
 change layer 125;
 change ratio 8;
-change size 16.000000;
+change size 24.000000;
 change font VECTOR;
 change align bottom left;
-text 'R9' R90.000000 (367.500000 1220.000000);
+text 'R8' R90.000000 (97.500000 580.000000);
 change layer 125;
 change ratio 8;
-change size 16.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'R10' R90.000000 (267.500000 1220.000000);
+text 'R9' R90.000000 (362.500000 1140.000000);
 change layer 125;
 change ratio 8;
-change size 16.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'R11' R90.000000 (167.500000 1220.000000);
+text 'R10' R90.000000 (262.500000 1140.000000);
 change layer 125;
 change ratio 8;
-change size 16.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'R12' R90.000000 (67.500000 1220.000000);
+text 'R11' R90.000000 (157.500000 1140.000000);
 change layer 125;
-change ratio 10;
-change size 50.000000;
+change ratio 8;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'VIN' R0.000000 (297.000000 1332.000000);
+text 'R12' R90.000000 (42.500000 1145.000000);
 signal '!IO1x11'	'J1x11'	'2'\
 	'R9x11'	'2'\
+	'CON1x11'	'2'\
 ;
 signal '!IO2x11'	'J1x11'	'3'\
 	'R10x11'	'2'\
+	'CON1x11'	'3'\
 ;
 signal '!IO3x11'	'J1x11'	'4'\
 	'R11x11'	'2'\
+	'CON1x11'	'4'\
 ;
 signal '!IO4x11'	'J1x11'	'5'\
 	'R12x11'	'2'\
+	'CON1x11'	'5'\
 ;
 signal 'GNDx11'	'J1x11'	'6'\
 	'LED4x11'	'C'\
@@ -923,9 +910,11 @@ signal 'GNDx11'	'J1x11'	'6'\
 	'C3x11'	'2'\
 	'D4x11'	'1'\
 	'C4x11'	'2'\
+	'CON1x11'	'6'\
 ;
 signal 'N$1x11'	'J1x11'	'1'\
 	'VINx11'	'2'\
+	'CON1x11'	'1'\
 ;
 signal 'N$2x11'	'R1x11'	'1'\
 	'LED1x11'	'A'\
@@ -949,7 +938,7 @@ signal 'N$11x11'	'R1x11'	'2'\
 ;
 signal 'N$12x11'	'R11x11'	'1'\
 	'D3x11'	'2'\
-	'F7x11'	'2'\
+	'R7x11'	'2'\
 	'C3x11'	'1'\
 ;
 signal 'N$13x11'	'R10x11'	'1'\
@@ -980,7 +969,7 @@ signal 'P2x11'	'Q1x11'	'1'\
 	'IOBx11'	'P2'\
 ;
 signal 'P3x11'	'Q2x11'	'1'\
-	'F7x11'	'1'\
+	'R7x11'	'1'\
 	'IOBx11'	'P3'\
 ;
 signal 'P4x11'	'Q3x11'	'1'\
@@ -1007,39 +996,15 @@ wire 'Vscoreauto21' 0.000000 (800.000000 -100.000000) (800.000000 2200.000000);
 change size 40;
 text 'V-Score' R180.000000 (800.000000 -100.000000);
 add 0603-CAP@SPCoast C1x21 R90.000000 (1275.000000 1000.000000);
-change layer 23;
-change size 24.000000;
-text 'C1' R90.000000 (1225.000000 950.000000);
 add 0603-CAP@SPCoast C2x21 R90.000000 (1150.000000 1000.000000);
-change layer 23;
-change size 24.000000;
-text 'C2' R90.000000 (1100.000000 950.000000);
 add 0603-CAP@SPCoast C3x21 R90.000000 (1025.000000 1000.000000);
-change layer 23;
-change size 24.000000;
-text 'C3' R90.000000 (975.000000 950.000000);
 add 0603-CAP@SPCoast C4x21 R90.000000 (900.000000 1000.000000);
-change layer 23;
-change size 24.000000;
-text 'C4' R90.000000 (850.000000 950.000000);
+add 1X06_LOCK@SPCoast CON1x21 R180.000000 (1400.000000 1725.000000);
 add SOT323R@SPCoast D1x21 R180.000000 (1275.000000 850.000000);
-change layer 23;
-change size 50.000000;
-text 'D1' R180.000000 (1314.370079 798.818898);
 add SOT323R@SPCoast D2x21 R180.000000 (1150.000000 850.000000);
-change layer 23;
-change size 50.000000;
-text 'D2' R180.000000 (1189.370079 798.818898);
 add SOT323R@SPCoast D3x21 R180.000000 (1025.000000 850.000000);
-change layer 23;
-change size 50.000000;
-text 'D3' R180.000000 (1064.370079 798.818898);
 add SOT323R@SPCoast D4x21 R180.000000 (900.000000 850.000000);
-change layer 23;
-change size 50.000000;
-text 'D4' R180.000000 (939.370079 798.818898);
-add 0805-RES@SPCoast F7x21 R90.000000 (1065.000000 680.000000);
-add FIDUCIAL_1MM@SPCoast FID1x21 R270.000000 (855.000000 1750.000000);
+add FIDUCIAL_1MM@SPCoast FID1x21 R270.000000 (1105.000000 1925.000000);
 add FIDUCIAL_1MM@SPCoast FID2x21 R270.000000 (1525.000000 75.000000);
 add IO4-IOB@SPCoast IOBx21 R270.000000 (800.000000 2000.000000);
 add RJ25-PANEL@SPCoast J1x21 R180.000000 (1150.000000 1875.000000);
@@ -1057,23 +1022,12 @@ add 0805-RES@SPCoast R3x21 R90.000000 (1025.000000 175.000000);
 add 0805-RES@SPCoast R4x21 R90.000000 (875.000000 175.000000);
 add 0805-RES@SPCoast R5x21 R90.000000 (1315.000000 680.000000);
 add 0805-RES@SPCoast R6x21 R90.000000 (1190.000000 680.000000);
+add 0805-RES@SPCoast R7x21 R90.000000 (1065.000000 680.000000);
 add 0805-RES@SPCoast R8x21 R90.000000 (940.000000 680.000000);
 add 0805-RES@SPCoast R9x21 R90.000000 (1200.000000 1250.000000);
-change layer 23;
-change size 16.000000;
-text 'R9' R90.000000 (1167.500000 1220.000000);
 add 0805-RES@SPCoast R10x21 R90.000000 (1100.000000 1250.000000);
-change layer 23;
-change size 16.000000;
-text 'R10' R90.000000 (1067.500000 1220.000000);
 add 0805-RES@SPCoast R11x21 R90.000000 (1000.000000 1250.000000);
-change layer 23;
-change size 16.000000;
-text 'R11' R90.000000 (967.500000 1220.000000);
 add 0805-RES@SPCoast R12x21 R90.000000 (900.000000 1250.000000);
-change layer 23;
-change size 16.000000;
-text 'R12' R90.000000 (867.500000 1220.000000);
 add 1X03@SPCoast VINx21 R0.000000 (1300.000000 1250.000000);
 change layer 1;
 change style CONTINUOUS;
@@ -1086,6 +1040,12 @@ change style CONTINUOUS;
 wire '!IO1x21' 10.000000 (1200.000000 1350.000000) (1200.000000 1285.433071);
 change layer 1;
 change style CONTINUOUS;
+wire '!IO1x21' 16.000000 (1225.000000 1625.000000) (1300.000000 1700.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO1x21' 16.000000 (1300.000000 1700.000000) (1300.000000 1735.000000);
+change layer 1;
+change style CONTINUOUS;
 wire '!IO2x21' 10.000000 (1175.000000 1525.000000) (1175.000000 1425.000000);
 change layer 1;
 change style CONTINUOUS;
@@ -1093,6 +1053,12 @@ wire '!IO2x21' 10.000000 (1175.000000 1425.000000) (1100.000000 1350.000000);
 change layer 1;
 change style CONTINUOUS;
 wire '!IO2x21' 10.000000 (1100.000000 1350.000000) (1100.000000 1285.433071);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO2x21' 16.000000 (1175.000000 1525.000000) (1175.000000 1700.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO2x21' 16.000000 (1175.000000 1700.000000) (1200.000000 1725.000000);
 change layer 1;
 change style CONTINUOUS;
 wire '!IO3x21' 10.000000 (1125.000000 1625.000000) (1125.000000 1490.000000);
@@ -1104,6 +1070,12 @@ change style CONTINUOUS;
 wire '!IO3x21' 10.000000 (1000.000000 1350.000000) (1000.000000 1285.433071);
 change layer 1;
 change style CONTINUOUS;
+wire '!IO3x21' 16.000000 (1125.000000 1625.000000) (1100.000000 1650.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO3x21' 16.000000 (1100.000000 1650.000000) (1100.000000 1735.000000);
+change layer 1;
+change style CONTINUOUS;
 wire '!IO4x21' 10.000000 (1075.000000 1525.000000) (1025.000000 1525.000000);
 change layer 1;
 change style CONTINUOUS;
@@ -1111,6 +1083,12 @@ wire '!IO4x21' 10.000000 (1025.000000 1525.000000) (900.000000 1400.000000);
 change layer 1;
 change style CONTINUOUS;
 wire '!IO4x21' 10.000000 (900.000000 1400.000000) (900.000000 1285.433071);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO4x21' 16.000000 (1075.000000 1525.000000) (1075.000000 1650.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO4x21' 16.000000 (1075.000000 1650.000000) (1000.000000 1725.000000);
 change drill 27.559055;
 via 'GNDx21' 43.559055 round (875.000000 70.000000);
 change drill 23.622047;
@@ -1242,6 +1220,12 @@ wire 'N$1x21' 16.000000 (1400.000000 1255.000000) (1400.000000 1400.000000);
 change layer 16;
 change style CONTINUOUS;
 wire 'N$1x21' 16.000000 (1400.000000 1400.000000) (1275.000000 1525.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x21' 16.000000 (1275.000000 1525.000000) (1400.000000 1650.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x21' 16.000000 (1400.000000 1650.000000) (1400.000000 1725.000000);
 change layer 1;
 change style CONTINUOUS;
 wire 'N$2x21' 10.000000 (1325.000000 139.566929) (1335.039370 129.527559);
@@ -1680,7 +1664,7 @@ change ratio 8;
 change size 50.000000;
 change font PROPORTIONAL;
 change align bottom left;
-text '1.3' R0.000000 (1435.000000 1925.000000);
+text '1.4' R0.000000 (1435.000000 1925.000000);
 change layer 51;
 change ratio 8;
 change size 50.000000;
@@ -1767,40 +1751,28 @@ change align bottom left;
 text 'C4' R90.000000 (850.000000 950.000000);
 change layer 125;
 change ratio 8;
-change size 50.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'D1' R180.000000 (1314.369956 798.819021);
+text 'D1' R180.000000 (1264.369956 823.819021);
 change layer 125;
 change ratio 8;
-change size 50.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'D2' R180.000000 (1189.369956 798.819021);
+text 'D2' R180.000000 (1139.369956 823.819021);
 change layer 125;
 change ratio 8;
-change size 50.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'D3' R180.000000 (1064.369956 798.819021);
+text 'D3' R180.000000 (1014.369956 823.819021);
 change layer 125;
 change ratio 8;
-change size 50.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'D4' R180.000000 (939.369956 798.819021);
-change layer 125;
-change ratio 8;
-change size 10.000000;
-change font VECTOR;
-change align bottom left;
-text 'F7' R90.000000 (1032.500000 650.000000);
-change layer 125;
-change ratio 8;
-change size 40.000000;
-change font VECTOR;
-change align bottom left;
-text 'J1' R180.000000 (1335.000000 2075.000000);
+text 'D4' R180.000000 (889.369956 823.819021);
 change layer 125;
 change ratio 11;
 change size 10.000000;
@@ -1851,63 +1823,67 @@ change align bottom left;
 text 'R4' R90.000000 (842.500000 145.000000);
 change layer 125;
 change ratio 8;
-change size 10.000000;
+change size 24.000000;
 change font VECTOR;
 change align bottom left;
-text 'R5' R90.000000 (1282.500000 650.000000);
+text 'R5' R90.000000 (1272.500000 580.000000);
 change layer 125;
 change ratio 8;
-change size 10.000000;
+change size 24.000000;
 change font VECTOR;
 change align bottom left;
-text 'R6' R90.000000 (1157.500000 650.000000);
+text 'R6' R90.000000 (1147.500000 580.000000);
 change layer 125;
 change ratio 8;
-change size 10.000000;
+change size 24.000000;
 change font VECTOR;
 change align bottom left;
-text 'R8' R90.000000 (907.500000 650.000000);
+text 'R7' R90.000000 (1022.500000 580.000000);
 change layer 125;
 change ratio 8;
-change size 16.000000;
+change size 24.000000;
 change font VECTOR;
 change align bottom left;
-text 'R9' R90.000000 (1167.500000 1220.000000);
+text 'R8' R90.000000 (897.500000 580.000000);
 change layer 125;
 change ratio 8;
-change size 16.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'R10' R90.000000 (1067.500000 1220.000000);
+text 'R9' R90.000000 (1162.500000 1140.000000);
 change layer 125;
 change ratio 8;
-change size 16.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'R11' R90.000000 (967.500000 1220.000000);
+text 'R10' R90.000000 (1062.500000 1140.000000);
 change layer 125;
 change ratio 8;
-change size 16.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'R12' R90.000000 (867.500000 1220.000000);
+text 'R11' R90.000000 (957.500000 1140.000000);
 change layer 125;
-change ratio 10;
-change size 50.000000;
+change ratio 8;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'VIN' R0.000000 (1097.000000 1332.000000);
+text 'R12' R90.000000 (842.500000 1145.000000);
 signal '!IO1x21'	'J1x21'	'2'\
 	'R9x21'	'2'\
+	'CON1x21'	'2'\
 ;
 signal '!IO2x21'	'J1x21'	'3'\
 	'R10x21'	'2'\
+	'CON1x21'	'3'\
 ;
 signal '!IO3x21'	'J1x21'	'4'\
 	'R11x21'	'2'\
+	'CON1x21'	'4'\
 ;
 signal '!IO4x21'	'J1x21'	'5'\
 	'R12x21'	'2'\
+	'CON1x21'	'5'\
 ;
 signal 'GNDx21'	'J1x21'	'6'\
 	'LED4x21'	'C'\
@@ -1924,9 +1900,11 @@ signal 'GNDx21'	'J1x21'	'6'\
 	'C3x21'	'2'\
 	'D4x21'	'1'\
 	'C4x21'	'2'\
+	'CON1x21'	'6'\
 ;
 signal 'N$1x21'	'J1x21'	'1'\
 	'VINx21'	'2'\
+	'CON1x21'	'1'\
 ;
 signal 'N$2x21'	'R1x21'	'1'\
 	'LED1x21'	'A'\
@@ -1950,7 +1928,7 @@ signal 'N$11x21'	'R1x21'	'2'\
 ;
 signal 'N$12x21'	'R11x21'	'1'\
 	'D3x21'	'2'\
-	'F7x21'	'2'\
+	'R7x21'	'2'\
 	'C3x21'	'1'\
 ;
 signal 'N$13x21'	'R10x21'	'1'\
@@ -1981,7 +1959,7 @@ signal 'P2x21'	'Q1x21'	'1'\
 	'IOBx21'	'P2'\
 ;
 signal 'P3x21'	'Q2x21'	'1'\
-	'F7x21'	'1'\
+	'R7x21'	'1'\
 	'IOBx21'	'P3'\
 ;
 signal 'P4x21'	'Q3x21'	'1'\
@@ -2008,39 +1986,15 @@ wire 'Vscoreauto31' 0.000000 (1600.000000 -100.000000) (1600.000000 2200.000000)
 change size 40;
 text 'V-Score' R180.000000 (1600.000000 -100.000000);
 add 0603-CAP@SPCoast C1x31 R90.000000 (2075.000000 1000.000000);
-change layer 23;
-change size 24.000000;
-text 'C1' R90.000000 (2025.000000 950.000000);
 add 0603-CAP@SPCoast C2x31 R90.000000 (1950.000000 1000.000000);
-change layer 23;
-change size 24.000000;
-text 'C2' R90.000000 (1900.000000 950.000000);
 add 0603-CAP@SPCoast C3x31 R90.000000 (1825.000000 1000.000000);
-change layer 23;
-change size 24.000000;
-text 'C3' R90.000000 (1775.000000 950.000000);
 add 0603-CAP@SPCoast C4x31 R90.000000 (1700.000000 1000.000000);
-change layer 23;
-change size 24.000000;
-text 'C4' R90.000000 (1650.000000 950.000000);
+add 1X06_LOCK@SPCoast CON1x31 R180.000000 (2200.000000 1725.000000);
 add SOT323R@SPCoast D1x31 R180.000000 (2075.000000 850.000000);
-change layer 23;
-change size 50.000000;
-text 'D1' R180.000000 (2114.370079 798.818898);
 add SOT323R@SPCoast D2x31 R180.000000 (1950.000000 850.000000);
-change layer 23;
-change size 50.000000;
-text 'D2' R180.000000 (1989.370079 798.818898);
 add SOT323R@SPCoast D3x31 R180.000000 (1825.000000 850.000000);
-change layer 23;
-change size 50.000000;
-text 'D3' R180.000000 (1864.370079 798.818898);
 add SOT323R@SPCoast D4x31 R180.000000 (1700.000000 850.000000);
-change layer 23;
-change size 50.000000;
-text 'D4' R180.000000 (1739.370079 798.818898);
-add 0805-RES@SPCoast F7x31 R90.000000 (1865.000000 680.000000);
-add FIDUCIAL_1MM@SPCoast FID1x31 R270.000000 (1655.000000 1750.000000);
+add FIDUCIAL_1MM@SPCoast FID1x31 R270.000000 (1905.000000 1925.000000);
 add FIDUCIAL_1MM@SPCoast FID2x31 R270.000000 (2325.000000 75.000000);
 add IO4-IOB@SPCoast IOBx31 R270.000000 (1600.000000 2000.000000);
 add RJ25-PANEL@SPCoast J1x31 R180.000000 (1950.000000 1875.000000);
@@ -2058,23 +2012,12 @@ add 0805-RES@SPCoast R3x31 R90.000000 (1825.000000 175.000000);
 add 0805-RES@SPCoast R4x31 R90.000000 (1675.000000 175.000000);
 add 0805-RES@SPCoast R5x31 R90.000000 (2115.000000 680.000000);
 add 0805-RES@SPCoast R6x31 R90.000000 (1990.000000 680.000000);
+add 0805-RES@SPCoast R7x31 R90.000000 (1865.000000 680.000000);
 add 0805-RES@SPCoast R8x31 R90.000000 (1740.000000 680.000000);
 add 0805-RES@SPCoast R9x31 R90.000000 (2000.000000 1250.000000);
-change layer 23;
-change size 16.000000;
-text 'R9' R90.000000 (1967.500000 1220.000000);
 add 0805-RES@SPCoast R10x31 R90.000000 (1900.000000 1250.000000);
-change layer 23;
-change size 16.000000;
-text 'R10' R90.000000 (1867.500000 1220.000000);
 add 0805-RES@SPCoast R11x31 R90.000000 (1800.000000 1250.000000);
-change layer 23;
-change size 16.000000;
-text 'R11' R90.000000 (1767.500000 1220.000000);
 add 0805-RES@SPCoast R12x31 R90.000000 (1700.000000 1250.000000);
-change layer 23;
-change size 16.000000;
-text 'R12' R90.000000 (1667.500000 1220.000000);
 add 1X03@SPCoast VINx31 R0.000000 (2100.000000 1250.000000);
 change layer 1;
 change style CONTINUOUS;
@@ -2087,6 +2030,12 @@ change style CONTINUOUS;
 wire '!IO1x31' 10.000000 (2000.000000 1350.000000) (2000.000000 1285.433071);
 change layer 1;
 change style CONTINUOUS;
+wire '!IO1x31' 16.000000 (2025.000000 1625.000000) (2100.000000 1700.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO1x31' 16.000000 (2100.000000 1700.000000) (2100.000000 1735.000000);
+change layer 1;
+change style CONTINUOUS;
 wire '!IO2x31' 10.000000 (1975.000000 1525.000000) (1975.000000 1425.000000);
 change layer 1;
 change style CONTINUOUS;
@@ -2094,6 +2043,12 @@ wire '!IO2x31' 10.000000 (1975.000000 1425.000000) (1900.000000 1350.000000);
 change layer 1;
 change style CONTINUOUS;
 wire '!IO2x31' 10.000000 (1900.000000 1350.000000) (1900.000000 1285.433071);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO2x31' 16.000000 (1975.000000 1525.000000) (1975.000000 1700.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO2x31' 16.000000 (1975.000000 1700.000000) (2000.000000 1725.000000);
 change layer 1;
 change style CONTINUOUS;
 wire '!IO3x31' 10.000000 (1925.000000 1625.000000) (1925.000000 1490.000000);
@@ -2105,6 +2060,12 @@ change style CONTINUOUS;
 wire '!IO3x31' 10.000000 (1800.000000 1350.000000) (1800.000000 1285.433071);
 change layer 1;
 change style CONTINUOUS;
+wire '!IO3x31' 16.000000 (1925.000000 1625.000000) (1900.000000 1650.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO3x31' 16.000000 (1900.000000 1650.000000) (1900.000000 1735.000000);
+change layer 1;
+change style CONTINUOUS;
 wire '!IO4x31' 10.000000 (1875.000000 1525.000000) (1825.000000 1525.000000);
 change layer 1;
 change style CONTINUOUS;
@@ -2112,6 +2073,12 @@ wire '!IO4x31' 10.000000 (1825.000000 1525.000000) (1700.000000 1400.000000);
 change layer 1;
 change style CONTINUOUS;
 wire '!IO4x31' 10.000000 (1700.000000 1400.000000) (1700.000000 1285.433071);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO4x31' 16.000000 (1875.000000 1525.000000) (1875.000000 1650.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO4x31' 16.000000 (1875.000000 1650.000000) (1800.000000 1725.000000);
 change drill 27.559055;
 via 'GNDx31' 43.559055 round (1675.000000 70.000000);
 change drill 23.622047;
@@ -2243,6 +2210,12 @@ wire 'N$1x31' 16.000000 (2200.000000 1255.000000) (2200.000000 1400.000000);
 change layer 16;
 change style CONTINUOUS;
 wire 'N$1x31' 16.000000 (2200.000000 1400.000000) (2075.000000 1525.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x31' 16.000000 (2075.000000 1525.000000) (2200.000000 1650.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x31' 16.000000 (2200.000000 1650.000000) (2200.000000 1725.000000);
 change layer 1;
 change style CONTINUOUS;
 wire 'N$2x31' 10.000000 (2125.000000 139.566929) (2135.039370 129.527559);
@@ -2681,7 +2654,7 @@ change ratio 8;
 change size 50.000000;
 change font PROPORTIONAL;
 change align bottom left;
-text '1.3' R0.000000 (2235.000000 1925.000000);
+text '1.4' R0.000000 (2235.000000 1925.000000);
 change layer 51;
 change ratio 8;
 change size 50.000000;
@@ -2768,40 +2741,28 @@ change align bottom left;
 text 'C4' R90.000000 (1650.000000 950.000000);
 change layer 125;
 change ratio 8;
-change size 50.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'D1' R180.000000 (2114.369956 798.819021);
+text 'D1' R180.000000 (2064.369956 823.819021);
 change layer 125;
 change ratio 8;
-change size 50.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'D2' R180.000000 (1989.369956 798.819021);
+text 'D2' R180.000000 (1939.369956 823.819021);
 change layer 125;
 change ratio 8;
-change size 50.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'D3' R180.000000 (1864.369956 798.819021);
+text 'D3' R180.000000 (1814.369956 823.819021);
 change layer 125;
 change ratio 8;
-change size 50.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'D4' R180.000000 (1739.369956 798.819021);
-change layer 125;
-change ratio 8;
-change size 10.000000;
-change font VECTOR;
-change align bottom left;
-text 'F7' R90.000000 (1832.500000 650.000000);
-change layer 125;
-change ratio 8;
-change size 40.000000;
-change font VECTOR;
-change align bottom left;
-text 'J1' R180.000000 (2135.000000 2075.000000);
+text 'D4' R180.000000 (1689.369956 823.819021);
 change layer 125;
 change ratio 11;
 change size 10.000000;
@@ -2852,63 +2813,67 @@ change align bottom left;
 text 'R4' R90.000000 (1642.500000 145.000000);
 change layer 125;
 change ratio 8;
-change size 10.000000;
+change size 24.000000;
 change font VECTOR;
 change align bottom left;
-text 'R5' R90.000000 (2082.500000 650.000000);
+text 'R5' R90.000000 (2072.500000 580.000000);
 change layer 125;
 change ratio 8;
-change size 10.000000;
+change size 24.000000;
 change font VECTOR;
 change align bottom left;
-text 'R6' R90.000000 (1957.500000 650.000000);
+text 'R6' R90.000000 (1947.500000 580.000000);
 change layer 125;
 change ratio 8;
-change size 10.000000;
+change size 24.000000;
 change font VECTOR;
 change align bottom left;
-text 'R8' R90.000000 (1707.500000 650.000000);
+text 'R7' R90.000000 (1822.500000 580.000000);
 change layer 125;
 change ratio 8;
-change size 16.000000;
+change size 24.000000;
 change font VECTOR;
 change align bottom left;
-text 'R9' R90.000000 (1967.500000 1220.000000);
+text 'R8' R90.000000 (1697.500000 580.000000);
 change layer 125;
 change ratio 8;
-change size 16.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'R10' R90.000000 (1867.500000 1220.000000);
+text 'R9' R90.000000 (1962.500000 1140.000000);
 change layer 125;
 change ratio 8;
-change size 16.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'R11' R90.000000 (1767.500000 1220.000000);
+text 'R10' R90.000000 (1862.500000 1140.000000);
 change layer 125;
 change ratio 8;
-change size 16.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'R12' R90.000000 (1667.500000 1220.000000);
+text 'R11' R90.000000 (1757.500000 1140.000000);
 change layer 125;
-change ratio 10;
-change size 50.000000;
+change ratio 8;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'VIN' R0.000000 (1897.000000 1332.000000);
+text 'R12' R90.000000 (1642.500000 1145.000000);
 signal '!IO1x31'	'J1x31'	'2'\
 	'R9x31'	'2'\
+	'CON1x31'	'2'\
 ;
 signal '!IO2x31'	'J1x31'	'3'\
 	'R10x31'	'2'\
+	'CON1x31'	'3'\
 ;
 signal '!IO3x31'	'J1x31'	'4'\
 	'R11x31'	'2'\
+	'CON1x31'	'4'\
 ;
 signal '!IO4x31'	'J1x31'	'5'\
 	'R12x31'	'2'\
+	'CON1x31'	'5'\
 ;
 signal 'GNDx31'	'J1x31'	'6'\
 	'LED4x31'	'C'\
@@ -2925,9 +2890,11 @@ signal 'GNDx31'	'J1x31'	'6'\
 	'C3x31'	'2'\
 	'D4x31'	'1'\
 	'C4x31'	'2'\
+	'CON1x31'	'6'\
 ;
 signal 'N$1x31'	'J1x31'	'1'\
 	'VINx31'	'2'\
+	'CON1x31'	'1'\
 ;
 signal 'N$2x31'	'R1x31'	'1'\
 	'LED1x31'	'A'\
@@ -2951,7 +2918,7 @@ signal 'N$11x31'	'R1x31'	'2'\
 ;
 signal 'N$12x31'	'R11x31'	'1'\
 	'D3x31'	'2'\
-	'F7x31'	'2'\
+	'R7x31'	'2'\
 	'C3x31'	'1'\
 ;
 signal 'N$13x31'	'R10x31'	'1'\
@@ -2982,7 +2949,7 @@ signal 'P2x31'	'Q1x31'	'1'\
 	'IOBx31'	'P2'\
 ;
 signal 'P3x31'	'Q2x31'	'1'\
-	'F7x31'	'1'\
+	'R7x31'	'1'\
 	'IOBx31'	'P3'\
 ;
 signal 'P4x31'	'Q3x31'	'1'\
@@ -3014,39 +2981,15 @@ set Wire_Bend 0;
 wire 'BoardOutline' 10.000000 (0.000000 0.000000) (3200.000000 2000.000000) (0.000000 0.000000);
 set Wire_Bend 2;
 add 0603-CAP@SPCoast C1x41 R90.000000 (2875.000000 1000.000000);
-change layer 23;
-change size 24.000000;
-text 'C1' R90.000000 (2825.000000 950.000000);
 add 0603-CAP@SPCoast C2x41 R90.000000 (2750.000000 1000.000000);
-change layer 23;
-change size 24.000000;
-text 'C2' R90.000000 (2700.000000 950.000000);
 add 0603-CAP@SPCoast C3x41 R90.000000 (2625.000000 1000.000000);
-change layer 23;
-change size 24.000000;
-text 'C3' R90.000000 (2575.000000 950.000000);
 add 0603-CAP@SPCoast C4x41 R90.000000 (2500.000000 1000.000000);
-change layer 23;
-change size 24.000000;
-text 'C4' R90.000000 (2450.000000 950.000000);
+add 1X06_LOCK@SPCoast CON1x41 R180.000000 (3000.000000 1725.000000);
 add SOT323R@SPCoast D1x41 R180.000000 (2875.000000 850.000000);
-change layer 23;
-change size 50.000000;
-text 'D1' R180.000000 (2914.370079 798.818898);
 add SOT323R@SPCoast D2x41 R180.000000 (2750.000000 850.000000);
-change layer 23;
-change size 50.000000;
-text 'D2' R180.000000 (2789.370079 798.818898);
 add SOT323R@SPCoast D3x41 R180.000000 (2625.000000 850.000000);
-change layer 23;
-change size 50.000000;
-text 'D3' R180.000000 (2664.370079 798.818898);
 add SOT323R@SPCoast D4x41 R180.000000 (2500.000000 850.000000);
-change layer 23;
-change size 50.000000;
-text 'D4' R180.000000 (2539.370079 798.818898);
-add 0805-RES@SPCoast F7x41 R90.000000 (2665.000000 680.000000);
-add FIDUCIAL_1MM@SPCoast FID1x41 R270.000000 (2455.000000 1750.000000);
+add FIDUCIAL_1MM@SPCoast FID1x41 R270.000000 (2705.000000 1925.000000);
 add FIDUCIAL_1MM@SPCoast FID2x41 R270.000000 (3125.000000 75.000000);
 add IO4-IOB@SPCoast IOBx41 R270.000000 (2400.000000 2000.000000);
 add RJ25-PANEL@SPCoast J1x41 R180.000000 (2750.000000 1875.000000);
@@ -3064,23 +3007,12 @@ add 0805-RES@SPCoast R3x41 R90.000000 (2625.000000 175.000000);
 add 0805-RES@SPCoast R4x41 R90.000000 (2475.000000 175.000000);
 add 0805-RES@SPCoast R5x41 R90.000000 (2915.000000 680.000000);
 add 0805-RES@SPCoast R6x41 R90.000000 (2790.000000 680.000000);
+add 0805-RES@SPCoast R7x41 R90.000000 (2665.000000 680.000000);
 add 0805-RES@SPCoast R8x41 R90.000000 (2540.000000 680.000000);
 add 0805-RES@SPCoast R9x41 R90.000000 (2800.000000 1250.000000);
-change layer 23;
-change size 16.000000;
-text 'R9' R90.000000 (2767.500000 1220.000000);
 add 0805-RES@SPCoast R10x41 R90.000000 (2700.000000 1250.000000);
-change layer 23;
-change size 16.000000;
-text 'R10' R90.000000 (2667.500000 1220.000000);
 add 0805-RES@SPCoast R11x41 R90.000000 (2600.000000 1250.000000);
-change layer 23;
-change size 16.000000;
-text 'R11' R90.000000 (2567.500000 1220.000000);
 add 0805-RES@SPCoast R12x41 R90.000000 (2500.000000 1250.000000);
-change layer 23;
-change size 16.000000;
-text 'R12' R90.000000 (2467.500000 1220.000000);
 add 1X03@SPCoast VINx41 R0.000000 (2900.000000 1250.000000);
 change layer 1;
 change style CONTINUOUS;
@@ -3093,6 +3025,12 @@ change style CONTINUOUS;
 wire '!IO1x41' 10.000000 (2800.000000 1350.000000) (2800.000000 1285.433071);
 change layer 1;
 change style CONTINUOUS;
+wire '!IO1x41' 16.000000 (2825.000000 1625.000000) (2900.000000 1700.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO1x41' 16.000000 (2900.000000 1700.000000) (2900.000000 1735.000000);
+change layer 1;
+change style CONTINUOUS;
 wire '!IO2x41' 10.000000 (2775.000000 1525.000000) (2775.000000 1425.000000);
 change layer 1;
 change style CONTINUOUS;
@@ -3100,6 +3038,12 @@ wire '!IO2x41' 10.000000 (2775.000000 1425.000000) (2700.000000 1350.000000);
 change layer 1;
 change style CONTINUOUS;
 wire '!IO2x41' 10.000000 (2700.000000 1350.000000) (2700.000000 1285.433071);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO2x41' 16.000000 (2775.000000 1525.000000) (2775.000000 1700.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO2x41' 16.000000 (2775.000000 1700.000000) (2800.000000 1725.000000);
 change layer 1;
 change style CONTINUOUS;
 wire '!IO3x41' 10.000000 (2725.000000 1625.000000) (2725.000000 1490.000000);
@@ -3111,6 +3055,12 @@ change style CONTINUOUS;
 wire '!IO3x41' 10.000000 (2600.000000 1350.000000) (2600.000000 1285.433071);
 change layer 1;
 change style CONTINUOUS;
+wire '!IO3x41' 16.000000 (2725.000000 1625.000000) (2700.000000 1650.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO3x41' 16.000000 (2700.000000 1650.000000) (2700.000000 1735.000000);
+change layer 1;
+change style CONTINUOUS;
 wire '!IO4x41' 10.000000 (2675.000000 1525.000000) (2625.000000 1525.000000);
 change layer 1;
 change style CONTINUOUS;
@@ -3118,6 +3068,12 @@ wire '!IO4x41' 10.000000 (2625.000000 1525.000000) (2500.000000 1400.000000);
 change layer 1;
 change style CONTINUOUS;
 wire '!IO4x41' 10.000000 (2500.000000 1400.000000) (2500.000000 1285.433071);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO4x41' 16.000000 (2675.000000 1525.000000) (2675.000000 1650.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO4x41' 16.000000 (2675.000000 1650.000000) (2600.000000 1725.000000);
 change drill 27.559055;
 via 'GNDx41' 43.559055 round (2475.000000 70.000000);
 change drill 23.622047;
@@ -3249,6 +3205,12 @@ wire 'N$1x41' 16.000000 (3000.000000 1255.000000) (3000.000000 1400.000000);
 change layer 16;
 change style CONTINUOUS;
 wire 'N$1x41' 16.000000 (3000.000000 1400.000000) (2875.000000 1525.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x41' 16.000000 (2875.000000 1525.000000) (3000.000000 1650.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'N$1x41' 16.000000 (3000.000000 1650.000000) (3000.000000 1725.000000);
 change layer 1;
 change style CONTINUOUS;
 wire 'N$2x41' 10.000000 (2925.000000 139.566929) (2935.039370 129.527559);
@@ -3687,7 +3649,7 @@ change ratio 8;
 change size 50.000000;
 change font PROPORTIONAL;
 change align bottom left;
-text '1.3' R0.000000 (3035.000000 1925.000000);
+text '1.4' R0.000000 (3035.000000 1925.000000);
 change layer 51;
 change ratio 8;
 change size 50.000000;
@@ -3774,40 +3736,28 @@ change align bottom left;
 text 'C4' R90.000000 (2450.000000 950.000000);
 change layer 125;
 change ratio 8;
-change size 50.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'D1' R180.000000 (2914.369956 798.819021);
+text 'D1' R180.000000 (2864.369956 823.819021);
 change layer 125;
 change ratio 8;
-change size 50.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'D2' R180.000000 (2789.369956 798.819021);
+text 'D2' R180.000000 (2739.369956 823.819021);
 change layer 125;
 change ratio 8;
-change size 50.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'D3' R180.000000 (2664.369956 798.819021);
+text 'D3' R180.000000 (2614.369956 823.819021);
 change layer 125;
 change ratio 8;
-change size 50.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'D4' R180.000000 (2539.369956 798.819021);
-change layer 125;
-change ratio 8;
-change size 10.000000;
-change font VECTOR;
-change align bottom left;
-text 'F7' R90.000000 (2632.500000 650.000000);
-change layer 125;
-change ratio 8;
-change size 40.000000;
-change font VECTOR;
-change align bottom left;
-text 'J1' R180.000000 (2935.000000 2075.000000);
+text 'D4' R180.000000 (2489.369956 823.819021);
 change layer 125;
 change ratio 11;
 change size 10.000000;
@@ -3858,63 +3808,67 @@ change align bottom left;
 text 'R4' R90.000000 (2442.500000 145.000000);
 change layer 125;
 change ratio 8;
-change size 10.000000;
+change size 24.000000;
 change font VECTOR;
 change align bottom left;
-text 'R5' R90.000000 (2882.500000 650.000000);
+text 'R5' R90.000000 (2872.500000 580.000000);
 change layer 125;
 change ratio 8;
-change size 10.000000;
+change size 24.000000;
 change font VECTOR;
 change align bottom left;
-text 'R6' R90.000000 (2757.500000 650.000000);
+text 'R6' R90.000000 (2747.500000 580.000000);
 change layer 125;
 change ratio 8;
-change size 10.000000;
+change size 24.000000;
 change font VECTOR;
 change align bottom left;
-text 'R8' R90.000000 (2507.500000 650.000000);
+text 'R7' R90.000000 (2622.500000 580.000000);
 change layer 125;
 change ratio 8;
-change size 16.000000;
+change size 24.000000;
 change font VECTOR;
 change align bottom left;
-text 'R9' R90.000000 (2767.500000 1220.000000);
+text 'R8' R90.000000 (2497.500000 580.000000);
 change layer 125;
 change ratio 8;
-change size 16.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'R10' R90.000000 (2667.500000 1220.000000);
+text 'R9' R90.000000 (2762.500000 1140.000000);
 change layer 125;
 change ratio 8;
-change size 16.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'R11' R90.000000 (2567.500000 1220.000000);
+text 'R10' R90.000000 (2662.500000 1140.000000);
 change layer 125;
 change ratio 8;
-change size 16.000000;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'R12' R90.000000 (2467.500000 1220.000000);
+text 'R11' R90.000000 (2557.500000 1140.000000);
 change layer 125;
-change ratio 10;
-change size 50.000000;
+change ratio 8;
+change size 32.000000;
 change font VECTOR;
 change align bottom left;
-text 'VIN' R0.000000 (2697.000000 1332.000000);
+text 'R12' R90.000000 (2442.500000 1145.000000);
 signal '!IO1x41'	'J1x41'	'2'\
 	'R9x41'	'2'\
+	'CON1x41'	'2'\
 ;
 signal '!IO2x41'	'J1x41'	'3'\
 	'R10x41'	'2'\
+	'CON1x41'	'3'\
 ;
 signal '!IO3x41'	'J1x41'	'4'\
 	'R11x41'	'2'\
+	'CON1x41'	'4'\
 ;
 signal '!IO4x41'	'J1x41'	'5'\
 	'R12x41'	'2'\
+	'CON1x41'	'5'\
 ;
 signal 'GNDx41'	'J1x41'	'6'\
 	'LED4x41'	'C'\
@@ -3931,9 +3885,11 @@ signal 'GNDx41'	'J1x41'	'6'\
 	'C3x41'	'2'\
 	'D4x41'	'1'\
 	'C4x41'	'2'\
+	'CON1x41'	'6'\
 ;
 signal 'N$1x41'	'J1x41'	'1'\
 	'VINx41'	'2'\
+	'CON1x41'	'1'\
 ;
 signal 'N$2x41'	'R1x41'	'1'\
 	'LED1x41'	'A'\
@@ -3957,7 +3913,7 @@ signal 'N$11x41'	'R1x41'	'2'\
 ;
 signal 'N$12x41'	'R11x41'	'1'\
 	'D3x41'	'2'\
-	'F7x41'	'2'\
+	'R7x41'	'2'\
 	'C3x41'	'1'\
 ;
 signal 'N$13x41'	'R10x41'	'1'\
@@ -3988,7 +3944,7 @@ signal 'P2x41'	'Q1x41'	'1'\
 	'IOBx41'	'P2'\
 ;
 signal 'P3x41'	'Q2x41'	'1'\
-	'F7x41'	'1'\
+	'R7x41'	'1'\
 	'IOBx41'	'P3'\
 ;
 signal 'P4x41'	'Q3x41'	'1'\

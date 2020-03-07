@@ -1,0 +1,13 @@
+# name, smd?, value, package, component, x, y, angle
+C1, SMD, 0.1UF, 0805-CAP, 0.1uf-0805-cap, 29.21, 8.64, 270.00
+CON1, PTH, RJ45, RJ45-NO-SHIELD, rj45-rj45-no-shield, 0.00, 0.00, 270.00
+FID1, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 15.88, 1.40, 0.00
+FID3, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 51.44, 18.41, 0.00
+IC1, SMD, 74HS139A, SO16, 74hs139a-so16, 35.43, 8.51, 0.00
+R4, SMD, 420R, 0805-RES, 420r-0805-res, 25.40, 6.60, 0.00
+R6, SMD, 1K0, 0805-RES, 1k0-0805-res, 21.59, 5.33, 0.00
+R7, SMD, 1K0, 0805-RES, 1k0-0805-res, 21.59, 7.87, 0.00
+R8, SMD, 420R, 0805-RES, 420r-0805-res, 25.40, 11.68, 0.00
+R9, SMD, 1K0, 0805-RES, 1k0-0805-res, 21.59, 10.41, 0.00
+R10, SMD, 1K0, 0805-RES, 1k0-0805-res, 21.59, 12.95, 0.00
+U$1, PTH, CONNECTOR-IO4-IOBBARE, IO4-IOB, connector-io4-iobbare-io4-iob, 0.00, 0.00, 0.00

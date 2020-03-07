@@ -1,21 +1,46 @@
 ---
 iseagle: true
 sidebar: spcoast_sidebar
-title: IOB-generic
-project: IOB-generic
+title: IOB-Generic
+project: IOB-Generic
+designer: John Plocher
+author: John Plocher
+fabricated: no
+fab_date: 
+fab_date: 
+status: released
+release: yes
+tags: [eagle, SPCoast]
 layout: eagle
-image_path: 1.0/IOB-generic-1.0.top.brd.png
-tags: [SPCoast, eagle]
-tagline: IOB-generic
+image_path: 2.0/IOB-Generic-2.0.top.brd.png
+tagline: IOB interface provides 1x IO4 port with 4x generic (hardwired) Input or Output i/o lines.
 overview: >
     
+      * An optional series resistor can be used to current limit directly connected LEDs
+      * Updated to new IOB design
+    
+    
+    
+    
+    
 artifacts:
-  - path: /versions/IOB-generic/IOB-PanelTemplate.brd
+  - path: /versions/IOB-Generic/IOB-PanelTemplate.brd
     tag: IOB-PanelTemplate.brd
     type: download
     post: Eagle PCB file
-  - path: /versions/IOB-generic/IOB-generic_array.scr
+  - path: /versions/IOB-Generic/IOB-generic.brd
+    tag: IOB-generic.brd
+    type: download
+    post: Eagle PCB file
+  - path: /versions/IOB-Generic/IOB-generic_array.brd
+    tag: IOB-generic_array.brd
+    type: download
+    post: Eagle PCB file
+  - path: /versions/IOB-Generic/IOB-generic_array.scr
     tag: IOB-generic_array.scr
     type: download
     post: Eagle SCRipt
 ---
+
+
+This technical documentation is licensed under the [CERN Open Hardware Licence v1.2](http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt)

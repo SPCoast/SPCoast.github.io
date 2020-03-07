@@ -14,16 +14,13 @@ layout: eagle
 tagline: IOB Interface provides 1x IO4 port with 4x open drain output i/o lines.
 overview: >
     
-    Changes: Output only - non-inverting Open Drain current sink
+      * Changes: Output only - non-inverting Open Drain current sink
+      * Updated to new IOB design
     
 images:
   - image_path: /versions/IOB-Outputs/IOB-Outputs-Graphic.png
     title: IOB-Outputs-Graphic
 artifacts:
-  - path: /versions/IOB-Outputs/IOB-Outputs.b#1
-    tag: IOB-Outputs
-    type: download
-    post: 
   - path: /versions/IOB-Outputs/IOB-Outputs_array.scr
     tag: IOB-Outputs_array.scr
     type: download

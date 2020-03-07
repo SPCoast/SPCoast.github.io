@@ -1,0 +1,864 @@
+Grid mil;
+Set wire_bend 2;
+Layer 125 '_tNames';
+Layer 1 'Top';
+layer ?? -125;
+layer 125 '_tNames';
+set color_layer 125 14;
+add FIDUCIAL_1MM@SPCoast FID1x11 R0.000000 (625.000000 55.000000);
+add FIDUCIAL_1MM@SPCoast FID2x11 R0.000000 (2025.000000 1575.000000);
+add AVR_ICSP@SPCoast JP1x11 R0.000000 (735.000000 1090.000000);
+change layer 17;
+change size 16.000000;
+text 'JP1' R90.000000 (625.000000 960.000000);
+add CUT-R@SPCoast R1x11 R180.000000 (1300.000000 490.000000);
+change layer 17;
+change size 16.000000;
+text 'R1' R180.000000 (1450.000000 440.000000);
+add CUT-R@SPCoast R2x11 R180.000000 (1300.000000 390.000000);
+change layer 17;
+change size 16.000000;
+text 'R2' R180.000000 (1450.000000 340.000000);
+add CUT-R@SPCoast R3x11 R180.000000 (1300.000000 290.000000);
+change layer 17;
+change size 16.000000;
+text 'R3' R180.000000 (1450.000000 240.000000);
+add CUT-R@SPCoast R4x11 R180.000000 (1300.000000 190.000000);
+change layer 17;
+change size 16.000000;
+text 'R4' R180.000000 (1450.000000 140.000000);
+add CUT-R@SPCoast R9x11 R180.000000 (1300.000000 1340.000000);
+add CUT-R@SPCoast R10x11 R180.000000 (1300.000000 1240.000000);
+add CUT-R@SPCoast R11x11 R180.000000 (1300.000000 1140.000000);
+add CUT-R@SPCoast R12x11 R180.000000 (1300.000000 1040.000000);
+add 10X-IOB@SPCoast U$1x11 R0.000000 (0.000000 0.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO1x11' 16.000000 (685.000000 1290.000000) (735.000000 1340.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO1x11' 16.000000 (735.000000 1340.000000) (1100.000000 1340.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO2x11' 16.000000 (1100.000000 1240.000000) (1000.000000 1240.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO2x11' 16.000000 (1000.000000 1240.000000) (950.000000 1290.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO2x11' 16.000000 (950.000000 1290.000000) (785.000000 1290.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO3x11' 16.000000 (685.000000 1190.000000) (735.000000 1240.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO3x11' 16.000000 (735.000000 1240.000000) (950.000000 1240.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO3x11' 16.000000 (950.000000 1240.000000) (1050.000000 1140.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO3x11' 16.000000 (1050.000000 1140.000000) (1100.000000 1140.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO4x11' 16.000000 (1100.000000 1040.000000) (1050.000000 1040.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO4x11' 16.000000 (1050.000000 1040.000000) (900.000000 1190.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO4x11' 16.000000 (900.000000 1190.000000) (785.000000 1190.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO5x11' 16.000000 (685.000000 990.000000) (735.000000 940.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO5x11' 16.000000 (735.000000 940.000000) (950.000000 940.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO5x11' 16.000000 (950.000000 940.000000) (1000.000000 890.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO5x11' 16.000000 (1000.000000 890.000000) (1000.000000 540.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO5x11' 16.000000 (1000.000000 540.000000) (1050.000000 490.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO5x11' 16.000000 (1050.000000 490.000000) (1100.000000 490.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO6x11' 16.000000 (1100.000000 390.000000) (1000.000000 390.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO6x11' 16.000000 (1000.000000 390.000000) (950.000000 440.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO6x11' 16.000000 (950.000000 440.000000) (950.000000 940.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO6x11' 16.000000 (950.000000 940.000000) (900.000000 990.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO6x11' 16.000000 (900.000000 990.000000) (785.000000 990.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO7x11' 16.000000 (685.000000 890.000000) (685.000000 405.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO7x11' 16.000000 (685.000000 405.000000) (800.000000 290.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO7x11' 16.000000 (800.000000 290.000000) (1100.000000 290.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO8x11' 16.000000 (1100.000000 190.000000) (950.000000 190.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO8x11' 16.000000 (950.000000 190.000000) (900.000000 240.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO8x11' 16.000000 (900.000000 240.000000) (900.000000 840.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO8x11' 16.000000 (900.000000 840.000000) (850.000000 890.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO8x11' 16.000000 (850.000000 890.000000) (785.000000 890.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GNDx11' 24.000000 (785.000000 1090.000000) (900.000000 1090.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GNDx11' 24.000000 (900.000000 1090.000000) (1055.000000 935.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GNDx11' 24.000000 (1055.000000 935.000000) (1770.000000 940.000000);
+change layer 16;
+change isolate 0.000000;
+change rank 1;
+change thermals on;
+change orphans off;
+change pour solid;
+polygon GNDx11 12.000000 (0.000000 1650.000000) (0.000000 0.000000) (2100.000000 0.000000) (2100.000000 1650.000000) (0.000000 1650.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'IO1x11' 16.000000 (1500.000000 1340.000000) (1770.000000 1340.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'IO2x11' 16.000000 (1500.000000 1240.000000) (1780.000000 1240.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'IO3x11' 16.000000 (1500.000000 1140.000000) (1770.000000 1140.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'IO4x11' 16.000000 (1500.000000 1040.000000) (1780.000000 1040.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'IO5x11' 16.000000 (1500.000000 490.000000) (1770.000000 490.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'IO6x11' 16.000000 (1500.000000 390.000000) (1780.000000 390.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'IO7x11' 16.000000 (1500.000000 290.000000) (1770.000000 290.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'IO8x11' 16.000000 (1500.000000 190.000000) (1780.000000 190.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'VCCx11' 24.000000 (485.000000 1570.000000) (1650.000000 1570.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'VCCx11' 24.000000 (1650.000000 1570.000000) (1780.000000 1440.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'VCCx11' 24.000000 (1780.000000 1440.000000) (1900.000000 1320.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'VCCx11' 24.000000 (1900.000000 1320.000000) (1900.000000 700.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'VCCx11' 24.000000 (1900.000000 700.000000) (1790.000000 590.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'VCCx11' 24.000000 (1790.000000 590.000000) (1780.000000 590.000000);
+change layer 19;
+change style CONTINUOUS;
+wire 'VCCx11' 0.000000 (485.000000 720.000000) (485.000000 1570.000000);
+change layer 19;
+change style CONTINUOUS;
+wire 'VCCIOx11' 0.000000 (285.000000 720.000000) (285.000000 1570.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'VOUTx11' 24.000000 (385.000000 1560.000000) (385.000000 1335.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'VOUTx11' 24.000000 (385.000000 1335.000000) (685.000000 1090.000000);
+change layer 19;
+change style CONTINUOUS;
+wire 'VOUTx11' 0.000000 (385.000000 710.000000) (685.000000 1090.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 16.000000 (580.000000 1370.000000) (885.000000 1370.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 16.000000 (885.000000 1370.000000) (885.000000 1200.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 16.000000 (885.000000 1200.000000) (935.000000 1200.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 16.000000 (935.000000 1200.000000) (935.000000 990.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 16.000000 (935.000000 990.000000) (880.000000 990.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 16.000000 (880.000000 990.000000) (880.000000 805.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 16.000000 (880.000000 805.000000) (580.000000 805.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 16.000000 (580.000000 805.000000) (580.000000 1370.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 12.000000 (345.000000 1615.000000) (345.000000 1510.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 12.000000 (345.000000 1510.000000) (540.000000 1510.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 12.000000 (540.000000 1510.000000) (540.000000 1615.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 12.000000 (540.000000 1615.000000) (345.000000 1615.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 10.000000 (0.000000 0.000000) (0.000000 1650.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 10.000000 (0.000000 1650.000000) (2100.000000 1650.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 10.000000 (2100.000000 1650.000000) (2100.000000 0.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 10.000000 (2100.000000 0.000000) (0.000000 0.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 10.000000 (900.000000 895.000000) (930.000000 885.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 10.000000 (930.000000 905.000000) (900.000000 895.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 10.000000 (930.000000 905.000000) (930.000000 885.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 10.000000 (905.000000 895.000000) (925.000000 895.000000);
+change layer 21;
+change ratio 8;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text '2x5 "RR-Cirkits" IOB' R270.000000 (110.000000 1435.000000);
+change layer 21;
+change ratio 8;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'v1.0' R0.000000 (85.000000 90.000000);
+change layer 21;
+change ratio 8;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'Generic I/O' R270.000000 (205.000000 1280.000000);
+change layer 22;
+change ratio 8;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'John Plocher' MR270.000000 (145.000000 1410.000000);
+change layer 22;
+change ratio 8;
+change size 56.000000;
+change font VECTOR;
+change align bottom left;
+text 'RR-Cirkits-compatible 8-bit I/O' MR0.000000 (1575.000000 590.000000);
+change layer 48;
+change ratio 10;
+change size 70.000000;
+change font VECTOR;
+change align bottom left;
+text 'Yellow Soldermask\nBlack Silkscreen' R0.000000 (0.000000 1700.000000);
+change layer 21;
+change ratio 10;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text '    ^\nCut if\nadding\nresistors' R180.000000 (1460.000000 1615.000000);
+change layer 21;
+change ratio 8;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text '2020.03' R0.000000 (85.000000 165.000000);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'JP1' R90.000000 (625.000000 960.000000);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'R1' R180.000000 (1450.000000 440.000000);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'R2' R180.000000 (1450.000000 340.000000);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'R3' R180.000000 (1450.000000 240.000000);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'R4' R180.000000 (1450.000000 140.000000);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'R9' R180.000000 (1360.000000 1302.500000);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'R10' R180.000000 (1360.000000 1202.500000);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'R11' R180.000000 (1360.000000 1097.500000);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'R12' R180.000000 (1355.000000 982.500000);
+signal '!IO1x11'	'R9x11'	'P1'\
+	'JP1x11'	'1'\
+;
+signal '!IO2x11'	'R10x11'	'P1'\
+	'JP1x11'	'2'\
+;
+signal '!IO3x11'	'R11x11'	'P1'\
+	'JP1x11'	'3'\
+;
+signal '!IO4x11'	'R12x11'	'P1'\
+	'JP1x11'	'4'\
+;
+signal '!IO5x11'	'R1x11'	'P1'\
+	'JP1x11'	'7'\
+;
+signal '!IO6x11'	'R2x11'	'P1'\
+	'JP1x11'	'8'\
+;
+signal '!IO7x11'	'R3x11'	'P1'\
+	'JP1x11'	'9'\
+;
+signal '!IO8x11'	'R4x11'	'P1'\
+	'JP1x11'	'10'\
+;
+signal 'GNDx11'	'U$1x11'	'G@3'\
+	'U$1x11'	'G@1'\
+	'JP1x11'	'6'\
+;
+signal 'IO1x11'	'U$1x11'	'IO1'\
+	'R9x11'	'P2'\
+;
+signal 'IO2x11'	'U$1x11'	'IO2'\
+	'R10x11'	'P2'\
+;
+signal 'IO3x11'	'U$1x11'	'IO3'\
+	'R11x11'	'P2'\
+;
+signal 'IO4x11'	'U$1x11'	'IO4'\
+	'R12x11'	'P2'\
+;
+signal 'IO5x11'	'U$1x11'	'IO5'\
+	'R1x11'	'P2'\
+;
+signal 'IO6x11'	'U$1x11'	'IO6'\
+	'R2x11'	'P2'\
+;
+signal 'IO7x11'	'U$1x11'	'IO7'\
+	'R3x11'	'P2'\
+;
+signal 'IO8x11'	'U$1x11'	'IO8'\
+	'R4x11'	'P2'\
+;
+signal 'VCCx11'	'U$1x11'	'V5@1'\
+	'U$1x11'	'V5@3'\
+	'U$1x11'	'V5'\
+	'U$1x11'	'V5@2'\
+;
+signal 'VCCIOx11'	'U$1x11'	'V+@1'\
+	'U$1x11'	'V+'\
+;
+signal 'VOUTx11'	'JP1x11'	'5'\
+	'U$1x11'	'VOUT@1'\
+	'U$1x11'	'VOUT'\
+;
+change layer 46;
+change style CONTINUOUS;
+wire 'Vscoreauto12' 0.000000 (-100.000000 1650.000000) (2300.000000 1650.000000);
+change size 40;
+text 'V-Score' R90.000000 (-100.000000 1650.000000);
+change layer 20;
+change style CONTINUOUS;
+set Wire_Bend 0;
+wire 'BoardOutline' 10.000000 (0.000000 0.000000) (2100.000000 3300.000000) (0.000000 0.000000);
+set Wire_Bend 2;
+add FIDUCIAL_1MM@SPCoast FID1x12 R0.000000 (625.000000 1705.000000);
+add FIDUCIAL_1MM@SPCoast FID2x12 R0.000000 (2025.000000 3225.000000);
+add AVR_ICSP@SPCoast JP1x12 R0.000000 (735.000000 2740.000000);
+change layer 17;
+change size 16.000000;
+text 'JP1' R90.000000 (625.000000 2610.000000);
+add CUT-R@SPCoast R1x12 R180.000000 (1300.000000 2140.000000);
+change layer 17;
+change size 16.000000;
+text 'R1' R180.000000 (1450.000000 2090.000000);
+add CUT-R@SPCoast R2x12 R180.000000 (1300.000000 2040.000000);
+change layer 17;
+change size 16.000000;
+text 'R2' R180.000000 (1450.000000 1990.000000);
+add CUT-R@SPCoast R3x12 R180.000000 (1300.000000 1940.000000);
+change layer 17;
+change size 16.000000;
+text 'R3' R180.000000 (1450.000000 1890.000000);
+add CUT-R@SPCoast R4x12 R180.000000 (1300.000000 1840.000000);
+change layer 17;
+change size 16.000000;
+text 'R4' R180.000000 (1450.000000 1790.000000);
+add CUT-R@SPCoast R9x12 R180.000000 (1300.000000 2990.000000);
+add CUT-R@SPCoast R10x12 R180.000000 (1300.000000 2890.000000);
+add CUT-R@SPCoast R11x12 R180.000000 (1300.000000 2790.000000);
+add CUT-R@SPCoast R12x12 R180.000000 (1300.000000 2690.000000);
+add 10X-IOB@SPCoast U$1x12 R0.000000 (0.000000 1650.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO1x12' 16.000000 (685.000000 2940.000000) (735.000000 2990.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO1x12' 16.000000 (735.000000 2990.000000) (1100.000000 2990.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO2x12' 16.000000 (1100.000000 2890.000000) (1000.000000 2890.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO2x12' 16.000000 (1000.000000 2890.000000) (950.000000 2940.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO2x12' 16.000000 (950.000000 2940.000000) (785.000000 2940.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO3x12' 16.000000 (685.000000 2840.000000) (735.000000 2890.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO3x12' 16.000000 (735.000000 2890.000000) (950.000000 2890.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO3x12' 16.000000 (950.000000 2890.000000) (1050.000000 2790.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO3x12' 16.000000 (1050.000000 2790.000000) (1100.000000 2790.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO4x12' 16.000000 (1100.000000 2690.000000) (1050.000000 2690.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO4x12' 16.000000 (1050.000000 2690.000000) (900.000000 2840.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO4x12' 16.000000 (900.000000 2840.000000) (785.000000 2840.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO5x12' 16.000000 (685.000000 2640.000000) (735.000000 2590.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO5x12' 16.000000 (735.000000 2590.000000) (950.000000 2590.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO5x12' 16.000000 (950.000000 2590.000000) (1000.000000 2540.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO5x12' 16.000000 (1000.000000 2540.000000) (1000.000000 2190.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO5x12' 16.000000 (1000.000000 2190.000000) (1050.000000 2140.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO5x12' 16.000000 (1050.000000 2140.000000) (1100.000000 2140.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO6x12' 16.000000 (1100.000000 2040.000000) (1000.000000 2040.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO6x12' 16.000000 (1000.000000 2040.000000) (950.000000 2090.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO6x12' 16.000000 (950.000000 2090.000000) (950.000000 2590.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO6x12' 16.000000 (950.000000 2590.000000) (900.000000 2640.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO6x12' 16.000000 (900.000000 2640.000000) (785.000000 2640.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO7x12' 16.000000 (685.000000 2540.000000) (685.000000 2055.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO7x12' 16.000000 (685.000000 2055.000000) (800.000000 1940.000000);
+change layer 16;
+change style CONTINUOUS;
+wire '!IO7x12' 16.000000 (800.000000 1940.000000) (1100.000000 1940.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO8x12' 16.000000 (1100.000000 1840.000000) (950.000000 1840.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO8x12' 16.000000 (950.000000 1840.000000) (900.000000 1890.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO8x12' 16.000000 (900.000000 1890.000000) (900.000000 2490.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO8x12' 16.000000 (900.000000 2490.000000) (850.000000 2540.000000);
+change layer 1;
+change style CONTINUOUS;
+wire '!IO8x12' 16.000000 (850.000000 2540.000000) (785.000000 2540.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GNDx12' 24.000000 (785.000000 2740.000000) (900.000000 2740.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GNDx12' 24.000000 (900.000000 2740.000000) (1055.000000 2585.000000);
+change layer 16;
+change style CONTINUOUS;
+wire 'GNDx12' 24.000000 (1055.000000 2585.000000) (1770.000000 2590.000000);
+change layer 16;
+change isolate 0.000000;
+change rank 1;
+change thermals on;
+change orphans off;
+change pour solid;
+polygon GNDx12 12.000000 (0.000000 3300.000000) (0.000000 1650.000000) (2100.000000 1650.000000) (2100.000000 3300.000000) (0.000000 3300.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'IO1x12' 16.000000 (1500.000000 2990.000000) (1770.000000 2990.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'IO2x12' 16.000000 (1500.000000 2890.000000) (1780.000000 2890.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'IO3x12' 16.000000 (1500.000000 2790.000000) (1770.000000 2790.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'IO4x12' 16.000000 (1500.000000 2690.000000) (1780.000000 2690.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'IO5x12' 16.000000 (1500.000000 2140.000000) (1770.000000 2140.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'IO6x12' 16.000000 (1500.000000 2040.000000) (1780.000000 2040.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'IO7x12' 16.000000 (1500.000000 1940.000000) (1770.000000 1940.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'IO8x12' 16.000000 (1500.000000 1840.000000) (1780.000000 1840.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'VCCx12' 24.000000 (485.000000 3220.000000) (1650.000000 3220.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'VCCx12' 24.000000 (1650.000000 3220.000000) (1780.000000 3090.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'VCCx12' 24.000000 (1780.000000 3090.000000) (1900.000000 2970.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'VCCx12' 24.000000 (1900.000000 2970.000000) (1900.000000 2350.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'VCCx12' 24.000000 (1900.000000 2350.000000) (1790.000000 2240.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'VCCx12' 24.000000 (1790.000000 2240.000000) (1780.000000 2240.000000);
+change layer 19;
+change style CONTINUOUS;
+wire 'VCCx12' 0.000000 (485.000000 2370.000000) (485.000000 3220.000000);
+change layer 19;
+change style CONTINUOUS;
+wire 'VCCIOx12' 0.000000 (285.000000 2370.000000) (285.000000 3220.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'VOUTx12' 24.000000 (385.000000 3210.000000) (385.000000 2985.000000);
+change layer 1;
+change style CONTINUOUS;
+wire 'VOUTx12' 24.000000 (385.000000 2985.000000) (685.000000 2740.000000);
+change layer 19;
+change style CONTINUOUS;
+wire 'VOUTx12' 0.000000 (385.000000 2360.000000) (685.000000 2740.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 16.000000 (580.000000 3020.000000) (885.000000 3020.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 16.000000 (885.000000 3020.000000) (885.000000 2850.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 16.000000 (885.000000 2850.000000) (935.000000 2850.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 16.000000 (935.000000 2850.000000) (935.000000 2640.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 16.000000 (935.000000 2640.000000) (880.000000 2640.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 16.000000 (880.000000 2640.000000) (880.000000 2455.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 16.000000 (880.000000 2455.000000) (580.000000 2455.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 16.000000 (580.000000 2455.000000) (580.000000 3020.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 12.000000 (345.000000 3265.000000) (345.000000 3160.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 12.000000 (345.000000 3160.000000) (540.000000 3160.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 12.000000 (540.000000 3160.000000) (540.000000 3265.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 12.000000 (540.000000 3265.000000) (345.000000 3265.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 10.000000 (0.000000 1650.000000) (0.000000 3300.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 10.000000 (0.000000 3300.000000) (2100.000000 3300.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 10.000000 (2100.000000 3300.000000) (2100.000000 1650.000000);
+change layer 101;
+change style CONTINUOUS;
+wire 10.000000 (2100.000000 1650.000000) (0.000000 1650.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 10.000000 (900.000000 2545.000000) (930.000000 2535.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 10.000000 (930.000000 2555.000000) (900.000000 2545.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 10.000000 (930.000000 2555.000000) (930.000000 2535.000000);
+change layer 21;
+change style CONTINUOUS;
+wire 10.000000 (905.000000 2545.000000) (925.000000 2545.000000);
+change layer 21;
+change ratio 8;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text '2x5 "RR-Cirkits" IOB' R270.000000 (110.000000 3085.000000);
+change layer 21;
+change ratio 8;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text 'v1.0' R0.000000 (85.000000 1740.000000);
+change layer 21;
+change ratio 8;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'Generic I/O' R270.000000 (205.000000 2930.000000);
+change layer 22;
+change ratio 8;
+change size 50.000000;
+change font VECTOR;
+change align bottom left;
+text 'John Plocher' MR270.000000 (145.000000 3060.000000);
+change layer 22;
+change ratio 8;
+change size 56.000000;
+change font VECTOR;
+change align bottom left;
+text 'RR-Cirkits-compatible 8-bit I/O' MR0.000000 (1575.000000 2240.000000);
+change layer 48;
+change ratio 10;
+change size 70.000000;
+change font VECTOR;
+change align bottom left;
+text 'Yellow Soldermask\nBlack Silkscreen' R0.000000 (0.000000 3350.000000);
+change layer 21;
+change ratio 10;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text '    ^\nCut if\nadding\nresistors' R180.000000 (1460.000000 3265.000000);
+change layer 21;
+change ratio 8;
+change size 40.000000;
+change font VECTOR;
+change align bottom left;
+text '2020.03' R0.000000 (85.000000 1815.000000);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'JP1' R90.000000 (625.000000 2610.000000);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'R1' R180.000000 (1450.000000 2090.000000);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'R2' R180.000000 (1450.000000 1990.000000);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'R3' R180.000000 (1450.000000 1890.000000);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'R4' R180.000000 (1450.000000 1790.000000);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'R9' R180.000000 (1360.000000 2952.500000);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'R10' R180.000000 (1360.000000 2852.500000);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'R11' R180.000000 (1360.000000 2747.500000);
+change layer 125;
+change ratio 8;
+change size 16.000000;
+change font VECTOR;
+change align bottom left;
+text 'R12' R180.000000 (1355.000000 2632.500000);
+signal '!IO1x12'	'R9x12'	'P1'\
+	'JP1x12'	'1'\
+;
+signal '!IO2x12'	'R10x12'	'P1'\
+	'JP1x12'	'2'\
+;
+signal '!IO3x12'	'R11x12'	'P1'\
+	'JP1x12'	'3'\
+;
+signal '!IO4x12'	'R12x12'	'P1'\
+	'JP1x12'	'4'\
+;
+signal '!IO5x12'	'R1x12'	'P1'\
+	'JP1x12'	'7'\
+;
+signal '!IO6x12'	'R2x12'	'P1'\
+	'JP1x12'	'8'\
+;
+signal '!IO7x12'	'R3x12'	'P1'\
+	'JP1x12'	'9'\
+;
+signal '!IO8x12'	'R4x12'	'P1'\
+	'JP1x12'	'10'\
+;
+signal 'GNDx12'	'U$1x12'	'G@3'\
+	'U$1x12'	'G@1'\
+	'JP1x12'	'6'\
+;
+signal 'IO1x12'	'U$1x12'	'IO1'\
+	'R9x12'	'P2'\
+;
+signal 'IO2x12'	'U$1x12'	'IO2'\
+	'R10x12'	'P2'\
+;
+signal 'IO3x12'	'U$1x12'	'IO3'\
+	'R11x12'	'P2'\
+;
+signal 'IO4x12'	'U$1x12'	'IO4'\
+	'R12x12'	'P2'\
+;
+signal 'IO5x12'	'U$1x12'	'IO5'\
+	'R1x12'	'P2'\
+;
+signal 'IO6x12'	'U$1x12'	'IO6'\
+	'R2x12'	'P2'\
+;
+signal 'IO7x12'	'U$1x12'	'IO7'\
+	'R3x12'	'P2'\
+;
+signal 'IO8x12'	'U$1x12'	'IO8'\
+	'R4x12'	'P2'\
+;
+signal 'VCCx12'	'U$1x12'	'V5@1'\
+	'U$1x12'	'V5@3'\
+	'U$1x12'	'V5'\
+	'U$1x12'	'V5@2'\
+;
+signal 'VCCIOx12'	'U$1x12'	'V+@1'\
+	'U$1x12'	'V+'\
+;
+signal 'VOUTx12'	'JP1x12'	'5'\
+	'U$1x12'	'VOUT@1'\
+	'U$1x12'	'VOUT'\
+;
+window fit;
+ratsnest;
+disp -25;
+display -25;
+display -26;
+display -27;
+display -28;
+display -37;
+display -38;

@@ -1,0 +1,9 @@
+# name, smd?, value, package, component, x, y, angle
+FID1, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 15.88, 1.40, 0.00
+FID2, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 51.44, 18.29, 0.00
+IOB, PTH, CONNECTOR-IO4-IOBBARE, IO4-IOB, connector-io4-iobbare-io4-iob, 0.00, 0.00, 0.00
+J1, PTH, RJ12/6, RJ24-INVERTED-PINS, rj12/6-rj24-inverted-pins, 0.00, 0.00, 90.00
+R9, PTH, NOSTUFF, AXIAL-0.4-RES, nostuff-axial-0.4-res, 0.00, 0.00, 180.00
+R10, PTH, NOSTUFF, AXIAL-0.4-RES, nostuff-axial-0.4-res, 0.00, 0.00, 180.00
+R11, PTH, NOSTUFF, AXIAL-0.4-RES, nostuff-axial-0.4-res, 0.00, 0.00, 180.00
+R12, PTH, NOSTUFF, AXIAL-0.4-RES, nostuff-axial-0.4-res, 0.00, 0.00, 180.00

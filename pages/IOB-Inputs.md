@@ -16,6 +16,7 @@ overview: >
     
       * A 1k series resistor protects the processing electronics from shorts to Vcc or GND
       * Schottkey diodes and a 1kHZ low pass filter protect the inputs from noise/transients/+12v
+      * Updated to new IOB design
     
     
     
@@ -25,6 +26,10 @@ images:
   - image_path: /versions/IOB-Inputs/IOB-Inputs-Graphic.png
     title: IOB-Inputs-Graphic
 artifacts:
+  - path: /versions/IOB-Inputs/IOB-Inputs.b##
+    tag: IOB-Inputs
+    type: download
+    post: 
   - path: /versions/IOB-Inputs/IOB-Inputs_array.scr
     tag: IOB-Inputs_array.scr
     type: download

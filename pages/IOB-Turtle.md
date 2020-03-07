@@ -14,6 +14,8 @@ layout: eagle
 tagline: IOB Interface provides 1x IO4 port for connection to an IO4-Turtle
 overview: >
     
+      * V2.0:  new IOB layout
+    
 images:
   - image_path: /versions/IOB-Turtle/IOB-Turtle-Graphic.png
     title: IOB-Turtle-Graphic

@@ -14,7 +14,7 @@ layout: eagle
 tagline: IOB Interface drives 2x Signal Heads via a RJ45/8 connector.
 overview: >
     
-    Fixed P1/P2 and P3/P4 reversals, caused red and yellow indications to be transposed.  Oops.
+      * updated to new IOB design
 images:
   - image_path: /versions/IOB-Signal/IOB-Signal-Graphic.png
     title: IOB-Signal-Graphic

@@ -1,0 +1,13 @@
+# name, smd?, value, package, component, x, y, angle
+D1, SMD, 4.7v, SOT23-3, 4.7v-sot23-3, 38.15, 3.81, 270.00
+FID1, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 15.88, 1.27, 0.00
+FID2, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 51.44, 18.41, 0.00
+J1, PTH, RJ12/6, RJ24-INVERTED-PINS, rj12/6-rj24-inverted-pins, 0.00, 0.00, 90.00
+R1, SMD, 10k, 0805-RES, 10k-0805-res, 33.02, 15.24, 270.00
+R2, SMD, 10k, 0805-RES, 10k-0805-res, 29.21, 15.24, 270.00
+R3, SMD, 10k, 0805-RES, 10k-0805-res, 25.40, 15.24, 270.00
+R4, SMD, 1k0, 0805-RES, 1k0-0805-res, 29.21, 3.81, 0.00
+R5, SMD, 200R, 0805-RES, 200r-0805-res, 17.78, 10.16, 180.00
+R6, SMD, 200R, 0805-RES, 200r-0805-res, 17.78, 7.62, 180.00
+R7, SMD, 200R, 0805-RES, 200r-0805-res, 17.78, 12.70, 180.00
+U$1, PTH, CONNECTOR-IO4-IOBBARE, IO4-IOB, connector-io4-iobbare-io4-iob, 0.00, 0.00, 0.00

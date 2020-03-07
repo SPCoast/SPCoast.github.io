@@ -1,0 +1,51 @@
+separated
+FILE,I2C-7311.dpv
+PCBFILE,SPCoast CHMT Processor
+DATE,2019/12/07
+TIME,12:45:52
+PANELYPE,0
+
+
+Table,No.,ID,DeltX,DeltY,FeedRates,Note,Height,Speed,Status,SizeX,SizeY,HeightTake,DelayTake,nPullStripSpeed
+Station, 0, 53, 0.00, 0.00, 4, 10uF-0805, 0.50, 0, 6, 0.00, 0.00, 0.00, 0.00, 0
+Station, 1, 16, 0.00, 0.00, 4, DIM-GREEN-0603, 0.50, 50, 6, 0.00, 0.00, 0.00, 0.50, 50
+Station, 2, 11, 0.00, 0.00, 4, 10k-0603, 0.50, 0, 6, 0.00, 0.00, 0.00, 0.00, 0
+Station, 3, 7, 0.00, 0.00, 4, 2k0-0603, 0.50, 0, 6, 0.00, 0.00, 0.00, 0.00, 0
+
+Table,No.,ID,DeltX,DeltY
+Panel_Coord,0,1,0,0
+Table, No., ID, PHead, STNo., DeltX, DeltY, Angle, Height, Skip, Speed, Explain, Note, Delay
+EComponent, 0, 1, 1, 53, 8.26, 57.15, -90.00, 0.00, 6, 0, C2, 10uF-0805, 0.00
+EComponent, 1, 2, 1, 16, 5.71, 78.87, 180.00, 0.00, 6, 50, LED16, DIM-GREEN-0603, 0.50
+EComponent, 2, 3, 1, 16, 5.71, 85.22, 180.00, 0.00, 6, 50, LED18, DIM-GREEN-0603, 0.50
+EComponent, 3, 4, 1, 11, 86.36, 49.53, 180.00, 0.00, 6, 0, R1, 10k-0603, 0.00
+EComponent, 4, 5, 1, 11, 83.82, 49.53, 180.00, 0.00, 6, 0, R2, 10k-0603, 0.00
+EComponent, 5, 6, 1, 11, 81.28, 49.53, 180.00, 0.00, 6, 0, R3, 10k-0603, 0.00
+EComponent, 6, 7, 1, 11, 78.74, 49.53, 180.00, 0.00, 6, 0, R4, 10k-0603, 0.00
+EComponent, 7, 8, 1, 11, 64.77, 49.53, 180.00, 0.00, 6, 0, R5, 10k-0603, 0.00
+EComponent, 8, 9, 1, 11, 62.23, 49.53, 180.00, 0.00, 6, 0, R6, 10k-0603, 0.00
+EComponent, 9, 10, 1, 11, 59.69, 49.53, 180.00, 0.00, 6, 0, R7, 10k-0603, 0.00
+EComponent, 10, 11, 1, 11, 57.15, 49.53, 180.00, 0.00, 6, 0, R8, 10k-0603, 0.00
+EComponent, 11, 12, 1, 11, 43.18, 49.53, 180.00, 0.00, 6, 0, R9, 10k-0603, 0.00
+EComponent, 12, 13, 1, 11, 40.64, 49.53, 180.00, 0.00, 6, 0, R10, 10k-0603, 0.00
+EComponent, 13, 14, 1, 11, 38.10, 49.53, 180.00, 0.00, 6, 0, R11, 10k-0603, 0.00
+EComponent, 14, 15, 1, 11, 35.56, 49.53, 180.00, 0.00, 6, 0, R12, 10k-0603, 0.00
+EComponent, 15, 16, 1, 11, 21.59, 49.53, 180.00, 0.00, 6, 0, R13, 10k-0603, 0.00
+EComponent, 16, 17, 1, 11, 19.05, 49.53, 180.00, 0.00, 6, 0, R14, 10k-0603, 0.00
+EComponent, 17, 18, 1, 11, 16.51, 49.53, 180.00, 0.00, 6, 0, R15, 10k-0603, 0.00
+EComponent, 18, 19, 1, 11, 13.97, 49.53, 180.00, 0.00, 6, 0, R16, 10k-0603, 0.00
+EComponent, 19, 20, 1, 7, 9.53, 78.11, -90.00, 0.00, 6, 0, R17, 2k0-0603, 0.00
+EComponent, 20, 21, 1, 7, 9.53, 84.45, -90.00, 0.00, 6, 0, R18, 2k0-0603, 0.00
+
+
+Table,No.,ID,CenterX,CenterY,IntervalX,IntervalY,NumX,NumY,Start
+
+Table,No.,nType,nAlg,nFinished
+PcbCalib,0,1,0,0
+
+Table,No.,ID,offsetX,offsetY,Note
+CalibPoint,0,1,0.750,0.350,Mark1
+CalibPoint,1,2,1.525,0.725,Mark3
+
+Table,No.,DeltX,DeltY,AlphaX,AlphaY,BetaX,BetaY,DeltaAngle
+CalibFator,0,0,0,0,0,1,1,0

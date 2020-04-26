@@ -27,6 +27,10 @@ images:
   - image_path: /versions/IO4-Turtle/Molex-on-Tortoise-3.jpg
     title: Molex-on-Tortoise-3
 artifacts:
+  - path: /versions/IO4-Turtle/IO4-Turtle_array.scr
+    tag: IO4-Turtle_array.scr
+    type: download
+    post: Eagle SCRipt
   - path: /versions/IO4-Turtle/lm1117-Datasheet.pdf
     tag: lm1117-Datasheet.pdf
     type: download

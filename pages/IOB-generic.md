@@ -24,22 +24,14 @@ overview: >
     
     
 artifacts:
+  - path: /versions/IOB-Generic/IOB-Generic_array.scr
+    tag: IOB-Generic_array.scr
+    type: download
+    post: Eagle SCRipt
   - path: /versions/IOB-Generic/IOB-PanelTemplate.brd
     tag: IOB-PanelTemplate.brd
     type: download
     post: Eagle PCB file
-  - path: /versions/IOB-Generic/IOB-generic.brd
-    tag: IOB-generic.brd
-    type: download
-    post: Eagle PCB file
-  - path: /versions/IOB-Generic/IOB-generic_array.brd
-    tag: IOB-generic_array.brd
-    type: download
-    post: Eagle PCB file
-  - path: /versions/IOB-Generic/IOB-generic_array.scr
-    tag: IOB-generic_array.scr
-    type: download
-    post: Eagle SCRipt
 ---
 
 

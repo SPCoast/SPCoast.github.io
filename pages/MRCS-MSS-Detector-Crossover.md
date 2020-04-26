@@ -22,6 +22,11 @@ overview: >
       * ground plane
       * silkscreen labels
     
+artifacts:
+  - path: /versions/MRCS-MSS-Detector-Crossover/MRCS-MSS-Detector-Crossover_array.scr
+    tag: MRCS-MSS-Detector-Crossover_array.scr
+    type: download
+    post: Eagle SCRipt
 ---
 
 

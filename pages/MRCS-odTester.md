@@ -8,9 +8,9 @@ fabricated: no
 fab_date: 2017-03
 status: released
 release: yes
-tags: [eagle, MRCS]
+tags: [eagle, MRCS, TestJig]
 layout: eagle
-image_path: 2.0/MRCS-odTester-2.0.top.brd.png
+image_path: 2.1/MRCS-odTester-2.1.top.brd.png
 tagline: A simple bench test board for Chubb\'s DCC-OD and MRCS\' cpOD detectors.
 overview: >
     

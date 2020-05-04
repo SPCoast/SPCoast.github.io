@@ -1,9 +1,21 @@
 allowed-tags:
+  - Adapter
+  - Appliance
+  - arduino
+  - cTc
   - eagle
   - expresspcb
-  - arduino
+  - I2C
+  - IOB
   - layout
-  - cTc
-  - SPCoast
+  - LCB
+  - Lighting
+  - Misc
   - MRCS
+  - Processor
+  - SPCoast
+  - Signal
   - Telephone
+  - TestJig
+
+

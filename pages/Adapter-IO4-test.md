@@ -3,15 +3,15 @@ iseagle: true
 sidebar: spcoast_sidebar
 title: Adapter-IO4-test
 project: Adapter-IO4-test
-name: Repo Name - the repo name must exactly match the project directory name as well as the names of the brd and sch files
+name: Adapter-IO4-test
 designer: John Plocher, Seth Neumann
-fabricated: Pick one of   yes, no
-fab_date: YYYY-MM
-status: Pick one of   experimental, broken, released, replaced, retired
-publish: Pick one of  yes, no
-tags: [MRCS, SPCoast, eagle]
+fabricated: yes
+fab_date: 2020.01
+status: experimental
+publish: yes
+tags: [SPCoast, eagle, Adapter]
 layout: eagle
-image_path: 1.0/Adapter-IO4-test-1.0.top.brd.png
+image_path: 1.1/Adapter-IO4-test-1.1.top.brd.png
 tagline: First line: A short description of the project, used as a subtitle ot tagline
 overview: >
     

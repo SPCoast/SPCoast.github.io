@@ -35,6 +35,10 @@ overview: >
           * Example:  with a 5v supply and a LED that drops 2.2v, the resistor sees (5-2.2 = 2.8v).  If we wish to limit the max current to 15mA, we need a fixed resistor of (2.8v / 0.015 = ~180 ohms).  If we add a 500 ohn trimmer resistor, that lets us adjust the current from 15mA max to about 4mA min.  High efficiency LEDs might need even LESS current, so upping the fixed resistor to 470R or even 1K0 might be appropriate.
     
 artifacts:
+  - path: /versions/IO4-SignalDriver/IO4-SignalDriver.pdf
+    tag: IO4-SignalDriver.pdf
+    type: download
+    post: Documentation
   - path: /versions/IO4-SignalDriver/IO4-SignalDriver.scr
     tag: IO4-SignalDriver.scr
     type: download

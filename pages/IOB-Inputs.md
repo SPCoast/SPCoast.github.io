@@ -8,7 +8,7 @@ fabricated: yes
 fab_date: 2018-01
 status: released
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, IOB, Adapter]
 image_path: IOB-Inputs-Graphic.png
 layout: eagle
 tagline: IOB interface provides 1x IO4 port with 4x Input i/o lines.
@@ -26,10 +26,6 @@ images:
   - image_path: /versions/IOB-Inputs/IOB-Inputs-Graphic.png
     title: IOB-Inputs-Graphic
 artifacts:
-  - path: /versions/IOB-Inputs/IOB-Inputs.b##
-    tag: IOB-Inputs
-    type: download
-    post: 
   - path: /versions/IOB-Inputs/IOB-Inputs_array.scr
     tag: IOB-Inputs_array.scr
     type: download

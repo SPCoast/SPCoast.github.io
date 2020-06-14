@@ -1,13 +1,13 @@
-# name, smd?, value, package, component, x, y, angle
-FID1, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 15.88, 1.40, 0.00
-FID2, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 51.44, 40.01, 0.00
-JP1, PTH, CONNECTOR-M05X2PTH, AVR_ICSP, connector-m05x2pth-avr_icsp, 0.00, 0.00, 0.00
-R1, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 180.00
-R2, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 180.00
-R3, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 180.00
-R4, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 180.00
-R9, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 180.00
-R10, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 180.00
-R11, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 180.00
-R12, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 180.00
-U$1, PTH, IO4-IOB-DUALRR-CIRKITS, 10X-IOB, io4-iob-dualrr-cirkits-10x-iob, 0.00, 0.00, 0.00
+# name, smd?, value, package, component, x, y, angle, YXAngle
+FID1, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 15.88, 1.40, 0.00, 90.00
+FID2, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 51.44, 40.01, 0.00, 90.00
+JP1, PTH, CONNECTOR-M05X2PTH, AVR_ICSP, connector-m05x2pth-avr_icsp, 0.00, 0.00, 0.00, 90.00
+R1, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 180.00, -90.00
+R2, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 180.00, -90.00
+R3, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 180.00, -90.00
+R4, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 180.00, -90.00
+R9, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 180.00, -90.00
+R10, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 180.00, -90.00
+R11, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 180.00, -90.00
+R12, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 180.00, -90.00
+U$1, PTH, IO4-IOB-DUALRR-CIRKITS, 10X-IOB, io4-iob-dualrr-cirkits-10x-iob, 0.00, 0.00, 0.00, 90.00

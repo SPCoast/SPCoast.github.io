@@ -10,7 +10,7 @@ fab_date:
 fab_date: 
 status: released
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, IOB, Adapter]
 layout: eagle
 image_path: 2.0/IOB-Generic-2.0.top.brd.png
 tagline: IOB interface provides 1x IO4 port with 4x generic (hardwired) Input or Output i/o lines.

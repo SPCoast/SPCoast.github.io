@@ -1,17 +1,17 @@
-# name, smd?, value, package, component, x, y, angle
-CON1, PTH, , RJ24-INVERTED-PINS, -rj24-inverted-pins, 0.00, 0.00, 90.00
-FID1, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 15.88, 1.40, 0.00
-FID2, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 51.44, 18.41, 0.00
-Q1, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 24.08, 4.45, 90.00
-Q2, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 24.08, 8.89, 90.00
-Q3, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 24.08, 13.34, 90.00
-Q4, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 24.08, 17.78, 90.00
-Q5, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 35.56, 3.76, 180.00
-Q6, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 35.56, 12.65, 180.00
-Q7, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 35.56, 8.21, 180.00
-Q8, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 35.56, 17.10, 180.00
-R1, SMD, 10k, 0805-RES, 10k-0805-res, 29.21, 2.54, 180.00
-R2, SMD, 10k, 0805-RES, 10k-0805-res, 29.21, 6.99, 180.00
-R3, SMD, 10k, 0805-RES, 10k-0805-res, 29.21, 11.43, 180.00
-R4, SMD, 10k, 0805-RES, 10k-0805-res, 29.21, 15.88, 180.00
-U$1, PTH, CONNECTOR-IO4-IOBBARE, IO4-IOB, connector-io4-iobbare-io4-iob, 0.00, 0.00, 0.00
+# name, smd?, value, package, component, x, y, angle, YXAngle
+CON1, PTH, , RJ24-INVERTED-PINS, -rj24-inverted-pins, 0.00, 0.00, 90.00, 0.00
+FID1, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 15.88, 1.40, 0.00, 90.00
+FID2, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 51.44, 18.41, 0.00, 90.00
+Q1, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 24.08, 4.45, 90.00, 0.00
+Q2, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 24.08, 8.89, 90.00, 0.00
+Q3, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 24.08, 13.34, 90.00, 0.00
+Q4, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 24.08, 17.78, 90.00, 0.00
+Q5, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 35.56, 3.76, 180.00, -90.00
+Q6, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 35.56, 12.65, 180.00, -90.00
+Q7, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 35.56, 8.21, 180.00, -90.00
+Q8, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 35.56, 17.10, 180.00, -90.00
+R1, SMD, 10k, 0805-RES, 10k-0805-res, 29.21, 2.54, 180.00, -90.00
+R2, SMD, 10k, 0805-RES, 10k-0805-res, 29.21, 6.99, 180.00, -90.00
+R3, SMD, 10k, 0805-RES, 10k-0805-res, 29.21, 11.43, 180.00, -90.00
+R4, SMD, 10k, 0805-RES, 10k-0805-res, 29.21, 15.88, 180.00, -90.00
+U$1, PTH, CONNECTOR-IO4-IOBBARE, IO4-IOB, connector-io4-iobbare-io4-iob, 0.00, 0.00, 0.00, 90.00

@@ -9,7 +9,7 @@ fab_date: 2018-04, 2018-06, 2018-08, 2019-08, 2019-11
 image_path: SignalMast-ColorLight-Dwarf-Graphic.png
 status: released
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, Signal]
 layout: eagle
 tagline: Low cost Signal Mast - single high head 3-lamp Color Light - N scale
 overview: >

@@ -9,7 +9,7 @@ fab_date: 2018-04
 image_path: SignalMast-ColorLight-DualHead-Graphic.png
 status: released
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, Signal]
 layout: eagle
 tagline: Low cost Signal Mast - single high head Color Light - N scale
 overview: >

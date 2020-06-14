@@ -8,7 +8,7 @@ fabricated: no
 fab_date: 
 status: released
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, IOB, Adapter]
 image_path: IOB-Outputs-Graphic.png
 layout: eagle
 tagline: IOB Interface provides 1x IO4 port with 4x open drain output i/o lines.

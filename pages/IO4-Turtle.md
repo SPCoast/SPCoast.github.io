@@ -9,7 +9,7 @@ fab_date: 2018-03
 image_path: IO4-Turtle-Graphic.png
 status: released
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, Appliance]
 layout: eagle
 tagline: IO4 Tortoise driver with occupancy and point position feedback
 overview: >
@@ -27,6 +27,10 @@ images:
   - image_path: /versions/IO4-Turtle/Molex-on-Tortoise-3.jpg
     title: Molex-on-Tortoise-3
 artifacts:
+  - path: /versions/IO4-Turtle/IO4-Turtle.SMD-parts.csv
+    tag: IO4-Turtle.SMD-parts
+    type: download
+    post: 
   - path: /versions/IO4-Turtle/IO4-Turtle_array.scr
     tag: IO4-Turtle_array.scr
     type: download

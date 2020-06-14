@@ -8,7 +8,7 @@ fabricated: no
 fab_date: 
 status: released
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, IOB, Adapter]
 image_path: IOB-Signal-Graphic.png
 layout: eagle
 tagline: IOB Interface drives 2x Signal Heads via a RJ45/8 connector.

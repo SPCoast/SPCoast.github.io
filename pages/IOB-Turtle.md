@@ -8,7 +8,7 @@ fabricated: yes
 fab_date: 2018-02
 status: released
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, IOB, Adapter]
 image_path: IOB-Turtle-Graphic.png
 layout: eagle
 tagline: IOB Interface provides 1x IO4 port for connection to an IO4-Turtle

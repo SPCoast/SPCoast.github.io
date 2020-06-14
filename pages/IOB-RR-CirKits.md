@@ -10,7 +10,7 @@ fab_date:
 fab_date: 
 status: released
 release: yes
-tags: [eagle, SPCoast, IOB]
+tags: [eagle, SPCoast, IOB, Adapter]
 layout: eagle
 image_path: 1.0/IOB-RR-CirKits-1.0.top.brd.png
 tagline: IOB Interface with an 8-bit RR-CirKits-style 2x5 (10-pin) ribbon cable connector

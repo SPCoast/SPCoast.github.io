@@ -25,7 +25,8 @@ overview: >
     screw terminal and mounted to the benchwork near where it's signals
     are used.
     
-      * Added optional resistors inline for direct driving LED outputs with a default (cuttable) link for use as inputs...
+      * 4.0 Added optional resistors inline for direct driving LED outputs with a default (cuttable) link for use as inputs...
+      * 5.0 Added SPDT "Frog Power" 3.5mm connector pads
     
 images:
   - image_path: /versions/Adapter-CMRI8-RJ45/Adapter-CMRI8-RJ45-Graphic.png

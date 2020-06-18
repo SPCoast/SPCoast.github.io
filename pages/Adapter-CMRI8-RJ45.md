@@ -10,7 +10,7 @@ fab_date: 2018-12
 image_path: Adapter-CMRI8-RJ45-Graphic.png
 status: released
 publish: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, Adapter]
 layout: eagle
 tagline: CMRI Breakout8 Adapter RJ45 to 0.100, 3.5mm and 0.156 Molex
 overview: >
@@ -31,6 +31,14 @@ images:
   - image_path: /versions/Adapter-CMRI8-RJ45/Adapter-CMRI8-RJ45-Graphic.png
     title: Adapter-CMRI8-RJ45-Graphic
 artifacts:
+  - path: /versions/Adapter-CMRI8-RJ45/Adapter-CMRI8-RJ45.SMD-parts.csv
+    tag: Adapter-CMRI8-RJ45.SMD-parts
+    type: download
+    post: 
+  - path: /versions/Adapter-CMRI8-RJ45/Adapter-CMRI8-RJ45_array.SMD-parts.csv
+    tag: Adapter-CMRI8-RJ45_array.SMD-parts
+    type: download
+    post: 
   - path: /versions/Adapter-CMRI8-RJ45/Adapter-CMRI8-RJ45_array.scr
     tag: Adapter-CMRI8-RJ45_array.scr
     type: download

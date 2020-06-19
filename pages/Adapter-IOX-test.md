@@ -23,6 +23,10 @@ artifacts:
     tag: Adapter-IOX-test.SMD-parts
     type: download
     post: 
+  - path: /versions/Adapter-IOX-test/Adapter-IOX-test_array.SMD-parts.csv
+    tag: Adapter-IOX-test_array.SMD-parts
+    type: download
+    post: 
   - path: /versions/Adapter-IOX-test/Adapter-IOX-test_array.scr
     tag: Adapter-IOX-test_array.scr
     type: download

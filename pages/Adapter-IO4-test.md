@@ -25,6 +25,14 @@ overview: >
     changelog, so don't replicate those messages here.
     
 artifacts:
+  - path: /versions/Adapter-IO4-test/Adapter-IO4-test.SMD-parts.csv
+    tag: Adapter-IO4-test.SMD-parts
+    type: download
+    post: 
+  - path: /versions/Adapter-IO4-test/Adapter-IO4-test_array.SMD-parts.csv
+    tag: Adapter-IO4-test_array.SMD-parts
+    type: download
+    post: 
   - path: /versions/Adapter-IO4-test/Adapter-IO4-test_array.scr
     tag: Adapter-IO4-test_array.scr
     type: download

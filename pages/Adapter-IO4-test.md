@@ -3,8 +3,8 @@ iseagle: true
 sidebar: spcoast_sidebar
 title: Adapter-IO4-test
 project: Adapter-IO4-test
-name: Adapter-IO4-test
 designer: John Plocher, Seth Neumann
+author: John Plocher
 fabricated: yes
 fab_date: 2020.01
 status: experimental

@@ -154,6 +154,10 @@ artifacts:
     tag: IOB-I2C-MAX731x.smt550
     type: download
     post: 
+  - path: /versions/IOB-I2C-MAX731x/IOB-I2C-MAX731x_array.SMD-parts.csv
+    tag: IOB-I2C-MAX731x_array.SMD-parts
+    type: download
+    post: 
   - path: /versions/IOB-I2C-MAX731x/IOB-I2C-MAX731x_array.scr
     tag: IOB-I2C-MAX731x_array.scr
     type: download

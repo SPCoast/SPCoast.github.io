@@ -3,6 +3,7 @@ iseagle: true
 sidebar: spcoast_sidebar
 title: IOB-Adapter-Generic
 project: IOB-Adapter-Generic
+image_path: IOB-Adapter-Generic-Graphic.png
 designer: John Plocher
 author: John Plocher
 fabricated: no
@@ -11,7 +12,6 @@ status: released
 release: yes
 tags: [eagle, SPCoast]
 layout: eagle
-image_path: 1.0/IOB-Adapter-Generic-1.0.top.brd.png
 tagline: IOB Personality: Generic I/O
 overview: >
     
@@ -19,7 +19,22 @@ overview: >
     
     *  Optional:  There are pads for adding an inline resistor to facilitate driving LEDs directly freom the expander.  Their use requires traces (marked on board) to be cut.
     
+images:
+  - image_path: /versions/IOB-Adapter-Generic/IOB-Adapter-Generic-Graphic.png
+    title: IOB-Adapter-Generic-Graphic
 artifacts:
+  - path: /versions/IOB-Adapter-Generic/IOB-Adapter-Generic.SMD-parts.csv
+    tag: IOB-Adapter-Generic.SMD-parts
+    type: download
+    post: 
+  - path: /versions/IOB-Adapter-Generic/IOB-Adapter-Generic.gstencil
+    tag: IOB-Adapter-Generic
+    type: download
+    post: 
+  - path: /versions/IOB-Adapter-Generic/IOB-Adapter-Generic_array.SMD-parts.csv
+    tag: IOB-Adapter-Generic_array.SMD-parts
+    type: download
+    post: 
   - path: /versions/IOB-Adapter-Generic/IOB-Adapter-Generic_array.scr
     tag: IOB-Adapter-Generic_array.scr
     type: download

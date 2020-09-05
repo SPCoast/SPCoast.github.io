@@ -1,0 +1,40 @@
+---
+iseagle: true
+sidebar: spcoast_sidebar
+title: IOB-LED-Monitor
+project: IOB-LED-Monitor
+designer: John Plocher
+author: John Plocher
+fabricated: no
+fab_date: 
+status: released
+release: yes
+tags: [eagle, SPCoast]
+layout: eagle
+image_path: 1.0/IOB-LED-Monitor-1.0.top.brd.png
+tagline: IOB LED Monitor daughterboard
+overview: >
+    
+    Active-Low LED monitor for I/O pin signal debugging.
+    (LED is on when pin is 0v, off when pin is at Vcc)
+    
+images:
+  - image_path: /versions/IOB-LED-Monitor/IOB-LED-Monitor-Graphic.png
+    title: IOB-LED-Monitor-Graphic
+artifacts:
+  - path: /versions/IOB-LED-Monitor/IOB-LED-Monitor.gstencil
+    tag: IOB-LED-Monitor
+    type: download
+    post: 
+  - path: /versions/IOB-LED-Monitor/IOB-LED-Monitor_array.scr
+    tag: IOB-LED-Monitor_array.scr
+    type: download
+    post: Eagle SCRipt
+  - path: /versions/IOB-LED-Monitor/eagle.epf
+    tag: eagle
+    type: download
+    post: 
+---
+
+
+This technical documentation is licensed under the [CERN Open Hardware Licence v1.2](http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt)

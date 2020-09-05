@@ -9,8 +9,8 @@ fab_date: 2016-12
 image_path: Core-Wemos-Graphic.png
 status: released
 release: yes
+tags: [eagle, SPCoast, Processor]
 layout: eagle
-tags: [SPCoast, eagle]
 tagline: IO4-based ESP8266 Wemos D1 Core Field Processor board with WiFi and I2C
 overview: >
     
@@ -20,6 +20,11 @@ images:
     title: Core-Wemos-Graphic
   - image_path: /versions/Core-Wemos/ESP32-OLED-pinout.jpg
     title: ESP32-OLED-pinout
+artifacts:
+  - path: /versions/Core-Wemos/Core-Wemos.SMD-parts.csv
+    tag: Core-Wemos.SMD-parts
+    type: download
+    post: 
 ---
 
 ## Documentation

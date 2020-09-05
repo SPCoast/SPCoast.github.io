@@ -26,6 +26,14 @@ overview: >
     
     
 artifacts:
+  - path: /versions/IOB-RR-CirKits/IOB-RR-CirKits.SMD-parts.csv
+    tag: IOB-RR-CirKits.SMD-parts
+    type: download
+    post: 
+  - path: /versions/IOB-RR-CirKits/IOB-RR-CirKits_array.SMD-parts.csv
+    tag: IOB-RR-CirKits_array.SMD-parts
+    type: download
+    post: 
   - path: /versions/IOB-RR-CirKits/IOB-RR-CirKits_array.scr
     tag: IOB-RR-CirKits_array.scr
     type: download

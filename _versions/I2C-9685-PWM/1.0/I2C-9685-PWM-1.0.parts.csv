@@ -1,0 +1,35 @@
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+BOARD1, PTH, BOARD80X100-IOB, BOARD-DINRAIL-3.17IN-IOB, board80x100-iob-board-dinrail-3.17in-iob, 0.00, 0.00, 0.00, 0.00
+C1, SMD, 220uF, 0810-CAP, 220uf-0810-cap, 22.23, 38.23, 270.00, 90.00
+C2, SMD, 10uF, 0805-CAP, 10uf-0805-cap, 8.26, 57.91, 0.00, 0.00
+C3, SMD, 0.1uF, 0805-CAP, 0.1uf-0805-cap, 8.26, 67.95, 0.00, 0.00
+C4, SMD, 0.1uF, 0805-CAP, 0.1uf-0805-cap, 53.47, 56.52, 0.00, 0.00
+CON1, PTH, , RJ24-INVERTED-PINS, -rj24-inverted-pins, 0.00, 0.00, 0.00, 0.00
+CON2, PTH, , RJ24-INVERTED-PINS, -rj24-inverted-pins, 0.00, 0.00, 0.00, 0.00
+CON3, PTH, , RJ24-INVERTED-PINS, -rj24-inverted-pins, 0.00, 0.00, 0.00, 0.00
+CON4, PTH, , RJ24-INVERTED-PINS, -rj24-inverted-pins, 0.00, 0.00, 0.00, 0.00
+FID-LR, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 97.79, 5.59, 0.00, 0.00
+FID-UL, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 8.76, 92.46, 0.00, 0.00
+J1, PTH, , I2C-L, -i2c-l, 0.00, 0.00, 0.00, 0.00
+J2, PTH, , I2C-L, -i2c-l, 0.00, 0.00, 0.00, 0.00
+LED1, SMD, G, 0603-LED, g-0603-led, 3.68, 86.36, 180.00, -180.00
+PWR, PTH, , DCJ0202, -dcj0202, 0.00, 0.00, 0.00, 0.00
+R1, SMD, 4k7, 0603-RES, 4k7-0603-res, 8.26, 86.36, 0.00, 0.00
+R2, SMD, 4k7, 0603-RES, 4k7-0603-res, 32.38, 22.86, 270.00, 90.00
+R3, SMD, 4k7, 0603-RES, 4k7-0603-res, 34.93, 22.86, 270.00, 90.00
+R4, SMD, 10k, 0603-RES, 10k-0603-res, 62.23, 35.56, 90.00, -90.00
+R5, SMD, 10k, 0603-RES, 10k-0603-res, 64.77, 35.56, 90.00, -90.00
+R6, SMD, 10k, 0603-RES, 10k-0603-res, 72.39, 35.56, 90.00, -90.00
+R7, SMD, 10k, 0603-RES, 10k-0603-res, 74.93, 35.56, 90.00, -90.00
+R8, SMD, 10k, 0603-RES, 10k-0603-res, 77.47, 35.56, 90.00, -90.00
+R9, SMD, 10k, 0603-RES, 10k-0603-res, 80.01, 35.56, 90.00, -90.00
+SCL, PTH, SDA, 1X02_LOCK, sda-1x02_lock, 0.00, 0.00, 90.00, -90.00
+SDA, PTH, SCL, 1X02_LOCK, scl-1x02_lock, 0.00, 0.00, 90.00, -90.00
+SW1, PTH, xx xx A5 A4, EDG-04, xx xx a5 a4-edg-04, 0.00, 0.00, 180.00, -180.00
+SW2, PTH, A3 A2 A1 A0, EDG-04, a3 a2 a1 a0-edg-04, 0.00, 0.00, 180.00, -180.00
+U$1, PTH, OSHW-LOGOL, OSHW-LOGO-L, oshw-logol-oshw-logo-l, 0.00, 0.00, 0.00, 0.00
+U1, SMD, PCA9685PW, TSSOP28, pca9685pw-tssop28, 53.34, 49.53, 90.00, -90.00
+VIN, PTH, 9-12VDC, PWR_LABEL, 9-12vdc-pwr_label, 0.00, 0.00, 90.00, -90.00
+VIN1, PTH, CONNECTOR-POWER-L, POWER-R2, connector-power-l-power-r2, 0.00, 0.00, 0.00, 0.00
+VIN2, PTH, CONNECTOR-POWER-L, POWER-R2, connector-power-l-power-r2, 0.00, 0.00, 0.00, 0.00
+VR1, SMD, CJ7805, TO-252, cj7805-to-252, 12.17, 62.87, 0.00, 0.00

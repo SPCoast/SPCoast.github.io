@@ -12,7 +12,7 @@ status: released
 release: yes
 tags: [eagle, SPCoast, IOB, Adapter]
 layout: eagle
-image_path: 2.0/IOB-Generic-2.0.top.brd.png
+image_path: 2.1/IOB-Generic-2.1.top.brd.png
 tagline: IOB interface provides 1x IO4 port with 4x generic (hardwired) Input or Output i/o lines.
 overview: >
     
@@ -24,6 +24,14 @@ overview: >
     
     
 artifacts:
+  - path: /versions/IOB-Generic/IOB-Generic.SMD-parts.csv
+    tag: IOB-Generic.SMD-parts
+    type: download
+    post: 
+  - path: /versions/IOB-Generic/IOB-Generic_array.SMD-parts.csv
+    tag: IOB-Generic_array.SMD-parts
+    type: download
+    post: 
   - path: /versions/IOB-Generic/IOB-Generic_array.scr
     tag: IOB-Generic_array.scr
     type: download

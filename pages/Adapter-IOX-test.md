@@ -12,7 +12,7 @@ status: released
 release: yes
 tags: [eagle, SPCoast]
 layout: eagle
-image_path: 1.0-1-g1a02ba4/Adapter-IOX-test-1.0-1-g1a02ba4.top.brd.png
+image_path: 1.0/Adapter-IOX-test-1.0.top.brd.png
 tagline: MRCS IOX-16 Test Fixture 
 overview: >
     

@@ -20,6 +20,14 @@ images:
   - image_path: /versions/IOB-Turtle/IOB-Turtle-Graphic.png
     title: IOB-Turtle-Graphic
 artifacts:
+  - path: /versions/IOB-Turtle/IOB-Turtle.SMD-parts.csv
+    tag: IOB-Turtle.SMD-parts
+    type: download
+    post: 
+  - path: /versions/IOB-Turtle/IOB-Turtle_array.SMD-parts.csv
+    tag: IOB-Turtle_array.SMD-parts
+    type: download
+    post: 
   - path: /versions/IOB-Turtle/IOB-Turtle_array.scr
     tag: IOB-Turtle_array.scr
     type: download

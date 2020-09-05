@@ -1,0 +1,12 @@
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+C5, SMD, 220uF, 0810-CAP, 220uf-0810-cap, 84.45, 55.25, 90.00, -90.00
+FID1, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 10.16, 92.71, 0.00, 0.00
+FID2, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 90.17, 7.62, 0.00, 0.00
+Q1, SMD, DMN4468, SO08, dmn4468-so08, 7.62, 55.25, 0.00, 0.00
+Q2, SMD, DMN4468, SO08, dmn4468-so08, 19.05, 55.25, 0.00, 0.00
+Q3, SMD, DMN4468, SO08, dmn4468-so08, 36.83, 55.25, 0.00, 0.00
+Q7, SMD, DMN4468, SO08, dmn4468-so08, 61.60, 55.25, 0.00, 0.00
+R3, SMD, 10k, 0603-RES, 10k-0603-res, 26.04, 34.93, 180.00, -180.00
+R4, SMD, 10k, 0603-RES, 10k-0603-res, 15.88, 34.93, 0.00, 0.00
+R5, SMD, 10k, 0603-RES, 10k-0603-res, 26.04, 32.38, 180.00, -180.00
+R9, SMD, 10k, 0603-RES, 10k-0603-res, 15.88, 32.38, 0.00, 0.00

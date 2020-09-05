@@ -19,6 +19,14 @@ images:
   - image_path: /versions/IOB-Signal/IOB-Signal-Graphic.png
     title: IOB-Signal-Graphic
 artifacts:
+  - path: /versions/IOB-Signal/IOB-Signal.SMD-parts.csv
+    tag: IOB-Signal.SMD-parts
+    type: download
+    post: 
+  - path: /versions/IOB-Signal/IOB-Signal_array.SMD-parts.csv
+    tag: IOB-Signal_array.SMD-parts
+    type: download
+    post: 
   - path: /versions/IOB-Signal/IOB-Signal_array.scr
     tag: IOB-Signal_array.scr
     type: download

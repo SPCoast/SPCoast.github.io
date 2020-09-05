@@ -21,6 +21,14 @@ images:
   - image_path: /versions/IOB-Outputs/IOB-Outputs-Graphic.png
     title: IOB-Outputs-Graphic
 artifacts:
+  - path: /versions/IOB-Outputs/IOB-Outputs.SMD-parts.csv
+    tag: IOB-Outputs.SMD-parts
+    type: download
+    post: 
+  - path: /versions/IOB-Outputs/IOB-Outputs_array.SMD-parts.csv
+    tag: IOB-Outputs_array.SMD-parts
+    type: download
+    post: 
   - path: /versions/IOB-Outputs/IOB-Outputs_array.scr
     tag: IOB-Outputs_array.scr
     type: download

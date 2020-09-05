@@ -8,7 +8,7 @@ fabricated: no
 fab_date: 
 status: experimental
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, I2C]
 layout: eagle
 image_path: 1.0/I2C-Expander-1.0.top.brd.png
 tagline: I2C PCF9555 / or / MCP23017 -based IO Expander with 4x IOB connections
@@ -21,6 +21,11 @@ overview: >
     This is a 16-bit I/O board with 2x 8-bit ports: port0 and port1.
     
     
+artifacts:
+  - path: /versions/I2C-Expander/I2C-Expander.SMD-parts.csv
+    tag: I2C-Expander.SMD-parts
+    type: download
+    post: 
 ---
 
 

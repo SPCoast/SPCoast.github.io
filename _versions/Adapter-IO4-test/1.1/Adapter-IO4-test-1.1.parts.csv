@@ -1,20 +1,20 @@
-# name, smd?, value, package, component, x, y, angle
-BOARD1, PTH, BOARD50X50-NOHOLES, BOARD-SEEED5X5-NOHOLES, board50x50-noholes-board-seeed5x5-noholes, 0.00, 0.00, 0.00
-CON1, PTH, CONNECTOR-IO4INV, RJ25-INVERTED, connector-io4inv-rj25-inverted, 0.00, 0.00, 270.00
-CON2, PTH, , 1X06_LOCK, -1x06_lock, 0.00, 0.00, 90.00
-LED1, SMD, , 0805-LED, -0805-led, 10.79, 37.47, 0.00
-LED2, SMD, , 0805-LED, -0805-led, 20.96, 37.47, 0.00
-LED3, SMD, , 0805-LED, -0805-led, 31.12, 37.47, 0.00
-LED4, SMD, , 0805-LED, -0805-led, 41.27, 37.47, 0.00
-Q1, SMD, , SOT23-3, -sot23-3, 5.67, 41.27, 90.00
-Q2, SMD, , SOT23-3, -sot23-3, 15.83, 41.27, 90.00
-Q3, SMD, , SOT23-3, -sot23-3, 25.99, 41.27, 90.00
-Q4, SMD, , SOT23-3, -sot23-3, 36.15, 41.27, 90.00
-R1, SMD, , 0805-RES, -0805-res, 5.71, 37.47, 180.00
-R2, SMD, , 0805-RES, -0805-res, 15.88, 37.47, 180.00
-R3, SMD, , 0805-RES, -0805-res, 26.04, 37.47, 180.00
-R4, SMD, , 0805-RES, -0805-res, 36.20, 37.47, 180.00
-SW1, PTH, , B3F-10XX, -b3f-10xx, 0.00, 0.00, 90.00
-SW2, PTH, , B3F-10XX, -b3f-10xx, 0.00, 0.00, 90.00
-SW3, PTH, , B3F-10XX, -b3f-10xx, 0.00, 0.00, 90.00
-SW4, PTH, , B3F-10XX, -b3f-10xx, 0.00, 0.00, 90.00
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+BOARD1, PTH, BOARD50X50-NOHOLES, BOARD-SEEED5X5-NOHOLES, board50x50-noholes-board-seeed5x5-noholes, 0.00, 0.00, 0.00, 0.00
+CON1, PTH, , RJ25-INVERTED, -rj25-inverted, 0.00, 0.00, 270.00, 90.00
+CON2, PTH, , 1X06_LOCK, -1x06_lock, 0.00, 0.00, 90.00, -90.00
+LED1, SMD, G, 0805-LED, g-0805-led, 10.79, 37.47, 180.00, -180.00
+LED2, SMD, G, 0805-LED, g-0805-led, 20.96, 37.47, 180.00, -180.00
+LED3, SMD, G, 0805-LED, g-0805-led, 31.12, 37.47, 180.00, -180.00
+LED4, SMD, G, 0805-LED, g-0805-led, 41.27, 37.47, 180.00, -180.00
+Q1, SMD, P-FET, SOT23-3, p-fet-sot23-3, 5.67, 41.27, 0.00, 0.00
+Q2, SMD, P-FET, SOT23-3, p-fet-sot23-3, 15.83, 41.27, 0.00, 0.00
+Q3, SMD, P-FET, SOT23-3, p-fet-sot23-3, 25.99, 41.27, 0.00, 0.00
+Q4, SMD, P-FET, SOT23-3, p-fet-sot23-3, 36.15, 41.27, 0.00, 0.00
+R1, SMD, 2k0, 0805-RES, 2k0-0805-res, 5.71, 37.47, 180.00, -180.00
+R2, SMD, 2k0, 0805-RES, 2k0-0805-res, 15.88, 37.47, 180.00, -180.00
+R3, SMD, 2k0, 0805-RES, 2k0-0805-res, 26.04, 37.47, 180.00, -180.00
+R4, SMD, 2k0, 0805-RES, 2k0-0805-res, 36.20, 37.47, 180.00, -180.00
+SW1, PTH, SPST-MOM, B3F-10XX, spst-mom-b3f-10xx, 0.00, 0.00, 90.00, -90.00
+SW2, PTH, SPST-MOM, B3F-10XX, spst-mom-b3f-10xx, 0.00, 0.00, 90.00, -90.00
+SW3, PTH, SPST-MOM, B3F-10XX, spst-mom-b3f-10xx, 0.00, 0.00, 90.00, -90.00
+SW4, PTH, SPST-MOM, B3F-10XX, spst-mom-b3f-10xx, 0.00, 0.00, 90.00, -90.00

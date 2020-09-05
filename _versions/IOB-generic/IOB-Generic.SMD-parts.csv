@@ -1,0 +1,3 @@
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+FID1, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 15.88, 1.40, 0.00, 0.00
+FID2, SMD, FIDUCIAL, FIDUCIAL_1MM, fiducial-fiducial_1mm, 51.44, 18.29, 0.00, 0.00

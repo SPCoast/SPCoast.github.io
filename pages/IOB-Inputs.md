@@ -26,6 +26,14 @@ images:
   - image_path: /versions/IOB-Inputs/IOB-Inputs-Graphic.png
     title: IOB-Inputs-Graphic
 artifacts:
+  - path: /versions/IOB-Inputs/IOB-Inputs.SMD-parts.csv
+    tag: IOB-Inputs.SMD-parts
+    type: download
+    post: 
+  - path: /versions/IOB-Inputs/IOB-Inputs_array.SMD-parts.csv
+    tag: IOB-Inputs_array.SMD-parts
+    type: download
+    post: 
   - path: /versions/IOB-Inputs/IOB-Inputs_array.scr
     tag: IOB-Inputs_array.scr
     type: download

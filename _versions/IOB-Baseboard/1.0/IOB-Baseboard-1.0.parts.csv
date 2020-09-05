@@ -11,11 +11,14 @@ IOB3, PTH, CONNECTOR-IO4-IOB-V3, IOB-V3, connector-io4-iob-v3-iob-v3, 0.00, 0.00
 IOB4, PTH, CONNECTOR-IO4-IOB-V3, IOB-V3, connector-io4-iob-v3-iob-v3, 0.00, 0.00, 270.00, 90.00
 J1, PTH, , I2C-L, -i2c-l, 0.00, 0.00, 0.00, 0.00
 J2, PTH, , I2C-L, -i2c-l, 0.00, 0.00, 0.00, 0.00
-LED18, SMD, G, 0603-LED, g-0603-led, 3.68, 86.36, 180.00, -180.00
+LED18, SMD, G, 0603-LED, g-0603-led, 6.22, 77.47, 180.00, -180.00
 PWR, PTH, , DCJ0202, -dcj0202, 0.00, 0.00, 0.00, 0.00
-R18, SMD, 2K0, 0805-RES, 2k0-0805-res, 7.75, 86.36, 0.00, 0.00
-U$1, PTH, OSHW-LOGOL, OSHW-LOGO-L, oshw-logol-oshw-logo-l, 0.00, 0.00, 90.00, -90.00
+R18, SMD, 2K0, 0805-RES, 2k0-0805-res, 6.22, 74.93, 180.00, -180.00
+U$1, PTH, OSHW-LOGOL, OSHW-LOGO-L, oshw-logol-oshw-logo-l, 0.00, 0.00, 0.00, 0.00
 U$2, PTH, I2C-EXPANDER, I2C-EXPANDER, i2c-expander-i2c-expander, 0.00, 0.00, 0.00, 0.00
+U$3, PTH, MOUNTINGHOLE, MOUNTINGHOLE, mountinghole-mountinghole, 0.00, 0.00, 0.00, 0.00
+U$4, PTH, MOUNTINGHOLE, MOUNTINGHOLE, mountinghole-mountinghole, 0.00, 0.00, 0.00, 0.00
+U$5, PTH, MOUNTINGHOLE, MOUNTINGHOLE, mountinghole-mountinghole, 0.00, 0.00, 0.00, 0.00
 VIN, PTH, 9-12VDC, PWR_LABEL, 9-12vdc-pwr_label, 0.00, 0.00, 90.00, -90.00
 VIN1, PTH, CONNECTOR-POWER-L, POWER-R2, connector-power-l-power-r2, 0.00, 0.00, 0.00, 0.00
 VIN2, PTH, CONNECTOR-POWER-L, POWER-R2, connector-power-l-power-r2, 0.00, 0.00, 0.00, 0.00

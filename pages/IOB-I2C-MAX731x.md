@@ -4,7 +4,7 @@ sidebar: spcoast_sidebar
 title: IOB-I2C-MAX731x
 project: IOB-I2C-MAX731x
 designer: John Plocher
-fabricated: no
+fabricated: yes
 fab_date: 2020-09
 image_path: IOB-I2C-MAX731x-Graphic.png
 status: released
@@ -142,20 +142,12 @@ images:
   - image_path: /versions/IOB-I2C-MAX731x/IOB-I2C-MAX731x-photo.JPG
     title: IOB-I2C-MAX731x-photo
 artifacts:
-  - path: /versions/IOB-I2C-MAX731x/IOB-I2C-MAX731x.SMD-parts.csv
-    tag: IOB-I2C-MAX731x.SMD-parts
-    type: download
-    post: 
   - path: /versions/IOB-I2C-MAX731x/IOB-I2C-MAX731x.gstencil
     tag: IOB-I2C-MAX731x
     type: download
     post: 
   - path: /versions/IOB-I2C-MAX731x/IOB-I2C-MAX731x.smt550.csv
     tag: IOB-I2C-MAX731x.smt550
-    type: download
-    post: 
-  - path: /versions/IOB-I2C-MAX731x/IOB-I2C-MAX731x_array.SMD-parts.csv
-    tag: IOB-I2C-MAX731x_array.SMD-parts
     type: download
     post: 
   - path: /versions/IOB-I2C-MAX731x/IOB-I2C-MAX731x_array.scr

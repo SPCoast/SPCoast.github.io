@@ -6,8 +6,8 @@ project: IOB-I2C-MCP23017
 image_path: IOB-I2C-MCP23017-Graphic.png
 designer: John Plocher
 author: John Plocher
-fabricated: no
-fab_date: 
+fabricated: yes
+fab_date: 2020.09
 status: released
 release: yes
 tags: [eagle, SPCoast]
@@ -126,16 +126,8 @@ images:
   - image_path: /versions/IOB-I2C-MCP23017/IOB-I2C-MCP23017-Graphic.png
     title: IOB-I2C-MCP23017-Graphic
 artifacts:
-  - path: /versions/IOB-I2C-MCP23017/IOB-I2C-MCP23017.SMD-parts.csv
-    tag: IOB-I2C-MCP23017.SMD-parts
-    type: download
-    post: 
   - path: /versions/IOB-I2C-MCP23017/IOB-I2C-MCP23017.gstencil
     tag: IOB-I2C-MCP23017
-    type: download
-    post: 
-  - path: /versions/IOB-I2C-MCP23017/IOB-I2C-MCP23017_array.SMD-parts.csv
-    tag: IOB-I2C-MCP23017_array.SMD-parts
     type: download
     post: 
   - path: /versions/IOB-I2C-MCP23017/IOB-I2C-MCP23017_array.scr

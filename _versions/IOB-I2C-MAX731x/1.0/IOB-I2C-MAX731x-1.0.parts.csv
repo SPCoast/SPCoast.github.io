@@ -1,7 +1,7 @@
 # name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
-BOARD, PTH, I2C-EXPANDER, I2C-EXPANDER, i2c-expander-i2c-expander, 0.00, 0.00, 0.00, 0.00
+BOARD, PTH, CONNECTOR-I2C-EXPANDER, I2C-EXPANDER, connector-i2c-expander-i2c-expander, 0.00, 0.00, 0.00, 0.00
 C1, SMD, 0.1uF, 0603-CAP, 0.1uf-0603-cap, 39.62, 26.92, 270.00, 90.00
-IC1, SMD, MAX7311, TSSOP24, max7311-tssop24, 35.56, 20.32, 90.00, -90.00
+IC1, SMD, MAX7311, TSSOP24, max7311-tssop24, 35.56, 19.05, 90.00, -90.00
 LED16, SMD, G, 0603-LED, g-0603-led, 35.56, 27.94, 0.00, 0.00
 R17, SMD, 4k7, 0805-RES, 4k7-0805-res, 31.37, 26.92, 270.00, 90.00
 SW1, PTH, A0, EDG-04, a0-edg-04, 0.00, 0.00, 180.00, -180.00

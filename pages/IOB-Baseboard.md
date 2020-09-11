@@ -6,8 +6,8 @@ project: IOB-Baseboard
 image_path: IOB-Baseboard-Graphic.png
 designer: John Plocher
 author: John Plocher
-fabricated: no
-fab_date: 
+fabricated: yes
+fab_date: 2020.09
 status: released
 release: yes
 tags: [eagle, SPCoast]
@@ -73,10 +73,6 @@ images:
   - image_path: /versions/IOB-Baseboard/IOB-Baseboard-Graphic.png
     title: IOB-Baseboard-Graphic
 artifacts:
-  - path: /versions/IOB-Baseboard/IOB-Baseboard.SMD-parts.csv
-    tag: IOB-Baseboard.SMD-parts
-    type: download
-    post: 
   - path: /versions/IOB-Baseboard/IOB-Baseboard.gstencil
     tag: IOB-Baseboard
     type: download

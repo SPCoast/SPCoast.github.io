@@ -15,124 +15,7 @@ tagline: IOB I2C MAX7311/7318 based IO Expander
 overview: >
     
     The MAX 731x series costs twice that of the MCP23017/PCA9555 expanders; for that price one gets support for  up to 64x devices on a single I2C chain.
-    
-    ### Specifications
-    
-    This board is based on the MAX7311/7318 16 bit IO Expander, which supports up to 64x instances.
-    
-    Each board provides a latched set of 16x IO points, with each point
-    being software selectable to be either an input or an output. The
-    individual points are reasonably protected from the environment, and can
-    sink 10 mA each (they are NOT current sources!)
-    By using active low inputs and outputs, the effects of environmental noise are
-    reduced - remote sensors only need to ground an I/O point to register
-    activity.
-    
-    ### Communication Protocol
-    
-    ```C++
-    Simple I2C 16-bit Reads and Writes:
-    uint16_t I2Cexpander::read7311() {
-        uint16_t data = 0;
-        Wire.beginTransmission(_i2c_address);
-        Wire.write(REGISTER_7311INPUT);
-        Wire.endTransmission();
-        // Wire.beginTransmission(_i2c_address);
-        Wire.requestFrom(_i2c_address, (uint8_t)2);
-        if(Wire.available()) {
-            data = Wire.read();
-        }
-        if(Wire.available()) {
-            data |= (Wire.read() << 8);
-        }
-        // Wire.endTransmission();
-        return data;
-    }
-    
-    void I2Cexpander::write7311(uint16_t data) {
-        data = data | _config;
-        Wire.beginTransmission(_i2c_address);
-        Wire.write(REGISTER_7311OUTPUT);
-        Wire.write(0xff & data);  //  low byte
-        Wire.write(data >> 8);    //  high byte
-        Wire.endTransmission();
-    }
-    ```
-    
-    See [I2Cexpander-lib](/pages/I2Cexpander "wikilink") for a more complete interface
-    library.
-    
-    
-    ### Addressing
-    The addres selection for the MAX731x is complex, as it uses 3x address pins, but adds SDA and SCL to the traditional "Vcc and Gnd" used elsewhere.
-    
-    **AD2**|**AD1**|**AD0**|**A6**|**A5**|**A4**|**A3**|**A2**|**A1**|**A0**|**ADDRESS (HEX)**
-    :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
-    GND|SCL|GND|0|0|1|0|0|0|0|0x20
-    GND|SCL|V+|0|0|1|0|0|0|1|0x22
-    GND|SDA|GND|0|0|1|0|0|1|0|0x24
-    GND|SDA|V+|0|0|1|0|0|1|1|0x26
-    V+|SCL|GND|0|0|1|0|1|0|0|0x28
-    V+|SCL|V+|0|0|1|0|1|0|1|0x2A
-    V+|SDA|GND|0|0|1|0|1|1|0|0x2C
-    V+|SDA|V+|0|0|1|0|1|1|1|0x2E
-    GND|SCL|SCL|0|0|1|1|0|0|0|0x30
-    GND|SCL|SDA|0|0|1|1|0|0|1|0x32
-    GND|SDA|SCL|0|0|1|1|0|1|0|0x34
-    GND|SDA|SDA|0|0|1|1|0|1|1|0x36
-    V+|SCL|SCL|0|0|1|1|1|0|0|0x38
-    V+|SCL|SDA|0|0|1|1|1|0|1|0x3A
-    V+|SDA|SCL|0|0|1|1|1|1|0|0x3C
-    V+|SDA|SDA|0|0|1|1|1|1|1|0x3E
-    GND|GND|GND|0|1|0|0|0|0|0|0x40
-    GND|GND|V+|0|1|0|0|0|0|1|0x42
-    GND|V+|GND|0|1|0|0|0|1|0|0x44
-    GND|V+|V+|0|1|0|0|0|1|1|0x46
-    V+|GND|GND|0|1|0|0|1|0|0|0x48
-    V+|GND|V+|0|1|0|0|1|0|1|0x4A
-    V+|V+|GND|0|1|0|0|1|1|0|0x4C
-    V+|V+|V+|0|1|0|0|1|1|1|0x4E
-    GND|GND|SCL|0|1|0|1|0|0|0|0x50
-    GND|GND|SDA|0|1|0|1|0|0|1|0x52
-    GND|V+|SCL|0|1|0|1|0|1|0|0x54
-    GND|V+|SDA|0|1|0|1|0|1|1|0x56
-    V+|GND|SCL|0|1|0|1|1|0|0|0x58
-    V+|GND|SDA|0|1|0|1|1|0|1|0x5A
-    V+|V+|SCL|0|1|0|1|1|1|0|0x5C
-    V+|V+|SDA|0|1|0|1|1|1|1|0x5E
-    SCL|SCL|GND|1|0|1|0|0|0|0|0xA0
-    SCL|SCL|V+|1|0|1|0|0|0|1|0xA2
-    SCL|SDA|GND|1|0|1|0|0|1|0|0xA4
-    SCL|SDA|V+|1|0|1|0|0|1|1|0xA6
-    SDA|SCL|GND|1|0|1|0|1|0|0|0xA8
-    SDA|SCL|V+|1|0|1|0|1|0|1|0xAA
-    SDA|SDA|GND|1|0|1|0|1|1|0|0xAC
-    SDA|SDA|V+|1|0|1|0|1|1|1|0xAE
-    SCL|SCL|SCL|1|0|1|1|0|0|0|0xB0
-    SCL|SCL|SDA|1|0|1|1|0|0|1|0xB2
-    SCL|SDA|SCL|1|0|1|1|0|1|0|0xB4
-    SCL|SDA|SDA|1|0|1|1|0|1|1|0xB6
-    SDA|SCL|SCL|1|0|1|1|1|0|0|0xB8
-    SDA|SCL|SDA|1|0|1|1|1|0|1|0xBA
-    SDA|SDA|SCL|1|0|1|1|1|1|0|0xBC
-    SDA|SDA|SDA|1|0|1|1|1|1|1|0xBE
-    SCL|GND|GND|1|1|0|0|0|0|0|0xC0
-    SCL|GND|V+|1|1|0|0|0|0|1|0xC2
-    SCL|V+|GND|1|1|0|0|0|1|0|0xC4
-    SCL|V+|V+|1|1|0|0|0|1|1|0xC6
-    SDA|GND|GND|1|1|0|0|1|0|0|0xC8
-    SDA|GND|V+|1|1|0|0|1|0|1|0xCA
-    SDA|V+|GND|1|1|0|0|1|1|0|0xCC
-    SDA|V+|V+|1|1|0|0|1|1|1|0xCE
-    SCL|GND|SCL|1|1|0|1|0|0|0|0xD0
-    SCL|GND|SDA|1|1|0|1|0|0|1|0xD2
-    SCL|V+|SCL|1|1|0|1|0|1|0|0xD4
-    SCL|V+|SDA|1|1|0|1|0|1|1|0xD6
-    SDA|GND|SCL|1|1|0|1|1|0|0|0xD8
-    SDA|GND|SDA|1|1|0|1|1|0|1|0xDA
-    SDA|V+|SCL|1|1|0|1|1|1|0|0xDC
-    SDA|V+|SDA|1|1|0|1|1|1|1|0xDE
-    
+    V1.0 is an experiment in building a mechanically robust baseboard to support reliable wiring practices.
     
 images:
   - image_path: /versions/IOB-I2C-MAX731x/IOB-I2C-MAX731x-Graphic-set.png
@@ -142,12 +25,20 @@ images:
   - image_path: /versions/IOB-I2C-MAX731x/IOB-I2C-MAX731x-photo.JPG
     title: IOB-I2C-MAX731x-photo
 artifacts:
+  - path: /versions/IOB-I2C-MAX731x/IOB-I2C-MAX731x.SMD-parts.csv
+    tag: IOB-I2C-MAX731x.SMD-parts
+    type: download
+    post: 
   - path: /versions/IOB-I2C-MAX731x/IOB-I2C-MAX731x.gstencil
     tag: IOB-I2C-MAX731x
     type: download
     post: 
   - path: /versions/IOB-I2C-MAX731x/IOB-I2C-MAX731x.smt550.csv
     tag: IOB-I2C-MAX731x.smt550
+    type: download
+    post: 
+  - path: /versions/IOB-I2C-MAX731x/IOB-I2C-MAX731x_array.SMD-parts.csv
+    tag: IOB-I2C-MAX731x_array.SMD-parts
     type: download
     post: 
   - path: /versions/IOB-I2C-MAX731x/IOB-I2C-MAX731x_array.scr
@@ -174,7 +65,13 @@ artifacts:
 
 ## Documentation
 
+# IOB-I2C-MAX731x
+## License: CERN Open Hardware Licence v1.2
 ### Introduction
+
+IOB I2C MAX7311/7318 based IO Expander
+
+The MAX 731x series costs twice that of the MCP23017/PCA9555 expanders; for that price one gets support for  up to 64x devices on a single I2C chain.
 
 This board was originally produced to help me build control panels for
 my model railroad - I needed to connect many different buttons, switches
@@ -224,8 +121,9 @@ independent supply.
 
 ### Specifications
 
-This IO board is based on the MAX7311/12 16 bit IO Expander, with a a
-bank of 4x I/O Boards. These IOBs contain buffered LED drivers connected
+This IO board is based on the MAX7311/18 16 bit IO Expander, mounted on a
+[IOB Baseboard](/pages/IOB-Baseboard "wikilink") that presents a
+bank of 4x I/O personality boards (IOBs). The Baseboard contains buffered LED drivers connected
 to LEDs that show the status of the I/O lines in real time. They also
 contain the needed circuitry to drive / sense the appliances connected
 to them. See
@@ -233,19 +131,20 @@ to them. See
 -   [IOB-Inputs](/pages/IOB-Inputs "wikilink") 4x buffered inputs
 -   [IOB-Outputs](/pages/IOB-Outputs "wikilink") 4x buffered outputs
 -   [IOB-Turtle](/pages/IOB-Turtle "wikilink") 1x buffered output and 3x buffered inputs
--   [IOB-Signal](/pages/IOB-Signal "wikilink") 2x RGB signal head driver (Dark, Stop, Approach, Clear)
+-   [IOB-Generic](/pages/IOB-Generic "wikilink") 4x unbuffered I/O lines with optional inline resistors
+
 
 Each board provides a latched set of 16x IO points, with each point
 being software selectable to be either an input or an output. The
 individual points are reasonably protected from the environment, and can
-sink 10 mA each (with the MAX7312, they can also drive \~20mA). By using
-active low inputs and outputs, the effects of environmental noise are
+sink 10 mA each (they are NOT current sources!)
+By using active low inputs and outputs, the effects of environmental noise are
 reduced - remote sensors only need to ground an I/O point to register
 activity.
 
-#### Communication Protocol {#communication_protocol}
+### Communication Protocol
 
-``` {.cpp}
+```C++
 Simple I2C 16-bit Reads and Writes:
 uint16_t I2Cexpander::read7311() {
     uint16_t data = 0;
@@ -278,7 +177,8 @@ See [I2Cexpander-lib](/pages/I2Cexpander "wikilink") for a more complete interfa
 library.
 
 
-#### Addressing
+### Addressing
+The address selection for the MAX731x is complex, as it uses 3x address pins, but adds SDA and SCL to the traditional "Vcc and Gnd" used elsewhere.
 
 **AD2**|**AD1**|**AD0**|**A6**|**A5**|**A4**|**A3**|**A2**|**A1**|**A0**|**ADDRESS (HEX)**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
@@ -346,12 +246,19 @@ SDA|GND|SCL|1|1|0|1|1|0|0|0xD8
 SDA|GND|SDA|1|1|0|1|1|0|1|0xDA
 SDA|V+|SCL|1|1|0|1|1|1|0|0xDC
 SDA|V+|SDA|1|1|0|1|1|1|1|0xDE
+
 
 
 
 ## doc
 
+# IOB-I2C-MAX731x
+## License: CERN Open Hardware Licence v1.2
 ### Introduction
+
+IOB I2C MAX7311/7318 based IO Expander
+
+The MAX 731x series costs twice that of the MCP23017/PCA9555 expanders; for that price one gets support for  up to 64x devices on a single I2C chain.
 
 This board was originally produced to help me build control panels for
 my model railroad - I needed to connect many different buttons, switches
@@ -401,8 +308,9 @@ independent supply.
 
 ### Specifications
 
-This IO board is based on the MAX7311/12 16 bit IO Expander, with a a
-bank of 4x I/O Boards. These IOBs contain buffered LED drivers connected
+This IO board is based on the MAX7311/18 16 bit IO Expander, mounted on a
+[IOB Baseboard](/pages/IOB-Baseboard "wikilink") that presents a
+bank of 4x I/O personality boards (IOBs). The Baseboard contains buffered LED drivers connected
 to LEDs that show the status of the I/O lines in real time. They also
 contain the needed circuitry to drive / sense the appliances connected
 to them. See
@@ -410,19 +318,20 @@ to them. See
 -   [IOB-Inputs](/pages/IOB-Inputs "wikilink") 4x buffered inputs
 -   [IOB-Outputs](/pages/IOB-Outputs "wikilink") 4x buffered outputs
 -   [IOB-Turtle](/pages/IOB-Turtle "wikilink") 1x buffered output and 3x buffered inputs
--   [IOB-Signal](/pages/IOB-Signal "wikilink") 2x RGB signal head driver (Dark, Stop, Approach, Clear)
+-   [IOB-Generic](/pages/IOB-Generic "wikilink") 4x unbuffered I/O lines with optional inline resistors
+
 
 Each board provides a latched set of 16x IO points, with each point
 being software selectable to be either an input or an output. The
 individual points are reasonably protected from the environment, and can
-sink 10 mA each (with the MAX7312, they can also drive \~20mA). By using
-active low inputs and outputs, the effects of environmental noise are
+sink 10 mA each (they are NOT current sources!)
+By using active low inputs and outputs, the effects of environmental noise are
 reduced - remote sensors only need to ground an I/O point to register
 activity.
 
-#### Communication Protocol {#communication_protocol}
+### Communication Protocol
 
-``` {.cpp}
+```C++
 Simple I2C 16-bit Reads and Writes:
 uint16_t I2Cexpander::read7311() {
     uint16_t data = 0;
@@ -455,7 +364,8 @@ See [I2Cexpander-lib](/pages/I2Cexpander "wikilink") for a more complete interfa
 library.
 
 
-#### Addressing
+### Addressing
+The address selection for the MAX731x is complex, as it uses 3x address pins, but adds SDA and SCL to the traditional "Vcc and Gnd" used elsewhere.
 
 **AD2**|**AD1**|**AD0**|**A6**|**A5**|**A4**|**A3**|**A2**|**A1**|**A0**|**ADDRESS (HEX)**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
@@ -523,6 +433,7 @@ SDA|GND|SCL|1|1|0|1|1|0|0|0xD8
 SDA|GND|SDA|1|1|0|1|1|0|1|0xDA
 SDA|V+|SCL|1|1|0|1|1|1|0|0xDC
 SDA|V+|SDA|1|1|0|1|1|1|1|0xDE
+
 
 
 

@@ -26,7 +26,7 @@ overview: >
     
     ### Communication Protocol
     
-    ``` {.cpp}
+    ```C++
         enum MCP23017Registers {
             MCP23017_IODIRA   = 0x00,
             MCP23017_IODIRB   = 0x01,

@@ -11,7 +11,7 @@ overview: >
 <H1>Model Railroad Electronics</H1>
 <p>&nbsp;</p>
 
-{% assign projects=site.pages | where: "iseagle", 'true' | where_exp: "item", "item.isobsolete == 'nil' or item.isobsolete == 'false' %}
+{% assign projects=site.pages | where: "iseagle", 'true' %}
 {% assign projectcount=0 %}
 {% for p in projects %}
 {% assign projectcount = projectcount | plus: 1 %}
@@ -49,7 +49,7 @@ overview: >
 <hr>
 
 
-{% assign projects=site.pages | where: "iseagle", true | where: "isobsolete", true %}
+{% assign projects=site.pages | where: "iseagle", 'obsolete' %}
 {% assign projectcount=0 %}
 {% for p in projects %}
 {% assign projectcount = projectcount | plus: 1 %}

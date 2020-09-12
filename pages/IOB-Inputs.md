@@ -1,5 +1,5 @@
 ---
-iseagle: true
+iseagle: obsolete
 sidebar: spcoast_sidebar
 title: IOB-Inputs
 project: IOB-Inputs

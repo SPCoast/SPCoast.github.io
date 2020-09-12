@@ -200,6 +200,14 @@ overview: >
     
     
 artifacts:
+  - path: /versions/IOB-I2C-PCA9685-PWM/IOB-I2C-PCA9685-PWM.SMD-parts.csv
+    tag: IOB-I2C-PCA9685-PWM.SMD-parts
+    type: download
+    post: 
+  - path: /versions/IOB-I2C-PCA9685-PWM/IOB-I2C-PCA9685-PWM_array.SMD-parts.csv
+    tag: IOB-I2C-PCA9685-PWM_array.SMD-parts
+    type: download
+    post: 
   - path: /versions/IOB-I2C-PCA9685-PWM/IOB-I2C-PCA9685-PWM_array.scr
     tag: IOB-I2C-PCA9685-PWM_array.scr
     type: download

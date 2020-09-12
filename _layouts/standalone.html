@@ -101,6 +101,8 @@ layout: simple
                 {% capture heading %}  {% endcapture %}
         {% elsif version.status == "replaced" %}
                 {% capture heading %} {% include note.html content="Replaced by a newer version." %} {% endcapture %}
+        {% elsif version.status == "obsolete" %}
+                {% capture heading %} {% include note.html content="Obsolete." %} {% endcapture %}
         {% elsif version.status == "broken" %}
                 {% capture heading %} {% include note.html content="Abandoned" %} {% endcapture %}
         {% elsif version.status == "experimental" %}

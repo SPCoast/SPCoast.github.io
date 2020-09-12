@@ -1,7 +1,0 @@
-# name, smd?, value, package, component, x, y, angle
-GND, PTH, , MOLEX-1X2_LOCK, -molex-1x2_lock, 0.00, 0.00, 90.00
-IC1, PTH, ULN2803, DIL18, uln2803-dil18, 0.00, 0.00, 270.00
-MOLEX, PTH, 0.156, KK-156-8-M, 0.156-kk-156-8-m, 0.00, 0.00, 270.00
-SUPPLY, PTH, , MOLEX-1X2_LOCK, -molex-1x2_lock, 0.00, 0.00, 180.00
-SV1, PTH, CONNECTOR-M05X2SHD, 2X5-SHROUDED, connector-m05x2shd-2x5-shrouded, 0.00, 0.00, 0.00
-TERMINALS, PTH, 0.100, 1X08_LOCK_LONGPADS, 0.100-1x08_lock_longpads, 0.00, 0.00, 270.00

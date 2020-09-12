@@ -11,13 +11,14 @@ overview: >
 <H1>Model Railroad Electronics</H1>
 <p>&nbsp;</p>
 
-{% assign projects=site.pages | where: "iseagle", true | where: "isobsolete", true %}
+{% assign projects=site.pages | where: "iseagle", 'true' | where_exp: "item", "item.isobsolete == 'nil' or item.isobsolete == 'false' %}
 {% assign projectcount=0 %}
 {% for p in projects %}
 {% assign projectcount = projectcount | plus: 1 %}
 {% endfor %}
 {% assign firstletter=" " %}
 
+<H2>Active Projects</H2>
 <p> ({{ projectcount }} projects)</p>
 
 <table class="projectlist">
@@ -47,6 +48,43 @@ overview: >
 
 <hr>
 
+
+{% assign projects=site.pages | where: "iseagle", true | where: "isobsolete", true %}
+{% assign projectcount=0 %}
+{% for p in projects %}
+{% assign projectcount = projectcount | plus: 1 %}
+{% endfor %}
+{% assign firstletter=" " %}
+
+<H2>Obsolete Projects</H2>
+<p> ({{ projectcount }}  projects)</p>
+
+<table class="projectlist">
+{% for p in projects %}
+    {% capture thisletter %}{{ p.title | truncate: 1, "" | capitalize }}{% endcapture %}
+	{% if thisletter != firstletter  %}
+		{% capture firstletter %}{{ thisletter }}{% endcapture %}
+	<tr>
+		<td colspan=3>
+		<b> {{ thisletter }} </b>
+		</td>
+	</tr>
+	{% endif %}
+		<tr>
+			<td class="projectlist"> <a href="/pages/{{ p.title }}.html">{{ p.title }}</a>&#8224; </td>
+
+	{% if p.image_path %}
+			<td> <img src="/versions/{{ p.title}}/{{p.image_path}}" width="50px" alt="{{p.image_path}}"></td>
+	{% else %}
+			<td> &nbsp; </td>
+	{% endif %}
+			<td>{{ p.tagline }} </td>
+		</tr>
+
+	{% endfor %}
+</table>
+
+<hr>
 <p>The technical documentation on this site is licensed under the<br \>
 <a href="http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt">CERN Open Hardware Licence v1.2</a> unless otherwise specified.</p>
 

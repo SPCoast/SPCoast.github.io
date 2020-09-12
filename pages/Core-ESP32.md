@@ -1,5 +1,6 @@
 ---
 iseagle: true
+isobsolete: true
 sidebar: spcoast_sidebar
 title: Core-ESP32
 project: Core-ESP32

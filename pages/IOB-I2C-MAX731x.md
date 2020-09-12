@@ -65,7 +65,7 @@ artifacts:
 
 ## Documentation
 
-# IOB-I2C-MAX731x doc.md
+# IOB-I2C-MAX731x
 ## License: CERN Open Hardware Licence v1.2
 ### Introduction
 

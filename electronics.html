@@ -11,7 +11,7 @@ overview: >
 <H1>Model Railroad Electronics</H1>
 <p>&nbsp;</p>
 
-{% assign projects=site.pages | where: "iseagle", true | where: "release", "yes" %}
+{% assign projects=site.pages | where: "iseagle", true | where: "isobsolete", "yes" %}
 {% assign projectcount=0 %}
 {% for p in projects %}
 {% assign projectcount = projectcount | plus: 1 %}

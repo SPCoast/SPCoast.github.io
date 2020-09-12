@@ -1,5 +1,6 @@
 ---
 iseagle: true
+isobsolete: false
 sidebar: spcoast_sidebar
 title: Core-Wemos
 project: Core-Wemos

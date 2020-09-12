@@ -1,5 +1,5 @@
 ---
-iseagle: true
+iseagle: obsolete
 sidebar: spcoast_sidebar
 title: I2C-LEDStripDriver
 project: I2C-LEDStripDriver
@@ -7,9 +7,9 @@ designer: John Plocher
 fabricated: yes
 fab_date: 2019-03
 image_path: I2C-LEDStripDriver-Graphic.png
-status: released
+status: obsolete
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, I2C, Lighting, Appliance]
 layout: eagle
 tagline: WiFi/I2C LED Strip Driver based on a PCA9685 
 overview: >

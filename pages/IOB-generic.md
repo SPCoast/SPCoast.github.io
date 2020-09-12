@@ -1,5 +1,5 @@
 ---
-iseagle: true
+iseagle: obsolete
 sidebar: spcoast_sidebar
 title: IOB-Generic
 project: IOB-Generic
@@ -8,7 +8,7 @@ author: John Plocher
 fabricated: no
 fab_date: 
 fab_date: 
-status: released
+status: obsolete
 release: yes
 tags: [eagle, SPCoast, IOB, Adapter]
 layout: eagle

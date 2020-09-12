@@ -1,26 +1,26 @@
-# name, smd?, value, package, component, x, y, angle
-C1, SMD, .1uF, 0805-CAP, .1uf-0805-cap, 3.18, 29.85, 180.00
-JP1, SMD, , SJ_2S-NO, -sj_2s-no, 25.40, 36.83, 270.00
-JP2, SMD, , SJ_2S-NO, -sj_2s-no, 29.21, 36.83, 270.00
-JP3, SMD, , SJ_2S-NO, -sj_2s-no, 33.02, 36.83, 270.00
-JP4, PTH, CODE, 1X02_LOCK, code-1x02_lock, 0.00, 0.00, 180.00
-JP5, PTH, MC, 1X02_LOCK, mc-1x02_lock, 0.00, 0.00, 180.00
-JP6, PTH, SWITCH, 1X03, switch-1x03, 0.00, 0.00, 180.00
-JP7, PTH, FLEET, 1X02_LOCK, fleet-1x02_lock, 0.00, 0.00, 180.00
-JP8, PTH, SIGNAL, 1X04_LOCK, signal-1x04_lock, 0.00, 0.00, 180.00
-JP9, PTH, CODE, 1X02_LOCK, code-1x02_lock, 0.00, 0.00, 180.00
-JP10, PTH, MC, 1X02_LOCK, mc-1x02_lock, 0.00, 0.00, 180.00
-JP11, PTH, SWITCH, 1X03, switch-1x03, 0.00, 0.00, 180.00
-JP12, PTH, FLEET, 1X02_LOCK, fleet-1x02_lock, 0.00, 0.00, 180.00
-JP13, PTH, SIGNAL, 1X04_LOCK, signal-1x04_lock, 0.00, 0.00, 180.00
-R1, SMD, 10k, 0805-RES, 10k-0805-res, 25.40, 33.02, 270.00
-R2, SMD, 10k, 0805-RES, 10k-0805-res, 29.21, 33.02, 270.00
-R3, SMD, 10k, 0805-RES, 10k-0805-res, 33.02, 33.02, 270.00
-R4, SMD, 1k8, 0805-RES, 1k8-0805-res, 12.70, 7.62, 0.00
-R5, SMD, 1k8, 0805-RES, 1k8-0805-res, 12.70, 5.08, 0.00
-SCL, PTH, SCL, 1X02_LOCK, scl-1x02_lock, 0.00, 0.00, 180.00
-SDA, PTH, SDA, 1X02_LOCK, sda-1x02_lock, 0.00, 0.00, 180.00
-U$1, PTH, CONNECTOR-I2CRIGHT, I2C-R, connector-i2cright-i2c-r, 0.00, 0.00, 180.00
-U$2, PTH, CONNECTOR-I2CRIGHT, I2C-R, connector-i2cright-i2c-r, 0.00, 0.00, 180.00
-U1, SMD, PCF8574A, SO-16DW, pcf8574a-so-16dw, 27.94, 11.43, 180.00
-U2, SMD, PCF8574, SO-16DW, pcf8574-so-16dw, 80.01, 11.43, 180.00
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+C1, SMD, .1uF, 0805-CAP, .1uf-0805-cap, 3.18, 29.85, 180.00, -180.00
+JP1, SMD, , SJ_2S-NO, -sj_2s-no, 25.40, 36.83, 270.00, 90.00
+JP2, SMD, , SJ_2S-NO, -sj_2s-no, 29.21, 36.83, 270.00, 90.00
+JP3, SMD, , SJ_2S-NO, -sj_2s-no, 33.02, 36.83, 270.00, 90.00
+JP4, PTH, CODE, 1X02_LOCK, code-1x02_lock, 0.00, 0.00, 180.00, -180.00
+JP5, PTH, MC, 1X02_LOCK, mc-1x02_lock, 0.00, 0.00, 180.00, -180.00
+JP6, PTH, SWITCH, 1X03, switch-1x03, 0.00, 0.00, 180.00, -180.00
+JP7, PTH, FLEET, 1X02_LOCK, fleet-1x02_lock, 0.00, 0.00, 180.00, -180.00
+JP8, PTH, SIGNAL, 1X04_LOCK, signal-1x04_lock, 0.00, 0.00, 180.00, -180.00
+JP9, PTH, CODE, 1X02_LOCK, code-1x02_lock, 0.00, 0.00, 180.00, -180.00
+JP10, PTH, MC, 1X02_LOCK, mc-1x02_lock, 0.00, 0.00, 180.00, -180.00
+JP11, PTH, SWITCH, 1X03, switch-1x03, 0.00, 0.00, 180.00, -180.00
+JP12, PTH, FLEET, 1X02_LOCK, fleet-1x02_lock, 0.00, 0.00, 180.00, -180.00
+JP13, PTH, SIGNAL, 1X04_LOCK, signal-1x04_lock, 0.00, 0.00, 180.00, -180.00
+R1, SMD, 10k, 0805-RES, 10k-0805-res, 25.40, 33.02, 270.00, 90.00
+R2, SMD, 10k, 0805-RES, 10k-0805-res, 29.21, 33.02, 270.00, 90.00
+R3, SMD, 10k, 0805-RES, 10k-0805-res, 33.02, 33.02, 270.00, 90.00
+R4, SMD, 1k8, 0805-RES, 1k8-0805-res, 12.70, 7.62, 0.00, 0.00
+R5, SMD, 1k8, 0805-RES, 1k8-0805-res, 12.70, 5.08, 0.00, 0.00
+SCL, PTH, SCL, 1X02_LOCK, scl-1x02_lock, 0.00, 0.00, 180.00, -180.00
+SDA, PTH, SDA, 1X02_LOCK, sda-1x02_lock, 0.00, 0.00, 180.00, -180.00
+U$1, PTH, CONNECTOR-I2CRIGHT, I2C-R, connector-i2cright-i2c-r, 0.00, 0.00, 180.00, -180.00
+U$2, PTH, CONNECTOR-I2CRIGHT, I2C-R, connector-i2cright-i2c-r, 0.00, 0.00, 180.00, -180.00
+U1, SMD, PCF8574A, SO-16DW, pcf8574a-so-16dw, 27.94, 11.43, 180.00, -180.00
+U2, SMD, PCF8574, SO-16DW, pcf8574-so-16dw, 80.01, 11.43, 180.00, -180.00

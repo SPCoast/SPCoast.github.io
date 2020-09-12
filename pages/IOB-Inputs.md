@@ -6,7 +6,7 @@ project: IOB-Inputs
 designer: John Plocher
 fabricated: yes
 fab_date: 2018-01
-status: released
+status: obsolete
 release: yes
 tags: [eagle, SPCoast, IOB, Adapter]
 image_path: IOB-Inputs-Graphic.png
@@ -26,14 +26,6 @@ images:
   - image_path: /versions/IOB-Inputs/IOB-Inputs-Graphic.png
     title: IOB-Inputs-Graphic
 artifacts:
-  - path: /versions/IOB-Inputs/IOB-Inputs.SMD-parts.csv
-    tag: IOB-Inputs.SMD-parts
-    type: download
-    post: 
-  - path: /versions/IOB-Inputs/IOB-Inputs_array.SMD-parts.csv
-    tag: IOB-Inputs_array.SMD-parts
-    type: download
-    post: 
   - path: /versions/IOB-Inputs/IOB-Inputs_array.scr
     tag: IOB-Inputs_array.scr
     type: download

@@ -1,12 +1,12 @@
 ---
-iseagle: true
+iseagle: obsolete
 sidebar: spcoast_sidebar
 title: I2C-Expander
 project: I2C-Expander
 designer: John Plocher
 fabricated: no
 fab_date: 
-status: experimental
+status: obsolete
 release: yes
 tags: [eagle, SPCoast, I2C]
 layout: eagle

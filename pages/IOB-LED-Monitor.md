@@ -1,5 +1,5 @@
 ---
-iseagle: true
+iseagle: obsolete
 sidebar: spcoast_sidebar
 title: IOB-LED-Monitor
 project: IOB-LED-Monitor
@@ -8,7 +8,7 @@ designer: John Plocher
 author: John Plocher
 fabricated: yes
 fab_date: 2020.09
-status: experimental
+status: obsolete
 release: yes
 tags: [eagle, SPCoast]
 layout: eagle
@@ -22,8 +22,16 @@ images:
   - image_path: /versions/IOB-LED-Monitor/IOB-LED-Monitor-Graphic.png
     title: IOB-LED-Monitor-Graphic
 artifacts:
+  - path: /versions/IOB-LED-Monitor/IOB-LED-Monitor.SMD-parts.csv
+    tag: IOB-LED-Monitor.SMD-parts
+    type: download
+    post: 
   - path: /versions/IOB-LED-Monitor/IOB-LED-Monitor.gstencil
     tag: IOB-LED-Monitor
+    type: download
+    post: 
+  - path: /versions/IOB-LED-Monitor/IOB-LED-Monitor_array.SMD-parts.csv
+    tag: IOB-LED-Monitor_array.SMD-parts
     type: download
     post: 
   - path: /versions/IOB-LED-Monitor/IOB-LED-Monitor_array.scr

@@ -5,14 +5,14 @@ title: CMRI-Bus-Interface-L
 project: CMRI-Bus-Interface-L
 designer: John Plocher
 author: John Plocher
+image_path: CMRI-Bus-Interface-L-Graphic.png
 fabricated: no
 fab_date: 
 fab_date: 
 status: released
 release: yes
-tags: [eagle, MRCS]
+tags: [eagle, MRCS, Adapter, LCB]
 layout: eagle
-image_path: 1.1/CMRI-Bus-Interface-L-1.1.top.brd.png
 tagline: RS422/485 driver for CMRI-Net - large 3" Tyco rail size
 overview: >
     
@@ -21,6 +21,14 @@ overview: >
     
     
     
+images:
+  - image_path: /versions/CMRI-Bus-Interface-L/CMRI-Bus-Interface-L-Graphic.png
+    title: CMRI-Bus-Interface-L-Graphic
+artifacts:
+  - path: /versions/CMRI-Bus-Interface-L/CMRI-Bus-Interface-L.SMD-parts.csv
+    tag: CMRI-Bus-Interface-L.SMD-parts
+    type: download
+    post: 
 ---
 
 

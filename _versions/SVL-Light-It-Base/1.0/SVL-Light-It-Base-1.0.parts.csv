@@ -1,10 +1,10 @@
-# name, smd?, value, package, component, x, y, angle
-BOARD1, PTH, BOARD100X100, BOARD-SEEED10X10, board100x100-board-seeed10x10, 0.00, 0.00, 0.00
-CON1, PTH, , MSTB2, -mstb2, 0.00, 0.00, 270.00
-CON2, PTH, , MSTB2, -mstb2, 0.00, 0.00, 270.00
-U$1, PTH, LIGHT-IT-V, LIGHT-IT-V, light-it-v-light-it-v, 0.00, 0.00, 90.00
-U$2, PTH, LIGHT-IT-V, LIGHT-IT-V, light-it-v-light-it-v, 0.00, 0.00, 90.00
-U$3, PTH, LIGHT-IT-V, LIGHT-IT-V, light-it-v-light-it-v, 0.00, 0.00, 90.00
-U$4, PTH, LIGHT-IT-V, LIGHT-IT-V, light-it-v-light-it-v, 0.00, 0.00, 90.00
-U$5, PTH, LIGHT-IT-V, LIGHT-IT-V, light-it-v-light-it-v, 0.00, 0.00, 90.00
-U$6, PTH, LIGHT-IT-V, LIGHT-IT-V, light-it-v-light-it-v, 0.00, 0.00, 90.00
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+BOARD1,PTH,BOARD100X100,BOARD-SEEED10X10,board100x100-board-seeed10x10,0.00,0.00,0.00,0.00
+CON1,PTH,,MSTB2,-mstb2,0.00,0.00,270.00,90.00
+CON2,PTH,,MSTB2,-mstb2,0.00,0.00,270.00,90.00
+U$1,PTH,LIGHT-IT-V,LIGHT-IT-V,light-it-v-light-it-v,0.00,0.00,90.00,-90.00
+U$2,PTH,LIGHT-IT-V,LIGHT-IT-V,light-it-v-light-it-v,0.00,0.00,90.00,-90.00
+U$3,PTH,LIGHT-IT-V,LIGHT-IT-V,light-it-v-light-it-v,0.00,0.00,90.00,-90.00
+U$4,PTH,LIGHT-IT-V,LIGHT-IT-V,light-it-v-light-it-v,0.00,0.00,90.00,-90.00
+U$5,PTH,LIGHT-IT-V,LIGHT-IT-V,light-it-v-light-it-v,0.00,0.00,90.00,-90.00
+U$6,PTH,LIGHT-IT-V,LIGHT-IT-V,light-it-v-light-it-v,0.00,0.00,90.00,-90.00

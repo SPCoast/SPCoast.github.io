@@ -1,16 +1,15 @@
 ---
-iseagle: true
+iseagle: obsolete
 sidebar: spcoast_sidebar
 title: AD4DA-LightUI
 project: AD4DA-LightUI
 image_path: AD4DA-LightUI-Graphic.png
 designer: John Plocher
 fabricated: 2018-07
-status: mature
+status: obsolete
 release: yes
-
+tags: [SPCoast, eagle, Lighting]
 layout: eagle
-tags: [SPCoast, eagle]
 tagline: 4x slide potentiometers for use with I2C-AD4DA.
 overview: >
     

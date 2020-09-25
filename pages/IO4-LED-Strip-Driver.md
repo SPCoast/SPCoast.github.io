@@ -17,11 +17,6 @@ overview: >
     An IO4 appliance that takes 4x PWM signals and drives 4x LED strips (RGB + White) at up to 2A each at 12v
     
     
-artifacts:
-  - path: /versions/IO4-LED-Strip-Driver/IO4-LED-Strip-Driver.SMD-parts.csv
-    tag: IO4-LED-Strip-Driver.SMD-parts
-    type: download
-    post: 
 ---
 
 

@@ -1,0 +1,13 @@
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+CON1, PTH, , 4P-2.0, -4p-2.0, 0.00, 0.00, 0.00, 0.00
+CON2, PTH, , 4P-2.0, -4p-2.0, 0.00, 0.00, 0.00, 0.00
+CON3, PTH, , 1X04_LOCK, -1x04_lock, 0.00, 0.00, 0.00, 0.00
+CON4, PTH, , 1X04_LOCK, -1x04_lock, 0.00, 0.00, 0.00, 0.00
+J1, PTH, , RJ45-NO-SHIELD, -rj45-no-shield, 0.00, 0.00, 180.00, -180.00
+R1, PTH, , CUT-R, -cut-r, 0.00, 0.00, 90.00, -90.00
+R2, PTH, , CUT-R, -cut-r, 0.00, 0.00, 90.00, -90.00
+R3, PTH, , CUT-R, -cut-r, 0.00, 0.00, 90.00, -90.00
+R4, PTH, , CUT-R, -cut-r, 0.00, 0.00, 90.00, -90.00
+R5, PTH, , CUT-R, -cut-r, 0.00, 0.00, 90.00, -90.00
+R6, PTH, , CUT-R, -cut-r, 0.00, 0.00, 90.00, -90.00
+U$1, PTH, DOC-OSHW-LOGO-M, OSHW-LOGO-M, doc-oshw-logo-m-oshw-logo-m, 0.00, 0.00, 0.00, 0.00

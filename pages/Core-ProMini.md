@@ -9,8 +9,8 @@ fab_date: 2017-05
 status: released
 release: yes
 image_path: Core-ProMini-Graphic.png
+tags: [eagle, SPCoast, Processor]
 layout: eagle
-tags: [SPCoast, eagle]
 tagline: IO4-based Arduino ProMini baseboard
 overview: >
     

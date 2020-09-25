@@ -1,5 +1,5 @@
 ---
-iseagle: true
+iseagle: obsolete
 sidebar: spcoast_sidebar
 title: Loconet-QuadOD
 project: Loconet-QuadOD
@@ -7,9 +7,9 @@ designer: John Plocher
 fabricated: no
 fab_date: 
 image_path: Loconet-QuadOD-Graphic.png
-status: experimental
+status: obsolete
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, Appliance, LCB]
 layout: eagle
 tagline: LocoNet Quad Detector baseboard
 overview: >
@@ -22,25 +22,6 @@ images:
 ---
 
 ## Documentation
-
-LN Quad Detector
-
-A variation on [IO4-QuadOD](/IO4-QuadOD.html) that replaces the
-WemosD1 & IO4 connections with an Arduino Pro Mini and LocoNet-style
-communications.
-
-This simple 4-pack module should end up with a BOM cost between $5
-and $10, so a full stand alone quad detector pack would run about
-$60 with detector boards.
-
-The [MRRWA Embedded Loconet library](https://github.com/mrrwa/LocoNet)
-includes support for LN-SV V2 configuration management, which is
-also supported by JMRI; it should be pretty easy to write an
-addressable Detector sketch (TBD) with assorted XML definitions
-suitable for DecoderPro3...
-
-
-## doc
 
 LN Quad Detector
 

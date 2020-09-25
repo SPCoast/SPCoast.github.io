@@ -23,16 +23,8 @@ images:
   - image_path: /versions/IOB-Adapter-Generic/IOB-Adapter-Generic-Graphic.png
     title: IOB-Adapter-Generic-Graphic
 artifacts:
-  - path: /versions/IOB-Adapter-Generic/IOB-Adapter-Generic.SMD-parts.csv
-    tag: IOB-Adapter-Generic.SMD-parts
-    type: download
-    post: 
   - path: /versions/IOB-Adapter-Generic/IOB-Adapter-Generic.gstencil
     tag: IOB-Adapter-Generic
-    type: download
-    post: 
-  - path: /versions/IOB-Adapter-Generic/IOB-Adapter-Generic_array.SMD-parts.csv
-    tag: IOB-Adapter-Generic_array.SMD-parts
     type: download
     post: 
   - path: /versions/IOB-Adapter-Generic/IOB-Adapter-Generic_array.scr

@@ -1,21 +1,21 @@
-# name, smd?, value, package, component, x, y, angle
-BOARD1, PTH, BOARD80X60, BOARD-DINRAIL-3.17INX6CM, board80x60-board-dinrail-3.17inx6cm, 0.00, 0.00, 0.00
-C1, PTH, 0.1uF, C050-024X044, 0.1uf-c050-024x044, 0.00, 0.00, 270.00
-C2, PTH, .01uF, C050-024X044, .01uf-c050-024x044, 0.00, 0.00, 270.00
-C4, PTH, .01uF, C-PTH-0.100, .01uf-c-pth-0.100, 0.00, 0.00, 0.00
-C5, PTH, .01uF, C-PTH-0.100, .01uf-c-pth-0.100, 0.00, 0.00, 270.00
-CMRI-IO, PTH, , CON-CMRI-IO, -con-cmri-io, 0.00, 0.00, 90.00
-CMRINET1, PTH, 3.5mm, CMRINET-3.5MM, 3.5mm-cmrinet-3.5mm, 0.00, 0.00, 0.00
-CMRINET2, PTH, 3.5mm, CMRINET-3.5MM, 3.5mm-cmrinet-3.5mm, 0.00, 0.00, 0.00
-CMRINET3, PTH, Molex, KK-156-5, molex-kk-156-5, 0.00, 0.00, 0.00
-CMRINET4, PTH, Molex, KK-156-5, molex-kk-156-5, 0.00, 0.00, 0.00
-CON1, PTH, 0.100, 1X05_LOCK, 0.100-1x05_lock, 0.00, 0.00, 0.00
-CON2, PTH, 0.100, 1X05_LOCK, 0.100-1x05_lock, 0.00, 0.00, 0.00
-D1, PTH, 1N4148, DIODE-1N4148, 1n4148-diode-1n4148, 0.00, 0.00, 90.00
-J1, PTH, , J3-254, -j3-254, 0.00, 0.00, 90.00
-R1, PTH, 12k, AXIAL-0.3-RES, 12k-axial-0.3-res, 0.00, 0.00, 270.00
-R2, PTH, 470, AXIAL-0.3-RES, 470-axial-0.3-res, 0.00, 0.00, 180.00
-TX, PTH, , LED5MM, -led5mm, 0.00, 0.00, 90.00
-U$3, PTH, , MRCS-LOGO, -mrcs-logo, 0.00, 0.00, 0.00
-U1, PTH, MAX3465CPD, DIL14, max3465cpd-dil14, 0.00, 0.00, 90.00
-U2, PTH, , DIL-08, -dil-08, 0.00, 0.00, 0.00
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+BOARD1, PTH, BOARD80X60, BOARD-DINRAIL-3.17INX6CM, board80x60-board-dinrail-3.17inx6cm, 0.00, 0.00, 0.00, 0.00
+C1, PTH, 0.1uF, C050-024X044, 0.1uf-c050-024x044, 0.00, 0.00, 270.00, 90.00
+C2, PTH, .01uF, C050-024X044, .01uf-c050-024x044, 0.00, 0.00, 270.00, 90.00
+C4, PTH, .01uF, C-PTH-0.100, .01uf-c-pth-0.100, 0.00, 0.00, 0.00, 0.00
+C5, PTH, .01uF, C-PTH-0.100, .01uf-c-pth-0.100, 0.00, 0.00, 270.00, 90.00
+CMRI-IO, PTH, 0.100, 1X05-CMRI-IO, 0.100-1x05-cmri-io, 0.00, 0.00, 90.00, -90.00
+CMRINET1, PTH, 3.5mm, CMRINET-3.5MM, 3.5mm-cmrinet-3.5mm, 0.00, 0.00, 0.00, 0.00
+CMRINET2, PTH, 3.5mm, CMRINET-3.5MM, 3.5mm-cmrinet-3.5mm, 0.00, 0.00, 0.00, 0.00
+CMRINET3, PTH, 0.156, KK-156-5, 0.156-kk-156-5, 0.00, 0.00, 0.00, 0.00
+CMRINET4, PTH, 0.156, KK-156-5, 0.156-kk-156-5, 0.00, 0.00, 0.00, 0.00
+CON1, PTH, 0.100, 1X05_LOCK, 0.100-1x05_lock, 0.00, 0.00, 0.00, 0.00
+CON2, PTH, 0.100, 1X05_LOCK, 0.100-1x05_lock, 0.00, 0.00, 0.00, 0.00
+D1, PTH, 1N4148, DIODE-1N4148, 1n4148-diode-1n4148, 0.00, 0.00, 90.00, -90.00
+J1, PTH, , J3-254, -j3-254, 0.00, 0.00, 90.00, -90.00
+R1, PTH, 12k, AXIAL-0.3-RES, 12k-axial-0.3-res, 0.00, 0.00, 270.00, 90.00
+R2, PTH, 470, AXIAL-0.3-RES, 470-axial-0.3-res, 0.00, 0.00, 180.00, -180.00
+TX, PTH, , LED5MM, -led5mm, 0.00, 0.00, 270.00, 90.00
+U$3, PTH, , MRCS-LOGO, -mrcs-logo, 0.00, 0.00, 0.00, 0.00
+U1, PTH, MAX3465CPD, DIL14, max3465cpd-dil14, 0.00, 0.00, 90.00, -90.00
+U2, PTH, NE555, DIL-08, ne555-dil-08, 0.00, 0.00, 0.00, 0.00

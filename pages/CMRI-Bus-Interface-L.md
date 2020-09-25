@@ -25,10 +25,10 @@ images:
   - image_path: /versions/CMRI-Bus-Interface-L/CMRI-Bus-Interface-L-Graphic.png
     title: CMRI-Bus-Interface-L-Graphic
 artifacts:
-  - path: /versions/CMRI-Bus-Interface-L/CMRI-Bus-Interface-L.SMD-parts.csv
-    tag: CMRI-Bus-Interface-L.SMD-parts
+  - path: /versions/CMRI-Bus-Interface-L/CMRI-Bus-Interface-L_array.scr
+    tag: CMRI-Bus-Interface-L_array.scr
     type: download
-    post: 
+    post: Eagle SCRipt
 ---
 
 

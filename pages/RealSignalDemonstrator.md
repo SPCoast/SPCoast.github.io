@@ -1,25 +1,21 @@
 ---
-iseagle: true
+iseagle: obsolete
 sidebar: spcoast_sidebar
 title: RealSignalDemonstrator
 project: RealSignalDemonstrator
 designer: John Plocher
 fabricated: no
 fab_date: 
-status: released
+status: obsolete
 release: yes
+tags: [eagle, SPCoast, Misc]
 layout: eagle
-tags: [SPCoast, eagle]
+image_path: 1.0/RealSignalDemonstrator-1.0.top.brd.png
 tagline: Schematic for discrete wiring of a railroad signal head using an ATTiny and relays
 overview: >
     
     Bespoke case with embedded processor and relay board.
     
-artifacts:
-  - path: /versions/RealSignalDemonstrator/RealSignalDemonstrator.s#1
-    tag: RealSignalDemonstrator
-    type: download
-    post: 
 ---
 
 

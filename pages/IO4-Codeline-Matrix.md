@@ -1,14 +1,14 @@
 ---
-iseagle: true
+iseagle: obsolete
 sidebar: spcoast_sidebar
 title: IO4-Codeline-Matrix
 project: IO4-Codeline-Matrix
 designer: John Plocher
 fabricated: yes
 fab_date: 2018-08
-status: released
+status: obsolete
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, LCB]
 image_path: IO4-Codeline-Matrix-Graphic.png
 layout: eagle
 tagline: IO4 interface for 2x LED Matrix displays (not for I2C expander ports)

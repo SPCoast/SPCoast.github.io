@@ -1,9 +1,9 @@
-# name, smd?, value, package, component, x, y, angle
-BOARD, PTH, BOARD80X150, BOARD-DINRAIL-3.17INX8CM, board80x150-board-dinrail-3.17inx8cm, 0.00, 0.00, 0.00
-CON3, PTH, CONNECTOR-IO4TOP, RJ25-TOP, connector-io4top-rj25-top, 0.00, 0.00, 0.00
-J4, PTH, , RJ25-INVERTED, -rj25-inverted, 0.00, 0.00, 180.00
-JP1, PTH, LED, 1X02_LOCK, led-1x02_lock, 0.00, 0.00, 180.00
-MATRIX1, PTH, LEDMATRIX, LEDMATRIX, ledmatrix-ledmatrix, 0.00, 0.00, 0.00
-MATRIX2, PTH, LEDMATRIX, LEDMATRIX, ledmatrix-ledmatrix, 0.00, 0.00, 0.00
-OSHW1, PTH, OSHW-LOGOL, OSHW-LOGO-L, oshw-logol-oshw-logo-l, 0.00, 0.00, 270.00
-R1, PTH, 1k0, AXIAL-0.4-RES, 1k0-axial-0.4-res, 0.00, 0.00, 180.00
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+BOARD,PTH,BOARD80X150,BOARD-DINRAIL-3.17INX8CM,board80x150-board-dinrail-3.17inx8cm,0.00,0.00,0.00,0.00
+CON3,PTH,CONNECTOR-IO4TOP,RJ25-TOP,connector-io4top-rj25-top,0.00,0.00,0.00,0.00
+J4,PTH,,RJ25-INVERTED,-rj25-inverted,0.00,0.00,180.00,-180.00
+JP1,PTH,LED,1X02_LOCK,led-1x02_lock,0.00,0.00,180.00,-180.00
+MATRIX1,PTH,LEDMATRIX,LEDMATRIX,ledmatrix-ledmatrix,0.00,0.00,0.00,0.00
+MATRIX2,PTH,LEDMATRIX,LEDMATRIX,ledmatrix-ledmatrix,0.00,0.00,0.00,0.00
+OSHW1,PTH,OSHW-LOGOL,OSHW-LOGO-L,oshw-logol-oshw-logo-l,0.00,0.00,270.00,90.00
+R1,PTH,1k0,AXIAL-0.4-RES,1k0-axial-0.4-res,0.00,0.00,180.00,-180.00

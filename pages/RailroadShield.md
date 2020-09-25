@@ -1,15 +1,16 @@
 ---
-iseagle: true
+iseagle: obsolete
 sidebar: spcoast_sidebar
 title: RailroadShield
 project: RailroadShield
 designer: John Plocher
 fabricated: yes
 fab_date: 2011-07
-status: experimental
+status: obsolete
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, LCB]
 layout: eagle
+image_path: 2.5/RailroadShield-2.5.top.brd.png
 tagline: Arduino shield with various DCC Cab Bus and control interfaces
 overview: >
     
@@ -50,7 +51,7 @@ images:
     title: RailroadShield-13
 ---
 
-## doc
+## Documentation
 
 A community prototyping board to help with the bringup and maturation of OpenLCB.
 

@@ -5,11 +5,11 @@ title: Adapter-RJ45-SignalHead
 project: Adapter-RJ45-SignalHead
 designer: John Plocher
 fabricated: yes
-fab_date: 2018-01
+fab_date: 2020-09
 image_path: Adapter-RJ45-SignalHead-Graphic.png
 status: released
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, Adapter]
 layout: eagle
 tagline: RJ45/8 breakout board, for driving signal heads from IOB-Signal
 overview: >
@@ -23,10 +23,6 @@ artifacts:
     tag: Adapter-RJ45-SignalHead_array.scr
     type: download
     post: Eagle SCRipt
-  - path: /versions/Adapter-RJ45-SignalHead/PanelTemplate.b#1
-    tag: PanelTemplate
-    type: download
-    post: 
   - path: /versions/Adapter-RJ45-SignalHead/PanelTemplate.brd
     tag: PanelTemplate.brd
     type: download

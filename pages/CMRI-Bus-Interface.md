@@ -1,16 +1,16 @@
 ---
-iseagle: true
+iseagle: obsolete
 sidebar: spcoast_sidebar
 title: CMRI-Bus-Interface
 project: CMRI-Bus-Interface
 designer: John Plocher
 fabricated: no
 fab_date: 
-status: experimental
+status: obsolete
 release: yes
 image_path: CMRI-Bus-Interface-Graphic.png
+tags: [eagle, SPCoast, Adapter, LCB]
 layout: eagle
-tags: [SPCoast, eagle]
 tagline: RS422/485 driver for CMRI-Net
 overview: >
     

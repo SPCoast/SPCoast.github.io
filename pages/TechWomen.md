@@ -1,15 +1,16 @@
 ---
-iseagle: true
+iseagle: obsolete
 sidebar: spcoast_sidebar
 title: TechWomen
 project: TechWomen
 designer: John Plocher
 fabricated: yes
 fab_date: 
-status: released
+status: obsolete
 release: yes
+tags: [eagle, SPCoast, Misc]
 layout: eagle
-tags: [SPCoast, eagle]
+image_path: Yellow/TechWomen-Yellow.top.brd.png
 tagline: TechWomen STEM board
 overview: >
     

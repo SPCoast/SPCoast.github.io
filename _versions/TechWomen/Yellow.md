@@ -7,8 +7,9 @@ title: Yellow
 designer: John Plocher
 fabricated: yes
 fab_date: 
-status: released
+status: obsolete
 release: yes
+tags: [eagle, SPCoast, Misc]
 tagline: TechWomen STEM board
 overview: >
     
@@ -26,10 +27,6 @@ images:
   - image_path: /versions/TechWomen/Yellow/TechWomen-Yellow.top.brd.png
     title: Top Silk
 artifacts:
-  - path: /versions/TechWomen/Yellow/TechWomen-Yellow.dpv
-    tag: TechWomen
-    type: download
-    post: CHMT Component and feeder definitions
   - path: /versions/TechWomen/Yellow/TechWomen-Yellow.gerbers.zip
     tag: TechWomen.gerbers.zip
     type: download

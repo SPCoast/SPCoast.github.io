@@ -1,0 +1,14 @@
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+JP1, PTH, CONNECTOR-M05X2, IOB-V3-MODULE, connector-m05x2-iob-v3-module, 0.00, 0.00, 270.00, 90.00
+Q1, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 2.54, 12.65, 90.00, -90.00
+Q2, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 6.35, 12.65, 90.00, -90.00
+Q3, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 10.16, 12.65, 90.00, -90.00
+Q4, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 13.97, 12.65, 90.00, -90.00
+Q5, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 3.94, 22.18, 90.00, -90.00
+Q6, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 7.75, 22.18, 90.00, -90.00
+Q7, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 11.56, 22.18, 90.00, -90.00
+Q8, SMD, MOSFET-N, SOT23-3, mosfet-n-sot23-3, 15.37, 22.18, 90.00, -90.00
+R1, SMD, 10k, 0805-RES, 10k-0805-res, 3.56, 17.65, 90.00, -90.00
+R2, SMD, 10k, 0805-RES, 10k-0805-res, 7.37, 17.65, 90.00, -90.00
+R3, SMD, 10k, 0805-RES, 10k-0805-res, 11.18, 17.65, 90.00, -90.00
+R4, SMD, 10k, 0805-RES, 10k-0805-res, 14.99, 17.65, 90.00, -90.00

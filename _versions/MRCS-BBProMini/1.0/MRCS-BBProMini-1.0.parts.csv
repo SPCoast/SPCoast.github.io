@@ -1,11 +1,11 @@
-# name, smd?, value, package, component, x, y, angle
-ARDUINO1, PTH, ARDUINO-PRO-MINIDAVESROBOT, ARDUINO_PRO_MINI_DAVEK, arduino-pro-minidavesrobot-arduino_pro_mini_davek, 0.00, 0.00, 270.00
-BBLEO, PTH, , ARDUINO-BBLEO, -arduino-bbleo, 0.00, 0.00, 0.00
-C1, PTH, 150uF, E5-10.5, 150uf-e5-10.5, 0.00, 0.00, 90.00
-C2, PTH, 1.0uF, C050-024X044, 1.0uf-c050-024x044, 0.00, 0.00, 90.00
-C3, PTH, 10uF, C050-024X044, 10uf-c050-024x044, 0.00, 0.00, 270.00
-J1, PTH, , DCJ0202, -dcj0202, 0.00, 0.00, 270.00
-JP1, SMD, , SJ_2S-NO, -sj_2s-no, 60.96, 4.45, 90.00
-LABEL1, PTH, 7-12vDC, PWR_LABEL, 7-12vdc-pwr_label, 0.00, 0.00, 90.00
-OSHW1, PTH, DOC-OSHW-LOGO-M, OSHW-LOGO-M, doc-oshw-logo-m-oshw-logo-m, 0.00, 0.00, 0.00
-VR5.0, PTH, 5v, TO-220-RA-SINK, 5v-to-220-ra-sink, 0.00, 0.00, 270.00
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+ARDUINO1,PTH,DAVEK,ARDUINO_PRO_MINI_DAVEK,davek-arduino_pro_mini_davek,0.00,0.00,270.00,90.00
+BBLEO,PTH,Footprint,ARDUINO-BBLEO,footprint-arduino-bbleo,0.00,0.00,0.00,0.00
+C1,PTH,150uF,E5-10.5,150uf-e5-10.5,0.00,0.00,90.00,-90.00
+C2,PTH,1.0uF,C050-024X044,1.0uf-c050-024x044,0.00,0.00,90.00,-90.00
+C3,PTH,10uF,C050-024X044,10uf-c050-024x044,0.00,0.00,270.00,90.00
+J1,PTH,2.1mm,DCJ0202,2.1mm-dcj0202,0.00,0.00,270.00,90.00
+JP1,SMD,OFF,SJ_2S-NO,off-sj_2s-no,60.96,4.45,90.00,-90.00
+LABEL1,PTH,7.5-12vDC,PWR_LABEL,7.5-12vdc-pwr_label,0.00,0.00,90.00,-90.00
+OSHW1,PTH,OSHW,OSHW-LOGO-M,oshw-oshw-logo-m,0.00,0.00,0.00,0.00
+VR5.0,PTH,5v,TO-220-RA-SINK,5v-to-220-ra-sink,0.00,0.00,270.00,90.00

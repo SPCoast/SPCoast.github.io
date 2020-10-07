@@ -31,10 +31,6 @@ images:
   - image_path: /versions/Core-ESP32/Core-ESP32-Graphic.png
     title: Core-ESP32-Graphic
 artifacts:
-  - path: /versions/Core-ESP32/Core-ESP32.SMD-parts.csv
-    tag: Core-ESP32.SMD-parts
-    type: download
-    post: 
   - path: /versions/Core-ESP32/ESP32-DevKitJ-v1_sch.pdf
     tag: ESP32-DevKitJ-v1_sch.pdf
     type: download

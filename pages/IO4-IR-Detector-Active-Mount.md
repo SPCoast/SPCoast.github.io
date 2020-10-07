@@ -9,7 +9,7 @@ fab_date: 2018-03
 image_path: IO4-IR-Detector-Active-Mount-Graphic.png
 status: released
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, Appliance]
 layout: eagle
 tagline: Mounting adapter for active IR detector remote sensor
 overview: >

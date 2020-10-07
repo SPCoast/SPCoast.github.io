@@ -1,8 +1,8 @@
-# name, smd?, value, package, component, x, y, angle
-BOARD1, PTH, BOARD50X50-HOHOLES, BOARD-SEED5X5-NOHOLES, board50x50-hoholes-board-seed5x5-noholes, 0.00, 0.00, 0.00
-CON1, PTH, , RJ25-PANEL, -rj25-panel, 0.00, 0.00, 90.00
-CON2, PTH, , RJ25-PANEL, -rj25-panel, 0.00, 0.00, 270.00
-GND, PTH, , 1X02_LOCK, -1x02_lock, 0.00, 0.00, 90.00
-J3, PTH, , 1X06_LOCK, -1x06_lock, 0.00, 0.00, 180.00
-U$1, PTH, OSHW-LOGOM, OSHW-LOGO-M, oshw-logom-oshw-logo-m, 0.00, 0.00, 0.00
-V+, PTH, , 1X02_LOCK, -1x02_lock, 0.00, 0.00, 90.00
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+BOARD1,PTH,BOARD,BOARD-SEEED5X5-NOHOLES,board-board-seeed5x5-noholes,0.00,0.00,0.00,0.00
+CON1,PTH,RJ12/6,RJ25-PANEL,rj12/6-rj25-panel,0.00,0.00,90.00,-90.00
+CON2,PTH,RJ12/6,RJ25-PANEL,rj12/6-rj25-panel,0.00,0.00,270.00,90.00
+GND,PTH,0.100,1X02_LOCK,0.100-1x02_lock,0.00,0.00,90.00,-90.00
+J3,PTH,0.100,1X06_LOCK,0.100-1x06_lock,0.00,0.00,180.00,-180.00
+U$1,PTH,OSHW,OSHW-LOGO-M,oshw-oshw-logo-m,0.00,0.00,0.00,0.00
+V+,PTH,0.100,1X02_LOCK,0.100-1x02_lock,0.00,0.00,90.00,-90.00

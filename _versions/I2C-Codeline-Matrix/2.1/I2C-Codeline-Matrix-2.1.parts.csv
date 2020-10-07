@@ -1,13 +1,13 @@
-# name, smd?, value, package, component, x, y, angle
-ARDUINO1, PTH, ARDUINO-PRO-MINIDAVESROBOT, ARDUINO_PRO_MINI_DAVEK, arduino-pro-minidavesrobot-arduino_pro_mini_davek, 0.00, 0.00, 180.00
-BOARD, PTH, BOARD80X150, BOARD-DINRAIL-3.17INX8CM-NOHOLES, board80x150-board-dinrail-3.17inx8cm-noholes, 0.00, 0.00, 0.00
-CON1, PTH, CONNECTOR-I2CLEFT, I2C-L, connector-i2cleft-i2c-l, 0.00, 0.00, 0.00
-CON2, PTH, CONNECTOR-I2CLEFT, I2C-L, connector-i2cleft-i2c-l, 0.00, 0.00, 0.00
-CON3, PTH, CONNECTOR-GROVE-4P-2.0-3470130P1, 4P-2.0, connector-grove-4p-2.0-3470130p1-4p-2.0, 0.00, 0.00, 90.00
-CON4, PTH, CONNECTOR-GROVE-4P-2.0-3470130P1, 4P-2.0, connector-grove-4p-2.0-3470130p1-4p-2.0, 0.00, 0.00, 90.00
-JP1, PTH, , 1X02_LOCK, -1x02_lock, 0.00, 0.00, 270.00
-JP2, PTH, , 1X02_LOCK, -1x02_lock, 0.00, 0.00, 270.00
-JP3, PTH, , 1X02_LOCK, -1x02_lock, 0.00, 0.00, 270.00
-MATRIX1, PTH, LEDMATRIX, LEDMATRIX, ledmatrix-ledmatrix, 0.00, 0.00, 0.00
-MATRIX2, PTH, LEDMATRIX, LEDMATRIX, ledmatrix-ledmatrix, 0.00, 0.00, 0.00
-OSHW1, PTH, OSHW-LOGOL, OSHW-LOGO-L, oshw-logol-oshw-logo-l, 0.00, 0.00, 0.00
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+ARDUINO1,PTH,DAVEK,ARDUINO_PRO_MINI_DAVEK,davek-arduino_pro_mini_davek,0.00,0.00,180.00,-180.00
+BOARD,PTH,BOARD,BOARD-DINRAIL-3.17INX8CM-NOHOLES,board-board-dinrail-3.17inx8cm-noholes,0.00,0.00,0.00,0.00
+CON1,PTH,I2C,I2C-L,i2c-i2c-l,0.00,0.00,0.00,0.00
+CON2,PTH,I2C,I2C-L,i2c-i2c-l,0.00,0.00,0.00,0.00
+CON3,PTH,2mm,4P-2.0,2mm-4p-2.0,0.00,0.00,90.00,-90.00
+CON4,PTH,2mm,4P-2.0,2mm-4p-2.0,0.00,0.00,90.00,-90.00
+JP1,PTH,0.100,1X02_LOCK,0.100-1x02_lock,0.00,0.00,270.00,90.00
+JP2,PTH,0.100,1X02_LOCK,0.100-1x02_lock,0.00,0.00,270.00,90.00
+JP3,PTH,0.100,1X02_LOCK,0.100-1x02_lock,0.00,0.00,270.00,90.00
+MATRIX1,PTH,8x8,LEDMATRIX,8x8-ledmatrix,0.00,0.00,0.00,0.00
+MATRIX2,PTH,8x8,LEDMATRIX,8x8-ledmatrix,0.00,0.00,0.00,0.00
+OSHW1,PTH,OSHW,OSHW-LOGO-L,oshw-oshw-logo-l,0.00,0.00,0.00,0.00

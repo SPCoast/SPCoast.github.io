@@ -73,10 +73,6 @@ images:
   - image_path: /versions/IOB-Baseboard/IOB-Baseboard-Graphic.png
     title: IOB-Baseboard-Graphic
 artifacts:
-  - path: /versions/IOB-Baseboard/IOB-Baseboard.SMD-parts.csv
-    tag: IOB-Baseboard.SMD-parts
-    type: download
-    post: 
   - path: /versions/IOB-Baseboard/IOB-Baseboard.gstencil
     tag: IOB-Baseboard
     type: download

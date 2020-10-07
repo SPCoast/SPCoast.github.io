@@ -1,18 +1,18 @@
-# name, smd?, value, package, component, x, y, angle, YXAngle
-CON1, PTH, CONNECTOR-M033.5MM-LOCK, SCREWTERMINAL-3.5MM-3_LOCK.007S, connector-m033.5mm-lock-screwterminal-3.5mm-3_lock.007s, 0.00, 0.00, 270.00, 180.00
-J1, PTH, RJ45, RJ45-NO-SHIELD, rj45-rj45-no-shield, 0.00, 0.00, 180.00, -90.00
-J2, PTH, , SCREWTERMINAL-3.5MM-8, -screwterminal-3.5mm-8, 0.00, 0.00, 180.00, -90.00
-J3, PTH, , KK-156-8-F, -kk-156-8-f, 0.00, 0.00, 180.00, -90.00
-J4, PTH, , SCREWTERMINAL-3.5MM-4_LOCK, -screwterminal-3.5mm-4_lock, 0.00, 0.00, 90.00, 0.00
-J5, PTH, , 1X08_LOCK, -1x08_lock, 0.00, 0.00, 180.00, -90.00
-M1, PTH, MOUNTINGHOLE, MOUNTINGHOLE, mountinghole-mountinghole, 0.00, 0.00, 0.00, 90.00
-M2, PTH, MOUNTINGHOLE, MOUNTINGHOLE, mountinghole-mountinghole, 0.00, 0.00, 0.00, 90.00
-R1, PTH, , AXIAL-0.4-RES, -axial-0.4-res, 0.00, 0.00, 270.00, 180.00
-R2, PTH, , AXIAL-0.4-RES, -axial-0.4-res, 0.00, 0.00, 270.00, 180.00
-R3, PTH, , AXIAL-0.4-RES, -axial-0.4-res, 0.00, 0.00, 270.00, 180.00
-R4, PTH, , AXIAL-0.4-RES, -axial-0.4-res, 0.00, 0.00, 270.00, 180.00
-R5, PTH, , AXIAL-0.4-RES, -axial-0.4-res, 0.00, 0.00, 270.00, 180.00
-R6, PTH, , AXIAL-0.4-RES, -axial-0.4-res, 0.00, 0.00, 270.00, 180.00
-R7, PTH, , AXIAL-0.4-RES, -axial-0.4-res, 0.00, 0.00, 270.00, 180.00
-R8, PTH, , AXIAL-0.4-RES, -axial-0.4-res, 0.00, 0.00, 270.00, 180.00
-U$1, PTH, DOC-OSHW-LOGO-L, OSHW-LOGO-L, doc-oshw-logo-l-oshw-logo-l, 0.00, 0.00, 0.00, 90.00
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+CON1,PTH,3.5MM,SCREWTERMINAL-3.5MM-3_LOCK.007S,3.5mm-screwterminal-3.5mm-3_lock.007s,0.00,0.00,270.00,90.00
+J1,PTH,RJ45,RJ45-NO-SHIELD,rj45-rj45-no-shield,0.00,0.00,180.00,-180.00
+J2,PTH,3.5mm,SCREWTERMINAL-3.5MM-8,3.5mm-screwterminal-3.5mm-8,0.00,0.00,180.00,-180.00
+J3,PTH,0.156,KK-156-8-F,0.156-kk-156-8-f,0.00,0.00,180.00,-180.00
+J4,PTH,3.5mm,SCREWTERMINAL-3.5MM-4_LOCK,3.5mm-screwterminal-3.5mm-4_lock,0.00,0.00,90.00,-90.00
+J5,PTH,0.100,1X08_LOCK,0.100-1x08_lock,0.00,0.00,180.00,-180.00
+M1,PTH,MOUNTINGHOLE,MOUNTINGHOLE,mountinghole-mountinghole,0.00,0.00,0.00,0.00
+M2,PTH,MOUNTINGHOLE,MOUNTINGHOLE,mountinghole-mountinghole,0.00,0.00,0.00,0.00
+R1,PTH,nostuff,AXIAL-0.4-RES,nostuff-axial-0.4-res,0.00,0.00,270.00,90.00
+R2,PTH,nostuff,AXIAL-0.4-RES,nostuff-axial-0.4-res,0.00,0.00,270.00,90.00
+R3,PTH,nostuff,AXIAL-0.4-RES,nostuff-axial-0.4-res,0.00,0.00,270.00,90.00
+R4,PTH,nostuff,AXIAL-0.4-RES,nostuff-axial-0.4-res,0.00,0.00,270.00,90.00
+R5,PTH,nostuff,AXIAL-0.4-RES,nostuff-axial-0.4-res,0.00,0.00,270.00,90.00
+R6,PTH,nostuff,AXIAL-0.4-RES,nostuff-axial-0.4-res,0.00,0.00,270.00,90.00
+R7,PTH,nostuff,AXIAL-0.4-RES,nostuff-axial-0.4-res,0.00,0.00,270.00,90.00
+R8,PTH,nostuff,AXIAL-0.4-RES,nostuff-axial-0.4-res,0.00,0.00,270.00,90.00
+U$1,PTH,OSHW,OSHW-LOGO-L,oshw-oshw-logo-l,0.00,0.00,0.00,0.00

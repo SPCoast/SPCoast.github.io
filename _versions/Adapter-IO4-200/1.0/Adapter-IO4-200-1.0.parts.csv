@@ -1,4 +1,4 @@
-# name, smd?, value, package, component, x, y, angle
-J4, PTH, , RJ25-PANEL, -rj25-panel, 0.00, 0.00, 180.00
-U$1, PTH, OSHW-LOGOM, OSHW-LOGO-M, oshw-logom-oshw-logo-m, 0.00, 0.00, 0.00
-X1, PTH, MSTBA6, MSTBA6, mstba6-mstba6, 0.00, 0.00, 0.00
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+J4,PTH,RJ12/6,RJ25-PANEL,rj12/6-rj25-panel,0.00,0.00,180.00,-180.00
+U$1,PTH,OSHW,OSHW-LOGO-M,oshw-oshw-logo-m,0.00,0.00,0.00,0.00
+X1,PTH,0.200,MSTBA6,0.200-mstba6,0.00,0.00,0.00,0.00

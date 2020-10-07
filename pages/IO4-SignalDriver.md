@@ -37,11 +37,6 @@ overview: >
 images:
   - image_path: /versions/IO4-SignalDriver/IO4-SignalDriver-Graphic.png
     title: IO4-SignalDriver-Graphic
-artifacts:
-  - path: /versions/IO4-SignalDriver/IO4-SignalDriver.SMD-parts.csv
-    tag: IO4-SignalDriver.SMD-parts
-    type: download
-    post: 
 ---
 
 

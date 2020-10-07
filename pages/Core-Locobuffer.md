@@ -8,7 +8,7 @@ fabricated: yes
 fab_date: 2017-11
 status: released
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, LCB, Processor]
 image_path: Core-Locobuffer-Graphic.png
 layout: eagle
 tagline: Standalone "locobuffer-style" Loconet interface with I2C expandability using the USB capability of an Arduino Pro Micro

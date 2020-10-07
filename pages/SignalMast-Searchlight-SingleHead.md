@@ -8,8 +8,9 @@ fabricated: no
 fab_date:  
 status: experimental
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, Signal]
 layout: eagle
+image_path: 1.0/SignalMast-Searchlight-SingleHead-1.0.top.brd.png
 tagline: Low cost Signal Mast - single high head Searchlight - N scale
 overview: >
     

@@ -1,5 +1,5 @@
-# name, smd?, value, package, component, x, y, angle, YXAngle
-GYR+, PTH, CONNECTOR-GROVE-4P-2.0-3470130P1, 1X04_LOCK, connector-grove-4p-2.0-3470130p1-1x04_lock, 0.00, 0.00, 180.00, -90.00
-LED1, SMD, R, 0603-LED, r-0603-led, 6.53, 38.10, 180.00, -90.00
-LED2, SMD, Y, 0603-LED, y-0603-led, 6.48, 40.64, 180.00, -90.00
-LED3, SMD, G, 0603-LED, g-0603-led, 6.45, 43.18, 180.00, -90.00
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+GYR+,PTH,0.100,1X04_LOCK,0.100-1x04_lock,0.00,0.00,180.00,-180.00
+LED1,SMD,R,0603-LED,r-0603-led,6.53,38.10,0.00,0.00
+LED2,SMD,Y,0603-LED,y-0603-led,6.48,40.64,0.00,0.00
+LED3,SMD,G,0603-LED,g-0603-led,6.45,43.18,0.00,0.00

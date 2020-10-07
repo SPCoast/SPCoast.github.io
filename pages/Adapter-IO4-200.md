@@ -9,8 +9,7 @@ fab_date: 2013-05
 status: released
 release: yes
 image_path: Adapter-IO4-200-Graphic.png
-layout: eagle
-tags: [SPCoast, eagle]
+tags: [eagle, SPCoast, Adapter]layout: eagle
 tagline: Simple RJ12/6 breakout board, for 0.200" screw terminals or direct wire soldering
 overview: >
     

@@ -8,22 +8,13 @@ fabricated: no
 fab_date: 
 status: experimental
 release: yes
-tags: [eagle, MRCS]
+tags: [eagle, MRCS, Adapter]
 layout: eagle
 image_path: 1.0/MRCS-12v-power-block-1.0.top.brd.png
 tagline: Power distribution block for cTc controlled locked turnouts
 overview: >
     
     Initial version based on Seth v20191115
-artifacts:
-  - path: /versions/MRCS-12v-power-block/MRCS-12v-power-block.b#1
-    tag: MRCS-12v-power-block
-    type: download
-    post: 
-  - path: /versions/MRCS-12v-power-block/MRCS-12v-power-block.s#1
-    tag: MRCS-12v-power-block
-    type: download
-    post: 
 ---
 
 

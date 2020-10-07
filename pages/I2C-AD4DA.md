@@ -8,7 +8,7 @@ fabricated: no
 status: experimental
 release: yes
 image_path: I2C-AD4DA-LightUI-V3-Graphic.png
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, I2C, Lighting]
 layout: eagle
 tagline: I2C 4x A/D 1x  D/A I/O expander based on a PCF8591T
 overview: >

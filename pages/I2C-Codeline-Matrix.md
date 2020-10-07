@@ -9,7 +9,7 @@ fab_date: 2019-02
 image_path: I2C-Codeline-Matrix-Graphic.png
 status: released
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, I2C, LCB]
 
 
 layout: eagle

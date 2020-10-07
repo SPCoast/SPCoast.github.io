@@ -9,8 +9,8 @@ fab_date: 2014-07
 status: released
 release: yes
 image_path: LocoShield-Graphic.png
+tags: [eagle, SPCoast, LCB, Adapter]
 layout: eagle
-tags: [SPCoast, eagle]
 tagline: An electrical interface to Digitrax Loconet
 overview: >
     

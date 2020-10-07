@@ -9,8 +9,8 @@ fab_date: 2016-11
 image_path: Lit.jpg
 status: released
 release: yes
+tags: [eagle, SPCoast, Misc]
 layout: eagle
-tags: [SPCoast, eagle]
 tagline: An electronic DCC-track-driven figurine with a red or blue LED
 overview: >
     

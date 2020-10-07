@@ -9,8 +9,7 @@ fab_date: 2014-10
 status: released
 release: yes
 image_path: Adapter-IO4-Grove-Graphic.png
-layout: eagle
-tags: [SPCoast, eagle]
+tags: [eagle, SPCoast, Adapter]layout: eagle
 tagline: RJ12/6 breakout board, for Grove style 2mm pitch connector
 overview: >
     

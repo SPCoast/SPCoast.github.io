@@ -1,4 +1,4 @@
-# name, smd?, value, package, component, x, y, angle
-J4, PTH, , RJ25-PANEL, -rj25-panel, 0.00, 0.00, 180.00
-JP1, PTH, , SCREWTERMINAL-3.5MM-6, -screwterminal-3.5mm-6, 0.00, 0.00, 0.00
-U$1, PTH, DOC-OSHW-LOGO-M, OSHW-LOGO-M, doc-oshw-logo-m-oshw-logo-m, 0.00, 0.00, 0.00
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+J4,PTH,RJ12/6,RJ25-PANEL,rj12/6-rj25-panel,0.00,0.00,180.00,-180.00
+JP1,PTH,3.5mm,SCREWTERMINAL-3.5MM-6,3.5mm-screwterminal-3.5mm-6,0.00,0.00,0.00,0.00
+U$1,PTH,OSHW,OSHW-LOGO-M,oshw-oshw-logo-m,0.00,0.00,0.00,0.00

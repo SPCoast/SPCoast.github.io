@@ -8,8 +8,9 @@ fabricated: yes
 fab_date: 2018-08
 status: released
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, Misc]
 layout: eagle
+image_path: 3.0/SVL-AuxiliaryPower-3.0.top.brd.png
 tagline: SVL Aux Power - local distribution panel
 overview: >
     
@@ -26,7 +27,7 @@ artifacts:
     post: 
 ---
 
-## doc
+## Documentation
 
 Silicon Valley Lines' model railroad layout uses a dedicated power
 bus for all layout animations (street lighting, building lights,

@@ -8,7 +8,7 @@ fabricated: yes
 fab_date: 2019-07
 status: released
 release: yes
-tags: [eagle, MRCS]
+tags: [eagle, MRCS, Processor, LCB]
 layout: eagle
 image_path: 2.6/MRCS-cpNode-2.6.top.brd.png
 tagline: Arduino based CMRI node

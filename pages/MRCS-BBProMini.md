@@ -8,7 +8,7 @@ fabricated: yes
 fab_date: 2019-08
 status: released
 release: yes
-tags: [eagle, MRCS]
+tags: [eagle, MRCS, Processor, LCB]
 layout: eagle
 image_path: 1.0/MRCS-BBProMini-1.0.top.brd.png
 tagline: A ProMini in a BBLeo form factor for use on MRCS cpNode

@@ -8,8 +8,9 @@ fabricated: yes
 fab_date: 2014-07
 status: released
 release: yes
+tags: [eagle, SPCoast, Misc]
 layout: eagle
-tags: [SPCoast, eagle]
+image_path: 1.5/ShowMeShield-1.5.top.brd.png
 tagline: Arduino IO pin LEDs on wings
 overview: >
     

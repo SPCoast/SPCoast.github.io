@@ -1,8 +1,8 @@
-# name, smd?, value, package, component, x, y, angle
-J1, PTH, , RJ25-PANEL, -rj25-panel, 0.00, 0.00, 180.00
-JP1, PTH, , 1X02_LOCK, -1x02_lock, 0.00, 0.00, 90.00
-JP2, PTH, , 1X02_LOCK, -1x02_lock, 0.00, 0.00, 90.00
-JP3, PTH, , 1X02_LOCK, -1x02_lock, 0.00, 0.00, 90.00
-JP4, PTH, , 1X02_LOCK, -1x02_lock, 0.00, 0.00, 90.00
-RN1, PTH, , SIL5, -sil5, 0.00, 0.00, 270.00
-U$1, PTH, DOC-OSHW-LOGO-M, OSHW-LOGO-M, doc-oshw-logo-m-oshw-logo-m, 0.00, 0.00, 0.00
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+J1,PTH,RJ12/6,RJ25-PANEL,rj12/6-rj25-panel,0.00,0.00,180.00,-180.00
+JP1,PTH,0.100,1X02_LOCK,0.100-1x02_lock,0.00,0.00,90.00,-90.00
+JP2,PTH,0.100,1X02_LOCK,0.100-1x02_lock,0.00,0.00,90.00,-90.00
+JP3,PTH,0.100,1X02_LOCK,0.100-1x02_lock,0.00,0.00,90.00,-90.00
+JP4,PTH,0.100,1X02_LOCK,0.100-1x02_lock,0.00,0.00,90.00,-90.00
+RN1,PTH,1K0,SIL5,1k0-sil5,0.00,0.00,270.00,90.00
+U$1,PTH,OSHW,OSHW-LOGO-M,oshw-oshw-logo-m,0.00,0.00,0.00,0.00

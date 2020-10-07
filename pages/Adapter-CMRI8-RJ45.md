@@ -32,14 +32,6 @@ images:
   - image_path: /versions/Adapter-CMRI8-RJ45/Adapter-CMRI8-RJ45-Graphic.png
     title: Adapter-CMRI8-RJ45-Graphic
 artifacts:
-  - path: /versions/Adapter-CMRI8-RJ45/Adapter-CMRI8-RJ45.SMD-parts.csv
-    tag: Adapter-CMRI8-RJ45.SMD-parts
-    type: download
-    post: 
-  - path: /versions/Adapter-CMRI8-RJ45/Adapter-CMRI8-RJ45_array.SMD-parts.csv
-    tag: Adapter-CMRI8-RJ45_array.SMD-parts
-    type: download
-    post: 
   - path: /versions/Adapter-CMRI8-RJ45/Adapter-CMRI8-RJ45_array.scr
     tag: Adapter-CMRI8-RJ45_array.scr
     type: download

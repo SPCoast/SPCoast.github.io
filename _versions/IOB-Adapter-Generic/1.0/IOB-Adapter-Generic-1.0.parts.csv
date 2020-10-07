@@ -1,6 +1,6 @@
 # name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
-JP1, PTH, CONNECTOR-M05X2, IOB-V3-MODULE, connector-m05x2-iob-v3-module, 0.00, 0.00, 270.00, 90.00
-R1, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 90.00, -90.00
-R2, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 90.00, -90.00
-R3, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 90.00, -90.00
-R4, PTH, NOSTUFF, CUT-R, nostuff-cut-r, 0.00, 0.00, 90.00, -90.00
+JP1,PTH,CONNECTOR-M05X2,IOB-V3-MODULE,connector-m05x2-iob-v3-module,0.00,0.00,270.00,90.00
+R1,PTH,NOSTUFF,CUT-R,nostuff-cut-r,0.00,0.00,90.00,-90.00
+R2,PTH,NOSTUFF,CUT-R,nostuff-cut-r,0.00,0.00,90.00,-90.00
+R3,PTH,NOSTUFF,CUT-R,nostuff-cut-r,0.00,0.00,90.00,-90.00
+R4,PTH,NOSTUFF,CUT-R,nostuff-cut-r,0.00,0.00,90.00,-90.00

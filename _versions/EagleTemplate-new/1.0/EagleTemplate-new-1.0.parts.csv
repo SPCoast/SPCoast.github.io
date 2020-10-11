@@ -1,0 +1,5 @@
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+BOARD1,PTH,BOARD80X100,BOARD-DINRAIL-3.17INX10CM,board80x100-board-dinrail-3.17inx10cm,0.00,0.00,0.00,0.00
+FID1,SMD,FIDUCIAL,FIDUCIAL_1MM,fiducial-fiducial_1mm,88.90,93.98,0.00,0.00
+FID2,SMD,FIDUCIAL,FIDUCIAL_1MM,fiducial-fiducial_1mm,12.70,5.08,0.00,0.00
+OSHW1,PTH,OSHW,OSHW-LOGO-M,oshw-oshw-logo-m,0.00,0.00,0.00,0.00

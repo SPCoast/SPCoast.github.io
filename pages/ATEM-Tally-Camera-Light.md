@@ -5,8 +5,8 @@ title: ATEM-Tally-Camera-Light
 project: ATEM-Tally-Camera-Light
 designer: John Plocher
 author: John Plocher
-fabricated: no
-fab_date: 
+fabricated: yes
+fab_date:  2020.11
 status: released
 release: yes
 tags: [eagle, SPCoast]

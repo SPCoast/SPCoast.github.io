@@ -1,0 +1,11 @@
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+J3,PTH,,1X08_LOCK,-1x08_lock,0.00,0.00,0.00,0.00
+J4,PTH,,1X08_LOCK,-1x08_lock,0.00,0.00,180.00,-180.00
+R1,PTH,10k,AXIAL-0.4-RES,10k-axial-0.4-res,0.00,0.00,0.00,0.00
+R2,PTH,10k,AXIAL-0.4-RES,10k-axial-0.4-res,0.00,0.00,0.00,0.00
+R3,PTH,10k,AXIAL-0.4-RES,10k-axial-0.4-res,0.00,0.00,0.00,0.00
+R4,PTH,10k,AXIAL-0.4-RES,10k-axial-0.4-res,0.00,0.00,180.00,-180.00
+R5,PTH,10k,AXIAL-0.4-RES,10k-axial-0.4-res,0.00,0.00,180.00,-180.00
+R6,PTH,10k,AXIAL-0.4-RES,10k-axial-0.4-res,0.00,0.00,180.00,-180.00
+R7,PTH,10k,AXIAL-0.4-RES,10k-axial-0.4-res,0.00,0.00,180.00,-180.00
+U$1,PTH,ARDUINO-PRO-MICROEBAY,ARDUINO-PRO-MICRO,arduino-pro-microebay-arduino-pro-micro,0.00,0.00,270.00,90.00

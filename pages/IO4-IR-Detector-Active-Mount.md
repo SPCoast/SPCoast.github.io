@@ -24,6 +24,14 @@ images:
   - image_path: /versions/IO4-IR-Detector-Active-Mount/IO4-IR-Detector-Active-Mount-Graphic.png
     title: IO4-IR-Detector-Active-Mount-Graphic
 artifacts:
+  - path: /versions/IO4-IR-Detector-Active-Mount/IO4-IR-Detector-Active-Mount.SMD-parts.csv
+    tag: IO4-IR-Detector-Active-Mount.SMD-parts
+    type: download
+    post: 
+  - path: /versions/IO4-IR-Detector-Active-Mount/IO4-IR-Detector-Active-Mount_array.SMD-parts.csv
+    tag: IO4-IR-Detector-Active-Mount_array.SMD-parts
+    type: download
+    post: 
   - path: /versions/IO4-IR-Detector-Active-Mount/IO4-IR-Detector-Active-Mount_array.scr
     tag: IO4-IR-Detector-Active-Mount_array.scr
     type: download

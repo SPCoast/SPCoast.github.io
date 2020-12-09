@@ -17,10 +17,6 @@ overview: >
     
     IO daughterboard with 3x SPDT momentary switches and a pushbutton
 artifacts:
-  - path: /versions/OBS-buttons-buttons/OBS-buttons-buttons.pdf
-    tag: OBS-buttons-buttons.pdf
-    type: download
-    post: Documentation
   - path: /versions/OBS-buttons-buttons/eagle.epf
     tag: eagle
     type: download

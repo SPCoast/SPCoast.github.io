@@ -16,6 +16,17 @@ tagline: Panel for Arduino Keyboard Box
 overview: >
     
     Labels and legend
+images:
+  - image_path: /versions/OBS-buttons-panel/IMG_0039.png
+    title: IMG_0039
+  - image_path: /versions/OBS-buttons-panel/IMG_0038.png
+    title: IMG_0038
+  - image_path: /versions/OBS-buttons-panel/IMG_0041.png
+    title: IMG_0041
+  - image_path: /versions/OBS-buttons-panel/IMG_0036.png
+    title: IMG_0036
+  - image_path: /versions/OBS-buttons-panel/IMG_0037.png
+    title: IMG_0037
 artifacts:
   - path: /versions/OBS-buttons-panel/OBS-buttons-panel.pdf
     tag: OBS-buttons-panel.pdf

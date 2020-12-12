@@ -4,8 +4,8 @@ sidebar: spcoast_sidebar
 title: IO4-IR-Detector-Active-Fingers
 project: IO4-IR-Detector-Active-Fingers
 designer: John Plocher
-fabricated: no
-fab_date: 
+fabricated: yes
+fab_date: 2020.12
 status: released
 release: yes
 tags: [eagle, SPCoast, Appliance]

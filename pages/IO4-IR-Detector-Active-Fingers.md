@@ -19,6 +19,15 @@ overview: >
 images:
   - image_path: /versions/IO4-IR-Detector-Active-Fingers/IO4-IR-Detector-Active-Fingers-Graphic.png
     title: IO4-IR-Detector-Active-Fingers-Graphic
+artifacts:
+  - path: /versions/IO4-IR-Detector-Active-Fingers/IO4-IR-Detector-Active-Fingers-short.brd
+    tag: IO4-IR-Detector-Active-Fingers-short.brd
+    type: download
+    post: Eagle PCB file
+  - path: /versions/IO4-IR-Detector-Active-Fingers/IO4-IR-Detector-Active-FingersN.brd
+    tag: IO4-IR-Detector-Active-FingersN.brd
+    type: download
+    post: Eagle PCB file
 ---
 
 ## Documentation

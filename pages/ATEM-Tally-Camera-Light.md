@@ -15,13 +15,13 @@ image_path: ATEM-Tally-Camera-Light.top.brd.png
 tagline: Part 2 of a RFM69-based BlackMagic ATEM Tally Light system - On Camera Light
 overview: >
     
-      * Part 1 is the [SDI-connected controller](https://www.spcoast.com/pages/ATEM-Tally-SDI.html)
-      * Part 2 is the on-[camera tally light display](https://www.spcoast.com/pages/ATEM-Tally-Camera-Light.html)
-      * Arduino sketch for both: [ATEM Tally Sketch](https://www.spcoast.com/pages/ATEMTallyLightRadio.html)
-    
     The controller uses the BMD SDI-Shield as an I2C interface to the control signals embedded in the SDI video stream emitted by the ATEM switchers, connected to an AdaFruit RadioFeather AVR 32u4 RFM69 controller and an AdaFruit neopixel strip.  
     
     The Tally light receivers use the same AdaFruit RadioFeather RFM68 AVR 32U4 sticks with a NeoPixel RGB (not RGBW!) strip that displays Red (LIVE), dim Green (PREVIEW) or dim Blue (operational but not currently selected).
+    
+    * Part 1 is the [SDI-connected controller](https://www.spcoast.com/pages/ATEM-Tally-SDI.html)
+    * Part 2 is the on-[camera tally light display](https://www.spcoast.com/pages/ATEM-Tally-Camera-Light.html)
+    * Arduino sketch for both: [ATEM Tally Sketch](https://www.spcoast.com/pages/ATEMTallyLightRadio.html)
     
     
     
@@ -60,10 +60,6 @@ images:
   - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0179.png
     title: IMG_0179
 artifacts:
-  - path: /versions/ATEM-Tally-Camera-Light/ATEM-Tally-Camera-Light.SMD-parts.csv
-    tag: ATEM-Tally-Camera-Light.SMD-parts
-    type: download
-    post: 
   - path: /versions/ATEM-Tally-Camera-Light/IMG_0190.mov
     tag: IMG_0190
     type: download

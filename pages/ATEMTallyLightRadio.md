@@ -15,6 +15,10 @@ overview: >
     Inspired by the BMD SDI shield and Skaarhoj's ATEM demo code
     and work done by kvITkoConsulting back in 2016
     
+    See
+      * Eagle project [SDI Shield Transmitter](https://www.spcoast.com/pages/ATEM-Tally-SDI.html)
+      * Eagle Project [On Camera Tally Receiver](https://www.spcoast.com/pages/ATEM-Tally-Camera-Light.html)
+    
     This code is a new implementation using Adafruit's Featherwing processors with RFM69 radios and NeoPixels
     The "transmitter" uses an Ethernet Shield to connect to the network that the ATEM switch is also on,
     though a WiFi shield/processor could also be used if mobility is a concern.
@@ -31,6 +35,26 @@ artifacts:
     type: download
     post: Arduino Sketch
 ---
+
+## Documentation
+
+Inspired by the BMD SDI shield and Skaarhoj's ATEM demo code
+and work done by kvITkoConsulting back in 2016
+
+See
+  * Eagle project [SDI Shield Transmitter](https://www.spcoast.com/pages/ATEM-Tally-SDI.html)
+  * Eagle Project [On Camera Tally Receiver](https://www.spcoast.com/pages/ATEM-Tally-Camera-Light.html)
+
+This code is a new implementation using Adafruit's Featherwing processors with RFM69 radios and NeoPixels
+The "transmitter" uses an Ethernet Shield to connect to the network that the ATEM switch is also on,
+though a WiFi shield/processor could also be used if mobility is a concern.
+
+I fabricated a couple of PCBs that make assembling and deploying these tally lights easier.  See ATEM-Tally-Camera-Light and ATEM-Tally-SDI in the SPCoast.com eagle repository.
+
+Notes:
+  * Be sure to use the regular RGB NeoPixels and not the RGBW version
+  * In my use case, the on camera team kept thinking that "green means go" and looked at the wrong "preview" camera, so the code minimizes the green and idle/blue display.
+  * the SDI / transmitter code doesn't resend tally indications unless the selections change, which means that an on-camera display card won't display anything until the ATEM cameras change.  It wouldn't be hard to have the code resend a radio packet on some infrequent basis if this were to become an issue...
 
 ## ATEMTallyLightRadio
 

@@ -26,7 +26,52 @@ overview: >
     
     
     
+images:
+  - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0174.png
+    title: IMG_0174
+  - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0175.png
+    title: IMG_0175
+  - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0177.png
+    title: IMG_0177
+  - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0176.png
+    title: IMG_0176
+  - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0172.png
+    title: IMG_0172
+  - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0173.png
+    title: IMG_0173
+  - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0171.png
+    title: IMG_0171
+  - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0170.png
+    title: IMG_0170
+  - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0169.png
+    title: IMG_0169
+  - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0168.png
+    title: IMG_0168
+  - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0181.png
+    title: IMG_0181
+  - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0180.png
+    title: IMG_0180
+  - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0184.png
+    title: IMG_0184
+  - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0178.png
+    title: IMG_0178
+  - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0193.png
+    title: IMG_0193
+  - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0179.png
+    title: IMG_0179
 artifacts:
+  - path: /versions/ATEM-Tally-Camera-Light/IMG_0190.mov
+    tag: IMG_0190
+    type: download
+    post: 
+  - path: /versions/ATEM-Tally-Camera-Light/IMG_0191.mov
+    tag: IMG_0191
+    type: download
+    post: 
+  - path: /versions/ATEM-Tally-Camera-Light/IMG_0192.mov
+    tag: IMG_0192
+    type: download
+    post: 
   - path: /versions/ATEM-Tally-Camera-Light/eagle.epf
     tag: eagle
     type: download

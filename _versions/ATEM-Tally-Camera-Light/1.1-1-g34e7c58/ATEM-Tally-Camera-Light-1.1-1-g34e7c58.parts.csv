@@ -1,0 +1,10 @@
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+BOARD1,SMD,,BOARD-DINRAIL-3.17INX5CM,-board-dinrail-3.17inx5cm,49.85,50.48,0.00,0.00
+C1,SMD,0.1uF,0603-CAP,0.1uf-0603-cap,60.33,29.21,0.00,0.00
+C4,SMD,0.1uF,0603-CAP,0.1uf-0603-cap,9.53,29.21,0.00,0.00
+CON1,PTH,,1X04_LOCK,-1x04_lock,0.00,0.00,180.00,-180.00
+CON2,PTH,,1X04_LOCK,-1x04_lock,0.00,0.00,180.00,-180.00
+MS1,PTH,FEATHERWING_NODIM,FEATHERWING_DIM,featherwing_nodim-featherwing_dim,0.00,0.00,270.00,90.00
+MS2,PTH,FEATHERWING_NODIM,FEATHERWING_DIM,featherwing_nodim-featherwing_dim,0.00,0.00,270.00,90.00
+SW1,PTH,,EDG-04,-edg-04,0.00,0.00,90.00,-90.00
+SW2,PTH,,EDG-04,-edg-04,0.00,0.00,90.00,-90.00

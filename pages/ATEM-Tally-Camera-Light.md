@@ -60,6 +60,10 @@ images:
   - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0179.png
     title: IMG_0179
 artifacts:
+  - path: /versions/ATEM-Tally-Camera-Light/ATEM-Tally-Camera-Light.SMD-parts.csv
+    tag: ATEM-Tally-Camera-Light.SMD-parts
+    type: download
+    post: 
   - path: /versions/ATEM-Tally-Camera-Light/IMG_0190.mov
     tag: IMG_0190
     type: download

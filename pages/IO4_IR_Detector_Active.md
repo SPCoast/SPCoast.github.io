@@ -19,8 +19,8 @@ artifacts:
     tag: IO4_IR_Detector_Active.ino
     type: download
     post: Arduino Sketch
-  - path: /sketches/IO4_IR_Detector_Active/arduino-cli.yaml
-    tag: arduino-cli
+  - path: /sketches/IO4_IR_Detector_Active/sketch.json
+    tag: sketch
     type: download
     post: 
 ---
@@ -147,8 +147,6 @@ private:
 ## IO4_IR_Detector_Active
 
 ~~~ cpp
-//FQBN:arduino:avr:pro:cpu=16MHzatmega328
-//PORT:/dev/cu.usbserial-FTE4L0KY
 //DESC:Arduino based proximity sensor
 //BOARD:IO4-IR-Detector-Active
 //AUTHOR:John Plocher

@@ -24,6 +24,10 @@ artifacts:
     tag: IO4-IR-Detector-Active-Fingers-short.brd
     type: download
     post: Eagle PCB file
+  - path: /versions/IO4-IR-Detector-Active-Fingers/IO4-IR-Detector-Active-Fingers.SMD-parts.csv
+    tag: IO4-IR-Detector-Active-Fingers.SMD-parts
+    type: download
+    post: 
   - path: /versions/IO4-IR-Detector-Active-Fingers/IO4-IR-Detector-Active-FingersN.brd
     tag: IO4-IR-Detector-Active-FingersN.brd
     type: download

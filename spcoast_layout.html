@@ -5,8 +5,14 @@ table {
   border: 2px solid black;   
   border-collapse: collapse;
 }
+
 td {
   border: 1px solid grey;
+}
+
+th {
+  border: 1px solid black;
+  background: grey10;
 }
 
 </style>
@@ -90,13 +96,13 @@ td {
 <H1>Code Line</H1>
 <H2>Control Packet for CP_Watsonville_S (0x0090)</H2>
 <blockquote>
-<table border=1 style="font-family: monospace;width: 70%;">
+<table border=1 style="font-family: monospace;width: 80%;">
 <tr>
     <th colspan="9"> Controls for CP_Watsonville_S</th>
 </tr>
 
 <tr>
-    <td> Byte </td> <td align="center">bit 0    </td> <td align="center"> bit 1    </td> <td align="center"> bit 2    </td> <td align="center"> bit 3    </td> <td align="center"> bit 4    </td> <td align="center"> bit 5    </td> <td align="center"> bit 6    </td> <td align="center"> bit 7   </td>
+    <th> Byte </td> <td align="center">bit 0    </th> <td align="center"> bit 1    </th> <td align="center"> bit 2    </th> <td align="center"> bit 3    </th> <td align="center"> bit 4    </th> <td align="center"> bit 5    </th> <td align="center"> bit 6    </th> <td align="center"> bit 7   </td>
 </tr>
 <tr>
     <th> 0    </th>   <td align="center"> 901NWS   </td> <td align="center"> 901RWS   </td> <td align="center"> 903NWS   </td> <td align="center"> 903RWS   </td> <td align="center"> 905NWS   </td> <td align="center"> 905RWS   </td> <td align="center"> 907NWS   </td> <td align="center"> 907RWS  </td>
@@ -111,13 +117,13 @@ td {
 </blockquote>
 <H2>Indication Packet from CP_Watsonville_S (0x0090)</H2>
 <blockquote>
-<table border=1 style="font-family: monospace;width: 70%;">
+<table border=1 style="font-family: monospace;width: 80%;">
 <tr>
     <th colspan="9"> Indications for CP_Watsonville_S</th>
 </tr>
 
 <tr>
-    <td> Byte </td> <td align="center">bit 0    </td> <td align="center"> bit 1    </td> <td align="center"> bit 2    </td> <td align="center"> bit 3    </td> <td align="center"> bit 4    </td> <td align="center"> bit 5    </td> <td align="center"> bit 6    </td> <td align="center"> bit 7   </td>
+    <th> Byte </td> <td align="center">bit 0    </th> <td align="center"> bit 1    </th> <td align="center"> bit 2    </th> <td align="center"> bit 3    </th> <td align="center"> bit 4    </th> <td align="center"> bit 5    </th> <td align="center"> bit 6    </th> <td align="center"> bit 7   </td>
 </tr>
 <tr>
     <th> 0    </th>   <td align="center"> 901NWK   </td> <td align="center"> 901RWK   </td> <td align="center"> 903NWK   </td> <td align="center"> 903RWK   </td> <td align="center"> 905NWK   </td> <td align="center"> 905RWK   </td> <td align="center"> 907NWK   </td> <td align="center"> 907RWK  </td>
@@ -145,13 +151,13 @@ td {
 <blockquote>
 <H3>Assignmenmts</H3>
 
-<table border=1 style="font-family: monospace;width: 70%;">
+<table border=1 style="font-family: monospace;width: 80%;">
 <tr>
     <th colspan="17"> FieldUnit for CP_Watsonville_S</th>
 </tr>
 
 <tr>
-    <td> Expander </td> <td align="center">bit 0    </td> <td align="center"> bit 1    </td> <td align="center"> bit 2    </td> <td align="center"> bit 3    </td> <td align="center"> bit 4    </td> <td align="center"> bit 5    </td> <td align="center"> bit 6    </td> <td align="center"> bit 7    </td> <td align="center"> bit 8    </td> <td align="center"> bit 9    </td> <td align="center"> bit 10   </td> <td align="center"> bit 11   </td> <td align="center"> bit 12   </td> <td align="center"> bit 13   </td> <td align="center"> bit 14   </td> <td align="center"> bit 15  </td>
+    <th> Expander </td> <td align="center">bit 0    </th> <td align="center"> bit 1    </th> <td align="center"> bit 2    </th> <td align="center"> bit 3    </th> <td align="center"> bit 4    </th> <td align="center"> bit 5    </th> <td align="center"> bit 6    </th> <td align="center"> bit 7    </th> <td align="center"> bit 8    </th> <td align="center"> bit 9    </th> <td align="center"> bit 10   </th> <td align="center"> bit 11   </th> <td align="center"> bit 12   </th> <td align="center"> bit 13   </th> <td align="center"> bit 14   </th> <td align="center"> bit 15  </td>
 </tr>
 <tr>
     <th> 0    </th>   <td align="center"> i 901NW  </td> <td align="center"> i 901RW  </td> <td align="center"> i 901T1  </td> <td align="center"> i T901   </td> <td align="center"> i 903NW  </td> <td align="center"> i 903RW  </td> <td align="center"> i 903T1  </td> <td align="center"> i T903   </td> <td align="center"> i 905NW  </td> <td align="center"> i 905RW  </td> <td align="center"> i 905T1  </td> <td align="center"> i T905   </td> <td align="center"> i 907NW  </td> <td align="center"> i 907RW  </td> <td align="center"> i 907T1  </td> <td align="center"> i T907  </td>
@@ -187,8 +193,7 @@ td {
  </th><th>  Signal
 </tr>
 <tr>
-    <th> <strong>0</strong> </th><td>   MCP23017 </td>
-<td> 0x00 </td>
+    <th rowspan=4> 0 </th><th rowspan=4>   MCP23017 </th><th rowspan=4> 0x00 </th>
 <td> 12 </td>
 <td> i 907NW </td>
 <td> 8 </td>
@@ -198,7 +203,7 @@ td {
 <td> 0 </td>
 <td> i 901NW </td>
 </tr>
-<td colspan="3"> 
+<!-- row span -->
 <td> 13 </td>
 <td> i 907RW </td>
 <td> 9 </td>
@@ -208,7 +213,7 @@ td {
 <td> 1 </td>
 <td> i 901RW </td>
 </tr>
-<td colspan="3"> 
+<!-- row span -->
 <td> 14 </td>
 <td> i 907T1 </td>
 <td> 10 </td>
@@ -218,7 +223,7 @@ td {
 <td> 2 </td>
 <td> i 901T1 </td>
 </tr>
-<td colspan="3"> 
+<!-- row span -->
 <td> 15 </td>
 <td> i T907 </td>
 <td> 11 </td>
@@ -241,8 +246,7 @@ td {
  </th><th>  Signal
 </tr>
 <tr>
-    <th> <strong>1</strong> </th><td>   MCP23017 </td>
-<td> 0x01 </td>
+    <th rowspan=4> 1 </th><th rowspan=4>   MCP23017 </th><th rowspan=4> 0x01 </th>
 <td> 12 </td>
 <td> o MC1 </td>
 <td> 8 </td>
@@ -252,7 +256,7 @@ td {
 <td> 0 </td>
 <td> &nbsp;&nbsp;- - - </td>
 </tr>
-<td colspan="3"> 
+<!-- row span -->
 <td> 13 </td>
 <td> o XO11 </td>
 <td> 9 </td>
@@ -262,7 +266,7 @@ td {
 <td> 1 </td>
 <td> i 909NW </td>
 </tr>
-<td colspan="3"> 
+<!-- row span -->
 <td> 14 </td>
 <td> o XO12 </td>
 <td> 10 </td>
@@ -272,7 +276,7 @@ td {
 <td> 2 </td>
 <td> i 909RW </td>
 </tr>
-<td colspan="3"> 
+<!-- row span -->
 <td> 15 </td>
 <td> o XO13 </td>
 <td> 11 </td>
@@ -295,8 +299,7 @@ td {
  </th><th>  Signal
 </tr>
 <tr>
-    <th> <strong>2</strong> </th><td>   MCP23017 </td>
-<td> 0x02 </td>
+    <th rowspan=4> 2 </th><th rowspan=4>   MCP23017 </th><th rowspan=4> 0x02 </th>
 <td> 12 </td>
 <td> i 1SAT </td>
 <td> 8 </td>
@@ -306,7 +309,7 @@ td {
 <td> 0 </td>
 <td> i YLT </td>
 </tr>
-<td colspan="3"> 
+<!-- row span -->
 <td> 13 </td>
 <td> i 2SAT </td>
 <td> 9 </td>
@@ -316,7 +319,7 @@ td {
 <td> 1 </td>
 <td> i DAT </td>
 </tr>
-<td colspan="3"> 
+<!-- row span -->
 <td> 14 </td>
 <td> i 3SAT </td>
 <td> 10 </td>
@@ -326,7 +329,7 @@ td {
 <td> 2 </td>
 <td> i XI22 </td>
 </tr>
-<td colspan="3"> 
+<!-- row span -->
 <td> 15 </td>
 <td> i 4SAT </td>
 <td> 11 </td>
@@ -349,8 +352,7 @@ td {
  </th><th>  Signal
 </tr>
 <tr>
-    <th> <strong>3</strong> </th><td>   MCP23017 </td>
-<td> 0x03 </td>
+    <th rowspan=4> 3 </th><th rowspan=4>   MCP23017 </th><th rowspan=4> 0x03 </th>
 <td> 12 </td>
 <td> o 902SC1 </td>
 <td> 8 </td>
@@ -360,7 +362,7 @@ td {
 <td> 0 </td>
 <td> i 1SAAT </td>
 </tr>
-<td colspan="3"> 
+<!-- row span -->
 <td> 13 </td>
 <td> o 902SC2 </td>
 <td> 9 </td>
@@ -370,7 +372,7 @@ td {
 <td> 1 </td>
 <td> i 2SAAT </td>
 </tr>
-<td colspan="3"> 
+<!-- row span -->
 <td> 14 </td>
 <td> o 902SD1 </td>
 <td> 10 </td>
@@ -380,7 +382,7 @@ td {
 <td> 2 </td>
 <td> i 3SAAT </td>
 </tr>
-<td colspan="3"> 
+<!-- row span -->
 <td> 15 </td>
 <td> o 902SD2 </td>
 <td> 11 </td>
@@ -403,8 +405,7 @@ td {
  </th><th>  Signal
 </tr>
 <tr>
-    <th> <strong>4</strong> </th><td>   MCP23017 </td>
-<td> 0x04 </td>
+    <th rowspan=4> 4 </th><th rowspan=4>   MCP23017 </th><th rowspan=4> 0x04 </th>
 <td> 12 </td>
 <td> &nbsp;&nbsp;- - - </td>
 <td> 8 </td>
@@ -414,7 +415,7 @@ td {
 <td> 0 </td>
 <td> o 904NA1 </td>
 </tr>
-<td colspan="3"> 
+<!-- row span -->
 <td> 13 </td>
 <td> &nbsp;&nbsp;- - - </td>
 <td> 9 </td>
@@ -424,7 +425,7 @@ td {
 <td> 1 </td>
 <td> o 904NA2 </td>
 </tr>
-<td colspan="3"> 
+<!-- row span -->
 <td> 14 </td>
 <td> &nbsp;&nbsp;- - - </td>
 <td> 10 </td>
@@ -434,7 +435,7 @@ td {
 <td> 2 </td>
 <td> &nbsp;&nbsp;- - - </td>
 </tr>
-<td colspan="3"> 
+<!-- row span -->
 <td> 15 </td>
 <td> &nbsp;&nbsp;- - - </td>
 <td> 11 </td>

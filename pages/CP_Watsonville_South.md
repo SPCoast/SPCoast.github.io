@@ -86,19 +86,19 @@ artifacts:
 <th> Byte
 </th>
 <td align="center">bit 0   
-</th>
+</td>
 <td align="center"> bit 1   
-</th>
+</td>
 <td align="center"> bit 2   
-</th>
+</td>
 <td align="center"> bit 3   
-</th>
+</td>
 <td align="center"> bit 4   
-</th>
+</td>
 <td align="center"> bit 5   
-</th>
+</td>
 <td align="center"> bit 6   
-</th>
+</td>
 <td align="center"> bit 7   
 </td>
 </tr>
@@ -174,19 +174,19 @@ artifacts:
 <th> Byte
 </th>
 <td align="center">bit 0   
-</th>
+</td>
 <td align="center"> bit 1   
-</th>
+</td>
 <td align="center"> bit 2   
-</th>
+</td>
 <td align="center"> bit 3   
-</th>
+</td>
 <td align="center"> bit 4   
-</th>
+</td>
 <td align="center"> bit 5   
-</th>
+</td>
 <td align="center"> bit 6   
-</th>
+</td>
 <td align="center"> bit 7   
 </td>
 </tr>
@@ -342,35 +342,35 @@ artifacts:
 <th> Expander
 </th>
 <td align="center">bit 0   
-</th>
+</td>
 <td align="center"> bit 1   
-</th>
+</td>
 <td align="center"> bit 2   
-</th>
+</td>
 <td align="center"> bit 3   
-</th>
+</td>
 <td align="center"> bit 4   
-</th>
+</td>
 <td align="center"> bit 5   
-</th>
+</td>
 <td align="center"> bit 6   
-</th>
+</td>
 <td align="center"> bit 7   
-</th>
+</td>
 <td align="center"> bit 8   
-</th>
+</td>
 <td align="center"> bit 9   
-</th>
+</td>
 <td align="center"> bit 10  
-</th>
+</td>
 <td align="center"> bit 11  
-</th>
+</td>
 <td align="center"> bit 12  
-</th>
+</td>
 <td align="center"> bit 13  
-</th>
+</td>
 <td align="center"> bit 14  
-</th>
+</td>
 <td align="center"> bit 15  
 </td>
 </tr>
@@ -1119,7 +1119,7 @@ Global variables use 46924 bytes (14%) of dynamic memory, leaving 280756 bytes f
  *     ************************************
  *        CP_Watsonville_S Field Unit    
  *     ************************************
- *     on: 2021-04-11 17:16
+ *     on: 2021-04-11 17:25
  * 
  *     South end of Watsonville Staging Yard.  MP 90
  * 

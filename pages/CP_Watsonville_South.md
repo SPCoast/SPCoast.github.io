@@ -58,14 +58,14 @@ artifacts:
      Southbound Approach on Yard Track:  [1-4]SAT
      Northbound Approach from LOOP: LOOP
     Possible routes:
-        (A) Normal Operations NX:  eNter from Yard_n, exit on DT
+        (A) Normal Operations NX:  enter from Yard_n, exit on DT
             Leave Yard from ____________ via LOOP and Departure Track
                         Yard Track 1
                         Yard Track 2
                         Yard Track 3
                         Yard Track 4
             Set switches as desired, S2 RIGHT, S4 LEFT,FLEET
-        (B) Infrequent, used during layout operations setup: eNter from DT, exit on Yard_n
+        (B) Infrequent, used during layout operations setup: enter from DT, exit on Yard_n
             Enter ____________ from Departure track and LOOP
               Yard Track 1
               Yard Track 2
@@ -76,7 +76,6 @@ artifacts:
             Set all switches Normal, S4 RIGHT.
             When train is in LOOP and 1T1 UNOCCUPIED, set SW1 Reverse, S4 STOP, then S4 LEFT
 </pre>
-<blockquote>
 <table border=1 style="font-family: monospace;width: 80%;">
 <tr>
 <th colspan="9"> Controls for CP_Watsonville_S
@@ -163,8 +162,6 @@ artifacts:
 </td>
 </tr>
 </table>
-</blockquote>
-<blockquote>
 <table border=1 style="font-family: monospace;width: 80%;">
 <tr>
 <th colspan="9"> Indications for CP_Watsonville_S
@@ -331,8 +328,6 @@ artifacts:
 </td>
 </tr>
 </table>
-</blockquote>
-<blockquote>
 <table border=1 style="font-family: monospace;width: 80%;">
 <tr>
 <th colspan="17"> FieldUnit for CP_Watsonville_S
@@ -555,8 +550,6 @@ artifacts:
 </td>
 </tr>
 </table>
-</blockquote>
-<blockquote>
 <table border=1 style="font-family: monospace; width: 80%;">
 <tr>
 <th colspan="11" style="text-align:center;"> Expanders Wiring for CP_Watsonville_S
@@ -1063,272 +1056,705 @@ artifacts:
 </td>
 </tr>
 </table>
-</blockquote>
-<blockquote>
 <p>
                 Stick Relays (No Engine Return, No Fleeting)
 </p>
-<blockquote>
 <p></p>
 <table border="1">
-<tr><th align="left" colspan="3"><p>&nbsp;</p>
-<p>&nbsp;&nbsp;Route <b>LOOP-YL-DT-R</b> Aspect DIVERGING_RESTRICTING  - Reverse Loop to Departure Track via Yard ladder - DAT is occupied</p>
-<p>&nbsp;</p></th></tr>
+<tr>
+<th align="left" colspan="3">
+<p>&nbsp;
+</p>
+<p>&nbsp;&nbsp;Route
+<b>LOOP-YL-DT-R
+</b> Aspect DIVERGING_RESTRICTING  - Reverse Loop to Departure Track via Yard ladder - DAT is occupied
+</p>
+<p>&nbsp;
+</p>
+</th>
+</tr>
                         <!-- table border="1" -->
-<tr><th>Switches</th><th>Tracks</th><th>Signals</th></tr>
-<tr><td>
-<code>CP_Watsonville_S:901&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE</code><BR>
-<code>CP_Watsonville_S:903&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-<code>CP_Watsonville_S:905&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-<code>CP_Watsonville_S:907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-</td><td>
-<code>CP_Watsonville_S:901T1&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-</td><td>
-<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::LEFT</code><BR>
-<code>CP_Watsonville_S:904&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::LEFT</code><BR>
-</td></tr><!-- /table -->
-<p></p>
-<tr><th align="left" colspan="3"><p>&nbsp;</p>
-<p>&nbsp;&nbsp;Route <b>LOOP-YL-DT</b> Aspect DIVERGING_CLEAR  - Reverse Loop to Departure Track via Yard ladder</p>
-<p>&nbsp;</p></th></tr>
+<tr>
+<th>Switches
+</th>
+<th>Tracks
+</th>
+<th>Signals
+</th>
+</tr>
+<tr>
+<td>
+<code>CP_Watsonville_S:901&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE
+</code>
+<BR>
+<code>CP_Watsonville_S:903&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+<code>CP_Watsonville_S:905&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+<code>CP_Watsonville_S:907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:901T1&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::LEFT
+</code>
+<BR>
+<code>CP_Watsonville_S:904&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::LEFT
+</code>
+<BR>
+</td>
+</tr><!-- /table -->
+<p>
+</p>
+<tr>
+<th align="left" colspan="3">
+<p>&nbsp;
+</p>
+<p>&nbsp;&nbsp;Route
+<b>LOOP-YL-DT
+</b> Aspect DIVERGING_CLEAR  - Reverse Loop to Departure Track via Yard ladder
+</p>
+<p>&nbsp;
+</p>
+</th>
+</tr>
                         <!-- table border="1" -->
-<tr><th>Switches</th><th>Tracks</th><th>Signals</th></tr>
-<tr><td>
-<code>CP_Watsonville_S:901&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE</code><BR>
-<code>CP_Watsonville_S:903&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-<code>CP_Watsonville_S:905&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-<code>CP_Watsonville_S:907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-</td><td>
-<code>CP_Watsonville_S:901T1&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:DAT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-</td><td>
-<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::LEFT</code><BR>
-<code>CP_Watsonville_S:904&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::LEFT</code><BR>
-</td></tr><!-- /table -->
-<p></p>
-<tr><th align="left" colspan="3"><p>&nbsp;</p>
-<p>&nbsp;&nbsp;Route <b>LOOP-YL-YT1</b> Aspect DIVERGING_APPROACH  - Reverse Loop to Yard Track 1</p>
-<p>&nbsp;</p></th></tr>
+<tr>
+<th>Switches
+</th>
+<th>Tracks
+</th>
+<th>Signals
+</th>
+</tr>
+<tr>
+<td>
+<code>CP_Watsonville_S:901&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE
+</code>
+<BR>
+<code>CP_Watsonville_S:903&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+<code>CP_Watsonville_S:905&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+<code>CP_Watsonville_S:907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:901T1&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:DAT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::LEFT
+</code>
+<BR>
+<code>CP_Watsonville_S:904&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::LEFT
+</code>
+<BR>
+</td>
+</tr><!-- /table -->
+<p>
+</p>
+<tr>
+<th align="left" colspan="3">
+<p>&nbsp;
+</p>
+<p>&nbsp;&nbsp;Route
+<b>LOOP-YL-YT1
+</b> Aspect DIVERGING_APPROACH  - Reverse Loop to Yard Track 1
+</p>
+<p>&nbsp;
+</p>
+</th>
+</tr>
                         <!-- table border="1" -->
-<tr><th>Switches</th><th>Tracks</th><th>Signals</th></tr>
-<tr><td>
-<code>CP_Watsonville_S:903&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE</code><BR>
-<code>CP_Watsonville_S:905&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-<code>CP_Watsonville_S:907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-</td><td>
-<code>CP_Watsonville_S:903T2&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:1SAT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-</td><td>
-<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::LEFT</code><BR>
-</td></tr><!-- /table -->
-<p></p>
-<tr><th align="left" colspan="3"><p>&nbsp;</p>
-<p>&nbsp;&nbsp;Route <b>LOOP-YL-YT2</b> Aspect DIVERGING_APPROACH  - Reverse Loop to Yard Track 2</p>
-<p>&nbsp;</p></th></tr>
+<tr>
+<th>Switches
+</th>
+<th>Tracks
+</th>
+<th>Signals
+</th>
+</tr>
+<tr>
+<td>
+<code>CP_Watsonville_S:903&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE
+</code>
+<BR>
+<code>CP_Watsonville_S:905&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+<code>CP_Watsonville_S:907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:903T2&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:1SAT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::LEFT
+</code>
+<BR>
+</td>
+</tr><!-- /table -->
+<p>
+</p>
+<tr>
+<th align="left" colspan="3">
+<p>&nbsp;
+</p>
+<p>&nbsp;&nbsp;Route
+<b>LOOP-YL-YT2
+</b> Aspect DIVERGING_APPROACH  - Reverse Loop to Yard Track 2
+</p>
+<p>&nbsp;
+</p>
+</th>
+</tr>
                         <!-- table border="1" -->
-<tr><th>Switches</th><th>Tracks</th><th>Signals</th></tr>
-<tr><td>
-<code>CP_Watsonville_S:905&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE</code><BR>
-<code>CP_Watsonville_S:907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-</td><td>
-<code>CP_Watsonville_S:905T2&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:2SAT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-</td><td>
-<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::LEFT</code><BR>
-</td></tr><!-- /table -->
-<p></p>
-<tr><th align="left" colspan="3"><p>&nbsp;</p>
-<p>&nbsp;&nbsp;Route <b>LOOP-YL-YT3</b> Aspect DIVERGING_APPROACH  - Reverse Loop to Yard Track 3</p>
-<p>&nbsp;</p></th></tr>
+<tr>
+<th>Switches
+</th>
+<th>Tracks
+</th>
+<th>Signals
+</th>
+</tr>
+<tr>
+<td>
+<code>CP_Watsonville_S:905&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE
+</code>
+<BR>
+<code>CP_Watsonville_S:907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:905T2&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:2SAT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::LEFT
+</code>
+<BR>
+</td>
+</tr><!-- /table -->
+<p>
+</p>
+<tr>
+<th align="left" colspan="3">
+<p>&nbsp;
+</p>
+<p>&nbsp;&nbsp;Route
+<b>LOOP-YL-YT3
+</b> Aspect DIVERGING_APPROACH  - Reverse Loop to Yard Track 3
+</p>
+<p>&nbsp;
+</p>
+</th>
+</tr>
                         <!-- table border="1" -->
-<tr><th>Switches</th><th>Tracks</th><th>Signals</th></tr>
-<tr><td>
-<code>CP_Watsonville_S:907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE</code><BR>
-<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-</td><td>
-<code>CP_Watsonville_S:907T2&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:3SAT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-</td><td>
-<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::LEFT</code><BR>
-</td></tr><!-- /table -->
-<p></p>
-<tr><th align="left" colspan="3"><p>&nbsp;</p>
-<p>&nbsp;&nbsp;Route <b>LOOP-YL-YT4</b> Aspect DIVERGING_APPROACH  - Reverse Loop to Yard Track 4</p>
-<p>&nbsp;</p></th></tr>
+<tr>
+<th>Switches
+</th>
+<th>Tracks
+</th>
+<th>Signals
+</th>
+</tr>
+<tr>
+<td>
+<code>CP_Watsonville_S:907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE
+</code>
+<BR>
+<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:907T2&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:3SAT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::LEFT
+</code>
+<BR>
+</td>
+</tr><!-- /table -->
+<p>
+</p>
+<tr>
+<th align="left" colspan="3">
+<p>&nbsp;
+</p>
+<p>&nbsp;&nbsp;Route
+<b>LOOP-YL-YT4
+</b> Aspect DIVERGING_APPROACH  - Reverse Loop to Yard Track 4
+</p>
+<p>&nbsp;
+</p>
+</th>
+</tr>
                         <!-- table border="1" -->
-<tr><th>Switches</th><th>Tracks</th><th>Signals</th></tr>
-<tr><td>
-<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE</code><BR>
-</td><td>
-<code>CP_Watsonville_S:909T2&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:4SAT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-</td><td>
-<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::LEFT</code><BR>
-</td></tr><!-- /table -->
-<p></p>
+<tr>
+<th>Switches
+</th>
+<th>Tracks
+</th>
+<th>Signals
+</th>
+</tr>
+<tr>
+<td>
+<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:909T2&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:4SAT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::LEFT
+</code>
+<BR>
+</td>
+</tr><!-- /table -->
+<p>
+</p>
 </table>
-</blockquote>
-<p>&nbsp;</p>
-<blockquote>
+<p>&nbsp;
+</p>
 <p></p>
 <table border="1">
-<tr><th align="left" colspan="3"><p>&nbsp;</p>
-<p>&nbsp;&nbsp;Route <b>Y1-LOOP</b> Aspect APPROACH  - Y1 to LOOP</p>
-<p>&nbsp;</p></th></tr>
+<tr>
+<th align="left" colspan="3">
+<p>&nbsp;
+</p>
+<p>&nbsp;&nbsp;Route
+<b>Y1-LOOP
+</b> Aspect APPROACH  - Y1 to LOOP
+</p>
+<p>&nbsp;
+</p>
+</th>
+</tr>
                         <!-- table border="1" -->
-<tr><th>Switches</th><th>Tracks</th><th>Signals</th></tr>
-<tr><td>
-<code>CP_Watsonville_S:903&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE</code><BR>
-<code>CP_Watsonville_S:905&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-<code>CP_Watsonville_S:907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-</td><td>
-<code>CP_Watsonville_S:LOOP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-</td><td>
-<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::RIGHT&nbsp;</code><BR>
-</td></tr><!-- /table -->
-<p></p>
+<tr>
+<th>Switches
+</th>
+<th>Tracks
+</th>
+<th>Signals
+</th>
+</tr>
+<tr>
+<td>
+<code>CP_Watsonville_S:903&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE
+</code>
+<BR>
+<code>CP_Watsonville_S:905&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+<code>CP_Watsonville_S:907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:LOOP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::RIGHT&nbsp;
+</code>
+<BR>
+</td>
+</tr><!-- /table -->
+<p>
+</p>
 </table>
-</blockquote>
-<p>&nbsp;</p>
-<blockquote>
+<p>&nbsp;
+</p>
 <p></p>
 <table border="1">
-<tr><th align="left" colspan="3"><p>&nbsp;</p>
-<p>&nbsp;&nbsp;Route <b>Y2-LOOP</b> Aspect APPROACH  - Y2 to LOOP</p>
-<p>&nbsp;</p></th></tr>
+<tr>
+<th align="left" colspan="3">
+<p>&nbsp;
+</p>
+<p>&nbsp;&nbsp;Route
+<b>Y2-LOOP
+</b> Aspect APPROACH  - Y2 to LOOP
+</p>
+<p>&nbsp;
+</p>
+</th>
+</tr>
                         <!-- table border="1" -->
-<tr><th>Switches</th><th>Tracks</th><th>Signals</th></tr>
-<tr><td>
-<code>CP_Watsonville_S:905&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE</code><BR>
-<code>CP_Watsonville_S:907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-</td><td>
-<code>CP_Watsonville_S:LOOP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-</td><td>
-<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::RIGHT&nbsp;</code><BR>
-</td></tr><!-- /table -->
-<p></p>
+<tr>
+<th>Switches
+</th>
+<th>Tracks
+</th>
+<th>Signals
+</th>
+</tr>
+<tr>
+<td>
+<code>CP_Watsonville_S:905&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE
+</code>
+<BR>
+<code>CP_Watsonville_S:907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:LOOP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::RIGHT&nbsp;
+</code>
+<BR>
+</td>
+</tr><!-- /table -->
+<p>
+</p>
 </table>
-</blockquote>
-<p>&nbsp;</p>
-<blockquote>
+<p>&nbsp;
+</p>
 <p></p>
 <table border="1">
-<tr><th align="left" colspan="3"><p>&nbsp;</p>
-<p>&nbsp;&nbsp;Route <b>Y3-LOOP</b> Aspect APPROACH  - Y3 to LOOP</p>
-<p>&nbsp;</p></th></tr>
+<tr>
+<th align="left" colspan="3">
+<p>&nbsp;
+</p>
+<p>&nbsp;&nbsp;Route
+<b>Y3-LOOP
+</b> Aspect APPROACH  - Y3 to LOOP
+</p>
+<p>&nbsp;
+</p>
+</th>
+</tr>
                         <!-- table border="1" -->
-<tr><th>Switches</th><th>Tracks</th><th>Signals</th></tr>
-<tr><td>
-<code>CP_Watsonville_S:907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE</code><BR>
-<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-</td><td>
-<code>CP_Watsonville_S:LOOP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-</td><td>
-<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::RIGHT&nbsp;</code><BR>
-</td></tr><!-- /table -->
-<p></p>
+<tr>
+<th>Switches
+</th>
+<th>Tracks
+</th>
+<th>Signals
+</th>
+</tr>
+<tr>
+<td>
+<code>CP_Watsonville_S:907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE
+</code>
+<BR>
+<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:LOOP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::RIGHT&nbsp;
+</code>
+<BR>
+</td>
+</tr><!-- /table -->
+<p>
+</p>
 </table>
-</blockquote>
-<p>&nbsp;</p>
-<blockquote>
+<p>&nbsp;
+</p>
 <p></p>
 <table border="1">
-<tr><th align="left" colspan="3"><p>&nbsp;</p>
-<p>&nbsp;&nbsp;Route <b>Y4-LOOP</b> Aspect APPROACH  - Y4 to LOOP</p>
-<p>&nbsp;</p></th></tr>
+<tr>
+<th align="left" colspan="3">
+<p>&nbsp;
+</p>
+<p>&nbsp;&nbsp;Route
+<b>Y4-LOOP
+</b> Aspect APPROACH  - Y4 to LOOP
+</p>
+<p>&nbsp;
+</p>
+</th>
+</tr>
                         <!-- table border="1" -->
-<tr><th>Switches</th><th>Tracks</th><th>Signals</th></tr>
-<tr><td>
-<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE</code><BR>
-</td><td>
-<code>CP_Watsonville_S:LOOP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-</td><td>
-<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::RIGHT&nbsp;</code><BR>
-</td></tr><!-- /table -->
-<p></p>
+<tr>
+<th>Switches
+</th>
+<th>Tracks
+</th>
+<th>Signals
+</th>
+</tr>
+<tr>
+<td>
+<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:LOOP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::RIGHT&nbsp;
+</code>
+<BR>
+</td>
+</tr><!-- /table -->
+<p>
+</p>
 </table>
-</blockquote>
-<p>&nbsp;</p>
+<p>&nbsp;
+</p>
 <p>
                 Stick Relays (No Engine Return, No Fleeting)
 </p>
-<blockquote>
 <p></p>
 <table border="1">
-<tr><th align="left" colspan="3"><p>&nbsp;</p>
-<p>&nbsp;&nbsp;Route <b>LOOP-DT</b> Aspect CLEAR  - Reverse Loop to Departure Track (usual route)</p>
-<p>&nbsp;</p></th></tr>
+<tr>
+<th align="left" colspan="3">
+<p>&nbsp;
+</p>
+<p>&nbsp;&nbsp;Route
+<b>LOOP-DT
+</b> Aspect CLEAR  - Reverse Loop to Departure Track (usual route)
+</p>
+<p>&nbsp;
+</p>
+</th>
+</tr>
                         <!-- table border="1" -->
-<tr><th>Switches</th><th>Tracks</th><th>Signals</th></tr>
-<tr><td>
-<code>CP_Watsonville_S:901&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-</td><td>
-<code>CP_Watsonville_S:901T1&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:DAT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-</td><td>
-<code>CP_Watsonville_S:904&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::LEFT</code><BR>
-</td></tr><!-- /table -->
-<p></p>
+<tr>
+<th>Switches
+</th>
+<th>Tracks
+</th>
+<th>Signals
+</th>
+</tr>
+<tr>
+<td>
+<code>CP_Watsonville_S:901&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:901T1&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:DAT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:904&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::LEFT
+</code>
+<BR>
+</td>
+</tr><!-- /table -->
+<p>
+</p>
 </table>
-</blockquote>
-<p>&nbsp;</p>
-<blockquote>
+<p>&nbsp;
+</p>
 <p></p>
 <table border="1">
-<tr><th align="left" colspan="3"><p>&nbsp;</p>
-<p>&nbsp;&nbsp;Route <b>RDT-LOOP</b> Aspect RESTRICTING  - Southbound (reverse running) direct to Reverse Loop</p>
-<p>&nbsp;</p></th></tr>
+<tr>
+<th align="left" colspan="3">
+<p>&nbsp;
+</p>
+<p>&nbsp;&nbsp;Route
+<b>RDT-LOOP
+</b> Aspect RESTRICTING  - Southbound (reverse running) direct to Reverse Loop
+</p>
+<p>&nbsp;
+</p>
+</th>
+</tr>
                         <!-- table border="1" -->
-<tr><th>Switches</th><th>Tracks</th><th>Signals</th></tr>
-<tr><td>
-<code>CP_Watsonville_S:901&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-</td><td>
-<code>CP_Watsonville_S:901T1&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:LOOP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-</td><td>
-<code>CP_Watsonville_S:904&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::RIGHT&nbsp;</code><BR>
-</td></tr><!-- /table -->
-<p></p>
-<tr><th align="left" colspan="3"><p>&nbsp;</p>
-<p>&nbsp;&nbsp;Route <b>RDT-Y-LOOP</b> Aspect DIVERGING_RESTRICTING  - Southbound (reverse running) to Reverse Loop via Yard Ladder</p>
-<p>&nbsp;</p></th></tr>
+<tr>
+<th>Switches
+</th>
+<th>Tracks
+</th>
+<th>Signals
+</th>
+</tr>
+<tr>
+<td>
+<code>CP_Watsonville_S:901&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:901T1&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:LOOP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:904&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::RIGHT&nbsp;
+</code>
+<BR>
+</td>
+</tr><!-- /table -->
+<p>
+</p>
+<tr>
+<th align="left" colspan="3">
+<p>&nbsp;
+</p>
+<p>&nbsp;&nbsp;Route
+<b>RDT-Y-LOOP
+</b> Aspect DIVERGING_RESTRICTING  - Southbound (reverse running) to Reverse Loop via Yard Ladder
+</p>
+<p>&nbsp;
+</p>
+</th>
+</tr>
                         <!-- table border="1" -->
-<tr><th>Switches</th><th>Tracks</th><th>Signals</th></tr>
-<tr><td>
-<code>CP_Watsonville_S:901&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE</code><BR>
-<code>CP_Watsonville_S:903&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-<code>CP_Watsonville_S:905&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-<code>CP_Watsonville_S:907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL</code><BR>
-</td><td>
-<code>CP_Watsonville_S:901T1&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:LOOP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED</code><BR>
-</td><td>
-<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::RIGHT&nbsp;</code><BR>
-<code>CP_Watsonville_S:904&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::RIGHT&nbsp;</code><BR>
-</td></tr><!-- /table -->
-<p></p>
+<tr>
+<th>Switches
+</th>
+<th>Tracks
+</th>
+<th>Signals
+</th>
+</tr>
+<tr>
+<td>
+<code>CP_Watsonville_S:901&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::REVERSE
+</code>
+<BR>
+<code>CP_Watsonville_S:903&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+<code>CP_Watsonville_S:905&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+<code>CP_Watsonville_S:907&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+<code>CP_Watsonville_S:909&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SwitchDevice::NORMAL
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:901T1&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:LOOP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+<code>CP_Watsonville_S:YLAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TrackCircuitDevice::UNOCCUPIED
+</code>
+<BR>
+</td>
+<td>
+<code>CP_Watsonville_S:902&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::RIGHT&nbsp;
+</code>
+<BR>
+<code>CP_Watsonville_S:904&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SignalDevice::RIGHT&nbsp;
+</code>
+<BR>
+</td>
+</tr><!-- /table -->
+<p>
+</p>
 </table>
-</blockquote>
-<p>&nbsp;</p>
-</blockquote>
+<p>&nbsp;
+</p>
 
 <pre>
 Sketch uses 826074 bytes (63%) of program storage space. Maximum is 1310720 bytes.
@@ -1357,7 +1783,7 @@ Global variables use 46924 bytes (14%) of dynamic memory, leaving 280756 bytes f
  *     ************************************
  *        CP_Watsonville_S Field Unit    
  *     ************************************
- *     on: 2021-04-11 17:41
+ *     on: 2021-04-11 17:51
  * 
  *     South end of Watsonville Staging Yard.  MP 90
  * 
@@ -1405,7 +1831,7 @@ Global variables use 46924 bytes (14%) of dynamic memory, leaving 280756 bytes f
  *      Northbound Approach from LOOP: LOOP
  * 
  *     Possible routes:
- *         (A) Normal Operations NX:  eNter from Yard_n, exit on DT
+ *         (A) Normal Operations NX:  enter from Yard_n, exit on DT
  *             Leave Yard from ____________ via LOOP and Departure Track
  *                         Yard Track 1
  *                         Yard Track 2
@@ -1414,7 +1840,7 @@ Global variables use 46924 bytes (14%) of dynamic memory, leaving 280756 bytes f
  * 
  *             Set switches as desired, S2 RIGHT, S4 LEFT,FLEET
  * 
- *         (B) Infrequent, used during layout operations setup: eNter from DT, exit on Yard_n
+ *         (B) Infrequent, used during layout operations setup: enter from DT, exit on Yard_n
  *             Enter ____________ from Departure track and LOOP
  *               Yard Track 1
  *               Yard Track 2

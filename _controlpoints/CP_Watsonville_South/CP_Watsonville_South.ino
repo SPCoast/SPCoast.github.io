@@ -16,7 +16,7 @@
  *     ************************************
  *        CP_Watsonville_S Field Unit    
  *     ************************************
- *     on: 2021-04-11 17:41
+ *     on: 2021-04-11 17:51
  * 
  *     South end of Watsonville Staging Yard.  MP 90
  * 
@@ -64,7 +64,7 @@
  *      Northbound Approach from LOOP: LOOP
  * 
  *     Possible routes:
- *         (A) Normal Operations NX:  eNter from Yard_n, exit on DT
+ *         (A) Normal Operations NX:  enter from Yard_n, exit on DT
  *             Leave Yard from ____________ via LOOP and Departure Track
  *                         Yard Track 1
  *                         Yard Track 2
@@ -73,7 +73,7 @@
  * 
  *             Set switches as desired, S2 RIGHT, S4 LEFT,FLEET
  * 
- *         (B) Infrequent, used during layout operations setup: eNter from DT, exit on Yard_n
+ *         (B) Infrequent, used during layout operations setup: enter from DT, exit on Yard_n
  *             Enter ____________ from Departure track and LOOP
  *               Yard Track 1
  *               Yard Track 2

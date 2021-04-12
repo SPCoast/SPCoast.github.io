@@ -79,75 +79,480 @@ artifacts:
 <blockquote>
 <table border=1 style="font-family: monospace;width: 80%;">
 <tr>
-    <th colspan="9"> Controls for CP_Watsonville_S</th>
+<th colspan="9"> Controls for CP_Watsonville_S
+</th>
 </tr>
 <tr>
-    <th> Byte </td> <td align="center">bit 0    </th> <td align="center"> bit 1    </th> <td align="center"> bit 2    </th> <td align="center"> bit 3    </th> <td align="center"> bit 4    </th> <td align="center"> bit 5    </th> <td align="center"> bit 6    </th> <td align="center"> bit 7   </td>
+<th> Byte
+</th>
+<td align="center">bit 0   
+</th>
+<td align="center"> bit 1   
+</th>
+<td align="center"> bit 2   
+</th>
+<td align="center"> bit 3   
+</th>
+<td align="center"> bit 4   
+</th>
+<td align="center"> bit 5   
+</th>
+<td align="center"> bit 6   
+</th>
+<td align="center"> bit 7   
+</td>
 </tr>
 <tr>
-    <th> 0    </th>   <td align="center"> 901NWS   </td> <td align="center"> 901RWS   </td> <td align="center"> 903NWS   </td> <td align="center"> 903RWS   </td> <td align="center"> 905NWS   </td> <td align="center"> 905RWS   </td> <td align="center"> 907NWS   </td> <td align="center"> 907RWS  </td>
+<th> 0 
+</th>  
+<td align="center"> 901NWS  
+</td>
+<td align="center"> 901RWS  
+</td>
+<td align="center"> 903NWS  
+</td>
+<td align="center"> 903RWS  
+</td>
+<td align="center"> 905NWS  
+</td>
+<td align="center"> 905RWS  
+</td>
+<td align="center"> 907NWS  
+</td>
+<td align="center"> 907RWS  
+</td>
 </tr>
 <tr>
-    <th> 1    </th>   <td align="center"> 909NWS   </td> <td align="center"> 909RWS   </td> <td align="center"> 902SGS   </td> <td align="center"> 902NGS   </td> <td align="center"> 902HS    </td> <td align="center"> 904SGS   </td> <td align="center"> 904NGS   </td> <td align="center"> 904HS   </td>
+<th> 1 
+</th>  
+<td align="center"> 909NWS  
+</td>
+<td align="center"> 909RWS  
+</td>
+<td align="center"> 902SGS  
+</td>
+<td align="center"> 902NGS  
+</td>
+<td align="center"> 902HS   
+</td>
+<td align="center"> 904SGS  
+</td>
+<td align="center"> 904NGS  
+</td>
+<td align="center"> 904HS   
+</td>
 </tr>
 <tr>
-    <th> 2    </th>   <td align="center"> RPONS    </td> <td align="center"> RPOFFS   </td> <td align="center"> BPONS    </td> <td align="center"> BPOFFS   </td> <td align="center"> - - -    </td> <td align="center"> - - -    </td> <td align="center"> - - -    </td> <td align="center"> MC1S    </td>
+<th> 2 
+</th>  
+<td align="center"> RPONS   
+</td>
+<td align="center"> RPOFFS  
+</td>
+<td align="center"> BPONS   
+</td>
+<td align="center"> BPOFFS  
+</td>
+<td align="center"> - - -   
+</td>
+<td align="center"> - - -   
+</td>
+<td align="center"> - - -   
+</td>
+<td align="center"> MC1S    
+</td>
 </tr>
 </table>
 </blockquote>
 <blockquote>
 <table border=1 style="font-family: monospace;width: 80%;">
 <tr>
-    <th colspan="9"> Indications for CP_Watsonville_S</th>
+<th colspan="9"> Indications for CP_Watsonville_S
+</th>
 </tr>
 <tr>
-    <th> Byte </td> <td align="center">bit 0    </th> <td align="center"> bit 1    </th> <td align="center"> bit 2    </th> <td align="center"> bit 3    </th> <td align="center"> bit 4    </th> <td align="center"> bit 5    </th> <td align="center"> bit 6    </th> <td align="center"> bit 7   </td>
+<th> Byte
+</th>
+<td align="center">bit 0   
+</th>
+<td align="center"> bit 1   
+</th>
+<td align="center"> bit 2   
+</th>
+<td align="center"> bit 3   
+</th>
+<td align="center"> bit 4   
+</th>
+<td align="center"> bit 5   
+</th>
+<td align="center"> bit 6   
+</th>
+<td align="center"> bit 7   
+</td>
 </tr>
 <tr>
-    <th> 0    </th>   <td align="center"> 901NWK   </td> <td align="center"> 901RWK   </td> <td align="center"> 903NWK   </td> <td align="center"> 903RWK   </td> <td align="center"> 905NWK   </td> <td align="center"> 905RWK   </td> <td align="center"> 907NWK   </td> <td align="center"> 907RWK  </td>
+<th> 0 
+</th>  
+<td align="center"> 901NWK  
+</td>
+<td align="center"> 901RWK  
+</td>
+<td align="center"> 903NWK  
+</td>
+<td align="center"> 903RWK  
+</td>
+<td align="center"> 905NWK  
+</td>
+<td align="center"> 905RWK  
+</td>
+<td align="center"> 907NWK  
+</td>
+<td align="center"> 907RWK  
+</td>
 </tr>
 <tr>
-    <th> 1    </th>   <td align="center"> 909NWK   </td> <td align="center"> 909RWK   </td> <td align="center"> 902SGK   </td> <td align="center"> 902NGK   </td> <td align="center"> 902TEK   </td> <td align="center"> 904SGK   </td> <td align="center"> 904NGK   </td> <td align="center"> 904TEK  </td>
+<th> 1 
+</th>  
+<td align="center"> 909NWK  
+</td>
+<td align="center"> 909RWK  
+</td>
+<td align="center"> 902SGK  
+</td>
+<td align="center"> 902NGK  
+</td>
+<td align="center"> 902TEK  
+</td>
+<td align="center"> 904SGK  
+</td>
+<td align="center"> 904NGK  
+</td>
+<td align="center"> 904TEK  
+</td>
 </tr>
 <tr>
-    <th> 2    </th>   <td align="center"> 901T1K   </td> <td align="center"> 903T1K   </td> <td align="center"> 905T1K   </td> <td align="center"> 907T1K   </td> <td align="center"> 909T1K   </td> <td align="center"> 903T2K   </td> <td align="center"> 905T2K   </td> <td align="center"> 907T2K  </td>
+<th> 2 
+</th>  
+<td align="center"> 901T1K  
+</td>
+<td align="center"> 903T1K  
+</td>
+<td align="center"> 905T1K  
+</td>
+<td align="center"> 907T1K  
+</td>
+<td align="center"> 909T1K  
+</td>
+<td align="center"> 903T2K  
+</td>
+<td align="center"> 905T2K  
+</td>
+<td align="center"> 907T2K  
+</td>
 </tr>
 <tr>
-    <th> 3    </th>   <td align="center"> 909T2K   </td> <td align="center"> 903T3K   </td> <td align="center"> 905T3K   </td> <td align="center"> 907T3K   </td> <td align="center"> 909T3K   </td> <td align="center"> - - -    </td> <td align="center"> - - -    </td> <td align="center"> - - -   </td>
+<th> 3 
+</th>  
+<td align="center"> 909T2K  
+</td>
+<td align="center"> 903T3K  
+</td>
+<td align="center"> 905T3K  
+</td>
+<td align="center"> 907T3K  
+</td>
+<td align="center"> 909T3K  
+</td>
+<td align="center"> - - -   
+</td>
+<td align="center"> - - -   
+</td>
+<td align="center"> - - -   
+</td>
 </tr>
 <tr>
-    <th> 4    </th>   <td align="center"> 1SATK    </td> <td align="center"> 2SATK    </td> <td align="center"> 3SATK    </td> <td align="center"> 4SATK    </td> <td align="center"> 1SAATK   </td> <td align="center"> 2SAATK   </td> <td align="center"> 3SAATK   </td> <td align="center"> 4SAATK  </td>
+<th> 4 
+</th>  
+<td align="center"> 1SATK   
+</td>
+<td align="center"> 2SATK   
+</td>
+<td align="center"> 3SATK   
+</td>
+<td align="center"> 4SATK   
+</td>
+<td align="center"> 1SAATK  
+</td>
+<td align="center"> 2SAATK  
+</td>
+<td align="center"> 3SAATK  
+</td>
+<td align="center"> 4SAATK  
+</td>
 </tr>
 <tr>
-    <th> 5    </th>   <td align="center"> - - -    </td> <td align="center"> DATK     </td> <td align="center"> YLADK    </td> <td align="center"> - - -    </td> <td align="center"> - - -    </td> <td align="center"> - - -    </td> <td align="center"> - - -    </td> <td align="center"> MC1K    </td>
+<th> 5 
+</th>  
+<td align="center"> - - -   
+</td>
+<td align="center"> DATK    
+</td>
+<td align="center"> YLADK   
+</td>
+<td align="center"> - - -   
+</td>
+<td align="center"> - - -   
+</td>
+<td align="center"> - - -   
+</td>
+<td align="center"> - - -   
+</td>
+<td align="center"> MC1K    
+</td>
 </tr>
 <tr>
-    <th> 6    </th>   <td align="center"> RSHORTK  </td> <td align="center"> RTONK    </td> <td align="center"> ROCCK    </td> <td align="center"> ROFFK    </td> <td align="center"> BSHORTK  </td> <td align="center"> BTONK    </td> <td align="center"> BOCCK    </td> <td align="center"> BOFFK   </td>
+<th> 6 
+</th>  
+<td align="center"> RSHORTK 
+</td>
+<td align="center"> RTONK   
+</td>
+<td align="center"> ROCCK   
+</td>
+<td align="center"> ROFFK   
+</td>
+<td align="center"> BSHORTK 
+</td>
+<td align="center"> BTONK   
+</td>
+<td align="center"> BOCCK   
+</td>
+<td align="center"> BOFFK   
+</td>
 </tr>
 </table>
 </blockquote>
 <blockquote>
 <table border=1 style="font-family: monospace;width: 80%;">
 <tr>
-    <th colspan="17"> FieldUnit for CP_Watsonville_S</th>
+<th colspan="17"> FieldUnit for CP_Watsonville_S
+</th>
 </tr>
 <tr>
-    <th> Expander </td> <td align="center">bit 0    </th> <td align="center"> bit 1    </th> <td align="center"> bit 2    </th> <td align="center"> bit 3    </th> <td align="center"> bit 4    </th> <td align="center"> bit 5    </th> <td align="center"> bit 6    </th> <td align="center"> bit 7    </th> <td align="center"> bit 8    </th> <td align="center"> bit 9    </th> <td align="center"> bit 10   </th> <td align="center"> bit 11   </th> <td align="center"> bit 12   </th> <td align="center"> bit 13   </th> <td align="center"> bit 14   </th> <td align="center"> bit 15  </td>
+<th> Expander
+</th>
+<td align="center">bit 0   
+</th>
+<td align="center"> bit 1   
+</th>
+<td align="center"> bit 2   
+</th>
+<td align="center"> bit 3   
+</th>
+<td align="center"> bit 4   
+</th>
+<td align="center"> bit 5   
+</th>
+<td align="center"> bit 6   
+</th>
+<td align="center"> bit 7   
+</th>
+<td align="center"> bit 8   
+</th>
+<td align="center"> bit 9   
+</th>
+<td align="center"> bit 10  
+</th>
+<td align="center"> bit 11  
+</th>
+<td align="center"> bit 12  
+</th>
+<td align="center"> bit 13  
+</th>
+<td align="center"> bit 14  
+</th>
+<td align="center"> bit 15  
+</td>
 </tr>
 <tr>
-    <th> 0    </th>   <td align="center"> i 901NW  </td> <td align="center"> i 901RW  </td> <td align="center"> i 901T1  </td> <td align="center"> o T901   </td> <td align="center"> i 903NW  </td> <td align="center"> i 903RW  </td> <td align="center"> i 903T1  </td> <td align="center"> o T903   </td> <td align="center"> i 905NW  </td> <td align="center"> i 905RW  </td> <td align="center"> i 905T1  </td> <td align="center"> o T905   </td> <td align="center"> i 907NW  </td> <td align="center"> i 907RW  </td> <td align="center"> i 907T1  </td> <td align="center"> o T907  </td>
+<th> 0 
+</th>  
+<td align="center"> i 901NW 
+</td>
+<td align="center"> i 901RW 
+</td>
+<td align="center"> i 901T1 
+</td>
+<td align="center"> o T901  
+</td>
+<td align="center"> i 903NW 
+</td>
+<td align="center"> i 903RW 
+</td>
+<td align="center"> i 903T1 
+</td>
+<td align="center"> o T903  
+</td>
+<td align="center"> i 905NW 
+</td>
+<td align="center"> i 905RW 
+</td>
+<td align="center"> i 905T1 
+</td>
+<td align="center"> o T905  
+</td>
+<td align="center"> i 907NW 
+</td>
+<td align="center"> i 907RW 
+</td>
+<td align="center"> i 907T1 
+</td>
+<td align="center"> o T907  
+</td>
 </tr>
 <tr>
-    <th> 1    </th>   <td align="center"> i 909NW  </td> <td align="center"> i 909RW  </td> <td align="center"> i 909T1  </td> <td align="center"> o T909   </td> <td align="center"> i RSHORT </td> <td align="center"> i RTON   </td> <td align="center"> i ROCC   </td> <td align="center"> o ROFF   </td> <td align="center"> i BSHORT </td> <td align="center"> i BTON   </td> <td align="center"> i BOCC   </td> <td align="center"> o BOFF   </td> <td align="center"> o MC1    </td> <td align="center"> o XO11   </td> <td align="center"> o XO12   </td> <td align="center"> o XO13  </td>
+<th> 1 
+</th>  
+<td align="center"> i 909NW 
+</td>
+<td align="center"> i 909RW 
+</td>
+<td align="center"> i 909T1 
+</td>
+<td align="center"> o T909  
+</td>
+<td align="center"> i RSHORT
+</td>
+<td align="center"> i RTON  
+</td>
+<td align="center"> i ROCC  
+</td>
+<td align="center"> o ROFF  
+</td>
+<td align="center"> i BSHORT
+</td>
+<td align="center"> i BTON  
+</td>
+<td align="center"> i BOCC  
+</td>
+<td align="center"> o BOFF  
+</td>
+<td align="center"> o MC1   
+</td>
+<td align="center"> o XO11  
+</td>
+<td align="center"> o XO12  
+</td>
+<td align="center"> o XO13  
+</td>
 </tr>
 <tr>
-    <th> 2    </th>   <td align="center"> i YLT    </td> <td align="center"> i DAT    </td> <td align="center"> i XI22   </td> <td align="center"> i XI23   </td> <td align="center"> i 903T2  </td> <td align="center"> i 905T2  </td> <td align="center"> i 907T2  </td> <td align="center"> i 909T2  </td> <td align="center"> i 903T3  </td> <td align="center"> i 905T3  </td> <td align="center"> i 907T3  </td> <td align="center"> i 909T3  </td> <td align="center"> i 1SAT   </td> <td align="center"> i 2SAT   </td> <td align="center"> i 3SAT   </td> <td align="center"> i 4SAT  </td>
+<th> 2 
+</th>  
+<td align="center"> i YLT   
+</td>
+<td align="center"> i DAT   
+</td>
+<td align="center"> i XI22  
+</td>
+<td align="center"> i XI23  
+</td>
+<td align="center"> i 903T2 
+</td>
+<td align="center"> i 905T2 
+</td>
+<td align="center"> i 907T2 
+</td>
+<td align="center"> i 909T2 
+</td>
+<td align="center"> i 903T3 
+</td>
+<td align="center"> i 905T3 
+</td>
+<td align="center"> i 907T3 
+</td>
+<td align="center"> i 909T3 
+</td>
+<td align="center"> i 1SAT  
+</td>
+<td align="center"> i 2SAT  
+</td>
+<td align="center"> i 3SAT  
+</td>
+<td align="center"> i 4SAT  
+</td>
 </tr>
 <tr>
-    <th> 3    </th>   <td align="center"> i 1SAAT  </td> <td align="center"> i 2SAAT  </td> <td align="center"> i 3SAAT  </td> <td align="center"> i 4SAAT  </td> <td align="center"> o 902NAB1 </td> <td align="center"> o 902NAB2 </td> <td align="center"> o 902NAB3 </td> <td align="center"> o 902NAB4 </td> <td align="center"> o 902SA1 </td> <td align="center"> o 902SA2 </td> <td align="center"> o 902SB1 </td> <td align="center"> o 902SB2 </td> <td align="center"> o 902SC1 </td> <td align="center"> o 902SC2 </td> <td align="center"> o 902SD1 </td> <td align="center"> o 902SD2</td>
+<th> 3 
+</th>  
+<td align="center"> i 1SAAT 
+</td>
+<td align="center"> i 2SAAT 
+</td>
+<td align="center"> i 3SAAT 
+</td>
+<td align="center"> i 4SAAT 
+</td>
+<td align="center"> o 902NAB1
+</td>
+<td align="center"> o 902NAB2
+</td>
+<td align="center"> o 902NAB3
+</td>
+<td align="center"> o 902NAB4
+</td>
+<td align="center"> o 902SA1
+</td>
+<td align="center"> o 902SA2
+</td>
+<td align="center"> o 902SB1
+</td>
+<td align="center"> o 902SB2
+</td>
+<td align="center"> o 902SC1
+</td>
+<td align="center"> o 902SC2
+</td>
+<td align="center"> o 902SD1
+</td>
+<td align="center"> o 902SD2
+</td>
 </tr>
 <tr>
-    <th> 4    </th>   <td align="center"> o 904NA1 </td> <td align="center"> o 904NA2 </td> <td align="center"> - - -    </td> <td align="center"> - - -    </td> <td align="center"> o 904SAB1 </td> <td align="center"> o 904SAB2 </td> <td align="center"> o 904SAB3 </td> <td align="center"> o 904SAB4 </td> <td align="center"> - - -    </td> <td align="center"> - - -    </td> <td align="center"> - - -    </td> <td align="center"> - - -    </td> <td align="center"> - - -    </td> <td align="center"> - - -    </td> <td align="center"> - - -    </td> <td align="center"> - - -   </td>
+<th> 4 
+</th>  
+<td align="center"> o 904NA1
+</td>
+<td align="center"> o 904NA2
+</td>
+<td align="center"> - - -   
+</td>
+<td align="center"> - - -   
+</td>
+<td align="center"> o 904SAB1
+</td>
+<td align="center"> o 904SAB2
+</td>
+<td align="center"> o 904SAB3
+</td>
+<td align="center"> o 904SAB4
+</td>
+<td align="center"> - - -   
+</td>
+<td align="center"> - - -   
+</td>
+<td align="center"> - - -   
+</td>
+<td align="center"> - - -   
+</td>
+<td align="center"> - - -   
+</td>
+<td align="center"> - - -   
+</td>
+<td align="center"> - - -   
+</td>
+<td align="center"> - - -   
+</td>
 </tr>
 </table>
 </blockquote>
@@ -714,7 +1119,7 @@ Global variables use 46924 bytes (14%) of dynamic memory, leaving 280756 bytes f
  *     ************************************
  *        CP_Watsonville_S Field Unit    
  *     ************************************
- *     on: 2021-04-09 15:14
+ *     on: 2021-04-11 17:16
  * 
  *     South end of Watsonville Staging Yard.  MP 90
  * 

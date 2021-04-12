@@ -1,0 +1,4 @@
+{
+"cpu": { "fqbn":"esp32:esp32:esp32doit-devkit-v1", "port":"CP_Watsonville_S" }
+}
+

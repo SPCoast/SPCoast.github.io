@@ -558,271 +558,509 @@ artifacts:
 </blockquote>
 <blockquote>
 <table border=1 style="font-family: monospace; width: 80%;">
-<tr> <th colspan="11" style="text-align:center;"> Expanders Wiring for CP_Watsonville_S </th> </tr>
 <tr>
-    <th>  #  </th><th>  Device
- </th><th>  i2c
- </th><th>  Bit
- </th><th>  Signal
- </th><th>  Bit
- </th><th>  Signal
- </th><th>  Bit
- </th><th>  Signal
- </th><th>  Bit
- </th><th>  Signal
+<th colspan="11" style="text-align:center;"> Expanders Wiring for CP_Watsonville_S
+</th>
 </tr>
 <tr>
-    <th rowspan=4> 0 </th><th rowspan=4>   MCP23017 </th><th rowspan=4> 0x00 </th>
-<td> 12 </td>
-<td> i 907NW </td>
-<td> 8 </td>
-<td> i 905NW </td>
-<td> 4 </td>
-<td> i 903NW </td>
-<td> 0 </td>
-<td> i 901NW </td>
-</tr>
-<!-- row span -->
-<td> 13 </td>
-<td> i 907RW </td>
-<td> 9 </td>
-<td> i 905RW </td>
-<td> 5 </td>
-<td> i 903RW </td>
-<td> 1 </td>
-<td> i 901RW </td>
-</tr>
-<!-- row span -->
-<td> 14 </td>
-<td> i 907T1 </td>
-<td> 10 </td>
-<td> i 905T1 </td>
-<td> 6 </td>
-<td> i 903T1 </td>
-<td> 2 </td>
-<td> i 901T1 </td>
-</tr>
-<!-- row span -->
-<td> 15 </td>
-<td> o T907 </td>
-<td> 11 </td>
-<td> o T905 </td>
-<td> 7 </td>
-<td> o T903 </td>
-<td> 3 </td>
-<td> o T901 </td>
+<th>  # </th>
+<th>  Device
+</th>
+<th>  i2c
+</th>
+<th>  Bit
+</th>
+<th>  Signal
+</th>
+<th>  Bit
+</th>
+<th>  Signal
+</th>
+<th>  Bit
+</th>
+<th>  Signal
+</th>
+<th>  Bit
+</th>
+<th>  Signal
 </tr>
 <tr>
-    <th>  #  </th><th>  Device
- </th><th>  i2c
- </th><th>  Bit
- </th><th>  Signal
- </th><th>  Bit
- </th><th>  Signal
- </th><th>  Bit
- </th><th>  Signal
- </th><th>  Bit
- </th><th>  Signal
+<th rowspan=4> 0
+</th>
+<th rowspan=4>   MCP23017
+</th>
+<th rowspan=4> 0x00 
+</th>
+<td> 12 
+</td>
+<td> i 907NW 
+</td>
+<td> 8 
+</td>
+<td> i 905NW 
+</td>
+<td> 4 
+</td>
+<td> i 903NW 
+</td>
+<td> 0 
+</td>
+<td> i 901NW 
+</td>
+</tr>
+<!-- row span -->
+<td> 13 
+</td>
+<td> i 907RW 
+</td>
+<td> 9 
+</td>
+<td> i 905RW 
+</td>
+<td> 5 
+</td>
+<td> i 903RW 
+</td>
+<td> 1 
+</td>
+<td> i 901RW 
+</td>
+</tr>
+<!-- row span -->
+<td> 14 
+</td>
+<td> i 907T1 
+</td>
+<td> 10 
+</td>
+<td> i 905T1 
+</td>
+<td> 6 
+</td>
+<td> i 903T1 
+</td>
+<td> 2 
+</td>
+<td> i 901T1 
+</td>
+</tr>
+<!-- row span -->
+<td> 15 
+</td>
+<td> o T907 
+</td>
+<td> 11 
+</td>
+<td> o T905 
+</td>
+<td> 7 
+</td>
+<td> o T903 
+</td>
+<td> 3 
+</td>
+<td> o T901 
+</td>
 </tr>
 <tr>
-    <th rowspan=4> 1 </th><th rowspan=4>   MCP23017 </th><th rowspan=4> 0x01 </th>
-<td> 12 </td>
-<td> o MC1 </td>
-<td> 8 </td>
-<td> i BSHORT </td>
-<td> 4 </td>
-<td> i RSHORT </td>
-<td> 0 </td>
-<td> i 909NW </td>
-</tr>
-<!-- row span -->
-<td> 13 </td>
-<td> o XO11 </td>
-<td> 9 </td>
-<td> i BTON </td>
-<td> 5 </td>
-<td> i RTON </td>
-<td> 1 </td>
-<td> i 909RW </td>
-</tr>
-<!-- row span -->
-<td> 14 </td>
-<td> o XO12 </td>
-<td> 10 </td>
-<td> i BOCC </td>
-<td> 6 </td>
-<td> i ROCC </td>
-<td> 2 </td>
-<td> i 909T1 </td>
-</tr>
-<!-- row span -->
-<td> 15 </td>
-<td> o XO13 </td>
-<td> 11 </td>
-<td> o BOFF </td>
-<td> 7 </td>
-<td> o ROFF </td>
-<td> 3 </td>
-<td> o T909 </td>
+<th>  # </th>
+<th>  Device
+</th>
+<th>  i2c
+</th>
+<th>  Bit
+</th>
+<th>  Signal
+</th>
+<th>  Bit
+</th>
+<th>  Signal
+</th>
+<th>  Bit
+</th>
+<th>  Signal
+</th>
+<th>  Bit
+</th>
+<th>  Signal
 </tr>
 <tr>
-    <th>  #  </th><th>  Device
- </th><th>  i2c
- </th><th>  Bit
- </th><th>  Signal
- </th><th>  Bit
- </th><th>  Signal
- </th><th>  Bit
- </th><th>  Signal
- </th><th>  Bit
- </th><th>  Signal
+<th rowspan=4> 1
+</th>
+<th rowspan=4>   MCP23017
+</th>
+<th rowspan=4> 0x01 
+</th>
+<td> 12 
+</td>
+<td> o MC1 
+</td>
+<td> 8 
+</td>
+<td> i BSHORT 
+</td>
+<td> 4 
+</td>
+<td> i RSHORT 
+</td>
+<td> 0 
+</td>
+<td> i 909NW 
+</td>
+</tr>
+<!-- row span -->
+<td> 13 
+</td>
+<td> o XO11 
+</td>
+<td> 9 
+</td>
+<td> i BTON 
+</td>
+<td> 5 
+</td>
+<td> i RTON 
+</td>
+<td> 1 
+</td>
+<td> i 909RW 
+</td>
+</tr>
+<!-- row span -->
+<td> 14 
+</td>
+<td> o XO12 
+</td>
+<td> 10 
+</td>
+<td> i BOCC 
+</td>
+<td> 6 
+</td>
+<td> i ROCC 
+</td>
+<td> 2 
+</td>
+<td> i 909T1 
+</td>
+</tr>
+<!-- row span -->
+<td> 15 
+</td>
+<td> o XO13 
+</td>
+<td> 11 
+</td>
+<td> o BOFF 
+</td>
+<td> 7 
+</td>
+<td> o ROFF 
+</td>
+<td> 3 
+</td>
+<td> o T909 
+</td>
 </tr>
 <tr>
-    <th rowspan=4> 2 </th><th rowspan=4>   MCP23017 </th><th rowspan=4> 0x02 </th>
-<td> 12 </td>
-<td> i 1SAT </td>
-<td> 8 </td>
-<td> i 903T3 </td>
-<td> 4 </td>
-<td> i 903T2 </td>
-<td> 0 </td>
-<td> i YLT </td>
-</tr>
-<!-- row span -->
-<td> 13 </td>
-<td> i 2SAT </td>
-<td> 9 </td>
-<td> i 905T3 </td>
-<td> 5 </td>
-<td> i 905T2 </td>
-<td> 1 </td>
-<td> i DAT </td>
-</tr>
-<!-- row span -->
-<td> 14 </td>
-<td> i 3SAT </td>
-<td> 10 </td>
-<td> i 907T3 </td>
-<td> 6 </td>
-<td> i 907T2 </td>
-<td> 2 </td>
-<td> i XI22 </td>
-</tr>
-<!-- row span -->
-<td> 15 </td>
-<td> i 4SAT </td>
-<td> 11 </td>
-<td> i 909T3 </td>
-<td> 7 </td>
-<td> i 909T2 </td>
-<td> 3 </td>
-<td> i XI23 </td>
+<th>  # </th>
+<th>  Device
+</th>
+<th>  i2c
+</th>
+<th>  Bit
+</th>
+<th>  Signal
+</th>
+<th>  Bit
+</th>
+<th>  Signal
+</th>
+<th>  Bit
+</th>
+<th>  Signal
+</th>
+<th>  Bit
+</th>
+<th>  Signal
 </tr>
 <tr>
-    <th>  #  </th><th>  Device
- </th><th>  i2c
- </th><th>  Bit
- </th><th>  Signal
- </th><th>  Bit
- </th><th>  Signal
- </th><th>  Bit
- </th><th>  Signal
- </th><th>  Bit
- </th><th>  Signal
+<th rowspan=4> 2
+</th>
+<th rowspan=4>   MCP23017
+</th>
+<th rowspan=4> 0x02 
+</th>
+<td> 12 
+</td>
+<td> i 1SAT 
+</td>
+<td> 8 
+</td>
+<td> i 903T3 
+</td>
+<td> 4 
+</td>
+<td> i 903T2 
+</td>
+<td> 0 
+</td>
+<td> i YLT 
+</td>
+</tr>
+<!-- row span -->
+<td> 13 
+</td>
+<td> i 2SAT 
+</td>
+<td> 9 
+</td>
+<td> i 905T3 
+</td>
+<td> 5 
+</td>
+<td> i 905T2 
+</td>
+<td> 1 
+</td>
+<td> i DAT 
+</td>
+</tr>
+<!-- row span -->
+<td> 14 
+</td>
+<td> i 3SAT 
+</td>
+<td> 10 
+</td>
+<td> i 907T3 
+</td>
+<td> 6 
+</td>
+<td> i 907T2 
+</td>
+<td> 2 
+</td>
+<td> i XI22 
+</td>
+</tr>
+<!-- row span -->
+<td> 15 
+</td>
+<td> i 4SAT 
+</td>
+<td> 11 
+</td>
+<td> i 909T3 
+</td>
+<td> 7 
+</td>
+<td> i 909T2 
+</td>
+<td> 3 
+</td>
+<td> i XI23 
+</td>
 </tr>
 <tr>
-    <th rowspan=4> 3 </th><th rowspan=4>   MCP23017 </th><th rowspan=4> 0x03 </th>
-<td> 12 </td>
-<td> o 902SC1 </td>
-<td> 8 </td>
-<td> o 902SA1 </td>
-<td> 4 </td>
-<td> o 902NAB1 </td>
-<td> 0 </td>
-<td> i 1SAAT </td>
-</tr>
-<!-- row span -->
-<td> 13 </td>
-<td> o 902SC2 </td>
-<td> 9 </td>
-<td> o 902SA2 </td>
-<td> 5 </td>
-<td> o 902NAB2 </td>
-<td> 1 </td>
-<td> i 2SAAT </td>
-</tr>
-<!-- row span -->
-<td> 14 </td>
-<td> o 902SD1 </td>
-<td> 10 </td>
-<td> o 902SB1 </td>
-<td> 6 </td>
-<td> o 902NAB3 </td>
-<td> 2 </td>
-<td> i 3SAAT </td>
-</tr>
-<!-- row span -->
-<td> 15 </td>
-<td> o 902SD2 </td>
-<td> 11 </td>
-<td> o 902SB2 </td>
-<td> 7 </td>
-<td> o 902NAB4 </td>
-<td> 3 </td>
-<td> i 4SAAT </td>
+<th>  # </th>
+<th>  Device
+</th>
+<th>  i2c
+</th>
+<th>  Bit
+</th>
+<th>  Signal
+</th>
+<th>  Bit
+</th>
+<th>  Signal
+</th>
+<th>  Bit
+</th>
+<th>  Signal
+</th>
+<th>  Bit
+</th>
+<th>  Signal
 </tr>
 <tr>
-    <th>  #  </th><th>  Device
- </th><th>  i2c
- </th><th>  Bit
- </th><th>  Signal
- </th><th>  Bit
- </th><th>  Signal
- </th><th>  Bit
- </th><th>  Signal
- </th><th>  Bit
- </th><th>  Signal
+<th rowspan=4> 3
+</th>
+<th rowspan=4>   MCP23017
+</th>
+<th rowspan=4> 0x03 
+</th>
+<td> 12 
+</td>
+<td> o 902SC1 
+</td>
+<td> 8 
+</td>
+<td> o 902SA1 
+</td>
+<td> 4 
+</td>
+<td> o 902NAB1 
+</td>
+<td> 0 
+</td>
+<td> i 1SAAT 
+</td>
+</tr>
+<!-- row span -->
+<td> 13 
+</td>
+<td> o 902SC2 
+</td>
+<td> 9 
+</td>
+<td> o 902SA2 
+</td>
+<td> 5 
+</td>
+<td> o 902NAB2 
+</td>
+<td> 1 
+</td>
+<td> i 2SAAT 
+</td>
+</tr>
+<!-- row span -->
+<td> 14 
+</td>
+<td> o 902SD1 
+</td>
+<td> 10 
+</td>
+<td> o 902SB1 
+</td>
+<td> 6 
+</td>
+<td> o 902NAB3 
+</td>
+<td> 2 
+</td>
+<td> i 3SAAT 
+</td>
+</tr>
+<!-- row span -->
+<td> 15 
+</td>
+<td> o 902SD2 
+</td>
+<td> 11 
+</td>
+<td> o 902SB2 
+</td>
+<td> 7 
+</td>
+<td> o 902NAB4 
+</td>
+<td> 3 
+</td>
+<td> i 4SAAT 
+</td>
 </tr>
 <tr>
-    <th rowspan=4> 4 </th><th rowspan=4>   MCP23017 </th><th rowspan=4> 0x04 </th>
-<td> 12 </td>
-<td> &nbsp;&nbsp;- - - </td>
-<td> 8 </td>
-<td> &nbsp;&nbsp;- - - </td>
-<td> 4 </td>
-<td> o 904SAB1 </td>
-<td> 0 </td>
-<td> o 904NA1 </td>
+<th>  # </th>
+<th>  Device
+</th>
+<th>  i2c
+</th>
+<th>  Bit
+</th>
+<th>  Signal
+</th>
+<th>  Bit
+</th>
+<th>  Signal
+</th>
+<th>  Bit
+</th>
+<th>  Signal
+</th>
+<th>  Bit
+</th>
+<th>  Signal
+</tr>
+<tr>
+<th rowspan=4> 4
+</th>
+<th rowspan=4>   MCP23017
+</th>
+<th rowspan=4> 0x04 
+</th>
+<td> 12 
+</td>
+<td> &nbsp;&nbsp;- - - 
+</td>
+<td> 8 
+</td>
+<td> &nbsp;&nbsp;- - - 
+</td>
+<td> 4 
+</td>
+<td> o 904SAB1 
+</td>
+<td> 0 
+</td>
+<td> o 904NA1 
+</td>
 </tr>
 <!-- row span -->
-<td> 13 </td>
-<td> &nbsp;&nbsp;- - - </td>
-<td> 9 </td>
-<td> &nbsp;&nbsp;- - - </td>
-<td> 5 </td>
-<td> o 904SAB2 </td>
-<td> 1 </td>
-<td> o 904NA2 </td>
+<td> 13 
+</td>
+<td> &nbsp;&nbsp;- - - 
+</td>
+<td> 9 
+</td>
+<td> &nbsp;&nbsp;- - - 
+</td>
+<td> 5 
+</td>
+<td> o 904SAB2 
+</td>
+<td> 1 
+</td>
+<td> o 904NA2 
+</td>
 </tr>
 <!-- row span -->
-<td> 14 </td>
-<td> &nbsp;&nbsp;- - - </td>
-<td> 10 </td>
-<td> &nbsp;&nbsp;- - - </td>
-<td> 6 </td>
-<td> o 904SAB3 </td>
-<td> 2 </td>
-<td> &nbsp;&nbsp;- - - </td>
+<td> 14 
+</td>
+<td> &nbsp;&nbsp;- - - 
+</td>
+<td> 10 
+</td>
+<td> &nbsp;&nbsp;- - - 
+</td>
+<td> 6 
+</td>
+<td> o 904SAB3 
+</td>
+<td> 2 
+</td>
+<td> &nbsp;&nbsp;- - - 
+</td>
 </tr>
 <!-- row span -->
-<td> 15 </td>
-<td> &nbsp;&nbsp;- - - </td>
-<td> 11 </td>
-<td> &nbsp;&nbsp;- - - </td>
-<td> 7 </td>
-<td> o 904SAB4 </td>
-<td> 3 </td>
-<td> &nbsp;&nbsp;- - - </td>
+<td> 15 
+</td>
+<td> &nbsp;&nbsp;- - - 
+</td>
+<td> 11 
+</td>
+<td> &nbsp;&nbsp;- - - 
+</td>
+<td> 7 
+</td>
+<td> o 904SAB4 
+</td>
+<td> 3 
+</td>
+<td> &nbsp;&nbsp;- - - 
+</td>
 </tr>
 </table>
 </blockquote>
@@ -1119,7 +1357,7 @@ Global variables use 46924 bytes (14%) of dynamic memory, leaving 280756 bytes f
  *     ************************************
  *        CP_Watsonville_S Field Unit    
  *     ************************************
- *     on: 2021-04-11 17:25
+ *     on: 2021-04-11 17:41
  * 
  *     South end of Watsonville Staging Yard.  MP 90
  * 

@@ -1,8 +1,8 @@
 ---
 isarduino: true
 sidebar: spcoast_sidebar
-title: MRCS_cpNode
-project: MRCS_cpNode
+title: MRCS_cpNode_kernel
+project: MRCS_cpNode_kernel
 author: Chuck Catania, John Plocher
 date:  2021
 status: released
@@ -32,8 +32,8 @@ overview: >
       * Eagle Project [MRCS MRCS-BBProMini](https://www.spcoast.com/pages/MRCS-BBProMini.html)
     
 artifacts:
-  - path: /sketches/MRCS_cpNode/MRCS_cpNode.ino
-    tag: MRCS_cpNode.ino
+  - path: /sketches/MRCS_cpNode_kernel/MRCS_cpNode_kernel.ino
+    tag: MRCS_cpNode_kernel.ino
     type: download
     post: Arduino Sketch
 ---
@@ -47,7 +47,7 @@ This is the code template for a CMRI serial protocol node implemented on an Ardu
   * v1.6 adds support for an Arduino Pro-Mini, although without the monitor serial port.
 
 
-## MRCS_cpNode SOURCE 
+## MRCS_cpNode_kernel SOURCE 
 
 ~~~ cpp
 /*==================================================================================

@@ -46,6 +46,11 @@ overview: >
       * Standard "Sketch" (Arduino program) is compatible with JMRI or traditional CMRI BASIC/Visual Basic development tools
     
     
+artifacts:
+  - path: /versions/MRCS-cpNode-ProMini/MRCS-cpNode-ProMini.SMD-parts.csv
+    tag: MRCS-cpNode-ProMini.SMD-parts
+    type: download
+    post: 
 ---
 
 

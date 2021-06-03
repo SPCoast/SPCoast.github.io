@@ -10,12 +10,20 @@ status: released
 release: yes
 tags: [eagle, MRCS, Processor, LCB]
 layout: eagle
-image_path: 1.0/MRCS-BBProMini-1.0.top.brd.png
+image_path: MRCS-BBProMini.top.brd.png
 tagline: A ProMini in a BBLeo form factor for use on MRCS cpNode
 overview: >
     
     Initial proof of concept
 artifacts:
+  - path: /versions/MRCS-BBProMini/MRCS-BBProMini.SMD-parts.csv
+    tag: MRCS-BBProMini.SMD-parts
+    type: download
+    post: 
+  - path: /versions/MRCS-BBProMini/MRCS-BBProMini_array.SMD-parts.csv
+    tag: MRCS-BBProMini_array.SMD-parts
+    type: download
+    post: 
   - path: /versions/MRCS-BBProMini/MRCS-BBProMini_array.scr
     tag: MRCS-BBProMini_array.scr
     type: download

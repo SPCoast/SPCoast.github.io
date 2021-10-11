@@ -51,6 +51,14 @@ artifacts:
     tag: MRCS-cpNode-ProMini.SMD-parts
     type: download
     post: 
+  - path: /versions/MRCS-cpNode-ProMini/MRCS-cpNode-ProMini.b##
+    tag: MRCS-cpNode-ProMini
+    type: download
+    post: 
+  - path: /versions/MRCS-cpNode-ProMini/MRCS-cpNode-ProMini.s##
+    tag: MRCS-cpNode-ProMini
+    type: download
+    post: 
 ---
 
 

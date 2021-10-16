@@ -11,7 +11,7 @@ permalink: arduino.html
 <H1>Arduino Sketches and Libraries</H1>
 <p>&nbsp;</p>
 
-{% assign projects=site.pages | where: "isarduino", true %}
+{% assign projects=site.pages | where: "isarduino", true | sort_natural %}
 {% assign projectcount=0 %}
 {% for p in projects %}
 {% assign projectcount = projectcount | plus: 1 %}

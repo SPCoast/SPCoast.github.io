@@ -11,7 +11,7 @@ permalink: spcoast_layout.html
 <H1>Control Points and Layout Documentation</H1>
 <p>&nbsp;</p>
 
-{% assign projects=site.pages | where: "iscontrolpoint", true %}
+{% assign projects=site.pages | where: "iscontrolpoint", true | sort_natural %}
 {% assign projectcount=0 %}
 {% for p in projects %}
 {% assign projectcount = projectcount | plus: 1 %}

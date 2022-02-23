@@ -48,10 +48,26 @@ images:
   - image_path: /versions/LocoShield/LocoShield-Graphic.png
     title: LocoShield-Graphic
 artifacts:
+  - path: /versions/LocoShield/LocoShield.SMD-parts.csv
+    tag: LocoShield.SMD-parts
+    type: download
+    post: 
   - path: /versions/LocoShield/LocoShield.pdf
     tag: LocoShield.pdf
     type: download
     post: Documentation
+  - path: /versions/LocoShield/LocoShield_array.SMD-parts.csv
+    tag: LocoShield_array.SMD-parts
+    type: download
+    post: 
+  - path: /versions/LocoShield/LocoShield_array.scr
+    tag: LocoShield_array.scr
+    type: download
+    post: Eagle SCRipt
+  - path: /versions/LocoShield/LocoShield~snap.scr
+    tag: LocoShield~snap.scr
+    type: download
+    post: Eagle SCRipt
   - path: /versions/LocoShield/gerb274x.cam
     tag: gerb274x
     type: download

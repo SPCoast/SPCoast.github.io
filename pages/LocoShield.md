@@ -53,14 +53,50 @@ images:
   - image_path: /versions/LocoShield/LocoShield-Graphic.png
     title: LocoShield-Graphic
 artifacts:
+  - path: /versions/LocoShield/LocoShield-BOM.csv
+    tag: LocoShield-BOM
+    type: download
+    post: 
+  - path: /versions/LocoShield/LocoShield-JLC-BOM.csv
+    tag: LocoShield-JLC-BOM
+    type: download
+    post: 
+  - path: /versions/LocoShield/LocoShield-JLC-BOM.numbers
+    tag: LocoShield-JLC-BOM
+    type: download
+    post: 
+  - path: /versions/LocoShield/LocoShield.CPL.csv
+    tag: LocoShield.CPL
+    type: download
+    post: 
   - path: /versions/LocoShield/LocoShield.SMD-parts.csv
     tag: LocoShield.SMD-parts
+    type: download
+    post: 
+  - path: /versions/LocoShield/LocoShield.parts.numbers
+    tag: LocoShield.parts
     type: download
     post: 
   - path: /versions/LocoShield/LocoShield.pdf
     tag: LocoShield.pdf
     type: download
     post: Documentation
+  - path: /versions/LocoShield/LocoShield_array-JLC-CPL.csv
+    tag: LocoShield_array-JLC-CPL
+    type: download
+    post: 
+  - path: /versions/LocoShield/LocoShield_array-JLC-CPL.numbers
+    tag: LocoShield_array-JLC-CPL
+    type: download
+    post: 
+  - path: /versions/LocoShield/LocoShield_array.JLC-BOM.csv
+    tag: LocoShield_array.JLC-BOM
+    type: download
+    post: 
+  - path: /versions/LocoShield/LocoShield_array.SMD-partlist.csv
+    tag: LocoShield_array.SMD-partlist
+    type: download
+    post: 
   - path: /versions/LocoShield/LocoShield_array.SMD-parts.csv
     tag: LocoShield_array.SMD-parts
     type: download

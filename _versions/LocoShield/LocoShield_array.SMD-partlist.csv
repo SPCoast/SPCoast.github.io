@@ -1,0 +1,15 @@
+Part,    Value,         Package
+"LED1X11, LED1X12, LED1X21, LED1X22", Blue,  0603-LED
+"Q1X11, Q1X12, Q1X21, Q1X22",         2N3904,        SOT23   
+"R1X11, R1X12, R1X21, R1X22",          82R,          0603-RES
+"R2X11, R2X12, R2X21, R2X22",         470R,          0603-RES
+"R3X11, R3X12, R3X21, R3X22",         150k,          0603-RES
+"R4X11, R4X12, R4X21, R4X22",           1k,          0603-RES
+"R5X11, R5X12, R5X21, R5X22",          27k,          0603-RES
+"R6X11, R6X12, R6X21, R6X22",          47R,          0603-RES
+"R7X11, R7X12, R7X21, R7X22",          4k7,          0603-RES
+"R8X11, R8X12, R8X21, R8X22",          47k,          0603-RES
+"R9X11, R9X12, R9X21, R9X22",         240k,          0603-RES
+"R10X11, R10X12, R10X21, R10X22",      39k,          0603-RES
+"U1X11, U1X12, U1X21, U1X22",         LM317LCDR,     SO08    
+"U2X11, U2X12, U2X21, U2X22",         LM393M,        SO08    

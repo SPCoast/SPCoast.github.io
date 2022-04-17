@@ -21,6 +21,26 @@ images:
   - image_path: /versions/IO4-IR-Detector-GBunza-Fingers/IO4-IR-Detector-GBunza-Fingers-Graphic.png
     title: IO4-IR-Detector-GBunza-Fingers-Graphic
 artifacts:
+  - path: /versions/IO4-IR-Detector-GBunza-Fingers/IO4-IR-Detector-GBunza-Fingers.JLC-BOM.csv
+    tag: IO4-IR-Detector-GBunza-Fingers.JLC-BOM
+    type: download
+    post: 
+  - path: /versions/IO4-IR-Detector-GBunza-Fingers/IO4-IR-Detector-GBunza-Fingers.JLC-BOM.numbers
+    tag: IO4-IR-Detector-GBunza-Fingers.JLC-BOM
+    type: download
+    post: 
+  - path: /versions/IO4-IR-Detector-GBunza-Fingers/IO4-IR-Detector-GBunza-Fingers.JLC-CPL.csv
+    tag: IO4-IR-Detector-GBunza-Fingers.JLC-CPL
+    type: download
+    post: 
+  - path: /versions/IO4-IR-Detector-GBunza-Fingers/IO4-IR-Detector-GBunza-Fingers.JLC-CPL.numbers
+    tag: IO4-IR-Detector-GBunza-Fingers.JLC-CPL
+    type: download
+    post: 
+  - path: /versions/IO4-IR-Detector-GBunza-Fingers/IO4-IR-Detector-GBunza-Fingers.SMD-parts.csv
+    tag: IO4-IR-Detector-GBunza-Fingers.SMD-parts
+    type: download
+    post: 
   - path: /versions/IO4-IR-Detector-GBunza-Fingers/PT19-21C-L41-TR8.pdf
     tag: PT19-21C-L41-TR8.pdf
     type: download

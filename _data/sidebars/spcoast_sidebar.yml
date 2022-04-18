@@ -20,6 +20,9 @@ entries:
     - title: SPCoast Layout
       url: /spcoast_layout.html
       output: web
+    - title: SPINS
+      url: /spins.html
+      output: web
     - title: cTc Machine construction
       url: /ctc.html
       output: web

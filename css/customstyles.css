@@ -145,6 +145,19 @@ td.projectlist {
 	width: 30%;
 }
 
+table .spinslist {
+	table-layout:fixed;
+	font-size:80%
+}
+th.spin {
+	width: 30%;
+	font-size:100%
+        background-color: #AAA;
+}
+td.spinslist {
+	width: 30%;
+}
+
 table > thead > tr > th,
 table > tbody > tr > th,
 table > tfoot > tr > th,

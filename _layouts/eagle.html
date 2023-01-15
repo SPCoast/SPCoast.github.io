@@ -194,7 +194,7 @@ layout: simple
 			{% endif %}
 			
             <p>DEBUG</p>
-		
+
                 {% if version.publish == "yes" %}
 					{% if version.artifacts != '' %}
 	                    {% for item in version.artifacts %}
@@ -210,7 +210,7 @@ layout: simple
 						<P>NO Artifacts</P>
 				    {% endif %}
 		        {% else %}
-					<P>UNPUBLISHED</P>
+					<P>UNPUBLISHED: publish={{ version.publish }}</P>
 				{% endif %}
 
     </div>

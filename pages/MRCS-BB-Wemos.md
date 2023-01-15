@@ -15,12 +15,21 @@ tagline: MRCS cpNode BB-Wemos
 overview: >
     WeMos board adapter for BB-Leo format to fit on cpNode
     
-    This board contains a Wemos D1 processor, 1A regulator, level shifters and an MCP23017 to provide a rough equivalent to a BB-Leo.
+    <p>This board contains
+    <ul>
+    <li> A Wemos D1 processor,</li>
+    <li> 1A regulator,</li>
+    <li> Level shifters and</li>
+    <li> An MCP23017</li>
+    </ul>
+    to provide a rough equivalent to a BB-Leo.
+    </p>
     
-    The Wemos D1 has considerably more code space than a ProMini/Leonardo
+    <p>The Wemos D1 has considerably more code space than a ProMini/Leonardo
     and could eventually support a "local fall back" mode when no CMRINet
-    is present and may support other protocols over WiFi.  It will use
-    John Plochers forthcoming cpNode sketch.
+    is present and may support other protocols over WiFi.  It can use
+    John Plocher's cpNode sketch.
+    </p>
     
     ## License: Creative Commons Attribution-NonCommercial-ShareAlike
 artifacts:

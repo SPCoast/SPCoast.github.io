@@ -32,15 +32,6 @@ overview: >
     </p>
     
     ## License: Creative Commons Attribution-NonCommercial-ShareAlike
-artifacts:
-  - path: /versions/MRCS-BB-Wemos/MRCS-BB-Wemos_array.scr
-    tag: MRCS-BB-Wemos_array.scr
-    type: download
-    post: Eagle SCRipt
-  - path: /versions/MRCS-BB-Wemos/Private-MRCS-BB-Wemos-BOM-20190829.xlsx
-    tag: Private-MRCS-BB-Wemos-BOM-20190829.xlsx
-    type: download
-    post: Spreadsheet
 ---
 
 ## Documentation

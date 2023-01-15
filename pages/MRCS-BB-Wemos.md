@@ -23,6 +23,23 @@ overview: >
     John Plochers forthcoming cpNode sketch.
     
     ## License: Creative Commons Attribution-NonCommercial-ShareAlike
+artifacts:
+  - path: /versions/MRCS-BB-Wemos/BB-Wemos BOM 20190829.xlsx
+    tag: BB-Wemos BOM 20190829.xlsx
+    type: download
+    post: Spreadsheet
+  - path: /versions/MRCS-BB-Wemos/MRCS-BB-Wemos Layout.pdf
+    tag: MRCS-BB-Wemos Layout.pdf
+    type: download
+    post: Documentation
+  - path: /versions/MRCS-BB-Wemos/MRCS-BB-Wemos Schematic.pdf
+    tag: MRCS-BB-Wemos Schematic.pdf
+    type: download
+    post: Documentation
+  - path: /versions/MRCS-BB-Wemos/MRCS-BB-Wemos_array.scr
+    tag: MRCS-BB-Wemos_array.scr
+    type: download
+    post: Eagle SCRipt
 ---
 
 ## Documentation

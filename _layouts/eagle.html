@@ -120,13 +120,13 @@ layout: simple
         {% elsif version.status == "broken" %}
                 {% capture heading %} {% include note.html content="Abandoned" %} {% endcapture %}
         {% elsif version.status == "experimental" %}
-		    {% if version.publish == "yes" %}
+		    {% if version.publish == true %}
                 {% capture heading %} {% include note.html content="Experimental design, work in progress" %} {% endcapture %}
 			{% else %}
                 {% capture heading %} {% include note.html content="Experimental design, not released" %} {% endcapture %}
 			{% endif %}
         {% else %}
-			{% if version.publish == "yes" %}
+			{% if version.publish == true %}
                 {% capture heading %} {% include callout.html type="warning" content="Not tested or validated" %} {% endcapture %}
 		    {% else %}
                 {% capture heading %} {% include callout.html type="warning" content="Not released" %} {% endcapture %}
@@ -195,7 +195,7 @@ layout: simple
 			
             <p>DEBUG</p>
 
-                {% if version.publish == "yes" %}
+                {% if version.publish == true %}
 					{% if version.artifacts != '' %}
 	                    {% for item in version.artifacts %}
 	                                {% if item.type == "download" %}

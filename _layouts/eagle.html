@@ -53,6 +53,7 @@ layout: simple
 <p> {{ page.tagline }}</p>
 	{% if page.overview != '' %}
 		<p> {{ page.overview | markdownify }}</p>
+     {% endif %}}
 
 {% assign count=0 %}
 {% if page.images != '' %}

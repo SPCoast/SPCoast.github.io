@@ -49,6 +49,9 @@ layout: simple
 {% endif %}
 
 <p> {{ page.tagline }}</p>
+	{% if page.overview != '' %}
+		<p> {{ page.overview | markdownify }}</p>
+
 {% assign count=0 %}
 {% if page.images != '' %}
 <table><tr>

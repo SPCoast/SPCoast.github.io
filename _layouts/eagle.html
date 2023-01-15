@@ -50,7 +50,7 @@ layout: simple
 
 <p> DEBUG Ver B</p>
 <pre>{{ page }} </pre>
-<p> {{ page.tagline }}</p>
+<p> TAG: {{ page.tagline }} </p>
 	{% if page.overview != '' %}
 		<p> {{ page.overview | markdownify }}</p>
      {% endif %}}

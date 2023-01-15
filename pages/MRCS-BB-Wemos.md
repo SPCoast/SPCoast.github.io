@@ -23,19 +23,6 @@ overview: >
     John Plochers forthcoming cpNode sketch.
     
     ## License: Creative Commons Attribution-NonCommercial-ShareAlike
-artifacts:
-  - path: /versions/MRCS-BB-Wemos/MRCS-BB-Wemos Layout.pdf
-    tag: MRCS-BB-Wemos PCB Layout.pdf
-    type: download
-    post: Documentation
-  - path: /versions/MRCS-BB-Wemos/MRCS-BB-Wemos Schematic.pdf
-    tag: MRCS-BB-Wemos Schematic.pdf
-    type: download
-    post: Documentation
-  - path: /versions/MRCS-BB-Wemos/MRCS-BB-Wemos.SMD-parts.csv
-    tag: MRCS-BB-Wemos.SMD-parts
-    type: download
-    post: Parts List
 ---
 
 ## Documentation

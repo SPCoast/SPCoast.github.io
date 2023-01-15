@@ -205,8 +205,12 @@ layout: simple
 	                    {% endfor %}
 	                    <p>&nbsp;</p>
 	                    <p>{{ version.content | markdownify }}</p>
-	                {% endif %}
-                {% endif %}
+	                {% else %}}
+						<P>NO Artifacts</P>
+				    {% endif %}
+		        {% else %}
+					<P>UNPUBLISHED</P>
+				{% endif %}
 
     </div>
     {% endfor %}

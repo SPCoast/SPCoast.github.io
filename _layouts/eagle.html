@@ -53,27 +53,26 @@ layout: simple
 <p> TAG: {{ page.tagline }} </p>
 	{% if page.overview != '' %}
 		<p> {{ page.overview | markdownify }}</p>
-     {% endif %}}
+     {% endif %}
 
 {% assign count=0 %}
 {% if page.images != '' %}
 <table><tr>
 {% for image in page.images %}
-<td>
-	<figure>
-	   <a href="{{ image.image_path }}">
-	   <img src="{{ image.image_path }}" style="max-width: 100;" width="100" 
-	      alt="{{ image.title }}"/>
-	   </a>
-	   <figcaption>{{ image.title }}</figcaption>
-	</figure>
-</td>
-{% assign count = count | plus: 1 %}
-{% if count == 4 %}
-{% assign count=0 %}
-</tr><tr>
-{% endif %}
-
+	<td>
+		<figure>
+		   <a href="{{ image.image_path }}">
+		   <img src="{{ image.image_path }}" style="max-width: 100;" width="100"
+			  alt="{{ image.title }}"/>
+		   </a>
+		   <figcaption>{{ image.title }}</figcaption>
+		</figure>
+	</td>
+	{% assign count = count | plus: 1 %}
+	{% if count == 4 %}
+		{% assign count=0 %}
+		</tr><tr>
+	{% endif %}
 {% endfor %}
 </tr></table>
 <p>&nbsp;</p>

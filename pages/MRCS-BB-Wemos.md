@@ -24,12 +24,8 @@ overview: >
     
     ## License: Creative Commons Attribution-NonCommercial-ShareAlike
 artifacts:
-  - path: /versions/MRCS-BB-Wemos/BB-Wemos BOM 20190829.xlsx
-    tag: BB-Wemos BOM 20190829.xlsx
-    type: download
-    post: Spreadsheet
   - path: /versions/MRCS-BB-Wemos/MRCS-BB-Wemos Layout.pdf
-    tag: MRCS-BB-Wemos Layout.pdf
+    tag: MRCS-BB-Wemos PCB Layout.pdf
     type: download
     post: Documentation
   - path: /versions/MRCS-BB-Wemos/MRCS-BB-Wemos Schematic.pdf
@@ -39,19 +35,7 @@ artifacts:
   - path: /versions/MRCS-BB-Wemos/MRCS-BB-Wemos.SMD-parts.csv
     tag: MRCS-BB-Wemos.SMD-parts
     type: download
-    post: 
-  - path: /versions/MRCS-BB-Wemos/MRCS-BB-Wemos.zip
-    tag: MRCS-BB-Wemos
-    type: download
-    post: 
-  - path: /versions/MRCS-BB-Wemos/MRCS-BB-Wemos_array.SMD-parts.csv
-    tag: MRCS-BB-Wemos_array.SMD-parts
-    type: download
-    post: 
-  - path: /versions/MRCS-BB-Wemos/MRCS-BB-Wemos_array.scr
-    tag: MRCS-BB-Wemos_array.scr
-    type: download
-    post: Eagle SCRipt
+    post: Parts List
 ---
 
 ## Documentation

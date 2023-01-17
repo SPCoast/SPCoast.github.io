@@ -127,6 +127,9 @@ overview: >
     to arc weld or start a fire on your layout if something goes wrong!
     
     
+images:
+  - image_path: /versions/IO4-DCC-Booster/IO4-DCC-Booster.top.brd.png
+    title: IO4-DCC-Booster.top.brd
 ---
 
 

@@ -24,6 +24,9 @@ overview: >
       * observe the correct operation of the heads
          * mark any defective units
       * move panel to next set of contacts & repeat
+images:
+  - image_path: /versions/I2C-SignalTestJig/I2C-SignalTestJig.top.brd.png
+    title: I2C-SignalTestJig.top.brd
 artifacts:
   - path: /versions/I2C-SignalTestJig/PogoPins.jpeg
     tag: PogoPins

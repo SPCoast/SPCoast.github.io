@@ -15,6 +15,9 @@ image_path: CP_Watsonville_Mid-Model.top.brd.png
 tagline: Model Board for CP Watsonville Middle yard - Maintainer Service Panel
 overview: >
     Prototype for debugging and remote feedback
+images:
+  - image_path: /versions/CP_Watsonville_Mid-Model/CP_Watsonville_Mid-Model.top.brd.png
+    title: CP_Watsonville_Mid-Model.top.brd
 ---
 
 

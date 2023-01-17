@@ -8,13 +8,12 @@ author: John Plocher
 fabricated: yes
 fab_date: 2020.11
 status: released
-release: yes
+publish: yes
 tags: [eagle, SPCoast]
 layout: eagle
 image_path: CP_Watsonville_Mid-Model.top.brd.png
-tagline: Model Board for CP Watsonville Middle yard - Maintainer Sevice Panel
+tagline: Model Board for CP Watsonville Middle yard - Maintainer Service Panel
 overview: >
-    
     Prototype for debugging and remote feedback
 ---
 

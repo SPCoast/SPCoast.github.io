@@ -8,7 +8,7 @@ author: Dennis Drury
 fabricated: yes
 fab_date:  2022.11
 status: released
-release: yes
+publish: yes
 tags: [eagle, MRCS]
 layout: eagle
 image_path: Drury-DABSC.top.brd.png
@@ -42,18 +42,6 @@ artifacts:
     tag: DABSC 15 Update.pdf
     type: download
     post: Documentation
-  - path: /versions/Drury-DABSC/Drury-DABSC.SMD-parts.csv
-    tag: Drury-DABSC.SMD-parts
-    type: download
-    post: 
-  - path: /versions/Drury-DABSC/Drury-DABSC_array.SMD-parts.csv
-    tag: Drury-DABSC_array.SMD-parts
-    type: download
-    post: 
-  - path: /versions/Drury-DABSC/Drury-DABSC_array.scr
-    tag: Drury-DABSC_array.scr
-    type: download
-    post: Eagle SCRipt
 ---
 
 

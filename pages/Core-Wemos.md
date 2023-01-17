@@ -5,16 +5,15 @@ title: Core-Wemos
 project: Core-Wemos
 designer: John Plocher
 fabricated: yes
-fab_date: 2016-12
+fab_date: 2016.12
 image_path: Core-Wemos-Graphic.png
 status: released
-release: yes
+publish: yes
 tags: [eagle, SPCoast, Processor]
 layout: eagle
 tagline: IO4-based ESP8266 Wemos D1 Core Field Processor board with WiFi and I2C
 overview: >
-    
-    Moved from level shifter boards from eBay to discrete components for cost savings and ease of assembly
+    Wemos D1 Mini U
 images:
   - image_path: /versions/Core-Wemos/Core-Wemos-Graphic.png
     title: Core-Wemos-Graphic

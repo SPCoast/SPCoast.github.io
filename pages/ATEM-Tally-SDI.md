@@ -8,10 +8,10 @@ author: John Plocher
 fabricated: yes
 fab_date: 2020.11
 status: released
-release: yes
+publish: yes
 tags: [eagle, SPCoast]
 layout: eagle
-image_path: ATEM-Tally-SDI.top.brd.png
+image_path: ATEM-Tally-SDI-Graphic.png
 tagline: Part 1 of a RFM69-based BlackMagic ATEM Tally Light system - ATEM SDI Interface
 overview: >
     
@@ -27,6 +27,9 @@ overview: >
     
     
     
+images:
+  - image_path: /versions/ATEM-Tally-SDI/ATEM-Tally-SDI-Graphic.png
+    title: ATEM-Tally-SDI-Graphic
 artifacts:
   - path: /versions/ATEM-Tally-SDI/eagle.epf
     tag: eagle

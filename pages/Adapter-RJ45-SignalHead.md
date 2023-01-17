@@ -5,28 +5,24 @@ title: Adapter-RJ45-SignalHead
 project: Adapter-RJ45-SignalHead
 designer: John Plocher
 fabricated: yes
-fab_date: 2020-09
+fab_date: 2020.09
 image_path: Adapter-RJ45-SignalHead-Graphic.png
-status: released
-release: yes
+status: experimental
+publish: yes
 tags: [eagle, SPCoast, Adapter]
 layout: eagle
-tagline: RJ45/8 breakout board, for driving signal heads from IOB-Signal
+tagline: Adapter RJ45 Signal Head
 overview: >
-    
+    RJ45/8 breakout board, for driving signal heads from 8-wire IOB-Signal source
     
 images:
   - image_path: /versions/Adapter-RJ45-SignalHead/Adapter-RJ45-SignalHead-Graphic.png
     title: Adapter-RJ45-SignalHead-Graphic
 artifacts:
-  - path: /versions/Adapter-RJ45-SignalHead/Adapter-RJ45-SignalHead_array.scr
-    tag: Adapter-RJ45-SignalHead_array.scr
-    type: download
-    post: Eagle SCRipt
   - path: /versions/Adapter-RJ45-SignalHead/PanelTemplate.brd
     tag: PanelTemplate.brd
     type: download
-    post: Eagle PCB file
+    post: Eagle PCB board file
 ---
 
 

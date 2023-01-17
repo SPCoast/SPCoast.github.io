@@ -7,8 +7,8 @@ designer: John Plocher
 author: John Plocher
 fabricated: yes
 fab_date: 2021.06
-status: released
-release: yes
+status: experimental
+publish: yes
 tags: [eagle, SPCoast]
 layout: eagle
 image_path: IO4-QuadAnalogSwitch.top.brd.png
@@ -37,11 +37,11 @@ artifacts:
   - path: /versions/IO4-QuadAnalogSwitch/IO4-QuadAnalogSwitch copy.brd
     tag: IO4-QuadAnalogSwitch copy.brd
     type: download
-    post: Eagle PCB file
+    post: Eagle PCB board file
   - path: /versions/IO4-QuadAnalogSwitch/IO4-QuadAnalogSwitch-fake.brd
     tag: IO4-QuadAnalogSwitch-fake.brd
     type: download
-    post: Eagle PCB file
+    post: Eagle PCB board file
   - path: /versions/IO4-QuadAnalogSwitch/eagle.epf
     tag: eagle
     type: download

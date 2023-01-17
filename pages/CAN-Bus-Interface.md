@@ -5,9 +5,9 @@ title: CAN-Bus-Interface
 project: CAN-Bus-Interface
 designer: John Plocher
 fabricated: yes
-fab_date: 2010-07
+fab_date: 2010.07
 status: experimental
-release: yes
+publish: yes
 tags: [eagle, SPCoast, Adapter, LCB]
 image_path: CAN-Bus-Interface-Graphic.png
 layout: eagle

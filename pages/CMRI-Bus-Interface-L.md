@@ -6,17 +6,17 @@ project: CMRI-Bus-Interface-L
 designer: John Plocher
 author: John Plocher
 image_path: CMRI-Bus-Interface-L-Graphic.png
-fabricated: no
-fab_date: 
-fab_date: 
+fabricated: yes
+fab_date: 2020.09
 status: released
-release: yes
+publish: yes
 tags: [eagle, MRCS, Adapter, LCB]
 layout: eagle
 tagline: RS422/485 driver for CMRI-Net - large 3" Tyco rail size
 overview: >
     
-    Adapter board for interfacing with CMRI Bus traffic using MRCS ‘duino example code. Uses an optional onboard 555 to generate TX/RX enable based on processor I/O direction
+    Adapter board for interfacing with CMRI Bus traffic using MRCS ‘duino example code.
+    Uses an optional onboard 555 to generate TX/RX enable based on processor I/O direction
     
     
     
@@ -24,11 +24,6 @@ overview: >
 images:
   - image_path: /versions/CMRI-Bus-Interface-L/CMRI-Bus-Interface-L-Graphic.png
     title: CMRI-Bus-Interface-L-Graphic
-artifacts:
-  - path: /versions/CMRI-Bus-Interface-L/CMRI-Bus-Interface-L_array.scr
-    tag: CMRI-Bus-Interface-L_array.scr
-    type: download
-    post: Eagle SCRipt
 ---
 
 

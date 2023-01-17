@@ -6,29 +6,17 @@ project: Adapter-IO4-test
 designer: John Plocher, Seth Neumann
 author: John Plocher
 fabricated: yes
-fab_date: 2020.01
+fab_date: 2020.05
 status: experimental
 publish: yes
 tags: [SPCoast, eagle, Adapter]
 layout: eagle
-image_path: 1.1/Adapter-IO4-test-1.1.top.brd.png
-tagline: First line: A short description of the project, used as a subtitle ot tagline
+image_path: Adapter-IO4-test.top.brd.png
+tagline: IO4 Tester
 overview: >
+    Push buttons and LEDs to exercise I/O lines
     
-    Remaining lines: a verbose changelog of what makes this "git version" different from the last.
-    Use this space (in Markdown format) to describe the context and details of the changes.
-    This section should be 5 to 20 lines of interesting detail; each version tab in the project will 
-    display this text to help the reader understand why this version is differnet...
     
-    The published project on the SPCoast.github.io website will
-    include the relevant git commit messages as a terse, high level
-    changelog, so don't replicate those messages here.
-    
-artifacts:
-  - path: /versions/Adapter-IO4-test/Adapter-IO4-test_array.scr
-    tag: Adapter-IO4-test_array.scr
-    type: download
-    post: Eagle SCRipt
 ---
 
 ## Documentation

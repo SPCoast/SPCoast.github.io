@@ -15,7 +15,6 @@ image_path: Core-ESP32-Graphic.png
 layout: eagle
 tagline: Core Field Unit Processor board using an ESP32 Dev Board with Wifi, BLE and a small OLED screen
 overview: >
-    
     A platform to prove out the ESP32 environment (maybe with circuit python) as a field unit implementation platform,
     allowing the software stack to be generalized and possibly based off of interpreted text file based data structures rather than customized C++ code.
     

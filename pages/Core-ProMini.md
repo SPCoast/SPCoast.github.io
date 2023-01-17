@@ -5,16 +5,15 @@ title: Core-ProMini
 project: Core-ProMini
 designer: John Plocher
 fabricated: yes
-fab_date: 2017-05
+fab_date: 2017.05
 status: released
-release: yes
+publish: yes
 image_path: Core-ProMini-Graphic.png
 tags: [eagle, SPCoast, Processor]
 layout: eagle
 tagline: IO4-based Arduino ProMini baseboard
 overview: >
-    
-    removed Loconet interface electronics and per-pin status LEDs to make a simpler board
+    Uses DFRobot version of the ProMini
 images:
   - image_path: /versions/Core-ProMini/Core-ProMini-Graphic.png
     title: Core-ProMini-Graphic

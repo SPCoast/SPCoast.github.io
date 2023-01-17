@@ -8,27 +8,26 @@ author: John Plocher
 fabricated: yes
 fab_date: 2017.04
 status: released
-release: yes
+publish: yes
 tags: [eagle, SPCoast]
 layout: eagle
-image_path: 3.1/IO4-DCC-Booster-3.1.top.brd.png
+image_path: IO4-DCC-Booster.top.brd.png
 tagline: IO4 DCC Booster
 overview: >
-    
     A DIY DCC booster for a BOM cost of about $20 when using bulk China/eBay parts.
     
-    I was working on designing a motor shield using the $10 IBT-2
+    <p>I was working on designing a motor shield using the $10 IBT-2
     H-Bridge when I came across the work done by D. Bodnar at
     [train electronics.com](http://www.trainelectronics.com/DCC_Arduino/DCC_Booster/)
     
-    I wanted to use one of these for every control point on my layout
+    <p>I wanted to use one of these for every control point on my layout
     instead of a DCC circuit breaker + booster power district mashup.
     As the DCC Breakers are at least double the DIY cost for these
     dedicated boosters, and I will end up with 10-20 control points on
     my SPCoast layout, the savings might actually cover the development
     costs :-)
     
-    These boosters DO NOT support auto-reverse, and the sketch software
+    <p>These boosters DO NOT support auto-reverse, and the sketch software
     doesn't try to do soft start detection of sound decoder capacitor
     inrush currents.  Since there will be on average a single train
     powered by each of these boosters on my N-Scale layout, I don't
@@ -36,47 +35,47 @@ overview: >
     unit would probably be good enough; at 5 to 6 amps, this is overkill.
     
     
-    From the original web writeup at trainelectronics.com:
+    From Bedner's original web writeup at trainelectronics.com:
     
     <blockquote>
-    Introduction
+    <H3>Introduction</H3>
     
-    In addition to experimenting with DCC++ over the last few months I
+    <p>In addition to experimenting with DCC++ over the last few months I
     have been trying out different H-Bridges to see if there is one
     that would work with DCC++ while delivering more than the 1 to 2
     amps that the standard Arduino Motor Shield provides.  Such a option
     would a good option for G scale layouts that typically draw much
     more power than smaller scales.
     
-    I came across a few higher power shields
-    [that are described here](http://trainelectronics.com/DCC_Arduino/DCC++/)
+    <p>I came across a few higher power shields
+    <A href="http://trainelectronics.com/DCC_Arduino/DCC++/">that are described here</A>
     including one that has an advertised power capability of 43 amps.
     While I am a bit skeptical about this claim my tests show that it
     has no problem delivering 5 or more amps, more than enough for my
     purposes.  I describe how this can be interfaced to the DCC++
     controller in the link above.
     
-    In order to make the use of this H-Bridge more convenient I decided
+    <p>In order to make the use of this H-Bridge more convenient I decided
     to design a stand-alone DCC booster that would attach to a DCC
     signal and boost it before powering a track.  The booster is designed
     to work with DCC++, Digitrax and other systems.
     
-    Hardware - H-Bridge
+    <H3>Hardware - H-Bridge</H3>
     
-    The H-Bridge is available from eBay, Amazon and other vendors -
+    <p>The H-Bridge is available from eBay, Amazon and other vendors -
     just search for "H-Bridge 43 amp BTS7960B".  Make sure you get the
     unit that has two BTS7960B devices on it - each is 1/2 of an H-Bridge.
     The control signals go to the 8 pins on the front and the power in
     and power out wires go to the 4 pin screw terminal connector at the
     rear.
     
-    This H-Bridge and similar units do not operate on the single PWM
+    <p>This H-Bridge and similar units do not operate on the single PWM
     signal that most DCC systems provide.  It needs a right hand rotating
     PWM and a left hand PWM.  To change the single PWM signal to two a
     simple one transistor circuit is needed.  That circuit can be seen
     in the lower left corner of the schematic (below).
     
-    The H-Bridge can act as a DCC booster without much more than the
+    <p>The H-Bridge can act as a DCC booster without much more than the
     Opto Coupler circuit and the one transistor converter.  The H-Bridge
     does hove an over current shutdown capability but it doesn't react
     until well over 30 amps are being drawn, way more than we are going
@@ -87,34 +86,36 @@ overview: >
     
     </blockquote>
     
-    His prototype reused a board he had on hand; this project simply
-    turns his schematic into a purpose-built board - and adds remote control
+    Their prototype reused a board he had on hand; this project simply
+    turns their schematic into a purpose-built board - and adds remote control
     (enable/disable and monitoring) via an IO-4 RJ12/6 interface.
     
-    The differences:
-      * powered by (3.0) the IO-4 Jack / IOexpander and (3.1) by the DC booster power.
+    My differences:
+      * powered by the DC booster power.
       * local control - a maintainer "disable track power" switch
-      * remote control
+      * remote control via IO4 connector
         * enable/disable track power
-      * remote feedback
+      * remote feedback via IO4 connector
         * enabled
         * occupied
         * overload
       * Loconet and NCE Booster Bus daisy chain command station cable jacks
     
     === Estimated BOM costs ===
-    :	$ 1.00  PCB 
-    :	$10.00  IBT-2 
-    :	$ 3.50  Pro Mini Clone
-    :	$ 0.45  6n137
-    :	$ 0.20  2200uF x2
-    :	$ 3.00  RJ and Phoenix connectors
-    :	$ 1.00  SPDT Switch
-    :	$ 1.00  R/C/LEDs
-    :	------
-    :      ~$20.00
+    <pre>
+    	$ 1.00  PCB
+    	$10.00  IBT-2
+    	$ 3.50  Pro Mini Clone
+    	$ 0.45  6n137
+    	$ 0.20  2200uF x2
+    	$ 3.00  RJ and Phoenix connectors
+    	$ 1.00  SPDT Switch
+    	$ 1.00  R/C/LEDs
+    	------
+        ~$20.00
+    </pre>
     
-    The booster will also need a 12-18v 6A+ DC power supply; the logic and
+    The booster uses an external 12-18v 6A+ DC power supply; the logic and
     feedback electronics are isolated from the power supply (using opto
     isolator for the booster bus and a full wave bridge for the power
     supply), so there should be no problems driving a set of boosters

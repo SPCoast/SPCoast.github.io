@@ -5,21 +5,19 @@ title: Brakeman
 project: Brakeman
 designer: John Plocher
 fabricated: yes
-fab_date: 2016-11
+fab_date: 2016.11
 image_path: Lit.jpg
 status: released
-release: yes
+publish: yes
 tags: [eagle, SPCoast, Misc]
 layout: eagle
 tagline: An electronic DCC-track-driven figurine with a red or blue LED
 overview: >
     
-    Designed for fabrication and ease of assembly
-    
-    For best results when fabing, choose
+    For best results when fabricating, choose
       * ENIG (gold) rather than a Hot Air Solder Layer (HASL) for the pads
       * White or Blue soldermask
-      * Panalize = 1
+      * Panalize = 2x designs
     
     
     

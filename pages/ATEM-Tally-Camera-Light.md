@@ -6,12 +6,12 @@ project: ATEM-Tally-Camera-Light
 designer: John Plocher
 author: John Plocher
 fabricated: yes
-fab_date:  2020.11
+fab_date: 2020.11
 status: released
-release: yes
+publish: yes
 tags: [eagle, SPCoast]
 layout: eagle
-image_path: ATEM-Tally-Camera-Light.top.brd.png
+image_path: ATEM-Tally-Camera-Light-Graphic.png
 tagline: Part 2 of a RFM69-based BlackMagic ATEM Tally Light system - On Camera Light
 overview: >
     
@@ -35,6 +35,8 @@ images:
     title: IMG_0177
   - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0176.png
     title: IMG_0176
+  - image_path: /versions/ATEM-Tally-Camera-Light/ATEM-Tally-Camera-Light-Graphic.png
+    title: ATEM-Tally-Camera-Light-Graphic
   - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0172.png
     title: IMG_0172
   - image_path: /versions/ATEM-Tally-Camera-Light/IMG_0173.png

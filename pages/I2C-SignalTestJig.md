@@ -5,13 +5,13 @@ title: I2C-SignalTestJig
 project: I2C-SignalTestJig
 designer: John Plocher
 author: John Plocher
-fabricated: no
-fab_date: 
+fabricated: yes
+fab_date: 2020.04
 status: released
-release: yes
+publish: yes
 tags: [eagle, SPCoast, Signal, I2C, TestJig]
 layout: eagle
-image_path: 1.0/I2C-SignalTestJig-1.0.top.brd.png
+image_path: I2C-SignalTestJig.top.brd.png
 tagline: Test Jig for simple signal panels
 overview: >
     
@@ -24,6 +24,15 @@ overview: >
       * observe the correct operation of the heads
          * mark any defective units
       * move panel to next set of contacts & repeat
+artifacts:
+  - path: /versions/I2C-SignalTestJig/PogoPins.jpeg
+    tag: PogoPins
+    type: download
+    post: 
+  - path: /versions/I2C-SignalTestJig/TestAssembly.jpeg
+    tag: TestAssembly
+    type: download
+    post: 
 ---
 
 

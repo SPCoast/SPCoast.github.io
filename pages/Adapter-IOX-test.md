@@ -5,17 +5,15 @@ title: Adapter-IOX-test
 project: Adapter-IOX-test
 designer: John Plocher
 author: John Plocher
-fabricated: no
-fab_date: 
-fab_date: 
+fabricated: yes
+fab_date: 2020.06
 status: released
-release: yes
+publish: yes
 tags: [eagle, SPCoast]
 layout: eagle
-image_path: 1.0/Adapter-IOX-test-1.0.top.brd.png
-tagline: MRCS IOX-16 Test Fixture 
+image_path: Adapter-IOX-test.top.brd.png
+tagline: MRCS IOX-16 Test Fixture
 overview: >
-    
     Active Low LED test jig for debugging IOX outputs
     
     When initially setting up an IOX expander, or debugging an existing installation, it is
@@ -25,11 +23,6 @@ overview: >
     Build with pin headers and you can insert the tester into the machined headers on the IOX or cpNode boards.
     
     
-artifacts:
-  - path: /versions/Adapter-IOX-test/Adapter-IOX-test_array.scr
-    tag: Adapter-IOX-test_array.scr
-    type: download
-    post: Eagle SCRipt
 ---
 
 

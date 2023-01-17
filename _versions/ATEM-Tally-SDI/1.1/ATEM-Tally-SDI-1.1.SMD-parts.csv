@@ -1,0 +1,6 @@
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+C1,SMD,220uF,0810-CAP,220uf-0810-cap,62.23,67.31,270.00,90.00
+C2,SMD,1uF,0603-CAP,1uf-0603-cap,53.34,49.53,0.00,0.00
+C3,SMD,10uF,0603-CAP,10uf-0603-cap,53.34,39.37,0.00,0.00
+C4,SMD,0.1uF,0603-CAP,0.1uf-0603-cap,68.58,84.45,90.00,-90.00
+VR1,SMD,,TO-252,-to-252,55.99,44.45,0.00,0.00

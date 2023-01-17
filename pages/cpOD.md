@@ -6,9 +6,9 @@ project: cpOD
 designer: John Plocher
 author: John Plocher
 fabricated: yes
-fab_date: 2021-09
+fab_date: 2021.09
 status: released
-release: yes
+publish: yes
 tags: [eagle, MRCS]
 layout: eagle
 image_path: cpOD.top.brd.png
@@ -32,11 +32,6 @@ overview: >
       
     
     
-artifacts:
-  - path: /versions/cpOD/cpOD_array.scr
-    tag: cpOD_array.scr
-    type: download
-    post: Eagle SCRipt
 ---
 
 

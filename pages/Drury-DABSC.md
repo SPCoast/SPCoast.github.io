@@ -37,6 +37,11 @@ overview: >
     The DABSC draws about 30mA at 5V.
     
     
+images:
+  - image_path: /versions/Drury-DABSC/Drury-DABSC_array.top.brd.png
+    title: Drury-DABSC_array.top.brd
+  - image_path: /versions/Drury-DABSC/Drury-DABSC.top.brd.png
+    title: Drury-DABSC.top.brd
 artifacts:
   - path: /versions/Drury-DABSC/DABSC 15 Update.pdf
     tag: DABSC 15 Update.pdf

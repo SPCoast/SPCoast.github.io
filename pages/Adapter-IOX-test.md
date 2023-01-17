@@ -23,6 +23,11 @@ overview: >
     Build with pin headers and you can insert the tester into the machined headers on the IOX or cpNode boards.
     
     
+images:
+  - image_path: /versions/Adapter-IOX-test/Adapter-IOX-test_array.top.brd.png
+    title: Adapter-IOX-test_array.top.brd
+  - image_path: /versions/Adapter-IOX-test/Adapter-IOX-test.top.brd.png
+    title: Adapter-IOX-test.top.brd
 ---
 
 

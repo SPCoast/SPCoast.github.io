@@ -17,6 +17,11 @@ overview: >
     Push buttons and LEDs to exercise I/O lines
     
     
+images:
+  - image_path: /versions/Adapter-IO4-test/Adapter-IO4-test_array.top.brd.png
+    title: Adapter-IO4-test_array.top.brd
+  - image_path: /versions/Adapter-IO4-test/Adapter-IO4-test.top.brd.png
+    title: Adapter-IO4-test.top.brd
 ---
 
 ## Documentation

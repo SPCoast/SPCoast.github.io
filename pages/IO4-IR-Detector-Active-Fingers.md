@@ -23,15 +23,19 @@ artifacts:
   - path: /versions/IO4-IR-Detector-Active-Fingers/IO4-IR-Detector-Active-Fingers-short.brd
     tag: IO4-IR-Detector-Active-Fingers-short.brd
     type: download
-    post: Eagle PCB file
-  - path: /versions/IO4-IR-Detector-Active-Fingers/IO4-IR-Detector-Active-Fingers.SMD-parts.csv
-    tag: IO4-IR-Detector-Active-Fingers.SMD-parts
+    post: Eagle PCB board file
+  - path: /versions/IO4-IR-Detector-Active-Fingers/IO4-IR-Detector-Active-Fingers-short.sch
+    tag: IO4-IR-Detector-Active-Fingers-short.sch
     type: download
-    post: 
+    post: Eagle Schematic file
   - path: /versions/IO4-IR-Detector-Active-Fingers/IO4-IR-Detector-Active-FingersN.brd
     tag: IO4-IR-Detector-Active-FingersN.brd
     type: download
-    post: Eagle PCB file
+    post: Eagle PCB board file
+  - path: /versions/IO4-IR-Detector-Active-Fingers/IO4-IR-Detector-Active-FingersN.sch
+    tag: IO4-IR-Detector-Active-FingersN.sch
+    type: download
+    post: Eagle Schematic file
 ---
 
 ## Documentation

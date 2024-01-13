@@ -5,7 +5,7 @@ title: Brakeman
 project: Brakeman
 designer: John Plocher
 fabricated: yes
-fab_date: 2016-11
+fab_date: 2024-01
 image_path: Lit.jpg
 status: released
 release: yes
@@ -17,9 +17,10 @@ overview: >
     Designed for fabrication and ease of assembly
     
     For best results when fabing, choose
-      * ENIG (gold) rather than a Hot Air Solder Layer (HASL) for the pads
-      * White or Blue soldermask
-      * Panalize = 1
+      * ENIG (gold) rather than a Hot Air Solder Layer (HASL) for the pads (gold doesn't tarnish like tinned pads) 
+      * White or Blue soldermask, Black silkscreen
+      * Panalize = user defined, one design (v2.5), 2 designs (prior versions)
+      * FR4, 2-layer, 1.6, the other defaults are all OK
     
     
     

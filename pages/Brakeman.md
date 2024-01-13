@@ -14,7 +14,8 @@ layout: eagle
 tagline: An electronic DCC-track-driven figurine with a red or blue LED
 overview: >
     
-    Designed for fabrication and ease of assembly
+    v2.5 supports full SMT fabrication, with a single color on both arms.
+    Previous versions alloed hand assembly and used leaded-LEDs, which let the user choose between blue or red and hand location.
     
     For best results when fabing, choose
       * ENIG (gold) rather than a Hot Air Solder Layer (HASL) for the pads (gold doesn't tarnish like tinned pads) 
@@ -40,6 +41,23 @@ images:
     title: Lit
   - image_path: /versions/Brakeman/Fabricated-backside.jpg
     title: Fabricated-backside
+artifacts:
+  - path: /versions/Brakeman/Brakeman_array.PCBWay.BOM.csv
+    tag: Brakeman_array.PCBWay.BOM
+    type: download
+    post: 
+  - path: /versions/Brakeman/Brakeman_array.PCBWay.BOM.numbers
+    tag: Brakeman_array.PCBWay.BOM
+    type: download
+    post: 
+  - path: /versions/Brakeman/Brakeman_array.PCBWay.Centroid.csv
+    tag: Brakeman_array.PCBWay.Centroid
+    type: download
+    post: 
+  - path: /versions/Brakeman/Brakeman_array.PCBWay.Centroid.numbers
+    tag: Brakeman_array.PCBWay.Centroid
+    type: download
+    post: 
 ---
 
 ## GCOR

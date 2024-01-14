@@ -15,11 +15,29 @@ tagline: Low cost Signal Mast - single high head ColorLight - N scale
 overview: >
     
     SP style color light (3 lens) signal heads
+
 images:
   - image_path: /versions/SignalMast-ColorLight-SingleHead/Signal-Graphic.png
     title: Signal-Graphic
   - image_path: /versions/SignalMast-ColorLight-SingleHead/SignalMast-ColorLight-SingleHead-Graphic.png
     title: SignalMast-ColorLight-SingleHead-Graphic
+artifacts:
+  - path: /versions/SignalMast-ColorLight-SingleHead/SignalMast-ColorLight-SingleHead_array.PCBWay.BOM.csv
+    tag: SignalMast-ColorLight-SingleHead_array.PCBWay.BOM
+    type: download
+    post: 
+  - path: /versions/SignalMast-ColorLight-SingleHead/SignalMast-ColorLight-SingleHead_array.PCBWay.BOM.numbers
+    tag: SignalMast-ColorLight-SingleHead_array.PCBWay.BOM
+    type: download
+    post: 
+  - path: /versions/SignalMast-ColorLight-SingleHead/SignalMast-ColorLight-SingleHead_array.PCBWay.Centroid.csv
+    tag: SignalMast-ColorLight-SingleHead_array.PCBWay.Centroid
+    type: download
+    post: 
+  - path: /versions/SignalMast-ColorLight-SingleHead/SignalMast-ColorLight-SingleHead_array.PCBWay.Centroid.numbers
+    tag: SignalMast-ColorLight-SingleHead_array.PCBWay.Centroid
+    type: download
+    post: 
 ---
 
 

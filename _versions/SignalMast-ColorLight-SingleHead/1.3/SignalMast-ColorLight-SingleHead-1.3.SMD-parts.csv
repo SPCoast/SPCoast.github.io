@@ -1,0 +1,4 @@
+# name, smd?, value, package, component, x, y, Eagle-Angle, YX-Angle
+LED1,SMD,R,0603-LED,r-0603-led,6.53,38.10,0.00,0.00
+LED2,SMD,Y,0603-LED,y-0603-led,6.48,40.64,0.00,0.00
+LED3,SMD,G,0603-LED,g-0603-led,6.45,43.18,0.00,0.00

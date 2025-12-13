@@ -41,4 +41,8 @@ feeders.csv
 *_[0-9][0-9].pro
 eagle.epf
 
-
+# Editor swap/backup files
+.Gemfile.swp
+*.swp
+*.swo
+*~

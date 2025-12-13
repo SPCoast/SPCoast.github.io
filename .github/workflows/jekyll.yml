@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main", "gh-pages", "jekyll4-actions" ]
   pull_request:
-    branches: [ "main", "gh-pages" ]
+    branches: [ "main", "gh-pages", "master" ]
 
 permissions:
   contents: read

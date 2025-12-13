@@ -12,7 +12,7 @@ status: released
 release: yes
 tags: [eagle, SPCoast]
 layout: eagle
-tagline: IOB Personality: Turtle Tortoise adapter
+tagline: "IOB Personality: Turtle Tortoise adapter"
 overview: >
     
     A 5x2 plug-in with 3x inputs and one output (Motor control, feedback for N, R and Occupancy)

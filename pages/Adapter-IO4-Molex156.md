@@ -9,7 +9,8 @@ fab_date: 2014.02
 status: released
 publish: yes
 image_path: Adapter-IO4-Molex156-Graphic.png
-tags: [eagle, SPCoast, Adapter]layout: eagle
+tags: [eagle, SPCoast, Adapter]
+layout: eagle
 tagline: RJ12/6 breakout board, for 0.156 (molex) connector or direct wire soldering
 overview: >
     IO4 0.156" Breakout board (2"x2")

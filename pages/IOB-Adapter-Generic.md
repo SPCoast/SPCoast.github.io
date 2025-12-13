@@ -12,7 +12,7 @@ status: released
 release: yes
 tags: [eagle, SPCoast]
 layout: eagle
-tagline: IOB Personality: Generic I/O
+tagline: "IOB Personality: Generic I/O"
 overview: >
     
     A 5x2 plug in that exposes the I2C Expander pins to the IOB board connector

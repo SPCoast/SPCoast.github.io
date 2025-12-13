@@ -17,17 +17,17 @@ entries:
     - title: MRCS Projects
       url: /tag_MRCS.html
       output: web
-    - title: SPCoast Layout
-      url: /spcoast_layout.html
-      output: web
     - title: SPINS
       url: /spins.html
       output: web
     - title: cTc Machine construction
       url: /ctc.html
       output: web
-    - title: Pick and Place Machine
+    - title: CharmHigh CHMT48vp
       url: /chmt48vb.html
+      output: web
+    - title: YXing SMT550
+      url: /smt550.html
       output: web
     - title: PCB Assembly Notes
       url: /project_assembly.html

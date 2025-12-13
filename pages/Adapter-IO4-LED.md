@@ -9,7 +9,8 @@ fab_date: 2011.10
 status: released
 publish: yes
 image_path: Adapter-IO4-LED-Graphic.png
-tags: [eagle, SPCoast, Adapter]layout: eagle
+tags: [eagle, SPCoast, Adapter]
+layout: eagle
 tagline: RJ12/6 breakout board, for driving LEDs - includes resistor pack
 overview: >
     IO4 simple LED driver

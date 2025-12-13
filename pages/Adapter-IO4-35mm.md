@@ -9,7 +9,8 @@ fab_date: 2011.10
 status: released
 publish: yes
 image_path: Adapter-IO4-35mm-Graphic.png
-tags: [eagle, SPCoast, Adapter]layout: eagle
+tags: [eagle, SPCoast, Adapter]
+layout: eagle
 tagline: Simple RJ12/6 breakout board, for 3.5mm screw terminals or direct wire soldering
 overview: >
     IO4 3.5mm Breakout board

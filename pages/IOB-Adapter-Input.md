@@ -12,7 +12,7 @@ status: released
 release: yes
 tags: [eagle, SPCoast]
 layout: eagle
-tagline: IOB Personality: Low Pass filtered Inputs
+tagline: "IOB Personality: Low Pass filtered Inputs"
 overview: >
     
     A 5x2 plug-in Low pass input filter, passes signals lower than 1Khz.

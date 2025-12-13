@@ -12,7 +12,7 @@ status: released
 release: yes
 tags: [eagle, SPCoast]
 layout: eagle
-tagline: IOB Personality: Quad Open Drain output adapter
+tagline: "IOB Personality: Quad Open Drain output adapter"
 overview: >
     
     A 5x2 plug-in with 4x Open Drain outputs that can sink 100mA each

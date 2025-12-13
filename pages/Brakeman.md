@@ -42,6 +42,10 @@ images:
   - image_path: /versions/Brakeman/Fabricated-backside.jpg
     title: Fabricated-backside
 artifacts:
+  - path: /versions/Brakeman/Brakeman_array-old.brd
+    tag: Brakeman_array-old.brd
+    type: download
+    post: Eagle PCB board file
   - path: /versions/Brakeman/Brakeman_array.PCBWay.BOM.csv
     tag: Brakeman_array.PCBWay.BOM
     type: download

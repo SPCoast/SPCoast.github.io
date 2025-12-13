@@ -35,8 +35,7 @@ github_editme_path: plocher/documentation-theme-jekyll/blob/gh-pages/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 
-host: 127.0.0.1
-# the preview server used. Leave as is.
+# host can be set via CLI; omit from committed config to avoid conflicts
 
 port: 4000
 # the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
@@ -54,8 +53,8 @@ highlighter: rouge
 
 description: >- # this means to ignore newlines until "baseurl:"
     Various things
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # for user/organization sites, keep "/"
+url: "https://spcoast.github.io" # canonical site URL
 
 github_username:  plocher
 twitter_username:  

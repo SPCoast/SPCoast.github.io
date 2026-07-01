@@ -1,0 +1,41 @@
+baseURL = "https://www.spcoast.com/"
+defaultContentLanguage = "en"
+title = "SPCoast — Model Railroad Electronics"
+# enableGitInfo intentionally omitted — re-enable after there are commits if we want Lastmod on articles.
+
+# No theme; custom minimal layouts live in layouts/.
+
+[params]
+description = "SPCoast — model railroad electronics, KiCad projects, and reference notes"
+author = "John Plocher"
+tagline = "PCB projects and Arduino sketches for model railroad control systems"
+
+[markup]
+  [markup.goldmark.renderer]
+    # Allow raw HTML inside Markdown (needed for image galleries, PDF embeds, iBOM includes).
+    unsafe = true
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  name = "SPINS"
+  url = "/spins/"
+  weight = 20
+
+[[menu.main]]
+  name = "PCB Assembly"
+  url = "/pages/project_assembly/"
+  weight = 30
+
+[[menu.main]]
+  name = "PCB Design"
+  url = "/pages/project_design/"
+  weight = 40
+
+[[menu.main]]
+  name = "PCB Fabrication"
+  url = "/pages/project_fabrication/"
+  weight = 50

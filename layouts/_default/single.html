@@ -1,0 +1,10 @@
+{{ define "main" }}
+<article>
+  <header>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.tagline }}<p class="tagline">{{ . }}</p>{{ end }}
+    {{ with .Date }}{{ if not $.Params.hideDate }}<p class="meta">{{ .Format "2006-01-02" }}</p>{{ end }}{{ end }}
+  </header>
+  {{ .Content }}
+</article>
+{{ end }}

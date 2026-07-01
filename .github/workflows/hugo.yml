@@ -1,0 +1,78 @@
+name: Build and deploy Hugo site to Pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+# Least-privilege token — only what deploy-pages needs.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One in-flight run per environment. Do not cancel running deploys.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  # Pinned to match the local dev version; bump deliberately.
+  HUGO_VERSION: "0.163.3"
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Hugo (extended)
+        run: |
+          curl -fsSL -o /tmp/hugo.deb \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i /tmp/hugo.deb
+          hugo version
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Full history so `enableGitInfo` can compute Lastmod if we re-enable it.
+          fetch-depth: 0
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Hugo
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+          TZ: America/Los_Angeles
+        # baseURL from configure-pages so PR previews / project-page fallbacks
+        # still work if the custom domain is ever temporarily unset. hugo.toml
+        # already sets the production URL; this override takes precedence.
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

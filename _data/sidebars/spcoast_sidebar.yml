@@ -11,8 +11,11 @@ entries:
     - title: Arduino Sketches
       url: /arduino.html
       output: web
-    - title: Electronics
+    - title: KiCad Projects
       url: /electronics.html
+      output: web
+    - title: Eagle Projects
+      url: /eagle-archive.html
       output: web
     - title: MRCS Projects
       url: /tag_MRCS.html

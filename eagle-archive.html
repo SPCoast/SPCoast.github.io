@@ -1,25 +1,28 @@
 ---
-title: Model Railroad Electronics
+title: Eagle CAD Electronics Archive
 sidebar: spcoast_sidebar
 layout: simple
-state: mature
-overview: > 
-    SPCoast Stuff
+state: archive
+overview: >
+    Legacy SPCoast Electronics projects designed with EAGLE CAD. New designs
+    are being produced with KiCad — see the KiCad Projects landing page.
 ---
 
 
-<H1>Model Railroad Electronics</H1>
-<p>New designs are being produced with KiCad. Legacy EAGLE CAD projects are
-available in the <a href="/eagle-archive.html">Eagle Archive</a>.</p>
+<H1>Eagle CAD Electronics Archive</H1>
+<p>These projects were designed with EAGLE CAD. New designs are being produced
+with KiCad — see <a href="/electronics.html">KiCad Projects</a> for the active list.
+This archive is preserved for reference and will retire when the EAGLE → KiCad
+migration is complete.</p>
 
-{% assign projects=site.pages | where: "iskicad", 'true' | sort_natural %}
+{% assign projects=site.pages | where: "iseagle", 'true' | sort_natural %}
 {% assign projectcount=0 %}
 {% for p in projects %}
 {% assign projectcount = projectcount | plus: 1 %}
 {% endfor %}
 {% assign firstletter=" " %}
 
-<H2>Active Projects</H2>
+<H2>Active EAGLE Projects</H2>
 <p> ({{ projectcount }} projects)</p>
 
 <table class="projectlist">
@@ -50,14 +53,14 @@ available in the <a href="/eagle-archive.html">Eagle Archive</a>.</p>
 <hr>
 
 
-{% assign projects=site.pages | where: "iskicad", 'obsolete' | sort_natural %}
+{% assign projects=site.pages | where: "iseagle", 'obsolete' | sort_natural %}
 {% assign projectcount=0 %}
 {% for p in projects %}
 {% assign projectcount = projectcount | plus: 1 %}
 {% endfor %}
 {% assign firstletter=" " %}
 
-<H2>Obsolete Projects</H2>
+<H2>Obsolete EAGLE Projects</H2>
 <p> ({{ projectcount }}  projects)</p>
 
 <table class="projectlist">

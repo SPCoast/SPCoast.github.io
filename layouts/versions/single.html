@@ -1,0 +1,11 @@
+{{/*
+  Standalone deep-link page for a single KiCad version
+  (content/versions/<P>/<R>.md). Reuses the same version-panel partial the
+  project page uses for its tab panels, plus a back-link to the project page.
+*/}}
+{{ define "main" }}
+<article class="kicad-version">
+  {{ partial "version-panel.html" . }}
+  <p class="backlink"><a href="{{ .Parent.RelPermalink }}">&larr; All {{ .Params.project }} versions</a></p>
+</article>
+{{ end }}

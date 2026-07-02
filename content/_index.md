@@ -7,6 +7,7 @@ Welcome to SPCoast. This site is being rebuilt on Hugo; content is being migrate
 
 ## Currently available
 
+- [KiCad Projects](/versions/) — active boards, published via [kproj](https://github.com/plocher/kproj)
 - [SPINS](/spins/) — Southern Pacific Industry Numbering System reference PDFs
 - [PCB Assembly Notes](/pages/project_assembly/)
 - [PCB Design Notes](/pages/project_design/)
@@ -14,7 +15,6 @@ Welcome to SPCoast. This site is being rebuilt on Hugo; content is being migrate
 
 ## Coming soon
 
-- Active KiCad projects, published via [kproj](https://github.com/plocher/kproj)
 - Selective revival of legacy EAGLE projects from the archive
 
 The full pre-migration Jekyll site is preserved on the `archive/jekyll-final` tag of this repository.

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang | default "en" }}">
 {{ partial "head.html" . }}
-<body>
+<body{{ if or (eq .Section "versions") .Params.wide }} class="wide-page"{{ end }}>
   {{ partial "menu.html" . }}
   <main class="content">
     {{ block "main" . }}{{ end }}

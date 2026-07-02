@@ -1,0 +1,62 @@
+{{/*
+  Renders one KiCad version. Context (.) is the version Page.
+  Layout: renders gallery, Gerbers/Project downloads, Libraries Used,
+  interactive BOM, and a collapsed findings toggle (ERC/DRC/audit) whose
+  summary shows just the error/warning counts.
+*/}}
+<header class="version-header">
+  <h2>Version {{ .Params.board_rev }}</h2>
+  <span class="version-status status-{{ .Params.status | default "unknown" }}">{{ .Params.status | default "unknown" | title }}</span>
+  {{ with .Params.tagline }}<p class="tagline">{{ . }}</p>{{ end }}
+</header>
+
+{{ with .Params.images }}
+<div class="gallery">
+  {{ range . }}
+  <figure class="{{ if in (lower .title) "schematic" }}gallery-schematic{{ end }}">
+    <a href="{{ .image_path | relURL }}"><img src="{{ .image_path | relURL }}" alt="{{ .title }}" loading="lazy"></a>
+    <figcaption>{{ .title }}</figcaption>
+  </figure>
+  {{ end }}
+</div>
+{{ end }}
+
+<div class="downloads">
+  {{ range .Params.artifacts }}
+    {{ if eq .tag "fab-pack" }}<p><strong>Gerbers:</strong> <a href="{{ .path | relURL }}">download</a> <span class="muted">(BOM + POS + gerbers)</span></p>{{ end }}
+    {{ if eq .tag "source-archive" }}<p><strong>Project:</strong> <a href="{{ .path | relURL }}">download</a> <span class="muted">(KiCad source)</span></p>{{ end }}
+  {{ end }}
+</div>
+
+{{ with .Params.libraries }}
+{{ if or .internal .external .ambiguous }}
+<div class="libraries">
+  <p><strong>Libraries Used:</strong></p>
+  {{ range $bucket := slice "internal" "external" "ambiguous" }}
+    {{ with index $.Params.libraries $bucket }}
+    <p class="lib-line"><span class="lib-label">{{ $bucket }}:</span> {{ delimit . ", " }}</p>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}
+{{ end }}
+
+{{ range .Params.artifacts }}
+  {{ if eq .tag "interactive-bom" }}
+  <div class="ibom-block">
+    <p><strong>BOM:</strong> interactive</p>
+    <iframe src="{{ .path | relURL }}" title="Interactive BOM" loading="lazy" class="ibom-frame"></iframe>
+  </div>
+  {{ end }}
+{{ end }}
+
+{{ $errors := 0 }}{{ $warnings := 0 }}
+{{ with .Params.audit }}{{ $errors = add $errors (int .errors) }}{{ $warnings = add $warnings (int .warnings) }}{{ end }}
+{{ with .Params.drc }}{{ $errors = add $errors (int .errors) }}{{ $warnings = add $warnings (int .warnings) }}{{ end }}
+{{ with .Params.erc }}{{ $errors = add $errors (int .errors) }}{{ $warnings = add $warnings (int .warnings) }}{{ end }}
+{{ with .Content }}
+<details class="findings">
+  <summary>Checks &mdash; {{ $errors }} error{{ if ne $errors 1 }}s{{ end }}, {{ $warnings }} warning{{ if ne $warnings 1 }}s{{ end }}</summary>
+  {{ . }}
+</details>
+{{ end }}

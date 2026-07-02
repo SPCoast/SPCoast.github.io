@@ -21,6 +21,11 @@ tagline = "PCB projects and Arduino sketches for model railroad control systems"
   weight = 10
 
 [[menu.main]]
+  name = "KiCad Projects"
+  url = "/versions/"
+  weight = 15
+
+[[menu.main]]
   name = "SPINS"
   url = "/spins/"
   weight = 20

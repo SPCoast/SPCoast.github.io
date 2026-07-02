@@ -13,10 +13,13 @@
 {{ with .Params.images }}
 <div class="gallery">
   {{ range . }}
+  {{ $id := printf "lb-%s-%s" (anchorize $.Params.board_rev) (anchorize .title) }}
   <figure class="{{ if in (lower .title) "schematic" }}gallery-schematic{{ end }}">
-    <a href="{{ .image_path | relURL }}"><img src="{{ .image_path | relURL }}" alt="{{ .title }}" loading="lazy"></a>
+    <label class="zoom" for="{{ $id }}"><img src="{{ .image_path | relURL }}" alt="{{ .title }}" loading="lazy"></label>
     <figcaption>{{ .title }}</figcaption>
   </figure>
+  <input type="checkbox" id="{{ $id }}" class="lightbox-toggle" hidden>
+  <label class="lightbox" for="{{ $id }}"><img src="{{ .image_path | relURL }}" alt="{{ .title }}"></label>
   {{ end }}
 </div>
 {{ end }}

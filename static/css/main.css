@@ -264,6 +264,9 @@ table th {
   background: #fff;
 }
 
+.letter-group { margin: 0 0 1.75rem; }
+.letter-heading { font-size: 1.25rem; color: var(--fg-muted); border-bottom: 2px solid var(--border); padding-bottom: 0.2rem; margin: 1rem 0 0.75rem; }
+
 .project-card:hover { border-color: var(--link); }
 .project-card-thumb { width: 100%; height: 150px; object-fit: contain; background: var(--code-bg); }
 .project-card-body { padding: 0.6rem 0.8rem; }
@@ -289,3 +292,28 @@ details.documentation > summary, details.findings > summary { cursor: pointer; f
 .downloads p { margin: 0.35rem 0; }
 .lib-label { text-transform: capitalize; color: var(--fg-muted); }
 .ibom-block { margin: 1.25rem 0; }
+
+/* Dependency-free image lightbox (checkbox hack; not :target, so it does not
+   collide with the :target version tabs). Click a .zoom image to open a
+   full-window overlay in place; click the overlay to close. */
+.zoom { cursor: zoom-in; display: inline-block; }
+.lightbox { display: none; }
+.lightbox-toggle:checked + .lightbox {
+  display: flex;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.85);
+  cursor: zoom-out;
+}
+.lightbox img {
+  max-width: 96vw;
+  max-height: 92vh;
+  width: auto;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}

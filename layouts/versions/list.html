@@ -13,7 +13,11 @@
 <article class="kicad-project">
   {{ $latest := index $versions 0 }}
   <header class="project-header">
-    {{ with $latest.Params.image_path }}<img class="project-thumb" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
+    {{ with $latest.Params.image_path }}
+    <label class="zoom" for="lb-project-thumb"><img class="project-thumb" src="{{ . | relURL }}" alt="" loading="lazy"></label>
+    <input type="checkbox" id="lb-project-thumb" class="lightbox-toggle" hidden>
+    <label class="lightbox" for="lb-project-thumb"><img src="{{ . | relURL }}" alt=""></label>
+    {{ end }}
     <div class="project-heading">
       <h1>{{ .Title }}</h1>
       {{ with .Params.tagline }}<p class="tagline">{{ . }}</p>{{ end }}
@@ -28,7 +32,7 @@
   <details class="documentation">
     <summary>Documentation &mdash; {{ len . }} datasheet{{ if ne (len .) 1 }}s{{ end }}</summary>
     <ul class="datasheet-list">
-      {{ range . }}<li>{{ . }}</li>{{ end }}
+      {{ range . }}<li><a href="{{ (printf "/versions/%s/datasheets/%s" $.Params.project .) | relURL }}">{{ . }}</a></li>{{ end }}
     </ul>
   </details>
   {{ end }}
@@ -47,20 +51,31 @@
 {{ else }}
 <article class="kicad-project">
   <header><h1>{{ .Title }}</h1></header>
-  <div class="project-cards">
-    {{ range .Sections }}
-      {{ $proj := . }}
-      {{ $pv := sort (where $proj.Pages "Params.publish" true) "Params.board_rev" "desc" }}
-      {{ $pl := "" }}{{ if $pv }}{{ $pl = index $pv 0 }}{{ end }}
-      <a class="project-card" href="{{ $proj.RelPermalink }}">
-        {{ with $pl }}{{ with .Params.image_path }}<img class="project-card-thumb" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}{{ end }}
-        <div class="project-card-body">
-          <h3>{{ $proj.Title }}</h3>
-          {{ with $pl }}{{ with .Params.tagline }}<p class="muted">{{ . }}</p>{{ end }}{{ end }}
-        </div>
-      </a>
-    {{ end }}
-  </div>
+  {{/* All KiCad projects, alphabetized and grouped by first letter (EAGLE-style). */}}
+  {{ $projects := sort .Sections "Title" }}
+  {{ $letters := slice }}
+  {{ range $projects }}{{ $letters = $letters | append (upper (substr .Title 0 1)) }}{{ end }}
+  {{ range $letter := (uniq $letters) }}
+  <section class="letter-group">
+    <h2 class="letter-heading">{{ $letter }}</h2>
+    <div class="project-cards">
+      {{ range $projects }}
+        {{ if eq (upper (substr .Title 0 1)) $letter }}
+          {{ $proj := . }}
+          {{ $pv := sort (where $proj.Pages "Params.publish" true) "Params.board_rev" "desc" }}
+          {{ $pl := "" }}{{ if $pv }}{{ $pl = index $pv 0 }}{{ end }}
+          <a class="project-card" href="{{ $proj.RelPermalink }}">
+            {{ with $pl }}{{ with .Params.image_path }}<img class="project-card-thumb" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}{{ end }}
+            <div class="project-card-body">
+              <h3>{{ $proj.Title }}</h3>
+              {{ with $pl }}{{ with .Params.tagline }}<p class="muted">{{ . }}</p>{{ end }}{{ end }}
+            </div>
+          </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
 </article>
 {{ end }}
 {{ end }}

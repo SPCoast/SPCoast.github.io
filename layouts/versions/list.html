@@ -13,11 +13,7 @@
 <article class="kicad-project">
   {{ $latest := index $versions 0 }}
   <header class="project-header">
-    {{ with $latest.Params.image_path }}
-    <label class="zoom" for="lb-project-thumb"><img class="project-thumb" src="{{ . | relURL }}" alt="" loading="lazy"></label>
-    <input type="checkbox" id="lb-project-thumb" class="lightbox-toggle" hidden>
-    <label class="lightbox" for="lb-project-thumb"><img src="{{ . | relURL }}" alt=""></label>
-    {{ end }}
+    {{ with $latest.Params.image_path }}<img class="project-thumb" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
     <div class="project-heading">
       <h1>{{ .Title }}</h1>
       {{ with .Params.tagline }}<p class="tagline">{{ . }}</p>{{ end }}

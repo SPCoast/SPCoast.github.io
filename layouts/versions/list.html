@@ -2,10 +2,22 @@
   KiCad "versions" section list template, two modes:
   - Project page (content/versions/<P>/_index.md): header with the latest
     version's thumbnail + name + description (README body), a collapsible
-    Documentation section listing the datasheet filenames (front-matter
-    data emitted by kproj), then a per-version tab strip.
+    Documentation section listing curated datasheets (front-matter data
+    emitted by kproj), then a per-version tab strip.
   - Top /versions/ index: one card per project (latest thumbnail).
   Tabs are dependency-free CSS :target (+ :has() default).
+
+  Datasheet entry shapes in `.Params.datasheets` (kproj#29 / kproj ADR 0010
+  deep-linked the shared SPCoast-inventory library instead of copying PDFs
+  per project; the older per-project-copy shape lingers on pages that
+  haven't been republished yet, so both are rendered here):
+  - New (kproj >= the deep-link change): a map per entry -
+    {name, view, download} - name is the curated Datasheet Name, view/
+    download are absolute URLs into the public SPCoast-inventory repo.
+  - Legacy: a bare filename string; rendered as a local
+    /versions/<project>/datasheets/<file> link (the old per-project-copy
+    path). Only still-published, not-yet-republished pages carry this
+    shape - kproj no longer writes it.
 */}}
 {{ define "main" }}
 {{ $versions := sort (where .Pages "Params.publish" true) "Params.board_rev" "desc" }}
@@ -28,7 +40,15 @@
   <details class="documentation">
     <summary>Documentation &mdash; {{ len . }} datasheet{{ if ne (len .) 1 }}s{{ end }}</summary>
     <ul class="datasheet-list">
-      {{ range . }}<li><a href="{{ (printf "/versions/%s/datasheets/%s" $.Params.project .) | relURL }}">{{ . }}</a></li>{{ end }}
+      {{ range . }}
+        {{ if reflect.IsMap . }}
+          {{/* New shape: deep-link the shared SPCoast-inventory library (view + download). */}}
+          <li><a href="{{ .view }}">{{ .name }}</a> (<a href="{{ .download }}">download</a>)</li>
+        {{ else }}
+          {{/* Legacy shape: bare filename, once copied under /versions/<project>/datasheets/. */}}
+          <li><a href="{{ (printf "/versions/%s/datasheets/%s" $.Params.project .) | relURL }}">{{ . }}</a></li>
+        {{ end }}
+      {{ end }}
     </ul>
   </details>
   {{ end }}

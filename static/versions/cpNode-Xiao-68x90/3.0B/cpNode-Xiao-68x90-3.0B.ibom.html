@@ -959,7 +959,7 @@ var d={x:c.clientX,y:c.clientY};b.push(d);var e=function(a,b){var c=a.indexOf(b)
 ///////////////////////////////////////////////
 
 ///////////////////////////////////////////////
-var config = {"dark_mode": false, "show_pads": true, "show_fabrication": false, "show_silkscreen": true, "highlight_pin1": "none", "redraw_on_drag": true, "board_rotation": 0.0, "checkboxes": "Sourced,Placed", "bom_view": "left-right", "layer_view": "FB", "offset_back_rotation": false, "kicad_text_formatting": true, "mark_when_checked": "", "fields": ["Value", "Footprint", "Details", "Description"]}
+var config = {"dark_mode": false, "show_pads": true, "show_fabrication": false, "show_silkscreen": true, "highlight_pin1": "none", "redraw_on_drag": true, "board_rotation": 0.0, "checkboxes": "Sourced,Placed", "bom_view": "left-right", "layer_view": "F", "offset_back_rotation": false, "kicad_text_formatting": true, "mark_when_checked": "", "fields": ["Value", "Footprint", "Details", "Description"]}
 ///////////////////////////////////////////////
 
 ///////////////////////////////////////////////
@@ -1553,10 +1553,10 @@ function initDefaults() {
   initBooleanSetting("highlightRowOnClick", false, "highlightRowOnClickCheckbox", setHighlightRowOnClick);
   initBooleanSetting("darkmode", config.dark_mode, "darkmodeCheckbox", setDarkMode);
 
-  var fields = ["checkboxes", "References"].concat(config.fields).concat(["Quantity"]);
+  var fields = ["checkboxes", "Ref"].concat(config.fields).concat(["Quantity"]);
   var hcols = JSON.parse(readStorage("hiddenColumns"));
   if (hcols === null) {
-    hcols = [];
+    hcols = ["checkboxes", "Footprint"];
   }
   settings.hiddenColumns = hcols.filter(e => fields.includes(e));
 
@@ -3395,7 +3395,7 @@ function entryMatches(entry) {
     return entry.toLowerCase().indexOf(filter) >= 0;
   }
   // check refs
-  if (!settings.hiddenColumns.includes("References")) {
+  if (!settings.hiddenColumns.includes("Ref")) {
     for (var ref of entry) {
       if (ref[0].toLowerCase().indexOf(filter) >= 0) {
         return true;
@@ -3680,8 +3680,8 @@ function populateBomHeader(placeHolderColumn = null, placeHolderElements = null)
             checkbox, "bom-checkbox", checkboxCompareClosure(checkbox), true);
           tr.appendChild(th);
         }
-      } else if (column === "References") {
-        tr.appendChild(createColumnHeader("References", "references", (a, b) => {
+      } else if (column === "Ref") {
+        tr.appendChild(createColumnHeader("Ref", "references", (a, b) => {
           var i = 0;
           while (i < a.length && i < b.length) {
             if (a[i][0] != b[i][0]) return compareRefs(a[i][0], b[i][0]);
@@ -3800,7 +3800,7 @@ function populateBomBody(placeholderColumn = null, placeHolderElements = null) {
               tr.appendChild(td);
             }
           }
-        } else if (column === "References") {
+        } else if (column === "Ref") {
           td = document.createElement("TD");
           td.innerHTML = highlightFilter(references.map(r => r[0]).join(", "));
           tr.appendChild(td);

@@ -22,8 +22,8 @@
       }).format(date);
     }
 
-    function localizePublishTimes() {
-      document.querySelectorAll('.js-local-publish-time').forEach(function (node) {
+    function localizeDateTimes() {
+      document.querySelectorAll('.js-local-datetime, .js-local-publish-time').forEach(function (node) {
         var utcValue = node.getAttribute('data-utc') || node.getAttribute('datetime');
         if (!utcValue) return;
         var parsed = new Date(utcValue);
@@ -34,9 +34,9 @@
     }
 
     if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', localizePublishTimes);
+      document.addEventListener('DOMContentLoaded', localizeDateTimes);
     } else {
-      localizePublishTimes();
+      localizeDateTimes();
     }
   })();
 </script>

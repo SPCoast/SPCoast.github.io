@@ -99,10 +99,20 @@
   {{ end }}
 {{ end }}
 <footer class="version-footer">
-  <p>
-    <strong>Published:</strong>
-    <time class="js-local-publish-time" datetime="{{ .Date.UTC.Format "2006-01-02T15:04:05Z07:00" }}" data-utc="{{ .Date.UTC.Format "2006-01-02T15:04:05Z07:00" }}">
-      {{ .Date.UTC.Format "2006-01-02 15:04 UTC" }}
-    </time>
-  </p>
+  {{ $releasedUtc := .Date.UTC.Format "2006-01-02T15:04:05Z07:00" }}
+  {{ $siteUpdatedUtc := now.UTC.Format "2006-01-02T15:04:05Z07:00" }}
+  <div class="version-footer-row">
+    <p class="version-release">
+      <strong>Released:</strong>
+      <time class="js-local-datetime" datetime="{{ $releasedUtc }}" data-utc="{{ $releasedUtc }}">
+        {{ .Date.UTC.Format "2006-01-02 15:04 UTC" }}
+      </time>
+    </p>
+    <p class="version-site-updated">
+      Site updated:
+      <time class="js-local-datetime" datetime="{{ $siteUpdatedUtc }}" data-utc="{{ $siteUpdatedUtc }}">
+        {{ now.UTC.Format "2006-01-02 15:04 UTC" }}
+      </time>
+    </p>
+  </div>
 </footer>

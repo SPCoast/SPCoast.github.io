@@ -71,6 +71,25 @@
 </details>
 {{ end }}
 {{ end }}
+
+{{ $ercDrcErrors := 0 }}{{ $ercDrcWarnings := 0 }}
+{{ with .Params.drc }}{{ $ercDrcErrors = add $ercDrcErrors (int .errors) }}{{ $ercDrcWarnings = add $ercDrcWarnings (int .warnings) }}{{ end }}
+{{ with .Params.erc }}{{ $ercDrcErrors = add $ercDrcErrors (int .errors) }}{{ $ercDrcWarnings = add $ercDrcWarnings (int .warnings) }}{{ end }}
+{{ if or (gt $ercDrcErrors 0) (gt $ercDrcWarnings 0) }}
+<details class="checks-inline-row">
+  <summary><strong>ERC/DRC:</strong> <span>{{ $ercDrcErrors }} error{{ if ne $ercDrcErrors 1 }}s{{ end }}, {{ $ercDrcWarnings }} warning{{ if ne $ercDrcWarnings 1 }}s{{ end }}</span></summary>
+  {{ with .Content }}
+  <div class="checks-details">
+    {{ . }}
+  </div>
+  {{ end }}
+</details>
+{{ else }}
+<div class="libraries-inline-row checks-inline-row checks-clean">
+  <strong>ERC/DRC:</strong>
+  <span class="library-pill">No Issues</span>
+</div>
+{{ end }}
  
 {{ range .Params.artifacts }}
   {{ if eq .tag "interactive-bom" }}
@@ -78,17 +97,6 @@
     <iframe src="{{ .path | relURL }}" title="Interactive BOM" loading="lazy" class="ibom-frame"></iframe>
   </div>
   {{ end }}
-{{ end }}
-
-{{ $errors := 0 }}{{ $warnings := 0 }}
-{{ with .Params.audit }}{{ $errors = add $errors (int .errors) }}{{ $warnings = add $warnings (int .warnings) }}{{ end }}
-{{ with .Params.drc }}{{ $errors = add $errors (int .errors) }}{{ $warnings = add $warnings (int .warnings) }}{{ end }}
-{{ with .Params.erc }}{{ $errors = add $errors (int .errors) }}{{ $warnings = add $warnings (int .warnings) }}{{ end }}
-{{ with .Content }}
-<details class="findings">
-  <summary>Checks &mdash; {{ $errors }} error{{ if ne $errors 1 }}s{{ end }}, {{ $warnings }} warning{{ if ne $warnings 1 }}s{{ end }}</summary>
-  {{ . }}
-</details>
 {{ end }}
 <footer class="version-footer">
   <p>

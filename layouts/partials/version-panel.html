@@ -5,46 +5,64 @@
   summary shows just the error/warning counts.
 */}}
 <header class="version-header">
-  <h2>Version {{ .Params.board_rev }}</h2>
-  <span class="version-status status-{{ .Params.status | default "unknown" }}">{{ .Params.status | default "unknown" | title }}</span>
+  <div class="version-meta-row">
+    <span class="version-chip">{{ .Params.board_rev }}</span>
+    {{ $status := lower (.Params.status | default "unknown") }}
+    {{ if and (ne $status "active") (ne $status "unknown") }}
+    <span class="version-status status-{{ $status }}">{{ $status | title }}</span>
+    {{ end }}
+  </div>
   {{ with .Params.tagline }}<p class="tagline">{{ . }}</p>{{ end }}
 </header>
 
 {{ with .Params.images }}
 <div class="gallery">
   {{ range . }}
-  <figure class="{{ if in (lower .title) "schematic" }}gallery-schematic{{ end }}">
+  <figure>
     <a href="{{ .image_path | relURL }}"><img src="{{ .image_path | relURL }}" alt="{{ .title }}" loading="lazy"></a>
     <figcaption>{{ .title }}</figcaption>
   </figure>
   {{ end }}
 </div>
 {{ end }}
-
-<div class="downloads">
-  {{ range .Params.artifacts }}
-    {{ if eq .tag "fab-pack" }}<p><strong>Gerbers:</strong> <a href="{{ .path | relURL }}">download</a> <span class="muted">(BOM + POS + gerbers)</span></p>{{ end }}
-    {{ if eq .tag "source-archive" }}<p><strong>Project:</strong> <a href="{{ .path | relURL }}">download</a> <span class="muted">(KiCad source)</span></p>{{ end }}
-  {{ end }}
-</div>
-
-{{ with .Params.libraries }}
-{{ if or .internal .external .ambiguous }}
-<div class="libraries">
-  <p><strong>Libraries Used:</strong></p>
-  {{ range $bucket := slice "internal" "external" "ambiguous" }}
-    {{ with index $.Params.libraries $bucket }}
-    <p class="lib-line"><span class="lib-label">{{ $bucket }}:</span> {{ delimit . ", " }}</p>
+{{ $downloads := where .Params.artifacts "tag" "in" (slice "fab-pack" "source-archive") }}
+{{ if gt (len $downloads) 0 }}
+<div class="downloads download-row">
+  <p><strong>Download:</strong>
+    {{ range $downloads }}
+      <a class="download-pill" href="{{ .path | relURL }}">{{ path.Base .path }}</a>
     {{ end }}
-  {{ end }}
+  </p>
 </div>
 {{ end }}
-{{ end }}
 
+{{ $libraries := slice }}
+{{ with .Params.libraries }}
+  {{ with .internal }}
+    {{ range . }}{{ $libraries = $libraries | append . }}{{ end }}
+  {{ end }}
+  {{ with .external }}
+    {{ range . }}{{ $libraries = $libraries | append . }}{{ end }}
+  {{ end }}
+  {{ with .ambiguous }}
+    {{ range . }}{{ $libraries = $libraries | append . }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ $libraries = uniq (sort $libraries) }}
+{{ if gt (len $libraries) 0 }}
+<details class="libraries-toggle">
+  <summary>Footprint Libraries</summary>
+  <div class="libraries-list">
+    {{ range $libraries }}
+      <span class="library-item">{{ . }}</span>
+    {{ end }}
+  </div>
+</details>
+{{ end }}
+ 
 {{ range .Params.artifacts }}
   {{ if eq .tag "interactive-bom" }}
   <div class="ibom-block">
-    <p><strong>BOM:</strong> interactive</p>
     <iframe src="{{ .path | relURL }}" title="Interactive BOM" loading="lazy" class="ibom-frame"></iframe>
   </div>
   {{ end }}

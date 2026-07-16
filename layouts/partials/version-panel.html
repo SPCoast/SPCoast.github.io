@@ -5,13 +5,12 @@
   summary shows just the error/warning counts.
 */}}
 <header class="version-header">
+  {{ $status := lower (.Params.status | default "unknown") }}
+  {{ if and (ne $status "active") (ne $status "unknown") }}
   <div class="version-meta-row">
-    <span class="version-chip">{{ .Params.board_rev }}</span>
-    {{ $status := lower (.Params.status | default "unknown") }}
-    {{ if and (ne $status "active") (ne $status "unknown") }}
     <span class="version-status status-{{ $status }}">{{ $status | title }}</span>
-    {{ end }}
   </div>
+  {{ end }}
   {{ with .Params.tagline }}<p class="tagline">{{ . }}</p>{{ end }}
 </header>
 
@@ -19,7 +18,11 @@
 <div class="gallery">
   {{ range . }}
   <figure>
-    <a href="{{ .image_path | relURL }}"><img src="{{ .image_path | relURL }}" alt="{{ .title }}" loading="lazy"></a>
+    <a href="{{ .image_path | relURL }}" class="gallery-link">
+      <span class="gallery-thumb">
+        <img src="{{ .image_path | relURL }}" alt="{{ .title }}" loading="lazy">
+      </span>
+    </a>
     <figcaption>{{ .title }}</figcaption>
   </figure>
   {{ end }}

@@ -40,28 +40,38 @@
   <header><h1>{{ .Title }}</h1></header>
   {{/* All KiCad projects, alphabetized and grouped by first letter (EAGLE-style). */}}
   {{ $projects := sort .Sections "Title" }}
-  {{ $letters := slice }}
-  {{ range $projects }}{{ $letters = $letters | append (upper (substr .Title 0 1)) }}{{ end }}
-  {{ range $letter := (uniq $letters) }}
-  <section class="letter-group">
-    <h2 class="letter-heading">{{ $letter }}</h2>
-    <div class="project-cards">
-      {{ range $projects }}
-        {{ if eq (upper (substr .Title 0 1)) $letter }}
-          {{ $proj := . }}
-          {{ $pv := sort (where $proj.Pages "Params.publish" true) "Params.board_rev" "desc" }}
-          {{ $pl := "" }}{{ if $pv }}{{ $pl = index $pv 0 }}{{ end }}
-          <a class="project-card" href="{{ $proj.RelPermalink }}">
-            {{ with $pl }}{{ with .Params.image_path }}<img class="project-card-thumb" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}{{ end }}
-            <div class="project-card-body">
-              <h3>{{ $proj.Title }}</h3>
-              {{ with $pl }}{{ with .Params.tagline }}<p class="muted">{{ . }}</p>{{ end }}{{ end }}
-            </div>
-          </a>
+  {{ if $projects }}
+    {{ $letters := slice }}
+    {{ range $projects }}{{ $letters = $letters | append (upper (substr .Title 0 1)) }}{{ end }}
+    {{ range $letter := (uniq $letters) }}
+    <section class="letter-group">
+      <h2 class="letter-heading">{{ $letter }}</h2>
+      <div class="project-cards">
+        {{ range $projects }}
+          {{ if eq (upper (substr .Title 0 1)) $letter }}
+            {{ $proj := . }}
+            {{ $pv := sort (where $proj.Pages "Params.publish" true) "Params.board_rev" "desc" }}
+            {{ $pl := "" }}{{ if $pv }}{{ $pl = index $pv 0 }}{{ end }}
+            <a class="project-card" href="{{ $proj.RelPermalink }}">
+              {{ with $pl }}{{ with .Params.image_path }}<img class="project-card-thumb" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}{{ end }}
+              <div class="project-card-body">
+                <h3>{{ $proj.Title }}</h3>
+                {{ with $pl }}{{ with .Params.tagline }}<p class="muted">{{ . }}</p>{{ end }}{{ end }}
+              </div>
+            </a>
+          {{ end }}
         {{ end }}
+      </div>
+    </section>
+    {{ end }}
+  {{ else }}
+    <section class="project-overview">
+      {{ with .Content }}
+        {{ . }}
+      {{ else }}
+        <p class="muted">Nothing published yet.</p>
       {{ end }}
-    </div>
-  </section>
+    </section>
   {{ end }}
 </article>
 {{ end }}

@@ -4,7 +4,7 @@
   project page uses for its tab panels, plus a back-link to the project page.
 */}}
 {{ define "main" }}
-<article class="kicad-version">
+<article class="spcoast-page kicad-version">
   {{ partial "version-panel.html" . }}
   <p class="backlink"><a href="{{ .Parent.RelPermalink }}">&larr; All {{ .Params.project }} versions</a></p>
 </article>

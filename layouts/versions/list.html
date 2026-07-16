@@ -9,7 +9,7 @@
 {{ define "main" }}
 {{ $versions := sort (where .Pages "Params.publish" true) "Params.board_rev" "desc" }}
 {{ if $versions }}
-<article class="kicad-project">
+<article class="spcoast-page kicad-project">
   {{ $latest := index $versions 0 }}
   <header class="project-header">
     <div class="project-heading">
@@ -36,7 +36,7 @@
   </section>
 </article>
 {{ else }}
-<article class="kicad-project">
+<article class="spcoast-page kicad-project">
   <header><h1>{{ .Title }}</h1></header>
   {{/* All KiCad projects, alphabetized and grouped by first letter (EAGLE-style). */}}
   {{ $projects := sort .Sections "Title" }}

@@ -197,6 +197,7 @@ table th {
 .version-panels:has(.version-panel:target) .version-panel:first-child:not(:target) { display: none; }
 
 .version-header h2 { margin-top: 0; border: none; }
+.version-meta p { margin: 0.2rem 0; color: var(--fg-muted); font-size: 0.92rem; }
 
 .version-status {
   display: inline-block;

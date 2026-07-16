@@ -239,6 +239,7 @@ table th {
   display: flex;
   width: 180px;
   height: 120px;
+  padding: 0.6rem;
   align-items: center;
   justify-content: center;
   border: 1px solid var(--border);
@@ -246,9 +247,10 @@ table th {
   background: #fff;
 }
 .gallery figure img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 96px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
   object-position: center;
 }
 .gallery figcaption { font-size: 0.85rem; color: var(--fg-muted); }
@@ -264,14 +266,18 @@ table th {
   background: #fafbfc;
 }
 
-.download-pill {
+.download-pill,
+.library-pill {
   display: inline-block;
   border: 1px solid #c4ccd4;
   border-radius: 6px;
   padding: 0.08rem 0.5rem;
-  text-decoration: none;
   background: #fff;
   font-size: 0.92rem;
+}
+
+.download-pill {
+  text-decoration: none;
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
@@ -282,18 +288,27 @@ table th {
 }
 
 .download-pill::before,
-.download-pill::after {
+.download-pill::after,
+.library-pill::before,
+.library-pill::after {
   color: var(--fg-muted);
 }
 
 .download-pill::before { content: "["; margin-right: 0.08rem; }
 .download-pill::after { content: "]"; margin-left: 0.08rem; }
+.library-pill::before { content: "["; margin-right: 0.08rem; }
+.library-pill::after { content: "]"; margin-left: 0.08rem; }
 .muted { color: var(--fg-muted); }
-.libraries-inline { margin: 0.55rem 0 0.8rem; }
-.libraries-inline-label {
-  margin: 0 0 0.35rem;
-  font-weight: 600;
-  color: var(--fg-muted);
+.libraries-inline-row {
+  margin: 0.45rem 0 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fafbfc;
 }
 .libraries-toggle { margin: 0.55rem 0 0.8rem; }
 .libraries-toggle > summary {
@@ -309,14 +324,6 @@ table th {
   gap: 0.35rem;
 }
 
-.library-item {
-  display: inline-block;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 0.1rem 0.55rem;
-  font-size: 0.85rem;
-  color: var(--fg-muted);
-}
 
 .ibom { margin: 1.5rem 0; }
 .ibom summary { cursor: pointer; font-weight: 600; }
@@ -356,22 +363,20 @@ table th {
 .letter-group { margin: 0 0 1.75rem; }
 .letter-heading { font-size: 1.25rem; color: var(--fg-muted); border-bottom: 2px solid var(--border); padding-bottom: 0.2rem; margin: 1rem 0 0.75rem; }
 
-.project-card:hover .project-card-thumb { border-color: var(--link); }
 .project-card-thumb {
   width: 100%;
   height: 150px;
   object-fit: contain;
-  background: var(--code-bg);
-  border: 1px solid var(--border);
-  border-radius: 8px;
+  background: transparent;
+  border: none;
+  border-radius: 0;
 }
 .project-card-body { padding: 0.55rem 0.15rem 0; }
 .project-card-body h3 { margin: 0 0 0.25rem; font-size: 1.05rem; }
 .project-card-body p { margin: 0; font-size: 0.85rem; }
 
 /* Project header: thumbnail + name/description */
-.project-header { display: flex; gap: 1.25rem; align-items: flex-start; margin-bottom: 1rem; }
-.project-thumb { width: 160px; flex: 0 0 auto; border: 1px solid var(--border); border-radius: 6px; background: var(--code-bg); }
+.project-header { margin-bottom: 1rem; }
 .project-heading h1 { margin-top: 0; }
 .project-meta { margin: 0.25rem 0 0; color: var(--fg-muted); font-size: 0.92rem; }
 

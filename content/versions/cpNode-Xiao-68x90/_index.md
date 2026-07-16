@@ -45,8 +45,6 @@ datasheets:
   view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/Resistor-ThickFilm-YAGEO-RC-series.pdf
   download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/Resistor-ThickFilm-YAGEO-RC-series.pdf
 ---
-## cpNode Xiao
-
 cpNodes are Arduino-ecosystem nodes for the Computer Model Railroad
 Interface (CMRI) system.  The Xiao variations use the ESP32 family of
 microcontrollers, and communicate with each other and with

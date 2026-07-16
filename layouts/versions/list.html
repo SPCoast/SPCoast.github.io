@@ -12,7 +12,6 @@
 <article class="kicad-project">
   {{ $latest := index $versions 0 }}
   <header class="project-header">
-    {{ with $latest.Params.image_path }}<img class="project-thumb" src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
     <div class="project-heading">
       <h1>{{ .Title }}</h1>
       {{ with .Params.tagline }}<p class="tagline">{{ . }}</p>{{ end }}

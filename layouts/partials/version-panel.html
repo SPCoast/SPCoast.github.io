@@ -53,6 +53,16 @@
 {{ end }}
 {{ $libraries = uniq (sort $libraries) }}
 {{ if gt (len $libraries) 0 }}
+{{ if le (len $libraries) 8 }}
+<div class="libraries-inline">
+  <p class="libraries-inline-label">Footprint Libraries</p>
+  <div class="libraries-list">
+    {{ range $libraries }}
+      <span class="library-item">{{ . }}</span>
+    {{ end }}
+  </div>
+</div>
+{{ else }}
 <details class="libraries-toggle">
   <summary>Footprint Libraries</summary>
   <div class="libraries-list">
@@ -61,6 +71,7 @@
     {{ end }}
   </div>
 </details>
+{{ end }}
 {{ end }}
  
 {{ range .Params.artifacts }}

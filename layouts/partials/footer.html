@@ -8,3 +8,35 @@
     unless otherwise noted.
   </p>
 </footer>
+<script>
+  (function () {
+    function formatLocalDateTime(date) {
+      return new Intl.DateTimeFormat(navigator.language || 'en-US', {
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        timeZoneName: 'short'
+      }).format(date);
+    }
+
+    function localizePublishTimes() {
+      document.querySelectorAll('.js-local-publish-time').forEach(function (node) {
+        var utcValue = node.getAttribute('data-utc') || node.getAttribute('datetime');
+        if (!utcValue) return;
+        var parsed = new Date(utcValue);
+        if (Number.isNaN(parsed.getTime())) return;
+        node.textContent = formatLocalDateTime(parsed);
+        node.setAttribute('title', 'UTC: ' + utcValue);
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', localizePublishTimes);
+    } else {
+      localizePublishTimes();
+    }
+  })();
+</script>

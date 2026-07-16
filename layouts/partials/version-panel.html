@@ -100,7 +100,7 @@
 {{ end }}
 <footer class="version-footer">
   {{ $releasedUtc := .Date.UTC.Format "2006-01-02T15:04:05Z07:00" }}
-  {{ $siteUpdatedUtc := now.UTC.Format "2006-01-02T15:04:05Z07:00" }}
+  {{ $panelUpdatedUtc := now.UTC.Format "2006-01-02T15:04:05Z07:00" }}
   <div class="version-footer-row">
     <p class="version-release">
       <strong>Released:</strong>
@@ -109,8 +109,8 @@
       </time>
     </p>
     <p class="version-site-updated">
-      Site updated:
-      <time class="js-local-datetime" datetime="{{ $siteUpdatedUtc }}" data-utc="{{ $siteUpdatedUtc }}">
+      Panel updated:
+      <time class="js-local-datetime" datetime="{{ $panelUpdatedUtc }}" data-utc="{{ $panelUpdatedUtc }}">
         {{ now.UTC.Format "2006-01-02 15:04 UTC" }}
       </time>
     </p>

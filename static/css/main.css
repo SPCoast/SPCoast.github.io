@@ -207,22 +207,27 @@ table th {
 .version-footer { margin-top: 1rem; }
 .version-footer-row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: baseline;
   justify-content: space-between;
-  gap: 0.3rem 1rem;
+  gap: 0.3rem 0.8rem;
 }
 .version-footer p { margin: 0; color: var(--fg-muted); font-size: 0.92rem; }
+.version-release,
+.version-site-updated {
+  white-space: nowrap;
+}
 .version-site-updated {
   margin-left: auto;
   font-size: 0.72rem;
   text-align: right;
 }
 .version-site-updated time { white-space: nowrap; }
-@media (max-width: 720px) {
+@media (max-width: 560px) {
   .version-footer-row {
     flex-direction: column;
     align-items: flex-start;
+    flex-wrap: wrap;
   }
   .version-site-updated {
     margin-left: 0;

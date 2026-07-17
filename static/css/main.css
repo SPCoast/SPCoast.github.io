@@ -191,8 +191,8 @@ table th {
   text-decoration: none;
   border: 1px solid #c4ccd4;
   border-radius: 8px;
-  background: #fff;
-  color: var(--link);
+  background: #f6f8fa;
+  color: #57606a;
   font-weight: 600;
   line-height: 1.2;
   transition:
@@ -203,8 +203,9 @@ table th {
 }
 
 .tab-link:hover {
-  background: #eef6ff;
-  border-color: #9ec4ef;
+  background: #eef2f6;
+  border-color: #b1bac4;
+  color: #24292f;
   text-decoration: none;
 }
 
@@ -215,10 +216,17 @@ table th {
 
 .tab-link.is-active,
 .tab-link[aria-current="page"] {
-  background: #eaf3ff;
-  border-color: #7fb0e8;
-  color: #0550ae;
-  box-shadow: 0 0 0 1px rgba(9, 105, 218, 0.08);
+  background: #0969da;
+  border-color: #0969da;
+  color: #ffffff;
+  box-shadow: 0 1px 2px rgba(31, 35, 40, 0.12), 0 0 0 1px rgba(9, 105, 218, 0.12);
+}
+
+.tab-link.is-active:hover,
+.tab-link[aria-current="page"]:hover {
+  background: #0860ca;
+  border-color: #0860ca;
+  color: #ffffff;
 }
 
 /* CSS-only tabs: hide all panels, show the first by default, show the

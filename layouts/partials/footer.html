@@ -33,10 +33,50 @@
       });
     }
 
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', localizeDateTimes);
-    } else {
-      localizeDateTimes();
+    function syncVersionTabs() {
+      document.querySelectorAll('.version-tabs').forEach(function (tabsNode) {
+        var links = tabsNode.querySelectorAll('.tab-strip .tab-link[data-tab-target]');
+        if (!links.length) return;
+
+        var hashTarget = window.location.hash ? window.location.hash.slice(1) : '';
+        var activeLink = null;
+
+        if (hashTarget) {
+          links.forEach(function (link) {
+            if (activeLink) return;
+            if (link.getAttribute('data-tab-target') === hashTarget) {
+              activeLink = link;
+            }
+          });
+        }
+
+        if (!activeLink) {
+          activeLink = links[0];
+        }
+
+        links.forEach(function (link) {
+          var isActive = link === activeLink;
+          link.classList.toggle('is-active', isActive);
+          if (isActive) {
+            link.setAttribute('aria-current', 'page');
+          } else {
+            link.removeAttribute('aria-current');
+          }
+        });
+      });
     }
+
+    function initializeUi() {
+      localizeDateTimes();
+      syncVersionTabs();
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initializeUi);
+    } else {
+      initializeUi();
+    }
+
+    window.addEventListener('hashchange', syncVersionTabs);
   })();
 </script>

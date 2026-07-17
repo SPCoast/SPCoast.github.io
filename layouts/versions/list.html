@@ -7,7 +7,7 @@
   Tabs are JS-enhanced for active-state and no-jump switching.
 */}}
 {{ define "main" }}
-{{ $versions := sort (where .Pages "Params.publish" true) "Params.board_rev" "desc" }}
+{{ $versions := sort (where .Pages "Params.publish" true) "Date" "desc" }}
 {{ if $versions }}
 <article class="spcoast-page kicad-project">
   {{ $latest := index $versions 0 }}
@@ -28,7 +28,7 @@
     <nav class="tab-strip">
       {{ range $idx, $version := $versions }}
         {{ $panelID := printf "v-%s" (anchorize $version.Params.board_rev) }}
-        <a class="tab-link{{ if eq $idx 0 }} is-active{{ end }}" href="#{{ $panelID }}" data-tab-target="{{ $panelID }}"{{ if eq $idx 0 }} aria-current="page"{{ end }}>{{ $version.Params.board_rev }}</a>
+        <a class="tab-link{{ if eq $idx 0 }} is-active{{ end }}" href="#{{ $panelID }}" data-tab-target="{{ $panelID }}" data-tab-label="{{ $version.Params.board_rev }}" data-tab-published="{{ $version.Date.UTC.Format "2006-01-02T15:04:05Z07:00" }}"{{ if eq $idx 0 }} aria-current="page"{{ end }}>{{ $version.Params.board_rev }}</a>
       {{ end }}
     </nav>
     <div class="version-panels">

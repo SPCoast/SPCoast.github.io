@@ -33,6 +33,42 @@
       });
     }
 
+    function tabLabel(link) {
+      return (link.getAttribute('data-tab-label') || link.textContent || '').trim();
+    }
+
+    function tabPublishedMillis(link) {
+      var published = link.getAttribute('data-tab-published');
+      if (!published) return null;
+      var millis = Date.parse(published);
+      return Number.isNaN(millis) ? null : millis;
+    }
+
+    function pickDefaultVersionLink(links) {
+      var bestLink = links[0];
+      links.forEach(function (link, index) {
+        if (index === 0) return;
+
+        var bestMillis = tabPublishedMillis(bestLink);
+        var linkMillis = tabPublishedMillis(link);
+
+        if (linkMillis !== null || bestMillis !== null) {
+          if (linkMillis !== null && (bestMillis === null || linkMillis > bestMillis)) {
+            bestLink = link;
+            return;
+          }
+          if (bestMillis !== null && (linkMillis === null || linkMillis < bestMillis)) {
+            return;
+          }
+        }
+
+        if (tabLabel(link).localeCompare(tabLabel(bestLink), undefined, { numeric: true, sensitivity: 'base' }) > 0) {
+          bestLink = link;
+        }
+      });
+      return bestLink;
+    }
+
     function syncVersionTabs() {
       document.querySelectorAll('.version-tabs').forEach(function (tabsNode) {
         var links = tabsNode.querySelectorAll('.tab-strip .tab-link[data-tab-target]');
@@ -52,7 +88,7 @@
         }
 
         if (!activeLink) {
-          activeLink = links[0];
+          activeLink = pickDefaultVersionLink(links);
         }
         var activeTarget = activeLink.getAttribute('data-tab-target') || '';
 

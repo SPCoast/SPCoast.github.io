@@ -70,6 +70,7 @@
           var isActivePanel = panel.id === activeTarget || (!activeTarget && index === 0);
           panel.classList.toggle('is-active', isActivePanel);
           panel.hidden = !isActivePanel;
+          panel.style.display = isActivePanel ? 'block' : 'none';
         });
       });
     }

@@ -28,7 +28,7 @@
     <nav class="tab-strip">
       {{ range $idx, $version := $versions }}
         {{ $panelID := printf "v-%s" (anchorize $version.Params.board_rev) }}
-        <a class="tab-link{{ if eq $idx 0 }} is-active{{ end }}" href="#{{ $panelID }}" data-tab-target="{{ $panelID }}"{{ if eq $idx 0 }} aria-current="page"{{ end }}>{{ $version.Params.board_rev }}</a>
+        <a class="tab-link{{ if eq $idx 0 }} is-active{{ end }}" href="#{{ $panelID }}" data-tab-target="{{ $panelID }}"{{ if eq $idx 0 }} aria-current="page"{{ end }}>NEW {{ $version.Params.board_rev }}</a>
       {{ end }}
     </nav>
     <div class="version-panels">

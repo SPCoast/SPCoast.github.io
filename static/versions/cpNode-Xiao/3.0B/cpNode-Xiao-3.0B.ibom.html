@@ -199,7 +199,7 @@ canvas:active {
   border-collapse: collapse;
   font-family: Consolas, "DejaVu Sans Mono", Monaco, monospace;
   font-size: 10pt;
-  table-layout: auto;
+  table-layout: fixed;
   width: 100%;
   margin-top: 1px;
   position: relative;
@@ -212,31 +212,6 @@ canvas:active {
   word-wrap: break-word;
   text-align: center;
   position: relative;
-}
-
-.bom th.numCol {
-  width: 3.2ch;
-  min-width: 3.2ch;
-  max-width: 4.4ch;
-  white-space: nowrap;
-}
-.bom th[col_name="Ref"] {
-  width: 8.5ch;
-  min-width: 7.2ch;
-  max-width: 11ch;
-}
-.bom th[col_name="Value"] {
-  width: 11ch;
-  min-width: 9ch;
-  max-width: 15ch;
-}
-.bom th[col_name="Details"] {
-  width: 20ch;
-  min-width: 16ch;
-  max-width: 28ch;
-}
-.bom th[col_name="Description"] {
-  width: auto;
 }
 
 .dark .bom th,
@@ -490,17 +465,6 @@ mark.highlight {
 #vismenu-content {
   left: 0px;
   font-family: Verdana, sans-serif;
-  max-height: 70vh;
-  overflow-y: auto;
-  z-index: 4000;
-}
-.bom thead {
-  position: relative;
-  z-index: 1200;
-}
-.bom tbody {
-  position: relative;
-  z-index: 1;
 }
 
 .dark .statsbtn,
@@ -942,7 +906,7 @@ a {
 .bom {
   table-layout: auto;
 }
-.bom th[col_name="Ref"] {
+.bom th[col_name="References"] {
   width: 8.5ch;
   min-width: 7.2ch;
   max-width: 11ch;
@@ -1636,17 +1600,12 @@ function initDefaults() {
   initBooleanSetting("highlightRowOnClick", false, "highlightRowOnClickCheckbox", setHighlightRowOnClick);
   initBooleanSetting("darkmode", config.dark_mode, "darkmodeCheckbox", setDarkMode);
 
-  var fields = ["checkboxes", "Ref"].concat(config.fields).concat(["Quantity"]);
+  var fields = ["checkboxes", "References"].concat(config.fields).concat(["Quantity"]);
   var hcols = JSON.parse(readStorage("hiddenColumns"));
   if (hcols === null) {
-    hcols = ["checkboxes", "Footprint"];
+    hcols = [];
   }
   settings.hiddenColumns = hcols.filter(e => fields.includes(e));
-  var nonUtilityFields = fields.filter(e => e !== "checkboxes" && e !== "Quantity");
-  var visibleNonUtility = nonUtilityFields.filter(e => !settings.hiddenColumns.includes(e));
-  if (nonUtilityFields.length > 0 && visibleNonUtility.length === 0) {
-    settings.hiddenColumns = ["checkboxes", "Footprint"].filter(e => fields.includes(e));
-  }
 
   var cord = JSON.parse(readStorage("columnOrder"));
   if (cord === null) {
@@ -1655,10 +1614,6 @@ function initDefaults() {
     cord = cord.filter(e => fields.includes(e));
     if (cord.length != fields.length)
       cord = fields;
-  }
-  var orderedNonUtility = cord.filter(e => nonUtilityFields.includes(e));
-  if (nonUtilityFields.length > 0 && orderedNonUtility.length === 0) {
-    cord = fields;
   }
   settings.columnOrder = cord;
 
@@ -3487,7 +3442,7 @@ function entryMatches(entry) {
     return entry.toLowerCase().indexOf(filter) >= 0;
   }
   // check refs
-  if (!settings.hiddenColumns.includes("Ref")) {
+  if (!settings.hiddenColumns.includes("References")) {
     for (var ref of entry) {
       if (ref[0].toLowerCase().indexOf(filter) >= 0) {
         return true;
@@ -3651,60 +3606,6 @@ function createColumnHeader(name, cls, comparator, is_checkbox = false) {
   return th;
 }
 
-function applySpcoastBomColumnWidths() {
-  if (!bomhead || !bomhead.firstChild) {
-    return;
-  }
-  var headerRow = bomhead.firstChild;
-  var columnSpecs = {
-    "__rownum__": { width: "3.2ch", maxWidth: "4.4ch", whiteSpace: "nowrap" },
-    "Ref": { width: "8.5ch", maxWidth: "11ch" },
-    "Value": { width: "11ch", maxWidth: "15ch" },
-    "Details": { width: "20ch", maxWidth: "28ch" },
-  };
-  for (var i = 0; i < headerRow.childNodes.length; i++) {
-    var th = headerRow.childNodes[i];
-    if (!th || th.nodeName !== "TH") {
-      continue;
-    }
-    var key = th.classList.contains("numCol") ? "__rownum__" : th.getAttribute("col_name");
-    var spec = columnSpecs[key];
-    if (!spec) {
-      continue;
-    }
-    th.style.width = spec.width;
-    th.style.maxWidth = spec.maxWidth;
-    if (spec.whiteSpace) {
-      th.style.whiteSpace = spec.whiteSpace;
-    }
-  }
-  if (!bom || !bom.childNodes) {
-    return;
-  }
-  for (var r = 0; r < bom.childNodes.length; r++) {
-    var row = bom.childNodes[r];
-    for (var c = 0; c < row.childNodes.length; c++) {
-      var td = row.childNodes[c];
-      var header = headerRow.childNodes[c];
-      if (!td || td.nodeName !== "TD" || !header || header.nodeName !== "TH") {
-        continue;
-      }
-      var headerKey = header.classList.contains("numCol")
-        ? "__rownum__"
-        : header.getAttribute("col_name");
-      var headerSpec = columnSpecs[headerKey];
-      if (!headerSpec) {
-        continue;
-      }
-      td.style.width = headerSpec.width;
-      td.style.maxWidth = headerSpec.maxWidth;
-      if (headerSpec.whiteSpace) {
-        td.style.whiteSpace = headerSpec.whiteSpace;
-      }
-    }
-  }
-}
-
 function populateBomHeader(placeHolderColumn = null, placeHolderElements = null) {
   while (bomhead.firstChild) {
     bomhead.removeChild(bomhead.firstChild);
@@ -3826,8 +3727,8 @@ function populateBomHeader(placeHolderColumn = null, placeHolderElements = null)
             checkbox, "bom-checkbox", checkboxCompareClosure(checkbox), true);
           tr.appendChild(th);
         }
-      } else if (column === "Ref") {
-        tr.appendChild(createColumnHeader("Ref", "references", (a, b) => {
+      } else if (column === "References") {
+        tr.appendChild(createColumnHeader("References", "references", (a, b) => {
           var i = 0;
           while (i < a.length && i < b.length) {
             if (a[i][0] != b[i][0]) return compareRefs(a[i][0], b[i][0]);
@@ -3861,7 +3762,6 @@ function populateBomHeader(placeHolderColumn = null, placeHolderElements = null)
     });
   }
   bomhead.appendChild(tr);
-  applySpcoastBomColumnWidths();
 }
 
 function populateBomBody(placeholderColumn = null, placeHolderElements = null) {
@@ -3947,7 +3847,7 @@ function populateBomBody(placeholderColumn = null, placeHolderElements = null) {
               tr.appendChild(td);
             }
           }
-        } else if (column === "Ref") {
+        } else if (column === "References") {
           td = document.createElement("TD");
           td.innerHTML = highlightFilter(references.map(r => r[0]).join(", "));
           tr.appendChild(td);
@@ -4002,7 +3902,6 @@ function populateBomBody(placeholderColumn = null, placeHolderElements = null) {
       first = false;
     }
   }
-  applySpcoastBomColumnWidths();
   EventHandler.emitEvent(
     IBOM_EVENT_TYPES.BOM_BODY_CHANGE_EVENT, {
     filter: filter,
@@ -4589,9 +4488,9 @@ window.matchMedia("print").addListener(resizeAll);
   }
 })();
 
-// Cosmetically relabel "Ref" to "Ref" in the rendered UI by
+// Cosmetically relabel "References" to "Ref" in the rendered UI by
 // editing rendered text nodes rather than iBOM's source. The internal
-// field name ("Ref", used in storage keys and col_name
+// field name ("References", used in storage keys and col_name
 // attributes) stays untouched so iBOM's own column matching /
 // drag-reorder keeps working unmodified. Registered on the documented
 // BOM_BODY_CHANGE_EVENT hook (fires on initial render and every
@@ -4605,14 +4504,14 @@ EventHandler.registerCallback(IBOM_EVENT_TYPES.BOM_BODY_CHANGE_EVENT, function s
       return;
     }
     Array.from(el.childNodes).forEach(function (node) {
-      if (node.nodeType === Node.TEXT_NODE && node.textContent.includes("Ref")) {
-        node.textContent = node.textContent.replace("Ref", "Ref");
+      if (node.nodeType === Node.TEXT_NODE && node.textContent.includes("References")) {
+        node.textContent = node.textContent.replace("References", "Ref");
       }
     });
   }
   var referencesCheckbox = document.getElementById("referencesCheckbox");
   relabelChildren(referencesCheckbox && referencesCheckbox.parentElement);
-  relabelChildren(document.querySelector('th[col_name="Ref"]'));
+  relabelChildren(document.querySelector('th[col_name="References"]'));
   var vismenuContent = document.getElementById("vismenu-content");
   if (vismenuContent) {
     Array.from(vismenuContent.querySelectorAll("label")).forEach(relabelChildren);
@@ -4671,7 +4570,7 @@ EventHandler.registerCallback(IBOM_EVENT_TYPES.BOM_BODY_CHANGE_EVENT, function s
           </label>
           <label class="menu-label" style="width: calc(50% - 18px)">
             <input id="referencesCheckbox" type="checkbox" checked onchange="referencesVisible(this.checked)">
-            Ref
+            References
           </label><!-- This comment eats space! All of it!
           --><label class="menu-label" style="width: calc(50% - 17px); border-left: 0;">
             <input id="valuesCheckbox" type="checkbox" checked onchange="valuesVisible(this.checked)">

@@ -4,7 +4,7 @@
     version's thumbnail + name + description (README body), plus project-
     level metadata (GitHub link) and a per-version tab strip.
   - Top /versions/ index: one card per project (latest thumbnail).
-  Tabs are dependency-free CSS :target (+ :has() default).
+  Tabs are JS-enhanced for active-state and no-jump switching.
 */}}
 {{ define "main" }}
 {{ $versions := sort (where .Pages "Params.publish" true) "Params.board_rev" "desc" }}
@@ -28,7 +28,7 @@
     <nav class="tab-strip">
       {{ range $idx, $version := $versions }}
         {{ $panelID := printf "v-%s" (anchorize $version.Params.board_rev) }}
-        <a class="tab-link{{ if eq $idx 0 }} is-active{{ end }}" href="#{{ $panelID }}" data-tab-target="{{ $panelID }}"{{ if eq $idx 0 }} aria-current="page"{{ end }}>NEW {{ $version.Params.board_rev }}</a>
+        <a class="tab-link{{ if eq $idx 0 }} is-active{{ end }}" href="#{{ $panelID }}" data-tab-target="{{ $panelID }}"{{ if eq $idx 0 }} aria-current="page"{{ end }}>{{ $version.Params.board_rev }}</a>
       {{ end }}
     </nav>
     <div class="version-panels">

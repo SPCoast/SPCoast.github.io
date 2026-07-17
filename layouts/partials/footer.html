@@ -36,6 +36,7 @@
     function syncVersionTabs() {
       document.querySelectorAll('.version-tabs').forEach(function (tabsNode) {
         var links = tabsNode.querySelectorAll('.tab-strip .tab-link[data-tab-target]');
+        var panels = tabsNode.querySelectorAll('.version-panels .version-panel[id]');
         if (!links.length) return;
 
         var hashTarget = window.location.hash ? window.location.hash.slice(1) : '';
@@ -53,6 +54,7 @@
         if (!activeLink) {
           activeLink = links[0];
         }
+        var activeTarget = activeLink.getAttribute('data-tab-target') || '';
 
         links.forEach(function (link) {
           var isActive = link === activeLink;
@@ -62,6 +64,12 @@
           } else {
             link.removeAttribute('aria-current');
           }
+        });
+
+        panels.forEach(function (panel, index) {
+          var isActivePanel = panel.id === activeTarget || (!activeTarget && index === 0);
+          panel.classList.toggle('is-active', isActivePanel);
+          panel.hidden = !isActivePanel;
         });
       });
     }

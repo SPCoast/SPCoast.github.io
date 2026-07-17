@@ -17,6 +17,9 @@ datasheets:
 - name: Connector-01x07-0.100-8.5mm-socket
   view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/Connector-01x07-0.100-8.5mm-socket.pdf
   download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/Connector-01x07-0.100-8.5mm-socket.pdf
+- name: Diode-BAT54-Schottky-HuaXuanYang
+  view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/Diode-BAT54-Schottky-HuaXuanYang.pdf
+  download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/Diode-BAT54-Schottky-HuaXuanYang.pdf
 - name: LED-Green-XingLight-XL-1608UGC-04
   view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/LED-Green-XingLight-XL-1608UGC-04.pdf
   download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/LED-Green-XingLight-XL-1608UGC-04.pdf

@@ -895,7 +895,8 @@ a {
   padding: 0;
 }
 /* Managed by kproj -- regenerated on every publish. Do not hand-edit.
- * See src/kproj/services/ibom_generator.py (_write_ibom_user_files).
+ * kproj 0.10.5 (editable) [rca-verify]
+ * See src/kproj/services/ibom_generator.py (write_ibom_user_files).
  *
  * Uses iBOM's supported user.css customization hook
  * (https://github.com/openscopeproject/InteractiveHtmlBom/wiki/Customization).
@@ -4462,7 +4463,8 @@ window.matchMedia("print").addListener(resizeAll);
 
 ///////////////////////////////////////////////
 // Managed by kproj -- regenerated on every publish. Do not hand-edit.
-// See src/kproj/services/ibom_generator.py (_write_ibom_user_files).
+// kproj 0.10.5 (editable) [rca-verify]
+// See src/kproj/services/ibom_generator.py (write_ibom_user_files).
 //
 // Uses iBOM's supported user.js customization hook
 // (https://github.com/openscopeproject/InteractiveHtmlBom/wiki/Customization)
@@ -4515,6 +4517,17 @@ EventHandler.registerCallback(IBOM_EVENT_TYPES.BOM_BODY_CHANGE_EVENT, function s
   var vismenuContent = document.getElementById("vismenu-content");
   if (vismenuContent) {
     Array.from(vismenuContent.querySelectorAll("label")).forEach(relabelChildren);
+  }
+
+  // Surface the same provenance descriptor inside iBOM's own UI, since
+  // the standalone .ibom.html file is also a downloadable artifact in
+  // its own right and may be opened outside the Hugo wrapper entirely
+  // (see docs on kproj.common.install_info). A hover-only title
+  // attribute on iBOM's existing credit line -- not new visible text,
+  // not a change to iBOM's own HTML source.
+  var creditLine = document.querySelector(".shameless-plug");
+  if (creditLine) {
+    creditLine.title = "kproj 0.10.5 (editable) [rca-verify]";
   }
 });
 

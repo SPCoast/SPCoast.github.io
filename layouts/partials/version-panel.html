@@ -101,6 +101,19 @@
 <footer class="version-footer">
   {{ $releasedUtc := .Date.UTC.Format "2006-01-02T15:04:05Z07:00" }}
   {{ $panelUpdatedUtc := now.UTC.Format "2006-01-02T15:04:05Z07:00" }}
+  {{/*
+    Surface which kproj build produced this page (release vs. editable/dev
+    install, version, optional --watermark) as a hover tooltip, matching the
+    provenance string format kproj itself uses for the -v banner, the iBOM
+    page comment/tooltip, and the site-repo commit trailer (see kproj's
+    kproj.common.install_info.format_provenance and the RCA follow-up on
+    distinguishing which kproj install produced a given publish).
+  */}}
+  {{ $provenance := "" }}
+  {{ with .Params.kproj_publish_context }}
+    {{ $provenance = printf "kproj %s (%s)" (.kproj_version | default "unknown") (.kproj_install_type | default "unknown") }}
+    {{ with .watermark }}{{ $provenance = printf "%s [%s]" $provenance . }}{{ end }}
+  {{ end }}
   <div class="version-footer-row">
     <p class="version-release">
       <strong>Released:</strong>
@@ -108,7 +121,7 @@
         {{ .Date.UTC.Format "2006-01-02 15:04 UTC" }}
       </time>
     </p>
-    <p class="version-site-updated">
+    <p class="version-site-updated"{{ with $provenance }} title="{{ . }}"{{ end }}>
       Panel updated:
       <time class="js-local-datetime" datetime="{{ $panelUpdatedUtc }}" data-utc="{{ $panelUpdatedUtc }}">
         {{ now.UTC.Format "2006-01-02 15:04 UTC" }}

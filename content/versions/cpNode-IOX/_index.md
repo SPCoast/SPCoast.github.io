@@ -14,6 +14,9 @@ datasheets:
 - name: Diode-BAT54-Schottky-Fosan-series
   view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/Diode-BAT54-Schottky-Fosan-series.pdf
   download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/Diode-BAT54-Schottky-Fosan-series.pdf
+- name: IC-7-Segment-Driver-74HC4511-TI
+  view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/IC-7-Segment-Driver-74HC4511-TI.pdf
+  download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/IC-7-Segment-Driver-74HC4511-TI.pdf
 - name: IOExpander-MCP23017-I2C-Microchip
   view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/IOExpander-MCP23017-I2C-Microchip.pdf
   download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/IOExpander-MCP23017-I2C-Microchip.pdf
@@ -38,9 +41,6 @@ datasheets:
 - name: Switch-EDG104S-DIPx4-ECE
   view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/Switch-EDG104S-DIPx4-ECE.pdf
   download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/Switch-EDG104S-DIPx4-ECE.pdf
-- name: Timer-NE555-Single-UMW
-  view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/Timer-NE555-Single-UMW.pdf
-  download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/Timer-NE555-Single-UMW.pdf
 ---
 ## cpNode IOX
 

@@ -23,9 +23,15 @@ datasheets:
 - name: LED-Green-XingLight-XL-1608UGC-04
   view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/LED-Green-XingLight-XL-1608UGC-04.pdf
   download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/LED-Green-XingLight-XL-1608UGC-04.pdf
+- name: LED-Orange-Honglitronic-HL-PSC-1608S25OC-G4
+  view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/LED-Orange-Honglitronic-HL-PSC-1608S25OC-G4.pdf
+  download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/LED-Orange-Honglitronic-HL-PSC-1608S25OC-G4.pdf
 - name: LED-Red-XingLight-XL-1608SURC-06
   view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/LED-Red-XingLight-XL-1608SURC-06.pdf
   download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/LED-Red-XingLight-XL-1608SURC-06.pdf
+- name: MOSFET-2301V-PChannel-HL
+  view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/MOSFET-2301V-PChannel-HL.pdf
+  download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/MOSFET-2301V-PChannel-HL.pdf
 - name: MOSFET-AO4443-PChannel-UMW
   view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/MOSFET-AO4443-PChannel-UMW.pdf
   download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/MOSFET-AO4443-PChannel-UMW.pdf

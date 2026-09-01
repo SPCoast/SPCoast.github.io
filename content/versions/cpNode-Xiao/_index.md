@@ -44,6 +44,9 @@ datasheets:
 - name: Resistor-ThickFilm-YAGEO-RC-series
   view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/Resistor-ThickFilm-YAGEO-RC-series.pdf
   download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/Resistor-ThickFilm-YAGEO-RC-series.pdf
+- name: Switch-TS666CJ-Tact-Hanxia
+  view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/Switch-TS666CJ-Tact-Hanxia.pdf
+  download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/Switch-TS666CJ-Tact-Hanxia.pdf
 ---
 ## cpNode Xiao
 

@@ -26,7 +26,7 @@ tagline = "PCB projects and Arduino sketches for model railroad control systems"
   weight = 15
 
 [[menu.main]]
-  name = "SPINS"
+  name = "RR Docs"
   url = "/spins/"
   weight = 20
 

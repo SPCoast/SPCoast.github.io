@@ -8,7 +8,7 @@ Welcome to SPCoast. This site is being rebuilt on Hugo; content is being migrate
 ## Currently available
 
 - [KiCad Projects](/versions/) — active boards, published via [kproj](https://github.com/plocher/kproj)
-- [SPINS](/spins/) — Southern Pacific Industry Numbering System reference PDFs
+- [RR Docs](/spins/) — Railroad track plans and Southern Pacific Industry Numbering System (SPINS) reference PDFs
 - [PCB Assembly Notes](/pages/project_assembly/)
 - [PCB Design Notes](/pages/project_design/)
 - [PCB Fabrication Notes](/pages/project_fabrication/)

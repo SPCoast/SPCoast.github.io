@@ -1,15 +1,24 @@
 ---
-title: "SPINS"
-tagline: "Southern Pacific Industrial Numbering System"
+title: "RR Docs"
+tagline: "Railroad track plans and Southern Pacific Industrial Numbering System references"
 ---
+
+## Track Plans
+
+<table class="spinlist">
+  <tr><th class="spin" colspan="4">Coast Line</th></tr>
+  <tr><td>&nbsp;</td><th>Track Chart</th><td>&nbsp;</td><td><a href="/spins/Southern%20Pacific%20Coast%20Line%20-%20SF%20to%20LA%201980-1982%20Track%20Chart.pdf">Southern Pacific Coast Line - SF to LA 1980-1982 Track Chart</a></td></tr>
+
+  <tr><th class="spin" colspan="4">JPB / Caltrain</th></tr>
+  <tr><td>&nbsp;</td><th>Line Plans</th><td>&nbsp;</td><td><a href="/spins/JPB-lineplans.pdf">JPB-lineplans</a></td></tr>
+  <tr><td>&nbsp;</td><th>Drawings</th><td>&nbsp;</td><td><a href="/spins/JPB-drawings.pdf">JPB-drawings</a></td></tr>
+</table>
+
+## SPINS
 
 Reference PDFs of the Southern Pacific Industrial Numbering System, organized by geography.
 
 <table class="spinlist">
-  <tr><th class="spin" colspan="4">JPB / Caltrain</th></tr>
-  <tr><td>&nbsp;</td><th>Line Plans</th><td>&nbsp;</td><td><a href="/spins/JPB-lineplans.pdf">JPB-lineplans</a></td></tr>
-  <tr><td>&nbsp;</td><th>Drawings</th><td>&nbsp;</td><td><a href="/spins/JPB-drawings.pdf">JPB-drawings</a></td></tr>
-
   <tr><th class="spin" colspan="4">San Francisco</th></tr>
   <tr><td>&nbsp;</td><th>Full Booklet</th><td>&nbsp;</td><td><a href="/spins/SPINS-SanFrancisco.pdf">SPINS-SanFrancisco</a></td></tr>
   <tr><td>&nbsp;</td><th>Map</th><td>&nbsp;</td><td><a href="/spins/SPINS-SanFrancisco-map.png">SPINS-SanFrancisco-map</a></td></tr>

@@ -17,6 +17,9 @@ datasheets:
 - name: Connector-01x07-0.100-8.5mm-socket
   view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/Connector-01x07-0.100-8.5mm-socket.pdf
   download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/Connector-01x07-0.100-8.5mm-socket.pdf
+- name: Connector-Header-0.100-XFCN-PZ254V-series
+  view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/Connector-Header-0.100-XFCN-PZ254V-series.pdf
+  download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/Connector-Header-0.100-XFCN-PZ254V-series.pdf
 - name: Diode-BAT54-Schottky-HuaXuanYang
   view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/Diode-BAT54-Schottky-HuaXuanYang.pdf
   download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/Diode-BAT54-Schottky-HuaXuanYang.pdf
@@ -44,9 +47,6 @@ datasheets:
 - name: Resistor-ThickFilm-YAGEO-RC-series
   view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/Resistor-ThickFilm-YAGEO-RC-series.pdf
   download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/Resistor-ThickFilm-YAGEO-RC-series.pdf
-- name: Switch-TS666CJ-Tact-Hanxia
-  view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/Switch-TS666CJ-Tact-Hanxia.pdf
-  download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/Switch-TS666CJ-Tact-Hanxia.pdf
 ---
 ## cpNode Xiao
 

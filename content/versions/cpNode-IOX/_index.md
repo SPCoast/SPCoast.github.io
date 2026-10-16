@@ -11,6 +11,9 @@ datasheets:
 - name: Cap-MLCC-X5R-Taiyo-Yuden-GMK107BJ105KAHT
   view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/Cap-MLCC-X5R-Taiyo-Yuden-GMK107BJ105KAHT.pdf
   download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/Cap-MLCC-X5R-Taiyo-Yuden-GMK107BJ105KAHT.pdf
+- name: Connector-Header-0.100-XFCN-PZ254V-series
+  view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/Connector-Header-0.100-XFCN-PZ254V-series.pdf
+  download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/Connector-Header-0.100-XFCN-PZ254V-series.pdf
 - name: Diode-BAT54-Schottky-Fosan-series
   view: https://github.com/plocher/SPCoast-inventory/blob/main/datasheets/Diode-BAT54-Schottky-Fosan-series.pdf
   download: https://raw.githubusercontent.com/plocher/SPCoast-inventory/main/datasheets/Diode-BAT54-Schottky-Fosan-series.pdf
